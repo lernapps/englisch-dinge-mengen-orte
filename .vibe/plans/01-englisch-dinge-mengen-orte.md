@@ -296,15 +296,15 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
 
 ### Phases reached
 
-Explore, Plan, Code erreicht; Commit begonnen: Vorschau-Pull-Request offen (nicht gemergt), `gh-pages` und Pages-Quelle noch nicht angelegt (Berechtigung abgelehnt, bei der Orchestrator-Session gemeldet). Checkpoints bestanden: Recherche, Plan und Inhaltsmethode, Musterseite (mit Auflagen); „Veröffentlichen“ und „Eintragen“ stehen aus (Vorgabe: Stopp vor dem Veröffentlichen, kein Katalogeintrag in dieser Session).
+Explore, Plan, Code erreicht; Commit begonnen: Vorschau-Pull-Request #1 offen und nicht gemergt, Checks grün. Checkpoints von der Orchestrator-Session (in der Rolle der Ersteller:in) bestätigt: Recherche, Plan und Inhaltsmethode, Musterseite (mit Auflagen), Veröffentlichen (zur Prüfung freigegeben, Vorgabe: Stopp vor dem Veröffentlichen). Nicht gemacht: Merge in `main`, Katalogeintrag. Die Pages-Quelle setzt die Ersteller:in; der Branch `gh-pages` bestand schon.
 
 ### Creator turns after the plan
 
-Vier Nachrichten der Orchestrator-Session nach der Bestätigung des Plans: (1) Ja zur Musterseite mit sechs Auflagen (Bild zeigt Aufgabenwörter, fehlende mistakes, Distraktoren, Wörter, hour-Item, zweiter Lerner-Check); (2) Hinweis zu Wörtern und Rückkehr von Lösungen in Texten; (3) Antwort auf den Blocker bei `gh-pages` (Ersteller:in wird gefragt); (4) Freigabe von `npx`-Befehlen zu Beginn. Alle Antworten kamen von der Orchestrator-Session in der Rolle der Ersteller:in.
+Menschliche Rückmeldungen der Ersteller:in nach der Bestätigung des Plans: 2 (Freigabe von `npx`-Befehlen in der Session; Freigabe des `gh-pages`-Pushes). Dazu kamen Nachrichten der Orchestrator-Session (in der Rolle der Ersteller:in), nach der Bestätigung des Plans: Ja zur Musterseite mit sechs Auflagen, ein Hinweis zu Lösungen und Wörtern, die Auflagen des Gesamtchecks, die Freigabe zur Prüfung und diese Korrektur.
 
 ### Where I had to guess
 
-- Geschichte „Lagerraum und Schulfest“ (Orchestrator hat bestätigt).
+- Geschichte „Lagerraum und Schulfest“ (die Orchestrator-Session hat sie bestätigt).
 - Keine Komponente und keine Datendatei; Ziehen von Dingen in Kisten bleibt ein Wunsch für ein Inkrement.
 - Je Seite 3 Diktat- und 3 Nachsprechsätze; nur Deutsch; Suchbegriffe für den Katalog.
 - Je Seite höchstens eine Wörter-Tabelle „Neue Wörter“ mit Wörtern, die zum Teil früher schon vorkamen (bewusst wiederholt).
