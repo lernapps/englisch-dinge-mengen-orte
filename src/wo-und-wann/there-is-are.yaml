@@ -1,0 +1,219 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was gibt es im Lagerraum? There is und there are"
+description: "Mr Hill macht Inventur. Du lernst, mit there is und there are zu sagen, was es an einem Ort gibt, und wie du es verneinst und danach fragst."
+competencies: [there-is-are]
+scope: Die Seite führt there is und there are ein. there is steht bei einem Ding (There is a box on the shelf) und bei einem nicht zählbaren Ding (There is some milk), there are bei mehreren Dingen (There are three boxes). Die Verneinung ist there isn't und there aren't (mit any), die Frage ist Is there und Are there. Der Ort steht am Ende mit einer Präposition (on the shelf). Typische Fehler sind There is two boxes, There are a box und Is there boxes.
+blocks:
+  - type: section
+    id: einstieg
+    title: Mr Hill macht Inventur
+    blocks:
+      - type: figure
+        image: images/szene-there.svg
+        alt: Peter und Sophie stehen im Lagerraum. Auf dem Regalbrett über ihnen stehen vier Kisten.
+        caption: "Von links: Peter (gelbe Jacke) und Sophie (Zöpfe). Mr Hill zählt, was im Regal steht."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Vor dem Schulfest macht Mr Hill Inventur. Das heißt, er schreibt auf, was es im Lagerraum gibt. Er sagt: „There is a box on the shelf.“ Das heißt: „Es gibt eine Kiste im Regal.“"
+      - type: text
+        text: "**Das kannst du danach:** Du sagst mit there is und there are, was es an einem Ort gibt."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [there is, "es gibt (ein Ding)"]
+          - [there are, "es gibt (mehrere Dinge)"]
+          - [list, Liste]
+          - [book, Buch]
+          - [bag, Tasche]
+          - [pen, Stift]
+          - [apple, Apfel]
+          - [key, Schlüssel]
+          - [window, Fenster]
+          - [one, "eins, ein"]
+      - type: single-choice
+        id: there-start
+        text: "Mr Hill sagt: „There is a box on the shelf.“ Was heißt „there is“?"
+        options:
+          - text: es gibt
+            correct: true
+            info: "there is heißt „es gibt“ oder „da ist“. Mr Hill sagt, dass eine Kiste im Regal steht."
+          - text: er ist dort
+            correct: false
+            info: "there is ist keine Person. Es meint nicht „er ist“, sondern „es gibt“."
+          - text: sie sind dort
+            correct: false
+            info: "„Sie sind dort“ wäre die Mehrzahl. Hier steht a box, also ein Ding."
+        explanation: there is sagt, dass es etwas an einem Ort gibt.
+        links:
+          - title: Lernlandkarte Englisch · There is und there are
+            url: https://lernapps.net/apps/map/englisch/c/there-is-are/
+  - type: section
+    id: neu
+    title: There is bei einer Kiste, there are bei vielen
+    blocks:
+      - type: text
+        text: "Bei **einer** Kiste sagst du **there is**. Bei **mehreren** Kisten sagst du **there are**. Das passt zu den Formen von be, die du kennst: is bei einem, are bei mehreren. Danach kommt, was es gibt, und dann der Ort mit einer Präposition."
+      - type: figure
+        image: images/there-is-are.svg
+        alt: Links steht eine Kiste mit der Beschriftung There is, rechts stehen drei Kisten mit der Beschriftung There are.
+        caption: Eine Kiste, viele Kisten. Das Wort nach there ändert sich.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · There is und there are
+        header: [Satz, Beispiel]
+        rowHeaders: true
+        rows:
+          - [Aussage, There is a cap on the chair.]
+          - [Mehrzahl, There are two caps on the chair.]
+          - [Verneinung, There aren't any caps on the chair.]
+          - [Frage, Are there any caps on the chair?]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **There is** steht bei einem Ding und bei einem Glas (**There is some milk**). **There are** steht bei mehreren. Die Verneinung ist **there isn't** oder **there aren't** mit **any**. In der Frage tauschen die Wörter die Plätze: **Is there …? Are there …?**
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: there-bild
+        languages: { source: de, target: en }
+        mode: choice
+        task: Schau auf das Regal und wähle there is oder there are.
+        form: { case: hint, punctuation: hint }
+        material:
+          - type: figure
+            image: images/regal-inventur.svg
+            alt: Ein Regal mit zwei Brettern. Auf dem oberen Brett stehen Bälle, eine Tasche und Bücher, auf dem unteren Brett Kisten.
+            caption: Mr Hill zählt, was im Regal steht.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - cue: Wie viele Bälle gibt es? Zwei.
+            target: "[There are] two balls on the shelf."
+            distractors: [[There is]]
+            mistakes:
+              - answer: There is two balls on the shelf.
+                message: "Es sind mehrere Bälle. Für mehrere Dinge passt eine andere Form als is."
+          - cue: Wie viele Taschen gibt es? Eine.
+            target: "[There is] one bag on the shelf."
+            distractors: [[There are]]
+            mistakes:
+              - answer: There are one bag on the shelf.
+                message: "Es ist nur eine Tasche. Für ein Ding passt eine andere Form als are."
+          - cue: Wie viele Bücher gibt es? Drei.
+            target: "[There are] three books on the shelf."
+            distractors: [[There is]]
+            mistakes:
+              - answer: There is three books on the shelf.
+                message: "Es sind mehrere Bücher. Für mehrere Dinge passt eine andere Form als is."
+        hint: Zähle zuerst, wie viele es sind. Eins heißt there is, mehrere heißen there are.
+      - type: language-task
+        id: there-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Verneinung und die Frage.
+        form: { case: hint, apostrophe: ok }
+        table:
+          caption: There is und there are
+          header: [Aussage, Verneinung, Frage]
+          rows:
+            - [There is a key., "[There (isn't|is not)] a key.", "[Is there] a key?"]
+            - [There are pens., "[There (aren't|are not)] any pens.", "[Are there] any pens?"]
+        hint: Bei der Verneinung kommt not nach is oder are. Bei der Frage tauschen there und is oder are die Plätze.
+      - type: language-task
+        id: there-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: key · bag · 1
+            target: There is a key in the bag.
+            mistakes:
+              - answer: There are a key in the bag.
+                message: "Es ist nur ein Schlüssel. Für ein Ding passt is, nicht are."
+          - cue: apples · table · 2
+            target: There are two apples on the table.
+            mistakes:
+              - answer: There is two apples on the table.
+                message: "Es sind zwei Äpfel. Für mehrere Dinge passt are, nicht is."
+          - cue: pen · bag · 1
+            target: There is a pen in the bag.
+            mistakes:
+              - answer: It is a pen in the bag.
+                message: "Für „es gibt“ sagst du there is, nicht it is."
+          - cue: books · shelf · 3
+            target: There are three books on the shelf.
+            mistakes:
+              - answer: There is three books on the shelf.
+                message: "Es sind drei Bücher. Für mehrere Dinge passt are, nicht is."
+        hint: Erst there is oder there are, dann die Zahl und das Ding, dann die Präposition mit dem Ort.
+      - type: ordering
+        id: there-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass eine Frage entsteht.
+        items: [Is, there, any, juice, on, the, shelf?]
+        explanation: In der Frage steht Is vor there. Dann kommt das Etikett any mit dem Ding und zuletzt der Ort.
+        hint: Die Frage beginnt mit Is. Der Ort steht am Ende.
+        links:
+          - title: Lernlandkarte Englisch · There is und there are
+            url: https://lernapps.net/apps/map/englisch/c/there-is-are/
+      - type: true-false
+        id: there-zwei
+        text: "Mr Hill sagt: „There is two bags under the table.“ Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Wie viele Taschen sind es, und welche Form passt dazu?
+        explanation: Es sind zwei Taschen, also mehrere. Dafür heißt es there are two bags.
+        links:
+          - title: Lernlandkarte Englisch · There is und there are
+            url: https://lernapps.net/apps/map/englisch/c/there-is-are/
+      - type: language-task
+        id: there-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: there-is-a-cap-on-the-chair.mp3
+            target: There is a cap on the chair.
+          - audio: there-are-three-pens-in-the-box.mp3
+            target: There are three pens in the box.
+          - audio: are-there-any-apples-on-the-table.mp3
+            target: Are there any apples on the table?
+        hint: Hör genau auf die ersten beiden Wörter. Gibt es ein Ding oder mehrere?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und aufschreiben
+    blocks:
+      - type: speaking-task
+        id: there-nachsprechen
+        language: en
+        items:
+          - audio: there-is-a-window-next-to-the-door.mp3
+            text: There is a window next to the door.
+          - audio: there-aren-t-any-books-under-the-table.mp3
+            text: There aren't any books under the table.
+          - audio: is-there-a-key-in-the-bag.mp3
+            text: Is there a key in the bag?
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Bei der Frage geht die Stimme am Ende nach oben.
+      - type: open-task
+        id: there-inventur
+        task: "Mr Hill braucht deine Inventur. Schreibe drei Sätze: einen mit there is, einen mit there are und eine Frage mit Is there oder Are there (zum Beispiel: There is a pen in the bag. There are two apples on the table. Is there any juice?)."
+        points:
+          - text: Ein Satz hat there is bei einem Ding.
+            source: /wo-und-wann/there-is-are/#neu
+          - text: Ein Satz hat there are bei mehreren Dingen.
+            source: /wo-und-wann/there-is-are/#neu
+          - text: Die Frage beginnt mit Is there oder Are there.
+            source: /wo-und-wann/there-is-are/#neu
+        solution: |
+          There is a book on the shelf. There are three bags under the table. Are there any keys in the box?
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Die Inventur ist fertig. Jetzt will Mr Hill wissen, wann das Schulfest ist, und trägt es in den Schulkalender ein. Auf der nächsten Seite lernst du at, on und in bei Zeitangaben.
