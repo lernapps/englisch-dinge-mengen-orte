@@ -74,7 +74,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **any** und **no** funktionieren genauso. **nobody, nothing** und **nowhere** verneinen schon selbst, darum steht dabei kein not: **Nobody has the list**, nicht „Nobody hasn't got the list“. Nach **somebody, nobody** und **everybody** steht das Verb wie bei einer Person: **Everybody has a bag.**
+              **any** und **no** funktionieren genauso. **nobody, nothing** und **nowhere** verneinen schon selbst, darum steht dabei kein not: **Nobody has the list**, nicht „Nobody hasn't got the list“. Nach **somebody, nobody** und **everybody** steht das Verb in der Einzahl (has, is): **Everybody has a bag.**
   - type: section
     id: uebung
     title: Übung
@@ -124,7 +124,7 @@ blocks:
           - left: überall
             right: everywhere
         distractors: [nowhere]
-        explanation: some steht in Aussagen, any in Fragen, no verneint, every heißt „alle“ oder „überall“.
+        explanation: some steht in Aussagen, any in Fragen, no verneint, every heißt „jeder“ oder „alle“.
         hint: Frag dich, ob es um eine Person, ein Ding oder einen Ort geht und welcher Anfang zum Satz passt.
         links:
           - title: Lernlandkarte Englisch · Zusammensetzungen mit some und any
@@ -152,9 +152,10 @@ blocks:
         items:
           - source: Niemand hat die Liste.
             target: Nobody has the list.
+            accepted: [No one has the list., Nobody has got the list.]
             mistakes:
               - answer: Nobody have the list.
-                message: "nobody wird wie eine Person behandelt. Es heißt has, nicht have."
+                message: "nobody ist eine Einzahl. Es heißt has, nicht have."
               - answer: Nobody hasn't got the list.
                 message: "nobody verneint schon. Dann steht kein not im Satz."
           - source: Peter hat nichts.
@@ -165,15 +166,17 @@ blocks:
                 message: "nothing verneint schon. Dann steht kein not im Satz."
           - source: Hast du irgendetwas?
             target: Have you got anything?
+            accepted: [Do you have anything?]
             mistakes:
               - answer: Have you got something?
                 message: "Das ist eine Frage. In Fragen wechselt der Anfang."
           - source: Alle haben einen Stift.
             target: Everybody has a pen.
+            accepted: [Everyone has a pen.]
             mistakes:
               - answer: Everybody have a pen.
-                message: "everybody wird wie eine Person behandelt. Es heißt has, nicht have."
-        hint: Aussage, Frage oder Verneinung? Danach Anfang und Ende. Das Verb steht wie bei einer Person.
+                message: "everybody ist eine Einzahl. Es heißt has, nicht have."
+        hint: Aussage, Frage oder Verneinung? Danach Anfang und Ende. Das Verb steht in der Einzahl.
       - type: true-false
         id: somebody-doppelt
         text: "Peter sagt: „Nobody hasn't got the list.“ Stimmt das?"

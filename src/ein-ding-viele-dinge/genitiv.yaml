@@ -78,7 +78,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Der **Besitzer** steht vor dem Ding, im Deutschen steht er dahinter. Aus „Mr Hills Mantel“ wird **Mr Hill’s coat**. Den Apostroph vergisst du nicht: **Peters cap** ist falsch. Bei Dingen ist **of** üblich: **the window of the room**, nicht „the room’s window“.
+              Im Deutschen sagst du oft „die Mütze von Peter“. Im Englischen kommt der **Besitzer** zuerst: **Peter’s cap**. Den Apostroph vergisst du nicht: **Peters cap** ist falsch. Bei Dingen ist **of** üblich: **the window of the room**.
   - type: section
     id: uebung
     title: Übung
@@ -158,10 +158,11 @@ blocks:
                 message: "children ist eine Überraschungskiste. Hier brauchst du ’s."
           - cue: the room · door
             target: the door of the room
+            accepted: [the room's door]
             mistakes:
-              - answer: the room's door
-                message: "Bei einem Ding sagst du meistens of."
-        hint: Der Besitzer steht zuerst. Dann kommt das Ding. Bei Dingen steht of dazwischen.
+              - answer: the door the room
+                message: "Zwischen den beiden Dingen fehlt of."
+        hint: Der Besitzer steht zuerst. Dann kommt das Ding. Bei einem Ding als Besitzer steht of dazwischen.
       - type: true-false
         id: genitiv-maedchen
         text: "Auf einer Kiste steht „the girls’ room“. Damit ist das Zimmer von einem einzigen Mädchen gemeint. Stimmt das?"
@@ -216,4 +217,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von weitem, welche Kiste gemeint ist. Auf der nächsten Seite zeigst du mit this und that auf Nahes und Fernes.
+        text: Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von Weitem, welche Kiste gemeint ist. Auf der nächsten Seite zeigst du mit this und that auf Nahes und Fernes.

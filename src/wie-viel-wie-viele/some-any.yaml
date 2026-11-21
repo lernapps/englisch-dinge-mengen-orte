@@ -32,7 +32,7 @@ blocks:
           - [rice, Reis]
           - [apple, Apfel]
           - [egg, Ei]
-          - [got, "bekommen, gehabt"]
+          - [got, "have got = haben"]
       - type: single-choice
         id: some-start
         text: "Peter sagt: „I have some eggs.“ Was heißt some?"
@@ -121,9 +121,9 @@ blocks:
             right: some
           - left: Hast du Brot?
             right: any
-          - left: Ich habe nicht einen Apfel. (mit not)
+          - left: Ich habe keine Äpfel. (mit not)
             right: not any
-          - left: Ich habe keinen Apfel. (ohne not)
+          - left: Ich habe keine Äpfel. (ohne not)
             right: no
         explanation: In Aussagen steht some, in Fragen any. In Verneinungen steht not any oder no.
         hint: Aussage, Frage oder Verneinung? Bei der Verneinung entscheidet, ob not im Satz steht.
@@ -138,11 +138,13 @@ blocks:
         items:
           - source: Ellie hat ein paar Stifte.
             target: Ellie has some pens.
+            accepted: [Ellie has got some pens.]
             mistakes:
               - answer: Ellie has any pens.
                 message: "Das ist eine Aussage. Dafür passt any nicht."
           - source: Hat Peter Brot?
             target: Has Peter got any bread?
+            accepted: [Does Peter have any bread?]
             mistakes:
               - answer: Has Peter got some bread?
                 message: "Das ist eine Frage. In Fragen wechselt das Etikett."

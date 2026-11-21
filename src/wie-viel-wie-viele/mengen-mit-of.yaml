@@ -55,7 +55,7 @@ blocks:
     title: Ein Behälter plus of macht das Glas zählbar
     blocks:
       - type: text
-        text: "Ein **Glas** (nicht zählbar) kannst du nicht zählen. Du füllst es in einen **Behälter**, den du zählen kannst. Der Behälter steht vor **of**, dann kommt, was darin ist: **a glass of milk**. Zwei Behälter sind **two glasses of milk**."
+        text: "Etwas Nicht-Zählbares wie milk kannst du nicht zählen. Du nimmst ein Gefäß, das du zählen kannst, zum Beispiel ein Trinkglas, eine Tasse oder eine Flasche. Ich nenne es den **Behälter**. Er steht vor **of**, dann kommt, was darin ist: **a glass of milk**. Zwei Behälter sind **two glasses of milk**."
       - type: figure
         image: images/glas-wird-zaehlbar.svg
         alt: Ein Glas mit milk wird zu zwei Trinkgläsern, beide mit a glass of milk. Darunter steht two glasses of milk.
@@ -116,7 +116,7 @@ blocks:
         hint: Schau auf die Zahl vor dem Behälter. Bei einer Zahl über eins bekommt der Behälter ein -s.
       - type: matching
         id: mengen-zuordnen
-        text: Welcher Behälter passt zu dem, was darin ist? Ordne zu.
+        text: Welcher Behälter passt am besten zu dem, was darin ist? Ordne zu.
         pairs:
           - left: a cup of
             right: tea

@@ -74,7 +74,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **this** und **that** stehen vor **einem** Ding, **these** und **those** vor **mehreren**. Das Wort richtet sich nach dem Nomen: **this ball**, aber **these balls**. Du sagst nicht „this balls“. Alleine stehen sie auch: **This is my bag.**
+              **this** und **that** stehen vor **einem** Ding, **these** und **those** vor **mehreren**. Das Wort richtet sich nach dem Nomen: **this ball**, aber **these balls**. Du sagst nicht „this balls“. Sie können auch allein stehen: **This is a bag.**
   - type: section
     id: uebung
     title: Übung
@@ -207,7 +207,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach und zeige dabei mit der Hand nah oder fern.
       - type: open-task
         id: demonstrativ-zeigen
-        task: "Du stehst im Lagerraum. Schreibe zwei Sätze: einen über ein Ding hier bei dir und einen über Dinge dort drüben (zum Beispiel: This key is small. Those shoes are blue)."
+        task: "Du stehst im Lagerraum. Schreibe zwei Sätze: einen über ein Ding hier bei dir und einen über Dinge dort drüben (zum Beispiel: This key is small. Those shoes are blue.)."
         points:
           - text: Ein Satz zeigt mit this oder these auf etwas Nahes.
             source: /ein-ding-viele-dinge/demonstrativ/#neu

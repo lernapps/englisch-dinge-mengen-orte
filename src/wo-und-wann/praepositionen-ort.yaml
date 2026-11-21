@@ -78,7 +78,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **in** und **on** sind im Deutschen oft beide „in“ oder „auf“. Im Englischen gilt: **in** heißt **drin** (in the box), **on** heißt **oben auf einer Fläche** (on the table). Eine Wand hat on the wall. Die Präposition steht **vor dem Ort**, nie dahinter.
+              Im Deutschen übersetzt du on mal mit „auf“, mal mit „an“: **on the table** (auf dem Tisch), **on the wall** (an der Wand). **in** heißt **drin** (in the box). Die Präposition steht **vor dem Ort**, nie dahinter.
   - type: section
     id: uebung
     title: Übung
@@ -145,22 +145,22 @@ blocks:
         task: Schreibe den Satz.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: ball · in · box
+          - cue: the ball · in · the box
             target: The ball is in the box.
             mistakes:
               - answer: The ball is on the box.
                 message: "Der Ball ist drin, nicht oben drauf. Dafür gibt es eine andere Präposition als on."
-          - cue: bag · on · table
+          - cue: the bag · on · the table
             target: The bag is on the table.
             mistakes:
               - answer: The bag is in the table.
                 message: "Ein Tisch hat kein Innen. Die Tasche liegt oben auf der Fläche."
-          - cue: shoes · under · chair
+          - cue: the shoes · under · the chair
             target: The shoes are under the chair.
             mistakes:
               - answer: The shoes is under the chair.
                 message: "shoes ist eine Mehrzahl, dazu passt are."
-          - cue: cap · next to · bag
+          - cue: the cap · next to · the bag
             target: The cap is next to the bag.
             mistakes:
               - answer: The cap is next the bag.

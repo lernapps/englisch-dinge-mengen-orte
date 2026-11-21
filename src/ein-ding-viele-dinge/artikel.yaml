@@ -39,7 +39,7 @@ blocks:
           - [red, rot]
           - [euro, Euro]
           - [have, haben]
-          - [has, "hat (bei Ellie, Peter, Sophie)"]
+          - [has, "hat (bei he, she, it und Namen)"]
           - [small, klein]
           - [is, ist]
           - [in, in]
@@ -65,7 +65,7 @@ blocks:
     title: a, an oder the auf dem Etikett
     blocks:
       - type: text
-        text: "Dinge, die du zählen kannst (ein Ball, zwei Bälle), liegen in **Kisten**. Ein einzelnes Ding bekommt ein Etikett: **a** oder **an**, beides heißt „ein, eine“. **the** heißt „der, die, das“. Das Etikett the steht, wenn alle schon wissen, welches Ding gemeint ist. Das ist nach dem ersten Mal so: „I have a bag. The bag is small.“ (have heißt „haben“, bei Ellie, Peter und Sophie heißt es has.)"
+        text: "Dinge, die du zählen kannst (ein Ball, zwei Bälle), liegen in **Kisten**. Ein einzelnes Ding bekommt ein Etikett: **a** oder **an**, beides heißt „ein, eine“. **the** heißt „der, die, das“. Das Etikett the steht, wenn alle schon wissen, welches Ding gemeint ist. Das ist nach dem ersten Mal so: „I have a bag. The bag is small.“ (have heißt „haben“, bei he, she, it und bei Namen heißt es has.)"
       - type: figure
         image: images/kisten-a-an.svg
         alt: Zwei Kisten. Die linke hat das Etikett a, darunter stehen ball und book. Die rechte hat das Etikett an, darunter stehen apple und egg.
@@ -257,7 +257,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Vor einem Vokal-Laut sprichst du the wie „di“.
       - type: open-task
         id: artikel-kiste
-        task: "Mr Hill zeigt dir ein Ding im Lagerraum. Schreibe zwei Sätze über dieses Ding. Im ersten Satz sagst du es zum ersten Mal, im zweiten Satz meinst du dasselbe Ding noch einmal (zum Beispiel: I have a pen. The pen is red)."
+        task: "Mr Hill zeigt dir ein Ding im Lagerraum. Schreibe zwei Sätze über dieses Ding. Im ersten Satz sagst du es zum ersten Mal, im zweiten Satz meinst du dasselbe Ding noch einmal (zum Beispiel: I have a pen. The pen is red.)"
         points:
           - text: Der erste Satz hat a oder an vor dem Ding.
             source: /ein-ding-viele-dinge/artikel/#neu

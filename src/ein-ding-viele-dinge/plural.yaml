@@ -25,7 +25,7 @@ blocks:
           - [pen, Stift]
           - [dish, Schüssel]
           - [watch, Armbanduhr]
-          - [party, Fest]
+          - [party, Feier]
           - [city, Stadt]
           - [day, Tag]
           - [man, Mann]
@@ -155,22 +155,22 @@ blocks:
         task: Schreibe die Überraschungskisten mit der Zahl.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: man · 2
+          - cue: man · two
             target: two men
             mistakes:
               - answer: two mans
                 message: "man ist eine Überraschungskiste. Hier ändert sich der Vokal im Wort."
-          - cue: woman · 3
+          - cue: woman · three
             target: three women
             mistakes:
               - answer: three womans
                 message: "woman ist eine Überraschungskiste, genau wie man."
-          - cue: foot · 2
+          - cue: foot · two
             target: two feet
             mistakes:
               - answer: two foots
-                message: "foot ist eine Überraschungskiste. Hier werden aus den oo zwei e."
-          - cue: tooth · 2
+                message: "foot ist eine Überraschungskiste. Hier wird aus oo ee."
+          - cue: tooth · two
             target: two teeth
             mistakes:
               - answer: two tooths
@@ -215,7 +215,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende des Wortes nach der Zahl.
       - type: open-task
         id: plural-kiste
-        task: "Mr Hill gibt dir eine Kiste für das Schulfest. Schreibe zwei Sätze mit Zahlen: Was liegt in deiner Kiste? Nimm ein Wort mit -s oder -es und eine Überraschungskiste (zum Beispiel: I have two pens. The women have three bags)."
+        task: "Mr Hill gibt dir eine Kiste für das Schulfest. Schreibe zwei Sätze mit Zahlen: Was liegt in deiner Kiste? Nimm ein Wort mit -s oder -es und eine Überraschungskiste (zum Beispiel: I have two pens. The women have three bags.)."
         points:
           - text: Ein Satz hat ein Wort mit -s oder -es nach einer Zahl.
             source: /ein-ding-viele-dinge/plural/#neu

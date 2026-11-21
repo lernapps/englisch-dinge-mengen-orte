@@ -73,7 +73,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Bei einem **Datum** sagst du **on**: **on 6 December**. Der Monat allein bekommt **in**: **in December**. Einige feste Ausdrücke musst du lernen: **in the morning**, **in the afternoon**, **in the evening**, aber **at night**.
+              Bei einem **Datum** sagst du **on**: **on 12 October**. Der Monat allein bekommt **in**: **in December**. Einige feste Ausdrücke musst du lernen: **in the morning**, **in the afternoon**, **in the evening**, aber **at night**.
   - type: section
     id: uebung
     title: Übung
@@ -137,24 +137,26 @@ blocks:
               - answer: Amir's birthday is on October.
                 message: "October ist ein Monat. Für einen Monat gibt es eine andere Präposition als on."
           - source: Das Schulfest ist am Samstag.
-            target: The (school )fair is on Saturday.
+            target: The (school |)fair is on Saturday.
             mistakes:
               - answer: The school fair is in Saturday.
                 message: "Saturday ist ein Tag. Für einen Tag gibt es eine andere Präposition als in."
           - source: Das Mittagessen ist um halb eins.
-            target: Lunch is at half past twelve.
+            target: (The |)lunch is at half past twelve.
+            accepted: [Lunch is at twelve thirty., Lunch is at 12:30., Lunch is at 12.30.]
             mistakes:
               - answer: Lunch is on half past twelve.
                 message: "half past twelve ist eine Uhrzeit. Für eine Uhrzeit gibt es eine andere Präposition als on."
           - source: Ellies Geburtstag ist am 10. Juli.
             target: Ellie's birthday is on (10|10th) July.
+            accepted: [Ellie's birthday is on July 10., Ellie's birthday is on the 10th of July.]
             mistakes:
               - answer: Ellie's birthday is in 10 July.
                 message: "10 July ist ein genaues Datum. Für ein Datum gibt es eine andere Präposition als in."
         hint: Erst die Zeitangabe bestimmen (Monat, Tag, Datum oder Uhrzeit), dann in, on oder at wählen.
       - type: ordering
         id: zeit-reihenfolge
-        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht. Der Tag kommt vor der Uhrzeit.
         items: [The, fair, is, on, Saturday, at, ten, o'clock]
         explanation: Zuerst kommt, was stattfindet. Danach steht on mit dem Tag und zuletzt at mit der Uhrzeit.
         hint: Der Tag mit on steht vor der Uhrzeit mit at.

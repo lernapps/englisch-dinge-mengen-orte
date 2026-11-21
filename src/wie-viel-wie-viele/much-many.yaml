@@ -67,7 +67,7 @@ blocks:
         licence: CC-BY-4.0
       - type: table
         caption: Klassenzimmer-Poster · Kisten und Gläser
-        header: [Behälter, Etikett, Beispiel]
+        header: [Kiste oder Glas, Etikett, Beispiel]
         rowHeaders: true
         rows:
           - [Kiste (zählbar), many · a few · a lot of, many eggs]
@@ -139,21 +139,25 @@ blocks:
         items:
           - source: Mrs Parker hat nicht viel Zucker.
             target: Mrs Parker (hasn't|has not) got much sugar.
+            accepted: [Mrs Parker doesn't have much sugar., Mrs Parker hasn't got a lot of sugar.]
             mistakes:
               - answer: Mrs Parker hasn't got many sugar.
                 message: "sugar ist nicht zählbar, ein Glas. Dafür passt many nicht."
           - source: Peter hat nicht viele Eier.
             target: Peter (hasn't|has not) got many eggs.
+            accepted: [Peter doesn't have many eggs., Peter hasn't got a lot of eggs.]
             mistakes:
               - answer: Peter hasn't got much eggs.
                 message: "eggs sind zählbar, eine Kiste. Dafür passt much nicht."
           - source: Amir hat ein bisschen Käse.
             target: Amir has a little cheese.
+            accepted: [Amir has got a little cheese.]
             mistakes:
               - answer: Amir has a few cheese.
                 message: "cheese ist nicht zählbar, ein Glas. Ein paar gibt es nur bei Kisten."
           - source: Sophie hat ein paar Taschen.
             target: Sophie has a few bags.
+            accepted: [Sophie has got a few bags.]
             mistakes:
               - answer: Sophie has a little bags.
                 message: "bags sind zählbar, eine Kiste. Ein bisschen gibt es nur bei Gläsern."
@@ -212,4 +216,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Die Gläser stehen im Regal. Aber Mrs Parker braucht für ihren Kuchen genaue Mengen, zum Beispiel einen Becher Zucker. Auf der nächsten Seite machst du aus einem Glas wieder etwas Zählbares.
+        text: Die Gläser stehen im Regal. Aber Mrs Parker braucht für ihren Kuchen genaue Mengen, zum Beispiel eine Tasse Zucker. Auf der nächsten Seite machst du aus einem Glas wieder etwas Zählbares.

@@ -2,7 +2,7 @@
 title: Das brauchst du hier
 description: Die Formen von be, die Wochentage, Monate und Uhrzeiten noch einmal kurz, bevor die Klasse den Lagerraum einräumt und den Schulkalender füllt.
 recap: [englisch/to-be, englisch/datum, englisch/uhrzeit]
-scope: Die Seite wiederholt nur die Formen von be (am, is, are), die Wochentage und Monate und die Uhrzeit (o'clock, half past, a quarter past, a quarter to). Neue Inhalte und eine Übung gibt es nicht. Die Seite zeigt außerdem den leeren Schulkalender neben der Lagerraumtür.
+scope: Die Seite wiederholt nur die Formen von be (am, is, are), die Wochentage und Monate und die Uhrzeit (o'clock, half past, a quarter past, a quarter to). Neue Inhalte und eine Übung gibt es nicht.
 blocks:
   - type: section
     id: einstieg
