@@ -238,7 +238,7 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
 - [x] Seite `mengen-mit-of` (a cup of, a bottle of, a pair of) mit Übungen, Audio und Szene.
 - [x] Seite `some-any` (some, any, no) mit Übungen, Audio und Szene.
 - [x] Seite `somebody-anything` mit Übungen, Audio, Szene, Kapitelrückblick und selfAssessment von Kapitel 2.
-- [ ] Kapitel 3: Sammel-Wiederholung `das-brauchst-du` (recap to-be, datum, uhrzeit) und Seite `praepositionen-ort` mit Regalbild, Übungen, Audio und Szene.
+- [x] Kapitel 3: Sammel-Wiederholung `das-brauchst-du` (recap to-be, datum, uhrzeit) und Seite `praepositionen-ort` mit Regalbild, Übungen, Audio und Szene.
 - [ ] Seite `there-is-are` mit Übungen, Audio und Szene.
 - [ ] Seite `praepositionen-zeit` (Zeit-Behälter in/on/at, Schulkalender) mit Übungen, Audio, Szene, Rückblick der App und selfAssessment von Kapitel 3.
 - [ ] Alle Wörter gegen den Grundwortschatz prüfen, Medienübersicht und Quellen im Inhaltsführer ergänzen, Inhaltsführer nachführen.
