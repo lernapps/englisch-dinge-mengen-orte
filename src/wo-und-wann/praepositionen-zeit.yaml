@@ -1,0 +1,218 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wann ist das Schulfest? in, on und at"
+description: "Mr Hill trägt das Schulfest in den Schulkalender ein. Du lernst, wann in, on und at bei Zeitangaben stehen."
+competencies: [praepositionen-zeit]
+scope: "Die Seite führt die Präpositionen der Zeit ein. in steht bei Monaten und Jahren (in July), on bei Tagen und Daten (on Monday, on 5 May), at bei Uhrzeiten (at ten o'clock). Die Seite nutzt dafür das Bild der Zeit-Behälter: in ist die große Kiste, on die Fläche, at der Punkt. Typische Fehler sind in Monday, at July und on 8 o'clock."
+blocks:
+  - type: section
+    id: einstieg
+    title: Mr Hill trägt das Schulfest ein
+    blocks:
+      - type: figure
+        image: images/szene-zeit.svg
+        alt: Sophie, Amir und Ellie stehen im Lagerraum neben der Tür. An der Tür hängt der Schulkalender.
+        caption: "Von links: Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz). Rechts hängt der Schulkalender."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Neben der Lagerraumtür hängt der Schulkalender. Mr Hill trägt das Schulfest ein und sagt: „The fair is at ten o'clock.“ Das Schulfest (school fair) beginnt um zehn Uhr. Die Kinder tragen dazu die Geburtstage ein."
+      - type: text
+        text: "**Das kannst du danach:** Du sagst mit in, on und at, wann etwas ist."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [fair, Fest]
+          - [birthday, Geburtstag]
+          - [lesson, Unterrichtsstunde]
+          - [lunch, Mittagessen]
+          - [start, beginnen]
+          - [school, Schule]
+          - [English, Englisch]
+          - [party, Feier]
+          - [March, März]
+      - type: single-choice
+        id: zeit-start
+        text: "Mr Hill sagt: „The fair is at ten o'clock.“ Was sagt er mit „at ten o'clock“?"
+        options:
+          - text: um zehn Uhr
+            correct: true
+            info: "at ten o'clock heißt „um zehn Uhr“. Das Fest beginnt um diese Uhrzeit."
+          - text: im Oktober
+            correct: false
+            info: "„Im Oktober“ wäre in October. Mr Hill spricht von einer Uhrzeit."
+          - text: am Samstag
+            correct: false
+            info: "„Am Samstag“ wäre on Saturday. Hier steht eine Uhrzeit."
+        explanation: at steht bei einer Uhrzeit.
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen der Zeit
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-zeit/
+  - type: section
+    id: neu
+    title: Drei Zeit-Behälter
+    blocks:
+      - type: text
+        text: "Auch für die Zeit gibt es Etiketten. Die Zeit ist wie ein Behälter. **in** ist die **große Kiste** für lange Zeit: Monate und Jahre. **on** ist die **Fläche** für einen einzelnen Tag. **at** ist der **Punkt** für eine genaue Uhrzeit."
+      - type: figure
+        image: images/zeit-behaelter.svg
+        alt: Drei Zeit-Behälter. in ist eine große Kiste für Monate und Jahre, on ist eine Fläche für Tage und Daten, at ist ein Punkt für Uhrzeiten.
+        caption: Die große Kiste, die Fläche und der Punkt.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Schulkalender · Zeitangaben
+        header: [Behälter, Beispiel]
+        rowHeaders: true
+        rows:
+          - [in, in 2027]
+          - [on, on Tuesday]
+          - [at, at seven o'clock]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Bei einem **Datum** sagst du **on**: **on 6 December**. Der Monat allein bekommt **in**: **in December**. Einige feste Ausdrücke musst du lernen: **in the morning**, **in the afternoon**, **in the evening**, aber **at night**.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: zeit-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle in, on oder at.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Ellies Geburtstag ist im Juli.
+            target: "Ellie's birthday is [in] July."
+            distractors: [[on, at]]
+            mistakes:
+              - answer: Ellie's birthday is on July.
+                message: "July ist ein Monat. Ein Monat ist eine große Kiste, dafür gibt es eine andere Präposition als on."
+          - cue: Peters Geburtstag ist am 5. Mai.
+            target: "Peter's birthday is [on] 5 May."
+            distractors: [[in, at]]
+            mistakes:
+              - answer: Peter's birthday is in 5 May.
+                message: "5 May ist ein genaues Datum, also ein Tag. Für einen Tag gibt es eine andere Präposition als in."
+          - cue: Die Schule beginnt um Viertel vor neun.
+            target: "School starts [at] a quarter to nine."
+            distractors: [[in, on]]
+            mistakes:
+              - answer: School starts on a quarter to nine.
+                message: "a quarter to nine ist eine Uhrzeit, also ein Punkt. Für eine Uhrzeit gibt es eine andere Präposition als on."
+          - cue: Die Englischstunde ist am Montag.
+            target: "The English lesson is [on] Monday."
+            distractors: [[in, at]]
+            mistakes:
+              - answer: The English lesson is at Monday.
+                message: "Monday ist ein Tag, also eine Fläche. Für einen Tag gibt es eine andere Präposition als at."
+        hint: Frag dich, ob es ein Monat oder Jahr ist (große Kiste), ein Tag oder Datum (Fläche) oder eine Uhrzeit (Punkt).
+      - type: matching
+        id: zeit-zuordnen
+        text: Welcher Behälter passt zur Zeitangabe? Ordne zu.
+        pairs:
+          - left: July
+            right: in, die große Kiste
+          - left: Saturday
+            right: on, die Fläche
+          - left: half past seven
+            right: at, der Punkt
+        explanation: Monate und Jahre sind große Kisten (in), Tage sind Flächen (on), Uhrzeiten sind Punkte (at).
+        hint: Frag dich, ob die Zeitangabe lang ist (Monat), ein Tag ist oder eine genaue Uhrzeit.
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen der Zeit
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-zeit/
+      - type: language-task
+        id: zeit-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Amirs Geburtstag ist im Oktober.
+            target: Amir's birthday is in October.
+            mistakes:
+              - answer: Amir's birthday is on October.
+                message: "October ist ein Monat. Für einen Monat gibt es eine andere Präposition als on."
+          - source: Das Schulfest ist am Samstag.
+            target: The (school )fair is on Saturday.
+            mistakes:
+              - answer: The school fair is in Saturday.
+                message: "Saturday ist ein Tag. Für einen Tag gibt es eine andere Präposition als in."
+          - source: Das Mittagessen ist um halb eins.
+            target: Lunch is at half past twelve.
+            mistakes:
+              - answer: Lunch is on half past twelve.
+                message: "half past twelve ist eine Uhrzeit. Für eine Uhrzeit gibt es eine andere Präposition als on."
+          - source: Ellies Geburtstag ist am 10. Juli.
+            target: Ellie's birthday is on (10|10th) July.
+            mistakes:
+              - answer: Ellie's birthday is in 10 July.
+                message: "10 July ist ein genaues Datum. Für ein Datum gibt es eine andere Präposition als in."
+        hint: Erst die Zeitangabe bestimmen (Monat, Tag, Datum oder Uhrzeit), dann in, on oder at wählen.
+      - type: ordering
+        id: zeit-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        items: [The, fair, is, on, Saturday, at, ten, o'clock]
+        explanation: Zuerst kommt, was stattfindet. Danach steht on mit dem Tag und zuletzt at mit der Uhrzeit.
+        hint: Der Tag mit on steht vor der Uhrzeit mit at.
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen der Zeit
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-zeit/
+      - type: true-false
+        id: zeit-monday
+        text: "Mr Hill schreibt „The lesson is in Monday.“ Stimmt das?"
+        answer: false
+        hint: Schau in das Bild der Zeit-Behälter. Welcher Behälter gehört zu einem Tag?
+        explanation: Monday ist ein einzelner Tag, also eine Fläche. Es heißt on Monday.
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen der Zeit
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-zeit/
+      - type: language-task
+        id: zeit-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: the-party-is-on-friday.mp3
+            target: The party is on Friday.
+          - audio: mrs-parker-s-birthday-is-in-march.mp3
+            target: Mrs Parker's birthday is in March.
+          - audio: the-lesson-is-at-nine-o-clock.mp3
+            target: The lesson is at nine o'clock.
+        hint: Hör genau auf das Wort vor der Zeit. Ist es in, on oder at?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und eintragen
+    blocks:
+      - type: speaking-task
+        id: zeit-nachsprechen
+        language: en
+        items:
+          - audio: the-fair-is-at-ten-o-clock.mp3
+            text: The fair is at ten o'clock.
+          - audio: amir-s-birthday-is-on-12-october.mp3
+            text: Amir's birthday is on 12 October.
+          - audio: the-fair-is-in-december.mp3
+            text: The fair is in December.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf in, on und at.
+      - type: open-task
+        id: zeit-kalender
+        task: "Trage drei Dinge in den Schulkalender ein: ein Fest in einem Monat, ein Treffen an einem Tag und etwas mit einer Uhrzeit (zum Beispiel: The party is in July. The lesson is on Monday. Lunch is at twelve o'clock)."
+        points:
+          - text: Ein Satz hat in vor einem Monat oder einem Jahr.
+            source: /wo-und-wann/praepositionen-zeit/#neu
+          - text: Ein Satz hat on vor einem Tag oder einem Datum.
+            source: /wo-und-wann/praepositionen-zeit/#neu
+          - text: Ein Satz hat at vor einer Uhrzeit.
+            source: /wo-und-wann/praepositionen-zeit/#neu
+        solution: |
+          The fair is in December. My lesson is on Friday. Lunch is at half past twelve.
+  - type: section
+    id: weiter
+    title: Rückblick auf die App
+    blocks:
+      - type: text
+        text: "Der Lagerraum ist fertig und das Schulfest steht im Kalender: am ersten Samstag im Dezember um zehn Uhr. Du kannst jetzt Dinge mit dem richtigen Etikett benennen (a, an, the, some, many, much), aus einer Kiste viele machen, sagen, wem etwas gehört, Mengen angeben, mit there is und there are sagen, was es gibt, und mit in, on, under, next to, behind und at sagen, wo und wann etwas ist."

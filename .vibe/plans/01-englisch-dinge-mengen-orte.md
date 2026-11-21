@@ -240,7 +240,7 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
 - [x] Seite `somebody-anything` mit Übungen, Audio, Szene, Kapitelrückblick und selfAssessment von Kapitel 2.
 - [x] Kapitel 3: Sammel-Wiederholung `das-brauchst-du` (recap to-be, datum, uhrzeit) und Seite `praepositionen-ort` mit Regalbild, Übungen, Audio und Szene.
 - [x] Seite `there-is-are` mit Übungen, Audio und Szene.
-- [ ] Seite `praepositionen-zeit` (Zeit-Behälter in/on/at, Schulkalender) mit Übungen, Audio, Szene, Rückblick der App und selfAssessment von Kapitel 3.
+- [x] Seite `praepositionen-zeit` (Zeit-Behälter in/on/at, Schulkalender) mit Übungen, Audio, Szene, Rückblick der App und selfAssessment von Kapitel 3.
 - [ ] Alle Wörter gegen den Grundwortschatz prüfen, Medienübersicht und Quellen im Inhaltsführer ergänzen, Inhaltsführer nachführen.
 <!-- tasks: pages (11 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
