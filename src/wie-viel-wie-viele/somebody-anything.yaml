@@ -70,7 +70,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **any** und **no** funktionieren genauso. **nobody, nothing** und **nowhere** verneinen schon selbst, darum steht dabei kein not: **Nobody has the list**, nicht „Nobody hasn't got the list“. Nach **somebody, nobody** und **everybody** steht das Verb in der Einzahl (has, is): **Everybody has a bag.**
+              **any** und **no** funktionieren genauso. **nobody, nothing** und **nowhere** verneinen schon selbst, darum steht dabei kein not: **Nobody has a key**, nicht „Nobody hasn't got a key“. Nach **somebody, nobody** und **everybody** steht das Verb in der Einzahl (has, is): **Everybody has a cap.**
   - type: section
     id: uebung
     title: Übung

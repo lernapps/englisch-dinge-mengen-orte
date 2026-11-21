@@ -124,8 +124,8 @@ blocks:
             right: the boys' room
           - left: die Kinder
             right: the children's room
-          - left: das Zimmer
-            right: the door of the room
+          - left: der Lagerraum
+            right: the door of the storeroom
         distractors: [the boy's room]
         explanation: Bei einer Person steht ’s, bei mehreren mit -s nur ’, bei children wieder ’s und bei einem Ding meistens of.
         hint: Frage dich, wer der Besitzer ist und ob es einer oder mehrere sind.
@@ -155,9 +155,9 @@ blocks:
             mistakes:
               - answer: the childrens shoes
                 message: "children ist eine Überraschungskiste. Hier brauchst du ’s."
-          - cue: the room · door
-            target: the door of the room
-            accepted: [the room's door]
+          - cue: the storeroom · door
+            target: the door of the storeroom
+            accepted: [the storeroom's door]
             mistakes:
               - answer: the door the room
                 message: "Zwischen den beiden Dingen fehlt of."

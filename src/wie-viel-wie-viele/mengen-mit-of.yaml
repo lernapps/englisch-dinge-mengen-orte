@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Mrs Parker schickt eine Liste für den Kuchen. Auf ihr steht nicht nur „Zucker“ und „Milch“, sondern auch wie viel. Mrs Parker schreibt „two cups of tea, please“. Peter fragt: „Aber Tee ist doch nicht zählbar?“"
+        text: "Mrs Parker schickt eine Liste für den Kuchen. Auf ihr steht nicht nur „Zucker“ und „Milch“, sondern auch wie viel. Mrs Parker schreibt „two cups of coffee, please“. Peter fragt: „Aber Kaffee ist doch nicht zählbar?“"
       - type: text
         text: "**Das kannst du danach:** Du gibst mit a cup of, a bottle of und a pair of genaue Mengen an."
       - type: table
@@ -28,6 +28,7 @@ blocks:
           - [piece, Stück]
           - [pair, Paar]
           - [tea, Tee]
+          - [coffee, Kaffee]
           - [cake, Kuchen]
           - [shoes, Schuhe]
           - [jeans, Jeans]
@@ -35,18 +36,18 @@ blocks:
           - [please, bitte]
       - type: single-choice
         id: mengen-start
-        text: "Mrs Parker sagt: „Two cups of tea, please.“ Was zählt sie?"
+        text: "Mrs Parker sagt: „Two cups of coffee, please.“ Was zählt sie?"
         options:
           - text: die Tassen
             correct: true
             info: "Eine Tasse kannst du zählen: eine Tasse, zwei Tassen. Darum steht two vor cups."
           - text: den Tee
             correct: false
-            info: "Tee ist nicht zählbar. Du kannst Tee nicht zählen, nur wie viel es ist."
+            info: "Kaffee ist nicht zählbar. Du kannst Kaffee nicht zählen, nur wie viel es ist."
           - text: die Kisten
             correct: false
             info: "Von Kisten ist nicht die Rede. Es geht um Tassen und Tee."
-        explanation: Die Tasse ist zählbar. So wird aus nicht zählbarem Tee etwas, das du zählen kannst.
+        explanation: Die Tasse ist zählbar. So wird aus nicht zählbarem Kaffee etwas, das du zählen kannst.
         links:
           - title: Lernlandkarte Englisch · Mengenangaben mit of
             url: https://lernapps.net/apps/map/englisch/c/mengen-mit-of/
@@ -77,7 +78,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Das **-s** bekommt der **Behälter**, nicht das, was darin ist: **two glasses of milk**, nicht „two glass of milks“. Vergiss **of** nicht: **a glass of milk**, nicht „a glass milk“. **a pair of** sagst du bei Dingen mit zwei Teilen wie shoes: **two pairs of shoes**.
+              Das **-s** bekommt der **Behälter**, nicht das, was darin ist: **two glasses of milk**, nicht „two glass of milks“. Vergiss **of** nicht: **a glass of milk**, nicht „a glass milk“. **a pair of** sagst du bei Dingen mit zwei Teilen wie shoes: **two pairs of jeans**.
   - type: section
     id: uebung
     title: Übung

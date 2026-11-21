@@ -26,6 +26,9 @@ blocks:
           - [chair, Stuhl]
           - [shelf, Regal]
           - [door, Tür]
+          - [floor, Boden]
+          - [wall, Wand]
+          - [room, Zimmer]
           - [window, Fenster]
           - [ball, Ball]
           - [green, grün]
@@ -36,17 +39,17 @@ blocks:
           - [are, sind]
       - type: single-choice
         id: ort-start
-        text: "Peter sagt: „The box is on the table.“ Wo steht die Kiste?"
+        text: "Peter sagt: „The box is on the floor.“ Wo steht die Kiste?"
         options:
-          - text: auf dem Tisch
+          - text: auf dem Boden
             correct: true
-            info: "on heißt „auf“. Die Kiste steht oben auf dem Tisch."
-          - text: unter dem Tisch
+            info: "on heißt „auf“. Die Kiste steht oben auf dem Boden."
+          - text: im Regal
             correct: false
-            info: "„Unter“ heißt auf Englisch under. Peter sagt on."
-          - text: neben dem Tisch
+            info: "„Im Regal“ hieße in the shelf. Peter sagt on."
+          - text: hinter der Tür
             correct: false
-            info: "„Neben“ heißt next to. Peter sagt on."
+            info: "„Hinter“ heißt behind. Peter sagt on."
         explanation: on sagt, dass etwas auf einer Fläche steht.
         links:
           - title: Lernlandkarte Englisch · Präpositionen des Ortes
@@ -78,7 +81,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Im Deutschen übersetzt du on mal mit „auf“, mal mit „an“: **on the table** (auf dem Tisch), **on the wall** (an der Wand). **in** heißt **drin** (in the box). Die Präposition steht **vor dem Ort**, nie dahinter.
+              Im Deutschen übersetzt du on mal mit „auf“, mal mit „an“: **on the floor** (auf dem Boden), **on the wall** (an der Wand). **in** heißt **drin** (in the room). Die Präposition steht **vor dem Ort**, nie dahinter.
   - type: section
     id: uebung
     title: Übung

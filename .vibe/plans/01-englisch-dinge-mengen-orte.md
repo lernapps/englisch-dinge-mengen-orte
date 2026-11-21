@@ -294,12 +294,17 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Explore, Plan, Code erreicht; Commit begonnen: Vorschau-Pull-Request offen (nicht gemergt), `gh-pages` und Pages-Quelle noch nicht angelegt (Berechtigung abgelehnt, bei der Orchestrator-Session gemeldet). Checkpoints bestanden: Recherche, Plan und Inhaltsmethode, Musterseite (mit Auflagen); „Veröffentlichen“ und „Eintragen“ stehen aus (Vorgabe: Stopp vor dem Veröffentlichen, kein Katalogeintrag in dieser Session).
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Vier Nachrichten der Orchestrator-Session nach der Bestätigung des Plans: (1) Ja zur Musterseite mit sechs Auflagen (Bild zeigt Aufgabenwörter, fehlende mistakes, Distraktoren, Wörter, hour-Item, zweiter Lerner-Check); (2) Hinweis zu Wörtern und Rückkehr von Lösungen in Texten; (3) Antwort auf den Blocker bei `gh-pages` (Ersteller:in wird gefragt); (4) Freigabe von `npx`-Befehlen zu Beginn. Alle Antworten kamen von der Orchestrator-Session in der Rolle der Ersteller:in.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+- Geschichte „Lagerraum und Schulfest“ (Orchestrator hat bestätigt).
+- Keine Komponente und keine Datendatei; Ziehen von Dingen in Kisten bleibt ein Wunsch für ein Inkrement.
+- Je Seite 3 Diktat- und 3 Nachsprechsätze; nur Deutsch; Suchbegriffe für den Katalog.
+- Je Seite höchstens eine Wörter-Tabelle „Neue Wörter“ mit Wörtern, die zum Teil früher schon vorkamen (bewusst wiederholt).
+- Auswahl-Lücken (mode `choice`) zeigen in der Vorlage nur „nicht richtig“; die `mistakes` stehen trotzdem in den Dateien.
+- Hinweise `explainer-text-load` (10 Seiten) und `explainer-repetition` (4 Seiten) bleiben stehen: Aufgaben und Meldungen sind länger als 350 Wörter, weil jede Meldung den typischen Fehler nennt.
