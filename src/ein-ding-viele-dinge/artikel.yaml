@@ -1,0 +1,248 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Eine Kiste, ein Etikett: a, an und the"
+description: "Mr Hill öffnet den Lagerraum. Du lernst, wann ein Ding das Etikett a, an oder the bekommt, und wie du the vor einem Vokal sprichst."
+competencies: [artikel]
+scope: Die Seite führt die Artikel ein. a und an stehen vor einem Nomen in der Einzahl, wenn es um ein beliebiges oder neues Ding geht, the, wenn alle wissen, welches Ding gemeint ist. Welches Wort passt, entscheidet der Anfangslaut des folgenden Wortes, nicht der Buchstabe (a university, an umbrella, an hour). Vor einem Vokal-Laut spricht man the wie „di“, sonst wie „de“. Die Kisten- und Etikettenidee ist das Bild der ganzen App. Typische Fehler sind a egg, an ball, an university und the bei etwas Neuem.
+blocks:
+  - type: section
+    id: einstieg
+    title: Der Lagerraum wird geöffnet
+    blocks:
+      - type: figure
+        image: images/szene-artikel.svg
+        alt: Sophie, Ellie, Amir und Peter stehen im Lagerraum der Millbrook School. Hinter ihnen liegen auf Regalbrettern leere Kisten, vorn rechts steht eine Kiste mit einem Fragezeichen.
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Sie sortieren den Lagerraum für das Schulfest."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Die Millbrook School feiert ein Schulfest. Mr Hill öffnet den **Lagerraum** (storeroom). Sophie, Ellie, Peter und Amir sortieren Dinge in Kisten. Auf jede Kiste kommt ein **Etikett**. Das Etikett steht vor dem Ding und sagt, um welches Ding es geht."
+      - type: text
+        text: "**Das kannst du danach:** Du setzt a, an und the richtig und sprichst the vor einem Vokal richtig aus."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [box, Kiste]
+          - [ball, Ball]
+          - [book, Buch]
+          - [pen, Stift]
+          - [bag, Tasche]
+          - [egg, Ei]
+          - [apple, Apfel]
+          - [orange, Orange]
+          - [umbrella, Regenschirm]
+          - [university, Universität]
+          - [uniform, Uniform]
+          - [key, Schlüssel]
+          - [onion, Zwiebel]
+          - [hour, Stunde]
+          - [red, rot]
+      - type: single-choice
+        id: artikel-start
+        text: "Ellie hält einen Apfel (apple) in der Hand. Es ist das erste Mal, dass die Kinder ihn sehen. Welches Etikett klebt sie auf die Kiste?"
+        options:
+          - text: an apple
+            correct: true
+            info: "Apple beginnt mit einem Vokal-Laut. Vor so einem Wort sagst du an, damit es sich leicht sprechen lässt."
+          - text: a apple
+            correct: false
+            info: "a und apple stoßen hart zusammen. Vor einem Vokal-Laut sagst du an."
+          - text: apple
+            correct: false
+            info: "Ein einzelnes zählbares Ding braucht ein Etikett. Es heißt „ein Apfel“, also a oder an."
+        explanation: Eine Kiste für ein einzelnes Ding bekommt a oder an. Vor einem Vokal-Laut steht an.
+        links:
+          - title: Lernlandkarte Englisch · Artikel a, an, the
+            url: https://lernapps.net/apps/map/englisch/c/artikel/
+  - type: section
+    id: neu
+    title: a, an oder the auf dem Etikett
+    blocks:
+      - type: text
+        text: "Zählbare Dinge liegen in **Kisten**: ein Ding, zwei Dinge, drei Dinge. Ein einzelnes Ding bekommt ein Etikett. **a** oder **an** heißt „ein, eine“. Es geht um irgendein Ding oder um eines, das neu ist. **the** heißt „der, die, das“. Es geht um ein Ding, das alle kennen."
+      - type: figure
+        image: images/kisten-a-an.svg
+        alt: Zwei Kisten. Die linke hat das Etikett a, darunter stehen ball, book, pen und bag. Die rechte hat das Etikett an, darunter stehen apple, egg, orange und umbrella.
+        caption: Zwei Kisten mit Etiketten. Schau auf den ersten Laut jedes Wortes.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Kisten und Etiketten
+        header: [Etikett, Wann?, Beispiel]
+        rowHeaders: true
+        rows:
+          - [a, "ein beliebiges Ding, das Wort beginnt mit einem Konsonant-Laut", a key]
+          - [an, "ein beliebiges Ding, das Wort beginnt mit einem Vokal-Laut", an onion]
+          - [the, "ein bekanntes Ding, alle wissen, welches", the key]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Der **Laut** entscheidet, nicht der Buchstabe: **a euro** (das e klingt wie „ju“). Bei manchen Wörtern hört man das h nicht, dann zählt der Vokal-Laut danach. **the** sprichst du vor einem Vokal-Laut wie „di“ (the onion), sonst wie „de“ (the key). Wer die Kiste zum ersten Mal erwähnt, sagt a oder an. Danach sagt er the: „I have a key. The key is small.“
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: artikel-etikett
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das Etikett für die Kiste.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: ein Ball
+            target: "[a] ball"
+            distractors: [[an, the]]
+            mistakes:
+              - answer: an ball
+                message: "ball beginnt mit einem Konsonant-Laut (b). Davor steht a."
+          - cue: ein Ei
+            target: "[an] egg"
+            distractors: [[a, the]]
+            mistakes:
+              - answer: a egg
+                message: "egg beginnt mit einem Vokal-Laut (e). Davor steht an."
+          - cue: eine Orange
+            target: "[an] orange"
+            distractors: [[a, the]]
+          - cue: ein Regenschirm
+            target: "[an] umbrella"
+            distractors: [[a, the]]
+        hint: Sprich das Wort laut. Beginnt es mit einem Vokal-Laut (a, e, i, o, u), nimmst du an, sonst a.
+      - type: matching
+        id: artikel-bekannt
+        text: Welches Etikett passt? Ordne zu.
+        pairs:
+          - left: Amir sieht zum ersten Mal einen Apfel.
+            right: an apple
+          - left: Mr Hill meint den Apfel, den Amir in der Hand hält.
+            right: the apple
+          - left: Sophie sieht zum ersten Mal einen Ball.
+            right: a ball
+          - left: Mr Hill meint den Ball, über den alle sprechen.
+            right: the ball
+        distractors: [a apple]
+        explanation: Neues bekommt a oder an. Etwas, das alle kennen, bekommt the.
+        hint: Frag dich bei jedem Satz, ob das Ding neu ist oder ob alle schon wissen, welches gemeint ist.
+        links:
+          - title: Lernlandkarte Englisch · Artikel a, an, the
+            url: https://lernapps.net/apps/map/englisch/c/artikel/
+      - type: language-task
+        id: artikel-laut
+        languages: { source: de, target: en }
+        mode: choice
+        task: "Achtung auf den Laut: Wähle a oder an."
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: eine Universität
+            target: "[a] university"
+            distractors: [[an]]
+            mistakes:
+              - answer: an university
+                message: "university beginnt mit dem Laut „ju“, das ist ein Konsonant-Laut. Darum sagst du a, auch wenn der Buchstabe u ein Vokal ist."
+          - cue: eine Uniform
+            target: "[a] uniform"
+            distractors: [[an]]
+            mistakes:
+              - answer: an uniform
+                message: "Auch uniform beginnt mit „ju“. Darum steht a."
+          - cue: eine Stunde
+            target: "[an] hour"
+            distractors: [[a]]
+            mistakes:
+              - answer: a hour
+                message: "Das h in hour hört man nicht. Darum steht an."
+        hint: Sprich das Wort laut. Zählt, was du am Anfang hörst, nicht, was du siehst.
+      - type: language-task
+        id: artikel-the
+        languages: { source: de, target: en }
+        mode: choice
+        task: "Wähle a, an oder the."
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Ellie hat einen Ball. Der Ball ist rot.
+            target: "Ellie has a ball. [The] ball is red."
+            distractors: [[A, An]]
+            mistakes:
+              - answer: Ellie has a ball. A ball is red.
+                message: "Der Ball ist jetzt bekannt. Von einem bekannten Ding sagst du the."
+          - cue: Peter hat ein Buch. Das Buch ist rot.
+            target: "Peter has a book. [The] book is red."
+            distractors: [[A, An]]
+          - cue: Sophie hat eine Orange. Die Orange ist in der Tasche.
+            target: "Sophie has an orange. [The] orange is in the bag."
+            distractors: [[A, An]]
+        hint: Beim ersten Mal sagst du a oder an. Beim zweiten Mal ist das Ding bekannt, dann sagst du the.
+      - type: language-task
+        id: artikel-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe das Etikett mit dem Wort.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: ein Stift
+            target: a pen
+            mistakes:
+              - answer: an pen
+                message: "pen beginnt mit einem Konsonant-Laut (p). Davor steht a."
+          - source: ein Buch
+            target: a book
+            mistakes:
+              - answer: an book
+                message: "book beginnt mit einem Konsonant-Laut (b). Davor steht a."
+        hint: Erst entscheiden, ob das Wort mit einem Vokal-Laut beginnt. Dann a oder an und das Wort.
+      - type: true-false
+        id: artikel-the-laut
+        text: "In „the umbrella“ sprichst du the wie in „the key“, also wie „de“. Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Wie sprichst du the vor einem Vokal-Laut?
+        explanation: "Vor einem Vokal-Laut sprichst du the wie „di“: „di umbrella“. Vor einem Konsonant-Laut sagst du „de“."
+        links:
+          - title: Lernlandkarte Englisch · Artikel a, an, the
+            url: https://lernapps.net/apps/map/englisch/c/artikel/
+      - type: language-task
+        id: artikel-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: peter-has-an-apple.mp3
+            target: Peter has an apple.
+          - audio: the-egg-is-in-the-box.mp3
+            target: The egg is in the box.
+          - audio: sophie-has-a-book-and-an-orange.mp3
+            target: Sophie has a book and an orange.
+        hint: Hör genau auf das Wort vor dem Ding. Ist es a, an oder the?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und beschriften
+    blocks:
+      - type: speaking-task
+        id: artikel-nachsprechen
+        language: en
+        items:
+          - audio: amir-has-an-umbrella.mp3
+            text: Amir has an umbrella.
+          - audio: the-orange-is-in-the-bag.mp3
+            text: The orange is in the bag.
+          - audio: ellie-has-a-ball-and-an-egg.mp3
+            text: Ellie has a ball and an egg.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf an und auf the vor dem Vokal.
+      - type: open-task
+        id: artikel-kiste
+        task: "Mr Hill gibt dir drei Kisten für den Lagerraum. Schreibe drei Sätze über Dinge im Lagerraum. Nimm in einem Satz a, in einem an und in einem the (zum Beispiel: I have a pen.)."
+        points:
+          - text: Ein Satz hat a vor einem Wort mit Konsonant-Laut, einer hat an vor einem Wort mit Vokal-Laut.
+            source: /ein-ding-viele-dinge/artikel/#neu
+          - text: Ein Satz hat the bei einem Ding, das schon bekannt ist.
+            source: /ein-ding-viele-dinge/artikel/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I have a bag. Peter has an egg. The bag is red.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Dinge, sondern viele. Auf der nächsten Seite lernst du, wie aus einer Kiste viele Kisten werden.
