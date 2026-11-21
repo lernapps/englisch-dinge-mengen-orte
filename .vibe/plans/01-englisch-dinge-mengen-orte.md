@@ -64,6 +64,8 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
 - `there-is-are`: Kisten im Regal zählen: eine → there is, mehrere → there are, Verneinung und Frage. Fehler: „there is two boxes“, „is there any boxes“.
 - `praepositionen-zeit`: Zeit-Behälter in (Monat, Jahr) / on (Tag, Datum) / at (Uhrzeit). Fehler: „in Monday“, „at July“, „on 8 o’clock“, „in the 5th of May“.
 
+**Geprüft und behoben (Musterseite `artikel`):** Lerner-Check mit Sub-Agent (Kind Klasse 5): Vokal-/Konsonant-Laut und „zählbar“ waren nicht erklärt (jetzt im Kasten „Merke“ und im Text), die Einstiegsfrage prüfte die Regel vor ihrer Erklärung (jetzt: Was heißt a?), „hour“ ohne Beispiel (jetzt im Merke), the/„alle kennen“ zu spät (jetzt vor der Tabelle, mit Beispiel), deutsche Cues verrieten the (jetzt „Er/Es/Sie“), Fragezeichen-Kiste im Bild ohne Sinn (entfernt), Aufgabentexte zu Etikett und Diktat unklar (präzisiert), the-Aussprache im Nachsprechen (Hinweis „di“). Sprachprüfung Englisch/Deutsch mit Sub-Agent: keine Englischfehler, vier Textvorschläge eingearbeitet. Nicht behebbar in der App (Vorlage): Standardmeldung „Deine Fassung kann trotzdem richtig sein“ beim Diktat, gleiche Audio-Beschriftung „Audio abspielen“, nur „nicht richtig“ bei Auswahl-Lücken.
+
 **Umfang:** drin: alle 11 Bausteine, 12 Seiten, Wörter aus A1/A2 (Grundwortschatz), Aussprache nur über Hörtexte. Draußen: Kapitel 4, Phrasal verbs (#485), Possessivbegleiter (#471), Adjektive und one (#476), freie Aufgaben ohne Prüfung (nur `open-task`), Spracherkennung. Sprache: Deutsch (englische Beispiele); keine englische Fassung (Vorgabe wie #472, guess).
 
 **Quellen:** Karte (s. o.); Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/`; Wikipedia, nur Fakten, keine Sätze (CC BY-SA), geöffnet am 2026-11-21: `English articles`, `English plurals`, `English possessive`, `English prepositions`, `Demonstrative`. Nicht geprüft: `Mass noun` und `English determiners` (HTTP 429), deutsche Wikipedia und Klexikon nicht gelesen. Beispielsätze eigene aus dem Alltag der Figuren. Material der Ersteller:in: keines.
@@ -221,7 +223,7 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Musterseite `ein-ding-viele-dinge/artikel`: Szene und Kisten-Zeichnung, Wörter-Tabelle, Merke-Kasten, mindestens vier Übungen mit mistakes, Diktat und Nachsprechen (Audio), open-task; dazu app.yaml und chapter.yaml des Kapitels. Zeigt die Kisten-Idee und den Seitenaufbau.
+- [x] Musterseite `ein-ding-viele-dinge/artikel`: Szene und Kisten-Zeichnung, Wörter-Tabelle, Merke-Kasten, mindestens vier Übungen mit mistakes, Diktat und Nachsprechen (Audio), open-task; dazu app.yaml und chapter.yaml des Kapitels. Zeigt die Kisten-Idee und den Seitenaufbau.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
