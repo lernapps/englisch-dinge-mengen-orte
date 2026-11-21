@@ -31,7 +31,7 @@ Alle elf sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Reihenfolge n
    - `there-is-are` → `…/there-is-are`
    - `praepositionen-zeit` → `…/praepositionen-zeit`
 
-Jede Seite nennt `competencies: [<id>]` mit der Karten-Id; die „Ich kann“-Sätze stehen wie in der Karte (nicht umformulieren). Übungs-IDs: Präfix = Seite (`artikel-…`), Einstieg `<seite>-start`, Diktat `<seite>-hoeren`, Nachsprechen `<seite>-nachsprechen`, freie Aufgabe `<seite>-<thema>`.
+Jede Seite nennt `competencies: [<id>]` mit der Karten-Id; die „Ich kann“-Sätze stehen wie in der Karte (nicht umformulieren). Übungs-IDs: Präfix = Seite (`artikel-…`; für die Seiten `much-many` und `there-is-are` abgekürzt zu `much-…` und `there-…`, `praepositionen-ort` zu `ort-…`, `praepositionen-zeit` zu `zeit-…`, `mengen-mit-of` zu `mengen-…`, `some-any` zu `some-…`, `somebody-anything` zu `somebody-…`, `demonstrativ` zu `demonstrativ-…`), Einstieg `<seite>-start`, Diktat `<seite>-hoeren`, Nachsprechen `<seite>-nachsprechen`, freie Aufgabe `<seite>-<thema>`.
 
 ## Content structure
 
@@ -61,18 +61,20 @@ Aufbau leicht → schwer: zuordnen/wählen → Lücke → Tabelle ableiten → s
 - (i) Freies Schreiben: `open-task` (eigenes Etikett, eigenes Regal, eigener Kalendereintrag).
 - Typische Fehler (jeweils `mistakes`): a vor Vokal (a egg), an vor Konsonant, an university / a hour (Laut, nicht Buchstabe), childs / mans / apple’s, the Sophie’s bike, Peters’s, this books, much books / many water, some in der Frage und any in der Aussage, there is two boxes, in Monday / at July / on 8 o’clock.
 - Selbsteinschätzung: je Kapitel zwei Übungen je Seite (Skill `lernapps-explainer-self-assessment`).
+- Aufgaben mit Bild: `language-task` mode `choice` mit `material: [{ type: figure, … }]` (`ort-bild`, `there-bild`); die Frage steht im `cue`, das Bild hat nur `alt` ohne Lösung.
+- Rangfolge: `ordering` (Satzbau mit Behälter + of, Frage mit Is there, Zeitangabe mit on und at).
 - Keine Komponente (`prefer-built-in-block`); Ziehen von Dingen in Kisten wäre ein Wunsch für ein Inkrement. Keine Datendateien: jede Tatsache steht einmal in ihrer Seite.
 
 ## Figures
 
 - Eigene SVG-Zeichnungen in `src/images/` (Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`): Hintergrund #f4efe2, Schrift mindestens 16 im 640er viewBox, Beschriftung innerhalb des viewBox, funktioniert bei 360 px. Keine Fotos, keine Figuren aus Büchern, Filmen oder Marken.
 - Szenen: je Seite `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von hello-millbrook und gleich gelassen. `alt` sagt, was die Szene zeigt, nie die Lösung; die Bildunterschrift nennt, wer wer ist (Sophie Zöpfe, Ellie roter Pferdeschwanz, Amir Brille, Peter gelbe Jacke).
-- Kisten und Gläser: Kiste = braune Kiste mit Etikett (zählbar), Glas = Glas mit Etikett (nicht zählbar); später Regalplan (`regal-*.svg`) und Zeit-Behälter (`zeit-behaelter.svg`: große Kiste = in, Fläche = on, Punkt = at). Gebaut: `szene-artikel`, `kisten-a-an` (Seite `artikel`).
+- Kisten und Gläser: Kiste = braune Kiste mit Etikett (zählbar), Glas = Glas mit Etikett (nicht zählbar); später Regalplan (`regal-*.svg`) und Zeit-Behälter (`zeit-behaelter.svg`: große Kiste = in, Fläche = on, Punkt = at). Gebaut (alle in `src/images/`): `szene-<seite>.svg` für jede Seite (die Szene der Wiederholungsseite fehlt), dazu `kisten-a-an`, `kisten-plural`, `namensschilder`, `hand-nah-fern`, `kisten-glaeser`, `glas-wird-zaehlbar`, `some-any-etiketten`, `etiketten-ohne-nomen`, `regal-orte`, `regal-aufgabe` (Aufgabenbild als `material`, farbige Kisten), `there-is-are`, `regal-inventur` (Aufgabenbild als `material`), `zeit-behaelter`. Das Bild einer Seite zeigt nie die Wörter, die ihre Übungen abfragen.
 - Poster und Kalender sind `table`-Blöcke, sie wachsen von Seite zu Seite.
 
 ## Sources
 
-Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; die Wörter der Übungen stammen daraus; außerhalb der Liste stehen nur die hier genannten Wörter, die auf der Seite erklärt sind: storeroom (Lagerraum) und jar (Glas)). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA), geöffnet am 2026-11-21: `English articles` (a und an nach dem Anlaut, the vor Vokal), `English plurals`, `English possessive`, `English prepositions`, `Demonstrative`. Nicht geprüft: `Mass noun` und `English determiners` (HTTP 429), deutsche Wikipedia, Klexikon. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
+Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; die Wörter der Übungen stammen daraus; außerhalb der Liste stehen nur die hier genannten Wörter, die auf der Seite erklärt sind: storeroom (Lagerraum) und jar (Glas)). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA), geöffnet am 2026-11-21: `English articles` (a und an nach dem Anlaut, the vor Vokal), `English plurals`, `English possessive`, `English prepositions`, `Demonstrative`. Wörter außerhalb der Liste: storeroom (Lagerraum), im Text der Seite `artikel` und in der Tabelle von `genitiv` erklärt; sonst nur Namen und Beugungen (children, men, feet, watches, parties, got, has, shoes). Nicht geprüft: `Mass noun` und `English determiners` (HTTP 429), deutsche Wikipedia, Klexikon. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
 ## Adding a chapter or round
 
@@ -82,6 +84,10 @@ Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://le
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 in `selfAssessment`.
 5. Hörtexte: Datei `src/audio/<satz>.mp3`, Eintrag in `.agents/skills/app-content/scripts/audio-texte.json`, erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
+
+## Audio
+
+Je Seite drei Diktatsätze (`<seite>-hoeren`) und drei Sätze zum Nachsprechen (`<seite>-nachsprechen`), 66 Sätze für 11 Seiten (die Wiederholungsseite hat keine), alle in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz). Der Dateiname ist der Satz in Kleinbuchstaben, jedes Zeichen außer Buchstaben und Ziffern wird zu `-` (`amir-s-bike-is-in-the-storeroom.mp3`). Erzeugen: `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"`.
 
 ## Rules learned from mistakes
 
@@ -94,3 +100,13 @@ Aus #470 und den Schwester-Explainern übernommen:
 - Bilder: Beschriftungen innerhalb des `viewBox`; `alt` verrät nie die Lösung.
 - Die Antwort einer Frage steht nie im Absatz direkt darüber.
 - Als Auswahl nur echte Lernerfehler, keine Unwörter.
+Aus dieser App (Lerner-Check der Musterseite, zweiter Check, Auflagen der Orchestrierung):
+- Das Bild einer Seite zeigt andere Wörter als die Übungen (sonst wird abgeschrieben); Tabellen und Merke-Kästen ebenfalls.
+- Die Einstiegsaufgabe prüft nur, was die Kinder schon wissen (Bedeutung eines Wortes, nicht die Regel der Seite).
+- Fachwörter (Vokal-Laut, zählbar, Präposition) werden dort erklärt, wo sie zum ersten Mal stehen.
+- Distraktoren und Auswahlmöglichkeiten nennen nur echte Lernerfehler, keine Unwörter (kein „thees“, „muchs“).
+- Je Item eine eigene Meldung (`mistakes`) für den typischen Fehler; die Meldung sagt, was nicht passt, nie die Lösung. Bei Auswahl-Lücken (mode `choice`) zeigt die Vorlage die Meldung nicht an, nur „nicht richtig“: Das Wort in `hint` trägt den Hinweis.
+- Deutsche Cues dürfen die Lösung nicht verraten (kein „der, die, das“ für the): „Er/Es/Sie ist rot“.
+- Bei Apostroph-Aufgaben (`genitiv`) nicht `apostrophe: ok` setzen, sonst zählt der Fehler als richtig.
+- Ein Satz, der in der Aufgabe steht, steht nicht noch einmal als Hörtext derselben Seite.
+- `scope`-Texte in YAML in Anführungszeichen setzen, wenn sie einen Doppelpunkt enthalten.
