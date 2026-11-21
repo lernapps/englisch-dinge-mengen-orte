@@ -76,7 +76,7 @@ Klassenzimmer-Poster · Etiketten ohne Nomen:
 
 **Merke: Merke**
 
-**any** und **no** funktionieren genauso. **nobody, nothing** und **nowhere** verneinen schon selbst, darum steht dabei kein not: **Nobody has the list**, nicht „Nobody hasn't got the list“. Nach **somebody, nobody** und **everybody** steht das Verb in der Einzahl (has, is): **Everybody has a bag.**
+**any** und **no** funktionieren genauso. **nobody, nothing** und **nowhere** verneinen schon selbst, darum steht dabei kein not: **Nobody has a key**, nicht „Nobody hasn't got a key“. Nach **somebody, nobody** und **everybody** steht das Verb in der Einzahl (has, is): **Everybody has a cap.**
 
 ### Übung
 
@@ -100,7 +100,7 @@ Klassenzimmer-Poster · Etiketten ohne Nomen:
 
 ### Rückblick auf Kapitel 2
 
-Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a cup of macht aus dem Glas etwas Zählbares, some und any wechseln mit dem Satz und somebody braucht kein Nomen. Mrs Parkers Liste ist wieder da. Jetzt muss alles an seinen Platz im Regal. Im nächsten Kapitel wiederholst du kurz be, Wochentage und Uhrzeiten. Dann stellst du die Kisten in den Lagerraum und füllst den Schulkalender.
+Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a cup of macht aus dem Glas etwas Zählbares, some und any wechseln mit dem Satz und somebody braucht kein Nomen. Mrs Parkers Liste ist wieder da. Jetzt muss alles an seinen Platz im Regal. Im nächsten Kapitel wiederholst du kurz be, Wochentage, Monate, Datum und Uhrzeiten. Dann stellst du die Kisten in den Lagerraum und füllst den Schulkalender.
 
 ### Aufgabe somebody-start
 
@@ -189,9 +189,9 @@ Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a 
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Has anybody got the list?
-2. Audio → Nobody is in the storeroom.
-3. Audio → Peter has something in the bag.
+1. Audio → Has anybody got a pen?
+2. Audio → Nobody is in the room.
+3. Audio → Ellie has something in the box.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf den Anfang des Wortes. Ist es some, any, no oder every?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -202,8 +202,8 @@ Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Everybody has a bag.
-2. Audio → Ellie hasn't got anything.
+1. Audio → Everybody is in the storeroom.
+2. Audio → Sophie hasn't got anything.
 3. Audio → The list is somewhere in the storeroom.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung am Anfang des Wortes.
 - Link: [../?via=tutor#somebody-nachsprechen](../?via=tutor#somebody-nachsprechen)

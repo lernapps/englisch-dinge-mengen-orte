@@ -64,6 +64,7 @@ Klassenzimmer-Poster · Neue Wörter:
 - foot | Fuß
 - tooth | Zahn
 - baby | Baby
+- family | Familie
 - child | Kind
 - two | zwei
 - three | drei
@@ -130,7 +131,7 @@ Jetzt stehen viele Kisten im Lagerraum. Aber wem gehören sie? Auf der nächsten
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Peter hat zwei Stifte. → Peter has two pens.
-     - Peter has two penes.: -es gibt es nur nach s, x, sh und ch. Bei pen reicht ein -s.
+     - Peter has two pen.: Es sind zwei Stifte. Nach der Zahl steht die Mehrzahl.
 2. Sophie hat zwei Schüsseln. → Sophie has two dishes.
      - Sophie has two dishs.: dish endet auf sh. Nach sh brauchst du -es.
 3. Amir hat drei Armbanduhren. → Amir has three watches.
@@ -159,7 +160,7 @@ Jetzt stehen viele Kisten im Lagerraum. Aber wem gehören sie? Auf der nächsten
 1. city · cities
 2. day · days
 3. watch · watches
-4. baby · babies
+4. family · families
 - Tipp der App: Steht vor dem y ein Konsonant oder ein Vokal? Danach richtet sich das Wort.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#plural-tabelle](../?via=tutor#plural-tabelle)

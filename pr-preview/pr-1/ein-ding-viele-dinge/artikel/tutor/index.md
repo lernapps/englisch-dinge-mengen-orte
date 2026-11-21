@@ -237,7 +237,7 @@ Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Din
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Amir has an umbrella.
-2. Audio → The orange is in the bag.
+2. Audio → The pen is in the bag.
 3. Audio → Ellie has a ball and an egg.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Vor einem Vokal-Laut sprichst du the wie „di“.
 - Link: [../?via=tutor#artikel-nachsprechen](../?via=tutor#artikel-nachsprechen)

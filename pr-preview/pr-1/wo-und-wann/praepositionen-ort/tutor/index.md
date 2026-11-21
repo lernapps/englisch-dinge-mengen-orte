@@ -47,7 +47,7 @@ Die Klasse stellt die Kisten im Lagerraum auf. Du lernst, mit in, on, under, nex
 
 Bild: Sophie, Amir und Peter stehen im Lagerraum. Rechts steht ein Tisch, auf dem eine Kiste steht. Bildunterschrift: Von links: Sophie (Zöpfe), Amir (Brille) und Peter (gelbe Jacke). Mr Hill zeigt, wo die Kisten hinsollen.
 
-Mr Hill sagt: „Stellt die Kisten auf den Tisch. Die Tasche kommt unter den Stuhl.“ Dazu brauchst du kleine Wörter, die sagen, **wo** etwas ist. Sie heißen **Präpositionen**.
+Mr Hill sagt: „Jede Kiste braucht den richtigen Platz im Lagerraum.“ Dazu brauchst du kleine Wörter, die sagen, **wo** etwas ist. Sie heißen **Präpositionen**.
 
 **Das kannst du danach:** Du sagst mit in, on, under, next to und behind, wo etwas steht.
 
@@ -57,6 +57,9 @@ Klassenzimmer-Poster · Neue Wörter:
 - chair | Stuhl
 - shelf | Regal
 - door | Tür
+- floor | Boden
+- wall | Wand
+- room | Zimmer
 - window | Fenster
 - ball | Ball
 - green | grün
@@ -84,7 +87,7 @@ Klassenzimmer-Poster · Orte:
 
 **Merke: Merke**
 
-Im Deutschen übersetzt du on mal mit „auf“, mal mit „an“: **on the table** (auf dem Tisch), **on the wall** (an der Wand). **in** heißt **drin** (in the box). Die Präposition steht **vor dem Ort**, nie dahinter.
+Im Deutschen übersetzt du on mal mit „auf“, mal mit „an“: **on the floor** (auf dem Boden), **on the wall** (an der Wand). **in** heißt **drin** (in the room). Die Präposition steht **vor dem Ort**, nie dahinter.
 
 ### Übung
 
@@ -112,13 +115,13 @@ Die Kisten haben ihren Platz. Mr Hill schaut sich im Lagerraum um und sagt, wie 
 
 ### Aufgabe ort-start
 
-- Aufgabe: Peter sagt: „The box is on the table.“ Wo steht die Kiste?
+- Aufgabe: Peter sagt: „The box is on the floor.“ Wo steht die Kiste?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ auf dem Tisch – on heißt „auf“. Die Kiste steht oben auf dem Tisch.
-  - ✗ unter dem Tisch – „Unter“ heißt auf Englisch under. Peter sagt on.
-  - ✗ neben dem Tisch – „Neben“ heißt next to. Peter sagt on.
-- Lösung: auf dem Tisch
+  - ✓ auf dem Boden – on heißt „auf“. Die Kiste steht oben auf dem Boden.
+  - ✗ im Regal – „Im Regal“ hieße in the shelf. Peter sagt on.
+  - ✗ hinter der Tür – „Hinter“ heißt behind. Peter sagt on.
+- Lösung: auf dem Boden
 - Erklärung: on sagt, dass etwas auf einer Fläche steht.
 - Link: [../?via=tutor#ort-start](../?via=tutor#ort-start)
 

@@ -14,7 +14,7 @@ Die Seite führt den Plural der Nomen ein. Die meisten Nomen bekommen -s (ball, 
 
 ### Wem gehört die Kiste? ’s und of
 
-Die Seite führt den s-Genitiv und of ein. Bei einer Person steht ’s hinter dem Namen (Mr Hill’s coat). Bei mehreren Personen mit -s steht nur der Apostroph hinter dem s (the boys’ room). Bei einer unregelmäßigen Mehrzahl steht ’s (the men’s shoes). Bei Dingen steht meistens of (the window of the room). Typische Fehler sind Peters cap ohne Apostroph, the girl’s room für mehrere Mädchen, the childrens’ shoes und the room’s door.
+Die Seite führt den s-Genitiv und of ein. Bei einer Person steht ’s hinter dem Namen (Mr Hill’s coat). Bei mehreren Personen mit -s steht nur der Apostroph hinter dem s (the boys’ room). Bei einer unregelmäßigen Mehrzahl steht ’s (the men’s shoes). Bei Dingen steht meistens of (the window of the room). Typische Fehler sind Peters cap ohne Apostroph, the girl’s room für mehrere Mädchen und the childrens’ shoes.
 
 ### Hier und dort: this, these, that, those
 

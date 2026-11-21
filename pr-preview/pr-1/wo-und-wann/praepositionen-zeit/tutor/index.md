@@ -72,7 +72,7 @@ Auch für die Zeit gibt es Etiketten. Die Zeit ist wie ein Behälter. **in** ist
 Bild: Drei Zeit-Behälter. in ist eine große Kiste für Monate und Jahre, on ist eine Fläche für Tage und Daten, at ist ein Punkt für Uhrzeiten. Bildunterschrift: Die große Kiste, die Fläche und der Punkt.
 
 Schulkalender · Zeitangaben:
-- Behälter | Beispiel
+- Zeit-Behälter | Beispiel
 - in | in 2027
 - on | on Tuesday
 - at | at seven o'clock
@@ -137,7 +137,7 @@ Der Lagerraum ist fertig und das Schulfest steht im Kalender: am ersten Samstag 
 
 ### Aufgabe zeit-zuordnen
 
-- Aufgabe: Welcher Behälter passt zur Zeitangabe? Ordne zu.
+- Aufgabe: Welcher Zeit-Behälter passt zur Zeitangabe? Ordne zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: July – in, die große Kiste; Saturday – on, die Fläche; half past seven – at, der Punkt
 - Erklärung: Monate und Jahre sind große Kisten (in), Tage sind Flächen (on), Uhrzeiten sind Punkte (at).
@@ -177,7 +177,7 @@ Der Lagerraum ist fertig und das Schulfest steht im Kalender: am ersten Samstag 
 - Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
 - Lösung: Die Aussage stimmt nicht.
 - Erklärung: Monday ist ein einzelner Tag, also eine Fläche. Es heißt on Monday.
-- Tipp der App: Schau in das Bild der Zeit-Behälter. Welcher Behälter gehört zu einem Tag?
+- Tipp der App: Schau in das Bild der Zeit-Behälter. Welcher Zeit-Behälter gehört zu einem Tag?
 - Link: [../?via=tutor#zeit-monday](../?via=tutor#zeit-monday)
 
 ### Aufgabe zeit-hoeren
@@ -199,7 +199,7 @@ Der Lagerraum ist fertig und das Schulfest steht im Kalender: am ersten Samstag 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → The fair is at ten o'clock.
+1. Audio → Sophie's lesson is at eight o'clock.
 2. Audio → Amir's birthday is on 12 October.
 3. Audio → The fair is in December.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf in, on und at.

@@ -74,14 +74,12 @@ Bild: Links steht eine Kiste mit der Beschriftung There is, rechts stehen drei K
 
 Klassenzimmer-Poster · There is und there are:
 - Satz | Beispiel
-- Aussage | There is a cap on the chair.
-- Mehrzahl | There are two caps on the chair.
-- Verneinung | There aren't any caps on the chair.
-- Frage | Are there any caps on the chair?
+- Aussage | There is a coat on the chair.
+- Mehrzahl | There are two coats on the chair.
 
 **Merke: Merke**
 
-**There is** steht bei einem Ding und bei einem Glas (**There is some milk**). **There are** steht bei mehreren. Die Verneinung ist **there isn't** oder **there aren't** mit **any**. In der Frage tauschen die Wörter die Plätze: **Is there …? Are there …?**
+**There is** steht bei einem Ding und bei einem Glas (**There is some milk**). **There are** steht bei mehreren. Die Verneinung bildest du wie bei be: not steht hinter is oder are, dazu passt any. In der Frage tauschen there und is oder are die Plätze.
 
 ### Übung
 

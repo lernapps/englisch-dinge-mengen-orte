@@ -83,7 +83,7 @@ Klassenzimmer-Poster · Wem gehört die Kiste?:
 
 **Merke: Merke**
 
-Im Deutschen sagst du oft „die Mütze von Peter“. Im Englischen kommt der **Besitzer** zuerst: **Peter’s cap**. Den Apostroph vergisst du nicht: **Peters cap** ist falsch. Bei Dingen ist **of** üblich: **the window of the room**.
+Im Deutschen sagst du oft „die Mütze von Peter“. Im Englischen kommt der **Besitzer** zuerst: **Mrs Parker’s cap**. Den Apostroph vergisst du nicht: **Mrs Parkers cap** ist falsch. Bei Dingen ist **of** üblich: **the window of the room**.
 
 ### Übung
 
@@ -141,7 +141,7 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
 
 - Aufgabe: Wem gehört die Kiste? Ordne zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Amir – Amir's bike; die zwei Jungen – the boys' room; die Kinder – the children's room; das Zimmer – the door of the room
+- Lösung: Amir – Amir's bike; die zwei Jungen – the boys' room; die Kinder – the children's room; der Lagerraum – the door of the storeroom
 - Erklärung: Bei einer Person steht ’s, bei mehreren mit -s nur ’, bei children wieder ’s und bei einem Ding meistens of.
 - Tipp der App: Frage dich, wer der Besitzer ist und ob es einer oder mehrere sind.
 - Link: [../?via=tutor#genitiv-besitzer](../?via=tutor#genitiv-besitzer)
@@ -159,7 +159,7 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
      - the girl's coats: Hier sind es mehrere Mädchen. Der Apostroph kommt hinter das s.
 3. the children · shoes → the children's shoes
      - the childrens shoes: children ist eine Überraschungskiste. Hier brauchst du ’s.
-4. the room · door → the door of the room (auch richtig: the room's door)
+4. the storeroom · door → the door of the storeroom (auch richtig: the storeroom's door)
      - the door the room: Zwischen den beiden Dingen fehlt of.
 - Tipp der App: Der Besitzer steht zuerst. Dann kommt das Ding. Bei einem Ding als Besitzer steht of dazwischen.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -180,7 +180,7 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Amir's bike is in the storeroom.
+1. Audio → Ellie's bag is in the storeroom.
 2. Audio → The door of the room is red.
 3. Audio → The children's shoes are in the bag.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
