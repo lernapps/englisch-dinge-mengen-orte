@@ -123,7 +123,6 @@ blocks:
             right: that
           - left: viele Dinge weit hinten im Regal
             right: those
-        distractors: [thees]
         explanation: this und these zeigen auf Nahes, that und those auf Fernes. this und that stehen bei einem Ding, these und those bei mehreren.
         hint: Frag dich bei jeder Situation, ob das Ding nah oder fern ist und ob es eines oder mehrere sind.
         links:

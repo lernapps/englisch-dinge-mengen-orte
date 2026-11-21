@@ -126,7 +126,6 @@ blocks:
             right: a few
           - left: cheese
             right: a little
-        distractors: [muchs]
         explanation: Bei Dingen, die du zählen kannst (books, bags), stehen many und a few. Bei Dingen, die du nicht zählen kannst (rice, cheese), stehen much und a little.
         hint: Kannst du das Ding zählen? Dann Kiste. Wenn nicht, dann Glas.
         links:
