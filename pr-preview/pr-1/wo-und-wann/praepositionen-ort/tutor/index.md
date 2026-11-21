@@ -195,7 +195,7 @@ Die Kisten haben ihren Platz. Mr Hill schaut sich im Lagerraum um und sagt, wie 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Audio → The ball is in the bag.
-2. Audio → The cap is under the chair.
+2. Audio → The ball is under the window.
 3. Audio → Peter is next to Sophie.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf die Präposition. Wo ist das Ding?
@@ -207,7 +207,7 @@ Die Kisten haben ihren Platz. Mr Hill schaut sich im Lagerraum um und sagt, wie 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → The bag is behind the door.
+1. Audio → The cap is behind the door.
 2. Audio → Amir is next to the window.
 3. Audio → The books are on the shelf.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und betone das Ding und den Ort.

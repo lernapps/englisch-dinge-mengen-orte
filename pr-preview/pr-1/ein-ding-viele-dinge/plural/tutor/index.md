@@ -86,7 +86,7 @@ Klassenzimmer-Poster · Eine Kiste, viele Kisten:
 
 **Merke: Merke**
 
-**-es** steht nach s, x, sh und ch. Das Wort wird nur **-ies**, wenn vor dem **y** ein Konsonant steht (baby, babies). Steht davor ein Vokal, bleibt das y und du hängst nur -s an (toy, toys). Vor einer Mehrzahl steht **kein a und kein an**. **people** (Leute) ist schon die Mehrzahl von **person**. Du sagst nicht „peoples“.
+**-es** steht nach s, x, sh und ch. Das Wort wird nur **-ies**, wenn vor dem **y** ein Konsonant steht (baby, babies). Steht davor ein Vokal, bleibt das y und du hängst nur -s an (toy, toys). Vor einer Mehrzahl steht **kein a und kein an**. Weitere Überraschungskisten lernst du auswendig: **man – men, woman – women, foot – feet, tooth – teeth, person – people**. Du sagst nicht „peoples“.
 
 ### Übung
 
@@ -200,7 +200,7 @@ Jetzt stehen viele Kisten im Lagerraum. Aber wem gehören sie? Auf der nächsten
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie has two boxes.
 2. Audio → The children have three balls.
-3. Audio → Amir has two watches.
+3. Audio → Amir has three apples.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das Ende des Wortes nach der Zahl.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -212,7 +212,7 @@ Jetzt stehen viele Kisten im Lagerraum. Aber wem gehören sie? Auf der nächsten
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Peter has two books.
-2. Audio → Ellie has two pens.
+2. Audio → Ellie has two eggs.
 3. Audio → The women have two bags.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende des Wortes nach der Zahl.
 - Link: [../?via=tutor#plural-nachsprechen](../?via=tutor#plural-nachsprechen)

@@ -47,7 +47,7 @@ Mr Hill trägt das Schulfest in den Schulkalender ein. Du lernst, wann in, on un
 
 Bild: Sophie, Amir und Ellie stehen im Lagerraum neben der Tür. An der Tür hängt der Schulkalender. Bildunterschrift: Von links: Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz). Rechts hängt der Schulkalender.
 
-Neben der Lagerraumtür hängt der Schulkalender. Mr Hill trägt das Schulfest ein und sagt: „The fair is at ten o'clock.“ Das Schulfest (school fair) beginnt um zehn Uhr. Die Kinder tragen dazu die Geburtstage ein.
+Neben der Lagerraumtür hängt der Schulkalender. Mr Hill trägt das Schulfest ein und sagt: „The fair is at ten o'clock.“ Das Schulfest heißt auf Englisch school fair und hat eine feste Uhrzeit. Die Kinder tragen dazu die Geburtstage ein.
 
 **Das kannst du danach:** Du sagst mit in, on und at, wann etwas ist.
 
@@ -67,9 +67,9 @@ Klassenzimmer-Poster · Neue Wörter:
 
 ### Drei Zeit-Behälter
 
-Auch für die Zeit gibt es Etiketten. Die Zeit ist wie ein Behälter. **in** ist die **große Kiste** für lange Zeit: Monate und Jahre. **on** ist die **Fläche** für einen einzelnen Tag. **at** ist der **Punkt** für eine genaue Uhrzeit.
+Auch für die Zeit gibt es Etiketten. Wie bei den Kisten und Gläsern klebt auch hier ein Etikett. Die Zeit steckt in einem Behälter, den wir **Zeit-Behälter** nennen. **in** ist der **große Rahmen** für lange Zeit: Monate und Jahre. **on** ist die **Fläche** für einen einzelnen Tag. **at** ist der **Punkt** für eine genaue Uhrzeit.
 
-Bild: Drei Zeit-Behälter. in ist eine große Kiste für Monate und Jahre, on ist eine Fläche für Tage und Daten, at ist ein Punkt für Uhrzeiten. Bildunterschrift: Die große Kiste, die Fläche und der Punkt.
+Bild: Drei Zeit-Behälter. in ist ein großer Rahmen für Monate und Jahre, on ist eine Fläche für Tage und Daten, at ist ein Punkt für Uhrzeiten. Bildunterschrift: Der große Rahmen, die Fläche und der Punkt.
 
 Schulkalender · Zeitangaben:
 - Zeit-Behälter | Beispiel
@@ -124,14 +124,14 @@ Der Lagerraum ist fertig und das Schulfest steht im Kalender: am ersten Samstag 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Ellies Geburtstag ist im Juli. → Ellie's birthday is in July.
-     - Ellie's birthday is on July.: July ist ein Monat. Ein Monat ist eine große Kiste, dafür gibt es eine andere Präposition als on.
+     - Ellie's birthday is on July.: July ist ein Monat. Ein Monat ist ein großer Rahmen, dafür gibt es eine andere Präposition als on.
 2. Peters Geburtstag ist am 5. Mai. → Peter's birthday is on 5 May.
      - Peter's birthday is in 5 May.: 5 May ist ein genaues Datum, also ein Tag. Für einen Tag gibt es eine andere Präposition als in.
 3. Die Schule beginnt um Viertel vor neun. → School starts at a quarter to nine.
      - School starts on a quarter to nine.: a quarter to nine ist eine Uhrzeit, also ein Punkt. Für eine Uhrzeit gibt es eine andere Präposition als on.
 4. Die Englischstunde ist am Montag. → The English lesson is on Monday.
      - The English lesson is at Monday.: Monday ist ein Tag, also eine Fläche. Für einen Tag gibt es eine andere Präposition als at.
-- Tipp der App: Frag dich, ob es ein Monat oder Jahr ist (große Kiste), ein Tag oder Datum (Fläche) oder eine Uhrzeit (Punkt).
+- Tipp der App: Frag dich, ob es ein Monat oder Jahr ist (großer Rahmen), ein Tag oder Datum (Fläche) oder eine Uhrzeit (Punkt).
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#zeit-wahl](../?via=tutor#zeit-wahl)
 
@@ -139,8 +139,8 @@ Der Lagerraum ist fertig und das Schulfest steht im Kalender: am ersten Samstag 
 
 - Aufgabe: Welcher Zeit-Behälter passt zur Zeitangabe? Ordne zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: July – in, die große Kiste; Saturday – on, die Fläche; half past seven – at, der Punkt
-- Erklärung: Monate und Jahre sind große Kisten (in), Tage sind Flächen (on), Uhrzeiten sind Punkte (at).
+- Lösung: July – in, der große Rahmen; Saturday – on, die Fläche; half past seven – at, der Punkt
+- Erklärung: Monate und Jahre sind große Rahmen (in), Tage sind Flächen (on), Uhrzeiten sind Punkte (at).
 - Tipp der App: Frag dich, ob die Zeitangabe lang ist (Monat), ein Tag ist oder eine genaue Uhrzeit.
 - Link: [../?via=tutor#zeit-zuordnen](../?via=tutor#zeit-zuordnen)
 
@@ -200,8 +200,8 @@ Der Lagerraum ist fertig und das Schulfest steht im Kalender: am ersten Samstag 
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Sophie's lesson is at eight o'clock.
-2. Audio → Amir's birthday is on 12 October.
-3. Audio → The fair is in December.
+2. Audio → Mr Hill's birthday is on 3 June.
+3. Audio → Our party is in August.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf in, on und at.
 - Link: [../?via=tutor#zeit-nachsprechen](../?via=tutor#zeit-nachsprechen)
 

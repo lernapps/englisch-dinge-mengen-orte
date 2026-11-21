@@ -164,14 +164,14 @@ Mrs Parker hat jetzt ihre Liste. Aber was ist schon im Lagerraum? Mrs Parker fra
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. cup · tea · 2 → two cups of tea
+1. cup · tea · 2 → two cups of tea (auch richtig: 2 cups of tea)
      - two cups of teas: Tee kannst du nicht zählen, er bekommt kein -s. Nur das Mengenwort bekommt es.
      - two cups tea: Zwischen Mengenwort und Inhalt fehlt of.
-2. bottle · water · 3 → three bottles of water
+2. bottle · water · 3 → three bottles of water (auch richtig: 3 bottles of water)
      - three bottle of water: Bei drei Flaschen bekommt das Mengenwort ein -s.
-3. bag · rice · 1 → a bag of rice
+3. bag · rice · 1 → a bag of rice (auch richtig: one bag of rice; 1 bag of rice)
      - a bag rice: Zwischen Mengenwort und Inhalt fehlt of.
-4. pair · shoes · 2 → two pairs of shoes
+4. pair · shoes · 2 → two pairs of shoes (auch richtig: 2 pairs of shoes)
      - two pair of shoes: Bei zwei Paar bekommt das Mengenwort ein -s.
 - Tipp der App: Erst die Zahl, dann das Mengenwort (mit -s bei mehreren), dann of, dann der Inhalt.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -192,7 +192,7 @@ Mrs Parker hat jetzt ihre Liste. Aber was ist schon im Lagerraum? Mrs Parker fra
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter has two bottles of water.
+1. Audio → Sophie has two bottles of milk.
 2. Audio → Mrs Parker has a cup of tea.
 3. Audio → Sophie has a pair of shoes.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
@@ -206,8 +206,8 @@ Mrs Parker hat jetzt ihre Liste. Aber was ist schon im Lagerraum? Mrs Parker fra
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Amir has three pieces of cake.
-2. Audio → Ellie has a bag of rice.
-3. Audio → The women have two pairs of shoes.
+2. Audio → Ellie has a bag of sugar.
+3. Audio → The women have two pairs of jeans.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und verbinde Mengenwort und of zu einem Klang.
 - Link: [../?via=tutor#mengen-nachsprechen](../?via=tutor#mengen-nachsprechen)
 

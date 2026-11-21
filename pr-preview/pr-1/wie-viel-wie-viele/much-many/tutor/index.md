@@ -47,7 +47,7 @@ Für das Schulfest kommen Gläser in den Lagerraum. Du lernst, wann du many und 
 
 Bild: Ellie und Amir stehen im Lagerraum. Auf dem Regalbrett über ihnen stehen links zwei Kisten und rechts zwei Gläser. Bildunterschrift: Von links: Ellie (roter Pferdeschwanz) und Amir (Brille). Auf dem Regal stehen Kisten und Gläser.
 
-Mrs Parker, Ellies Mutter, backt Kuchen für das Schulfest. Dafür kommen Zutaten in den Lagerraum: Eier und Äpfel liegen in **Kisten**. Zucker, Reis und Saft kommen in **Gläser**, denn du kannst sie nicht zählen. Mr Hill fragt: „Wie viel ist da?“
+Mrs Parker, Ellies Mutter, backt Kuchen für das Schulfest. Dafür kommen Zutaten in den Lagerraum: Eier und Äpfel liegen in **Kisten**. Zucker, Reis und Saft kommen in **Gläser**. Mr Hill fragt: „Wie viel ist da?“
 
 **Das kannst du danach:** Du sagst mit many, much, a lot of, a few und a little, wie viel von etwas da ist.
 
@@ -63,6 +63,7 @@ Klassenzimmer-Poster · Neue Wörter:
 - egg | Ei
 - apple | Apfel
 - got | have got = haben
+- hasn't got | hat nicht
 - a lot of | viel, viele
 - many | viele
 - much | viel
@@ -84,7 +85,7 @@ Klassenzimmer-Poster · Kisten und Gläser:
 
 **Merke: Merke**
 
-In **Aussagen** sagst du meistens **a lot of**: **a lot of cakes, a lot of milk**. **many** und **much** stehen vor allem in **Verneinungen und Fragen**: **not many cakes, not much milk, How many cakes? How much milk?** Bei Gläsern gibt es keine Mehrzahl: Du sagst nicht „sugars“.
+In **Aussagen** sagst du meistens **a lot of**: **a lot of cakes, a lot of milk**. **many** und **much** stehen vor allem in **Verneinungen und Fragen**: **not many cakes, not much milk, How many cakes? How much milk?** **a few** und **a little** sagst du auch in Aussagen. Bei Gläsern gibt es keine Mehrzahl: Du sagst nicht „sugars“.
 
 ### Übung
 

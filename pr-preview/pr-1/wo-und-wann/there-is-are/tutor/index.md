@@ -47,7 +47,7 @@ Mr Hill macht Inventur. Du lernst, mit there is und there are zu sagen, was es a
 
 Bild: Peter und Sophie stehen im Lagerraum. Auf dem Regalbrett über ihnen stehen vier Kisten. Bildunterschrift: Von links: Peter (gelbe Jacke) und Sophie (Zöpfe). Mr Hill zählt, was im Regal steht.
 
-Vor dem Schulfest macht Mr Hill Inventur. Das heißt, er schreibt auf, was es im Lagerraum gibt. Er sagt: „There is a box on the shelf.“ Das heißt: „Es gibt eine Kiste im Regal.“
+Vor dem Schulfest macht Mr Hill Inventur. Das heißt, er schreibt auf, was es im Lagerraum gibt. Er sagt: „There is a box on the shelf.“
 
 **Das kannst du danach:** Du sagst mit there is und there are, was es an einem Ort gibt.
 
@@ -151,13 +151,13 @@ Die Inventur ist fertig. Jetzt will Mr Hill wissen, wann das Schulfest ist, und 
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. key · bag · 1 → There is a key in the bag.
+1. key · bag · 1 → There is a key in the bag. (auch richtig: There's a key in the bag.)
      - There are a key in the bag.: Es ist nur ein Schlüssel. Für ein Ding passt is, nicht are.
 2. apples · table · 2 → There are two apples on the table.
      - There is two apples on the table.: Es sind zwei Äpfel. Für mehrere Dinge passt are, nicht is.
 3. pen · bag · 1 → There is a pen in the bag.
      - It is a pen in the bag.: Für „es gibt“ sagst du there is, nicht it is.
-4. books · shelf · 3 → There are three books on the shelf.
+4. books · shelf · 3 → There are three books on the shelf. (auch richtig: There are 3 books on the shelf.)
      - There is three books on the shelf.: Es sind drei Bücher. Für mehrere Dinge passt are, nicht is.
 - Tipp der App: Erst there is oder there are, dann die Zahl und das Ding, dann die Präposition mit dem Ort.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -187,7 +187,7 @@ Die Inventur ist fertig. Jetzt will Mr Hill wissen, wann das Schulfest ist, und 
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → There is a cap on the chair.
+1. Audio → There is a bike next to the door.
 2. Audio → There are three pens in the box.
 3. Audio → Are there any apples on the table?
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
@@ -202,7 +202,7 @@ Die Inventur ist fertig. Jetzt will Mr Hill wissen, wann das Schulfest ist, und 
 - Sätze:
 1. Audio → There is a window next to the door.
 2. Audio → There aren't any books under the table.
-3. Audio → Is there a key in the bag?
+3. Audio → Is there a phone on the table?
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Bei der Frage geht die Stimme am Ende nach oben.
 - Link: [../?via=tutor#there-nachsprechen](../?via=tutor#there-nachsprechen)
 
