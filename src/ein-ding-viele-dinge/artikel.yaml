@@ -39,6 +39,8 @@ blocks:
           - [red, rot]
           - [euro, Euro]
           - [have, haben]
+          - [has, "hat (bei he, she, it und Namen)"]
+          - [small, klein]
       - type: single-choice
         id: artikel-start
         text: "Sophie sagt: „I have a ball.“ Das Wort have heißt „haben“. Was heißt a?"
@@ -61,10 +63,10 @@ blocks:
     title: a, an oder the auf dem Etikett
     blocks:
       - type: text
-        text: "Dinge, die du zählen kannst (ein Ball, zwei Bälle), liegen in **Kisten**. Ein einzelnes Ding bekommt ein Etikett: **a** oder **an**, beides heißt „ein, eine“. **the** heißt „der, die, das“. Das Etikett the steht, wenn alle schon wissen, welches Ding gemeint ist. Das ist nach dem ersten Mal so: „I have a key. The key is small.“"
+        text: "Dinge, die du zählen kannst (ein Ball, zwei Bälle), liegen in **Kisten**. Ein einzelnes Ding bekommt ein Etikett: **a** oder **an**, beides heißt „ein, eine“. **the** heißt „der, die, das“. Das Etikett the steht, wenn alle schon wissen, welches Ding gemeint ist. Das ist nach dem ersten Mal so: „I have a bag. The bag is small.“ (have heißt „haben“, bei Ellie, Peter und Sophie heißt es has.)"
       - type: figure
         image: images/kisten-a-an.svg
-        alt: Zwei Kisten. Die linke hat das Etikett a, darunter stehen ball, book, pen und bag. Die rechte hat das Etikett an, darunter stehen apple, egg, orange und umbrella.
+        alt: Zwei Kisten. Die linke hat das Etikett a, darunter stehen ball und book. Die rechte hat das Etikett an, darunter stehen apple und egg.
         caption: Zwei Kisten mit Etiketten. Sprich die Wörter laut und achte darauf, wie jedes Wort anfängt.
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -73,15 +75,15 @@ blocks:
         header: [Etikett, Wann?, Beispiel]
         rowHeaders: true
         rows:
-          - [a, "ein beliebiges Ding, das Wort beginnt mit einem Konsonant-Laut", a key]
-          - [an, "ein beliebiges Ding, das Wort beginnt mit einem Vokal-Laut", an onion]
-          - [the, "ein bekanntes Ding, alle wissen, welches", the key]
+          - [a, "ein beliebiges Ding, das Wort beginnt mit einem Konsonant-Laut", a bag]
+          - [an, "ein beliebiges Ding, das Wort beginnt mit einem Vokal-Laut", an egg]
+          - [the, "ein bekanntes Ding, alle wissen, welches", the bag]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              Ein **Vokal-Laut** klingt wie a, e, i, o oder u, alle anderen Anfangslaute sind **Konsonant-Laute**. Der Laut entscheidet, nicht der Buchstabe: **a euro** (das e klingt wie „ju“, ein Konsonant-Laut), aber **an hour** (das h hört man nicht). **the** sprichst du vor einem Vokal-Laut wie „di“ (the onion), sonst wie „de“ (the key). Wer ein Ding zum ersten Mal erwähnt, sagt a oder an. Danach sagt er the.
+              Ein **Vokal-Laut** klingt wie a, e, i, o oder u, alle anderen Anfangslaute sind **Konsonant-Laute**. Der Laut entscheidet, nicht der Buchstabe: **a euro** (das e klingt wie „ju“, ein Konsonant-Laut), aber vor manchen Wörtern hört man einen Buchstaben am Anfang nicht, dann zählt der nächste Laut. **the** sprichst du vor einem Vokal-Laut wie „di“ (the egg), sonst wie „de“ (the bag). Wer ein Ding zum ersten Mal erwähnt, sagt a oder an. Danach sagt er the.
   - type: section
     id: uebung
     title: Übung
@@ -93,24 +95,30 @@ blocks:
         task: Wähle das Etikett für die Kiste.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: ein Ball
-            target: "[a] ball"
-            distractors: [[an, the]]
+          - cue: ein Schlüssel
+            target: "[a] key"
+            distractors: [[an]]
             mistakes:
-              - answer: an ball
-                message: "ball beginnt mit einem Konsonant-Laut (b). Davor steht a."
-          - cue: ein Ei
-            target: "[an] egg"
-            distractors: [[a, the]]
+              - answer: an key
+                message: "key beginnt mit einem Konsonant-Laut (k). Vor so einem Laut passt an nicht."
+          - cue: eine Zwiebel
+            target: "[an] onion"
+            distractors: [[a]]
             mistakes:
-              - answer: a egg
-                message: "egg beginnt mit einem Vokal-Laut (e). Davor steht an."
+              - answer: a onion
+                message: "onion beginnt mit einem Vokal-Laut (o). Vor so einem Laut passt a nicht."
           - cue: eine Orange
             target: "[an] orange"
-            distractors: [[a, the]]
-          - cue: ein Regenschirm
-            target: "[an] umbrella"
-            distractors: [[a, the]]
+            distractors: [[a]]
+            mistakes:
+              - answer: a orange
+                message: "orange beginnt mit einem Vokal-Laut (o). Vor so einem Laut passt a nicht."
+          - cue: ein Stift
+            target: "[a] pen"
+            distractors: [[an]]
+            mistakes:
+              - answer: an pen
+                message: "pen beginnt mit einem Konsonant-Laut (p). Vor so einem Laut passt an nicht."
         hint: Sprich das Wort laut. Beginnt es mit einem Vokal-Laut (wie a, e, i, o oder u klingen), nimmst du an, sonst a.
       - type: matching
         id: artikel-bekannt
@@ -142,13 +150,19 @@ blocks:
             distractors: [[an]]
             mistakes:
               - answer: an university
-                message: "university beginnt mit dem Laut „ju“, das ist ein Konsonant-Laut. Darum sagst du a, auch wenn der Buchstabe u ein Vokal ist."
+                message: "university beginnt mit dem Laut „ju“, das ist ein Konsonant-Laut. Ob das u ein Vokal-Buchstabe ist, spielt keine Rolle."
           - cue: eine Uniform
             target: "[a] uniform"
             distractors: [[an]]
             mistakes:
               - answer: an uniform
-                message: "Auch uniform beginnt mit „ju“. Darum steht a."
+                message: "Auch uniform beginnt mit „ju“, einem Konsonant-Laut."
+          - cue: eine Stunde
+            target: "[an] hour"
+            distractors: [[a]]
+            mistakes:
+              - answer: a hour
+                message: "Das h in hour hört man nicht. Sprich das Wort laut und höre, womit es beginnt."
         hint: Sprich das Wort laut. Zählt, was du am Anfang hörst, nicht, was du siehst.
       - type: language-task
         id: artikel-the
@@ -159,33 +173,48 @@ blocks:
         items:
           - cue: Ellie hat einen Ball. Er ist rot.
             target: "Ellie has a ball. [The] ball is red."
-            distractors: [[A, An]]
+            distractors: [[A]]
             mistakes:
               - answer: Ellie has a ball. A ball is red.
-                message: "Der Ball ist jetzt bekannt. Von einem bekannten Ding sagst du the."
+                message: "Der Ball ist jetzt bekannt. Von einem bekannten Ding sagst du nicht mehr a."
           - cue: Peter hat ein Buch. Es ist rot.
             target: "Peter has a book. [The] book is red."
-            distractors: [[A, An]]
+            distractors: [[A]]
+            mistakes:
+              - answer: Peter has a book. A book is red.
+                message: "Das Buch kennen jetzt alle. Für ein bekanntes Ding brauchst du ein anderes Etikett als a."
           - cue: Sophie hat eine Orange. Sie ist in der Tasche.
             target: "Sophie has an orange. [The] orange is in the bag."
-            distractors: [[A, An]]
-        hint: Beim ersten Mal sagst du a oder an. Beim zweiten Mal ist das Ding bekannt, dann sagst du the.
+            distractors: [[An]]
+            mistakes:
+              - answer: Sophie has an orange. An orange is in the bag.
+                message: "Die Orange kennen jetzt alle. Für ein bekanntes Ding brauchst du ein anderes Etikett als an."
+        hint: Beim ersten Mal sagst du a oder an. Beim zweiten Mal ist das Ding bekannt.
       - type: language-task
         id: artikel-schreiben
         languages: { source: de, target: en }
         task: Schreibe a oder an und das Wort auf Englisch.
         form: { case: hint, punctuation: hint }
         items:
-          - source: ein Stift
-            target: a pen
+          - source: ein Ball
+            target: a ball
             mistakes:
-              - answer: an pen
-                message: "pen beginnt mit einem Konsonant-Laut (p). Davor steht a."
-          - source: ein Buch
-            target: a book
+              - answer: an ball
+                message: "ball beginnt mit einem Konsonant-Laut (b). Vor so einem Laut passt an nicht."
+              - answer: ball
+                message: "Ein einzelnes Ding braucht ein Etikett."
+          - source: ein Regenschirm
+            target: an umbrella
             mistakes:
-              - answer: an book
-                message: "book beginnt mit einem Konsonant-Laut (b). Davor steht a."
+              - answer: a umbrella
+                message: "umbrella beginnt mit einem Vokal-Laut. Vor so einem Laut passt a nicht."
+              - answer: umbrella
+                message: "Ein einzelnes Ding braucht ein Etikett."
+          - source: ein Ei
+            target: an egg
+            mistakes:
+              - answer: a egg
+                message: "egg beginnt mit einem Vokal-Laut (e). Vor so einem Laut passt a nicht."
         hint: Sprich das Wort laut. Beginnt es mit einem Vokal-Laut oder mit einem anderen Laut?
       - type: true-false
         id: artikel-the-laut
