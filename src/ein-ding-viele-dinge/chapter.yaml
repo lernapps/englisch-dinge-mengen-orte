@@ -1,4 +1,18 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Ein Ding, viele Dinge
 summary: Im Lagerraum der Millbrook School stehen Kisten. Du lernst, mit a, an und the zu beschriften, aus einer Kiste viele Kisten zu machen, mit ’s und of zu sagen, wem etwas gehört, und mit this und that auf Nahes und Fernes zu zeigen.
-pages: [artikel, plural, genitiv]
+pages: [artikel, plural, genitiv, demonstrativ]
+selfAssessment:
+  pages:
+    - exercises:
+        - /ein-ding-viele-dinge/artikel/#artikel-etikett
+        - /ein-ding-viele-dinge/artikel/#artikel-schreiben
+    - exercises:
+        - /ein-ding-viele-dinge/plural/#plural-wahl
+        - /ein-ding-viele-dinge/plural/#plural-schreiben
+    - exercises:
+        - /ein-ding-viele-dinge/genitiv/#genitiv-wahl
+        - /ein-ding-viele-dinge/genitiv/#genitiv-schreiben
+    - exercises:
+        - /ein-ding-viele-dinge/demonstrativ/#demonstrativ-wahl
+        - /ein-ding-viele-dinge/demonstrativ/#demonstrativ-schreiben

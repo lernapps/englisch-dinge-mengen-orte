@@ -1,0 +1,226 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Hier und dort: this, these, that, those"
+description: "Mr Hill ruft von der Tür, welche Kiste er meint. Du lernst, mit this und these auf Nahes und mit that und those auf Fernes zu zeigen."
+competencies: [demonstrativ]
+scope: Die Seite führt this, these, that und those ein. this (Einzahl) und these (Mehrzahl) zeigen auf etwas in der Nähe, that (Einzahl) und those (Mehrzahl) auf etwas in der Ferne. Das Wort richtet sich nach der Zahl des Nomens (this ball, these balls). Typische Fehler sind this books, these book, that für etwas Nahes und those für ein einzelnes Ding.
+blocks:
+  - type: section
+    id: einstieg
+    title: Mr Hill zeigt auf eine Kiste
+    blocks:
+      - type: figure
+        image: images/szene-demonstrativ.svg
+        alt: Sophie und Peter stehen vorn im Lagerraum, vor ihnen steht eine Kiste. Weit hinten stehen zwei Kisten auf einem Regal.
+        caption: "Von links: Sophie (Zöpfe) und Peter (gelbe Jacke). Hier vorn steht eine Kiste, dort drüben zwei."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mr Hill steht an der Tür. Er möchte, dass die Kinder eine Kiste tragen. Er sagt: „Look at that box.“ Look at heißt „sieh dir an“. Sophie und Peter schauen sich um."
+      - type: text
+        text: "**Das kannst du danach:** Du zeigst auf Englisch auf Dinge hier und dort drüben, bei einem Ding und bei vielen."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [here, hier]
+          - [there, dort]
+          - [look at, ansehen]
+          - [red, rot]
+          - [brown, braun]
+          - [blue, blau]
+          - [key, Schlüssel]
+          - [coat, Mantel]
+          - [cap, Mütze]
+          - [shoe, Schuh]
+          - [bike, Fahrrad]
+      - type: single-choice
+        id: demonstrativ-start
+        text: "Mr Hill zeigt von der Tür aus auf eine Kiste weit hinten im Regal und sagt „Look at that box.“ Wo steht die Kiste?"
+        options:
+          - text: weit weg von Mr Hill
+            correct: true
+            info: "that zeigt auf etwas, das weit weg ist. Mr Hill sagt that, weil die Kiste im Regal weit hinten steht."
+          - text: direkt in seiner Hand
+            correct: false
+            info: "Etwas in der Hand ist ganz nah. Dafür sagst du ein anderes Wort."
+          - text: auf der Erde vor seinen Füßen
+            correct: false
+            info: "Das wäre auch ganz nah. that meint etwas Fernes."
+        explanation: that ist das Wort für ein Ding, das weit weg ist.
+        links:
+          - title: Lernlandkarte Englisch · Demonstrativbegleiter
+            url: https://lernapps.net/apps/map/englisch/c/demonstrativ/
+  - type: section
+    id: neu
+    title: this, these, that und those
+    blocks:
+      - type: text
+        text: "Mit dem Etikett zeigst du, **wo** das Ding ist. Es ist **hier**, in deiner Nähe, oder **dort**, weit weg. Dazu kommt die Zahl: ein Ding oder viele."
+      - type: figure
+        image: images/hand-nah-fern.svg
+        alt: Links nah und hier stehen zwei Kisten mit den Etiketten this und these. Rechts fern und dort stehen zwei Kisten auf einem Regal mit den Etiketten that und those.
+        caption: Nah und fern. Links zeigt eine Hand in der Nähe, rechts eine Hand in der Ferne.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Hier und dort
+        header: [Ort, ein Ding, viele Dinge]
+        rowHeaders: true
+        rows:
+          - [nah, this ball, these balls]
+          - [fern, that bag, those bags]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **this** und **that** stehen vor **einem** Ding, **these** und **those** vor **mehreren**. Das Wort richtet sich nach dem Nomen: **this ball**, aber **these balls**. Du sagst nicht „this balls“. Alleine stehen sie auch: **This is my bag.**
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: demonstrativ-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort für nah oder fern.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie hält einen Schlüssel in der Hand. Er ist klein.
+            target: "[This] key is small."
+            distractors: [[That]]
+            mistakes:
+              - answer: That key is small.
+                message: "Der Schlüssel ist in Sophies Hand, also ganz nah. that zeigt auf etwas Fernes."
+          - cue: Amir hält zwei Mützen in der Hand. Sie sind rot.
+            target: "[These] caps are red."
+            distractors: [[This]]
+            mistakes:
+              - answer: This caps are red.
+                message: "Es sind zwei Mützen. Vor einer Mehrzahl steht these, nicht this."
+          - cue: Peter zeigt auf einen Mantel an der Wand ganz hinten. Er ist braun.
+            target: "[That] coat is brown."
+            distractors: [[This]]
+            mistakes:
+              - answer: This coat is brown.
+                message: "Der Mantel hängt weit weg. this zeigt auf etwas Nahes."
+          - cue: Ellie zeigt auf zwei Schuhe weit hinten im Regal. Sie sind blau.
+            target: "[Those] shoes are blue."
+            distractors: [[That]]
+            mistakes:
+              - answer: That shoes are blue.
+                message: "Es sind zwei Schuhe. Vor einer Mehrzahl steht those, nicht that."
+        hint: Frag dich zuerst, ob das Ding nah oder fern ist. Dann, ob es eines oder mehrere sind.
+      - type: matching
+        id: demonstrativ-zuordnen
+        text: Welches Wort passt zur Situation? Ordne zu.
+        pairs:
+          - left: ein Ding in meiner Hand
+            right: this
+          - left: viele Dinge hier bei mir
+            right: these
+          - left: ein Ding weit hinten im Regal
+            right: that
+          - left: viele Dinge weit hinten im Regal
+            right: those
+        distractors: [thees]
+        explanation: this und these zeigen auf Nahes, that und those auf Fernes. this und that stehen bei einem Ding, these und those bei mehreren.
+        hint: Frag dich bei jeder Situation, ob das Ding nah oder fern ist und ob es eines oder mehrere sind.
+        links:
+          - title: Lernlandkarte Englisch · Demonstrativbegleiter
+            url: https://lernapps.net/apps/map/englisch/c/demonstrativ/
+      - type: language-task
+        id: demonstrativ-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze das Etikett.
+        form: { case: hint }
+        table:
+          caption: Hier und dort
+          header: [Ort, ein Ding, viele Dinge]
+          rows:
+            - [nah, "[this] bike", "[these] bikes"]
+            - [fern, "[that] bike", "[those] bikes"]
+        hint: Nah oder fern? Eines oder mehrere? Beides entscheidet.
+      - type: language-task
+        id: demonstrativ-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe das Etikett mit dem Wort.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: here · coat
+            target: this coat
+            mistakes:
+              - answer: that coat
+                message: "here heißt „hier“, also ist der Mantel nah. that zeigt auf etwas Fernes."
+          - cue: there · bikes
+            target: those bikes
+            mistakes:
+              - answer: that bikes
+                message: "bikes ist eine Mehrzahl. Vor einer Mehrzahl steht those, nicht that."
+          - cue: here · shoes
+            target: these shoes
+            mistakes:
+              - answer: this shoes
+                message: "shoes ist eine Mehrzahl. Vor einer Mehrzahl steht these, nicht this."
+          - cue: there · cap
+            target: that cap
+            mistakes:
+              - answer: this cap
+                message: "there heißt „dort“, also ist die Mütze fern. this zeigt auf etwas Nahes."
+        hint: here heißt nah, there heißt fern. Sind es mehrere Dinge, nimmst du these oder those.
+      - type: true-false
+        id: demonstrativ-hand
+        text: "Du hältst zwei Bälle in der Hand. Du sagst „This balls are red.“ Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Welches Wort steht vor mehreren Dingen?
+        explanation: Zwei Bälle sind eine Mehrzahl. Dann heißt es these balls, auch wenn du sie in der Hand hältst.
+        links:
+          - title: Lernlandkarte Englisch · Demonstrativbegleiter
+            url: https://lernapps.net/apps/map/englisch/c/demonstrativ/
+      - type: language-task
+        id: demonstrativ-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: these-shoes-are-in-the-box.mp3
+            target: These shoes are in the box.
+          - audio: that-cap-is-peter-s.mp3
+            target: That cap is Peter's.
+          - audio: those-coats-are-red.mp3
+            target: Those coats are red.
+        hint: Hör genau auf das erste Wort. Ist das Ding nah oder fern, eines oder mehrere?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und zeigen
+    blocks:
+      - type: speaking-task
+        id: demonstrativ-nachsprechen
+        language: en
+        items:
+          - audio: this-is-sophie-s-coat.mp3
+            text: This is Sophie's coat.
+          - audio: that-is-mr-hill-s-bike.mp3
+            text: That is Mr Hill's bike.
+          - audio: those-bikes-are-blue.mp3
+            text: Those bikes are blue.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und zeige dabei mit der Hand nah oder fern.
+      - type: open-task
+        id: demonstrativ-zeigen
+        task: "Du stehst im Lagerraum. Schreibe zwei Sätze: einen über ein Ding hier bei dir und einen über Dinge dort drüben (zum Beispiel: This key is small. Those shoes are blue)."
+        points:
+          - text: Ein Satz zeigt mit this oder these auf etwas Nahes.
+            source: /ein-ding-viele-dinge/demonstrativ/#neu
+          - text: Ein Satz zeigt mit that oder those auf etwas Fernes.
+            source: /ein-ding-viele-dinge/demonstrativ/#neu
+          - text: Das Wort passt zur Zahl, zum Beispiel these und those vor einer Mehrzahl.
+            source: /ein-ding-viele-dinge/demonstrativ/#neu
+        solution: |
+          This bag is brown. Those caps are red.
+  - type: section
+    id: weiter
+    title: Rückblick auf Kapitel 1
+    blocks:
+      - type: text
+        text: "Der Lagerraum ist geordnet. Jede Kiste hat ein Etikett (a, an, the), viele Kisten haben ein -s oder sind Überraschungskisten, auf den Namensschildern steht, wem sie gehören, und mit this und that zeigst du auf sie. Im nächsten Kapitel kommen die Gläser dazu: Dinge, die du nicht zählen kannst."
