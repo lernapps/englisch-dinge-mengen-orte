@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Ein Ding, viele Dinge
 summary: Im Lagerraum der Millbrook School stehen Kisten. Du lernst, mit a, an und the zu beschriften, aus einer Kiste viele Kisten zu machen, mit ’s und of zu sagen, wem etwas gehört, und mit this und that auf Nahes und Fernes zu zeigen.
-pages: [artikel, plural]
+pages: [artikel, plural, genitiv]
