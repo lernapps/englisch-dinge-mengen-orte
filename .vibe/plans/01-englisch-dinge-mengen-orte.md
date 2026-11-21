@@ -235,7 +235,7 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
 - [x] Seite `genitiv` (Sophie’s box, the girls’ box, of) mit Übungen, Audio und Szene.
 - [x] Seite `demonstrativ` (this/these, that/those) mit Übungen, Audio, Szene, Kapitelrückblick und selfAssessment von Kapitel 1.
 - [x] Seite `much-many` (Kisten und Gläser, a lot of, a few/a little) mit Übungen, Audio und Szene.
-- [ ] Seite `mengen-mit-of` (a cup of, a bottle of, a pair of) mit Übungen, Audio und Szene.
+- [x] Seite `mengen-mit-of` (a cup of, a bottle of, a pair of) mit Übungen, Audio und Szene.
 - [ ] Seite `some-any` (some, any, no) mit Übungen, Audio und Szene.
 - [ ] Seite `somebody-anything` mit Übungen, Audio, Szene, Kapitelrückblick und selfAssessment von Kapitel 2.
 - [ ] Kapitel 3: Sammel-Wiederholung `das-brauchst-du` (recap to-be, datum, uhrzeit) und Seite `praepositionen-ort` mit Regalbild, Übungen, Audio und Szene.
