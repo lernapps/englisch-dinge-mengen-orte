@@ -231,7 +231,7 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
       Creator: Ja, die übrigen elf Seiten nach diesem Muster, wenn die Auflagen D, E, F, A, G, B auf artikel und danach auf allen Seiten gleich umgesetzt werden (feedback-applied-everywhere); Vorlagenfehler meldet die Orchestrator-Session; weiter bis Gesamtcheck, dann Checkpoint Veröffentlichen.
-- [ ] Seite `plural` (Kisten mit -s, -es, -ies, Überraschungskisten) mit Übungen, Audio und Szene.
+- [x] Seite `plural` (Kisten mit -s, -es, -ies, Überraschungskisten) mit Übungen, Audio und Szene.
 - [ ] Seite `genitiv` (Sophie’s box, the girls’ box, of) mit Übungen, Audio und Szene.
 - [ ] Seite `demonstrativ` (this/these, that/those) mit Übungen, Audio, Szene, Kapitelrückblick und selfAssessment von Kapitel 1.
 - [ ] Seite `much-many` (Kisten und Gläser, a lot of, a few/a little) mit Übungen, Audio und Szene.

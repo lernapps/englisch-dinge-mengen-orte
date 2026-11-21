@@ -1,0 +1,233 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Viele Kisten: der Plural"
+description: "Im Lagerraum stehen bald viele Kisten. Du lernst, wie aus einem Ding viele Dinge werden: mit -s, -es, -ies und mit Überraschungskisten wie children."
+competencies: [plural]
+scope: Die Seite führt den Plural der Nomen ein. Die meisten Nomen bekommen -s (ball, balls). Nach s, x, sh und ch steht -es (box, boxes). Nomen auf Konsonant und y bekommen -ies (baby, babies), nach einem Vokal bleibt das y (day, days). Einige Nomen haben einen unregelmäßigen Plural (child, children; man, men; woman, women; foot, feet; tooth, teeth; person, people). Vor einem Plural steht kein a und kein an. Typische Fehler sind mans, womans, babys, bookes und a books.
+blocks:
+  - type: section
+    id: einstieg
+    title: Aus einer Kiste werden viele
+    blocks:
+      - type: figure
+        image: images/szene-plural.svg
+        alt: Sophie, Ellie, Amir und Peter stehen im Lagerraum. Auf den Regalbrettern hinter ihnen stehen sieben Kisten, vorn rechts liegen zwei weitere.
+        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Der Lagerraum füllt sich."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Im Lagerraum stehen schon viele Kisten. Mr Hill sagt: „Wir brauchen für jedes Ding eine Kiste, aber manchmal sind es viele Dinge.“ Auf dem Regal liegt ein Ball. Peter holt noch zwei dazu."
+      - type: text
+        text: "**Das kannst du danach:** Du bildest den Plural von Nomen, auch von Überraschungskisten wie children, men und feet."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [pen, Stift]
+          - [dish, Schüssel]
+          - [watch, Armbanduhr]
+          - [party, Fest]
+          - [city, Stadt]
+          - [day, Tag]
+          - [man, Mann]
+          - [woman, Frau]
+          - [foot, Fuß]
+          - [tooth, Zahn]
+          - [baby, Baby]
+          - [child, Kind]
+          - [two, zwei]
+          - [three, drei]
+      - type: single-choice
+        id: plural-start
+        text: "Eine Kiste hat das Etikett „a ball“. Jetzt liegen drei Bälle im Regal. Welches Etikett passt auf die Kiste mit den drei Bällen?"
+        options:
+          - text: balls
+            correct: true
+            info: "Bei mehreren Dingen hängst du -s an das Wort. Ein Etikett a gibt es dann nicht mehr."
+          - text: a balls
+            correct: false
+            info: "a heißt „ein“. Es passt nur zu einem einzelnen Ding, nicht zu mehreren."
+          - text: ball
+            correct: false
+            info: "ball ist die Einzahl, ein einzelner Ball. Bei drei Bällen brauchst du die Mehrzahl."
+        explanation: Bei mehreren Dingen steht die Mehrzahl, der Plural. Er bekommt meistens ein -s und kein a.
+        links:
+          - title: Lernlandkarte Englisch · Plural der Nomen
+            url: https://lernapps.net/apps/map/englisch/c/plural/
+  - type: section
+    id: neu
+    title: -s, -es, -ies und Überraschungskisten
+    blocks:
+      - type: text
+        text: "Aus **einer Kiste** werden **viele Kisten**. Meistens hängst du ein **-s** an das Wort. Manche Wörter brauchen eine andere Endung. Einige sind **Überraschungskisten**: Sie ändern sich ganz."
+      - type: figure
+        image: images/kisten-plural.svg
+        alt: Eine Kiste mit a ball wird zu drei Kisten balls. Eine Kiste mit a child wird zu einer Überraschungskiste children.
+        caption: Eine Kiste wird zu vielen Kisten. Manchmal ändert sich das Wort ganz.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Eine Kiste, viele Kisten
+        header: [Regel, Einzahl, Mehrzahl]
+        rowHeaders: true
+        rows:
+          - ["-s", ball, balls]
+          - ["-es nach s, x, sh, ch", box, boxes]
+          - ["y wird -ies", baby, babies]
+          - [Überraschungskiste, child, children]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Das Wort wird nur **-ies**, wenn vor dem **y** ein Konsonant steht (baby, babies). Steht davor ein Vokal, bleibt das y und du hängst nur -s an (toy, toys). Vor einer Mehrzahl steht **kein a und kein an**. **people** (Leute) ist schon die Mehrzahl von **person**. Du sagst nicht „peoples“.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: plural-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Mehrzahl.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Peter hat zwei Stifte.
+            target: "Peter has two [pens]."
+            distractors: [[penes]]
+            mistakes:
+              - answer: Peter has two penes.
+                message: "-es gibt es nur nach s, x, sh und ch. Bei pen reicht ein -s."
+          - cue: Sophie hat zwei Schüsseln.
+            target: "Sophie has two [dishes]."
+            distractors: [[dishs]]
+            mistakes:
+              - answer: Sophie has two dishs.
+                message: "dish endet auf sh. Nach sh brauchst du -es."
+          - cue: Amir hat drei Armbanduhren.
+            target: "Amir has three [watches]."
+            distractors: [[watchs]]
+            mistakes:
+              - answer: Amir has three watchs.
+                message: "watch endet auf ch. Nach ch brauchst du -es."
+          - cue: Ellie hat zwei Feste.
+            target: "Ellie has two [parties]."
+            distractors: [[partys]]
+            mistakes:
+              - answer: Ellie has two partys.
+                message: "Vor dem y von party steht ein Konsonant. Dann wird das y zu -ies."
+        hint: Schau auf das Ende des Wortes. Brauchst du -s, -es oder -ies?
+      - type: matching
+        id: plural-regel
+        text: Welche Regel gilt für das Wort? Ordne zu.
+        pairs:
+          - left: pen
+            right: "-s"
+          - left: dish
+            right: "-es"
+          - left: city
+            right: "-ies"
+          - left: man
+            right: Überraschungskiste
+        distractors: [kein Plural]
+        explanation: "-s ist die Regel für die meisten Wörter. Nach sh steht -es. Konsonant und y werden zu -ies. man ist eine Überraschungskiste."
+        hint: Schau auf das Ende des Wortes. Sieht es aus wie die Wörter im Poster?
+        links:
+          - title: Lernlandkarte Englisch · Plural der Nomen
+            url: https://lernapps.net/apps/map/englisch/c/plural/
+      - type: language-task
+        id: plural-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Mehrzahl.
+        form: { case: hint }
+        table:
+          caption: Eine Kiste, viele Kisten
+          header: [Einzahl, Mehrzahl]
+          rows:
+            - [city, "[cities]"]
+            - [day, "[days]"]
+            - [watch, "[watches]"]
+            - [baby, "[babies]"]
+        hint: Steht vor dem y ein Konsonant oder ein Vokal? Danach richtet sich das Wort.
+      - type: language-task
+        id: plural-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Überraschungskisten mit der Zahl.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: man · 2
+            target: two men
+            mistakes:
+              - answer: two mans
+                message: "man ist eine Überraschungskiste. Hier ändert sich der Vokal im Wort."
+          - cue: woman · 3
+            target: three women
+            mistakes:
+              - answer: three womans
+                message: "woman ist eine Überraschungskiste, genau wie man."
+          - cue: foot · 2
+            target: two feet
+            mistakes:
+              - answer: two foots
+                message: "foot ist eine Überraschungskiste. Hier werden aus den oo zwei e."
+          - cue: tooth · 2
+            target: two teeth
+            mistakes:
+              - answer: two tooths
+                message: "tooth ist eine Überraschungskiste, genau wie foot."
+        hint: Diese Wörter haben kein -s. Sie ändern sich ganz.
+      - type: true-false
+        id: plural-a
+        text: "Im Lagerraum liegen drei Bälle. Auf dem Etikett steht „a balls“. Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Was steht vor einer Mehrzahl?
+        explanation: Vor einer Mehrzahl steht kein a und kein an. Das Etikett heißt balls.
+        links:
+          - title: Lernlandkarte Englisch · Plural der Nomen
+            url: https://lernapps.net/apps/map/englisch/c/plural/
+      - type: language-task
+        id: plural-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: sophie-has-two-boxes.mp3
+            target: Sophie has two boxes.
+          - audio: the-children-have-three-balls.mp3
+            target: The children have three balls.
+          - audio: amir-has-two-watches.mp3
+            target: Amir has two watches.
+        hint: Hör genau auf das Ende des Wortes nach der Zahl.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und füllen
+    blocks:
+      - type: speaking-task
+        id: plural-nachsprechen
+        language: en
+        items:
+          - audio: peter-has-two-books.mp3
+            text: Peter has two books.
+          - audio: ellie-has-two-pens.mp3
+            text: Ellie has two pens.
+          - audio: the-women-have-two-bags.mp3
+            text: The women have two bags.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende des Wortes nach der Zahl.
+      - type: open-task
+        id: plural-kiste
+        task: "Mr Hill gibt dir eine Kiste für das Schulfest. Schreibe zwei Sätze mit Zahlen: Was liegt in deiner Kiste? Nimm ein Wort mit -s oder -es und eine Überraschungskiste (zum Beispiel: I have two pens. The women have three bags)."
+        points:
+          - text: Ein Satz hat ein Wort mit -s oder -es nach einer Zahl.
+            source: /ein-ding-viele-dinge/plural/#neu
+          - text: Ein Satz hat eine Überraschungskiste (men, women, feet, teeth, children).
+            source: /ein-ding-viele-dinge/plural/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Peter has two dishes. The children have three bags.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Jetzt stehen viele Kisten im Lagerraum. Aber wem gehören sie? Auf der nächsten Seite klebt die Klasse Namensschilder auf die Kisten.
