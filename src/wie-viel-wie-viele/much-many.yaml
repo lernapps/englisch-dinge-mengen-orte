@@ -1,0 +1,216 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Kisten und Gläser: many, much und a lot of"
+description: "Für das Schulfest kommen Gläser in den Lagerraum. Du lernst, wann du many und wann much sagst und wie du mit a lot of, a few und a little Mengen angibst."
+competencies: [much-many]
+scope: Die Seite führt many, much, a lot of, a few und a little ein. Zählbare Nomen (Kisten) stehen mit many und a few, nicht zählbare Nomen (Gläser) mit much und a little. a lot of passt zu beiden. In Aussagen ist a lot of üblich, many und much stehen vor allem in Fragen und Verneinungen. Typische Fehler sind much books, many water, a few cheese und a little bags.
+blocks:
+  - type: section
+    id: einstieg
+    title: Gläser fürs Schulfest
+    blocks:
+      - type: figure
+        image: images/szene-much-many.svg
+        alt: Ellie und Amir stehen im Lagerraum. Auf dem Regalbrett über ihnen stehen links zwei Kisten und rechts zwei Gläser.
+        caption: "Von links: Ellie (roter Pferdeschwanz) und Amir (Brille). Auf dem Regal stehen Kisten und Gläser."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mrs Parker backt Kuchen für das Schulfest. Dafür kommen Zutaten in den Lagerraum: Eier und Äpfel liegen in **Kisten**. Zucker, Reis und Saft kommen in **Gläser**, denn du kannst sie nicht zählen. Mr Hill fragt: „Wie viel ist da?“"
+      - type: text
+        text: "**Das kannst du danach:** Du sagst mit many, much, a lot of, a few und a little, wie viel von etwas da ist."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [water, Wasser]
+          - [milk, Milch]
+          - [sugar, Zucker]
+          - [rice, Reis]
+          - [juice, Saft]
+          - [cheese, Käse]
+          - [bread, Brot]
+          - [egg, Ei]
+          - [apple, Apfel]
+          - [a lot of, "viel, viele"]
+          - [many, viele]
+          - [much, viel]
+          - [a few, ein paar]
+          - [a little, ein bisschen]
+      - type: single-choice
+        id: much-start
+        text: "Im Lagerraum liegen Eier in einer Kiste. Zucker ist in einem Glas. Warum liegt der Zucker nicht in einer Kiste?"
+        options:
+          - text: Man kann Zucker nicht zählen.
+            correct: true
+            info: "Eier kannst du zählen: ein Ei, zwei Eier. Zucker nicht, du kannst nur sagen, wie viel es ist. Darum steht er im Glas."
+          - text: Zucker ist zu klein für eine Kiste.
+            correct: false
+            info: "Die Größe spielt keine Rolle. Es kommt darauf an, ob du das Ding zählen kannst."
+          - text: Zucker ist ein Ei.
+            correct: false
+            info: "Ein Ei und Zucker sind verschieden. Ein Ei kannst du zählen, Zucker nicht."
+        explanation: Zählbares liegt in Kisten, Nicht-Zählbares in Gläsern.
+        links:
+          - title: Lernlandkarte Englisch · Much, many, a lot of
+            url: https://lernapps.net/apps/map/englisch/c/much-many/
+  - type: section
+    id: neu
+    title: many für Kisten, much für Gläser
+    blocks:
+      - type: text
+        text: "Bei **Kisten** (zählbar) sagst du **many** („viele“) oder **a few** („ein paar“). Bei **Gläsern** (nicht zählbar) sagst du **much** („viel“) oder **a little** („ein bisschen“). **a lot of** passt zu Kisten und zu Gläsern."
+      - type: figure
+        image: images/kisten-glaeser.svg
+        alt: Zwei Kisten mit den Etiketten many und a few, zwei Gläser mit den Etiketten much und a little. Darunter steht, dass a lot of zu beidem passt.
+        caption: Kisten links, Gläser rechts. a lot of steht für beides.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Kisten und Gläser
+        header: [Behälter, Etikett, Beispiel]
+        rowHeaders: true
+        rows:
+          - [Kiste (zählbar), many · a few · a lot of, many eggs]
+          - [Glas (nicht zählbar), much · a little · a lot of, much sugar]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              In **Aussagen** sagst du meistens **a lot of**: **a lot of eggs, a lot of milk**. **many** und **much** stehen vor allem in **Verneinungen und Fragen**: **not many eggs, not much milk, How many eggs? How much milk?** Bei Gläsern gibt es keine Mehrzahl: Du sagst nicht „sugars“.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: much-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Etikett.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Peter hat nicht viele Bücher.
+            target: "Peter hasn't got [many] books."
+            distractors: [[much]]
+            mistakes:
+              - answer: Peter hasn't got much books.
+                message: "books kannst du zählen. Zählbares liegt in einer Kiste, dafür brauchst du ein anderes Etikett als much."
+          - cue: Amir hat nicht viel Reis.
+            target: "Amir hasn't got [much] rice."
+            distractors: [[many]]
+            mistakes:
+              - answer: Amir hasn't got many rice.
+                message: "rice kannst du nicht zählen. Das ist ein Glas, dafür brauchst du ein anderes Etikett als many."
+          - cue: Sophie hat ein paar Äpfel.
+            target: "Sophie has [a few] apples."
+            distractors: [[a little]]
+            mistakes:
+              - answer: Sophie has a little apples.
+                message: "apples sind zählbar. Ein bisschen gibt es nur bei Gläsern."
+          - cue: Ellie hat ein bisschen Saft.
+            target: "Ellie has [a little] juice."
+            distractors: [[a few]]
+            mistakes:
+              - answer: Ellie has a few juice.
+                message: "juice ist nicht zählbar, also ein Glas. Ein paar gibt es nur bei Kisten."
+        hint: Frag dich, ob du das Ding zählen kannst (Kiste) oder nicht (Glas).
+      - type: matching
+        id: much-zuordnen
+        text: Welches Etikett passt zum Ding? Ordne zu.
+        pairs:
+          - left: books
+            right: many
+          - left: rice
+            right: much
+          - left: bags
+            right: a few
+          - left: cheese
+            right: a little
+        distractors: [muchs]
+        explanation: Bei Dingen, die du zählen kannst (books, bags), stehen many und a few. Bei Dingen, die du nicht zählen kannst (rice, cheese), stehen much und a little.
+        hint: Kannst du das Ding zählen? Dann Kiste. Wenn nicht, dann Glas.
+        links:
+          - title: Lernlandkarte Englisch · Much, many, a lot of
+            url: https://lernapps.net/apps/map/englisch/c/much-many/
+      - type: language-task
+        id: much-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Mrs Parker hat nicht viel Zucker.
+            target: Mrs Parker (hasn't|has not) got much sugar.
+            mistakes:
+              - answer: Mrs Parker hasn't got many sugar.
+                message: "sugar ist nicht zählbar, ein Glas. Dafür passt many nicht."
+          - source: Peter hat nicht viele Eier.
+            target: Peter (hasn't|has not) got many eggs.
+            mistakes:
+              - answer: Peter hasn't got much eggs.
+                message: "eggs sind zählbar, eine Kiste. Dafür passt much nicht."
+          - source: Amir hat ein bisschen Käse.
+            target: Amir has a little cheese.
+            mistakes:
+              - answer: Amir has a few cheese.
+                message: "cheese ist nicht zählbar, ein Glas. Ein paar gibt es nur bei Kisten."
+          - source: Sophie hat ein paar Taschen.
+            target: Sophie has a few bags.
+            mistakes:
+              - answer: Sophie has a little bags.
+                message: "bags sind zählbar, eine Kiste. Ein bisschen gibt es nur bei Gläsern."
+        hint: Entscheide zuerst, ob das Ding zählbar ist (Kiste) oder nicht (Glas). Dann wählst du das Etikett.
+      - type: true-false
+        id: much-apples
+        text: "Peter sagt: „Ellie has much apples.“ Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Für welches Behälter-Etikett steht much?
+        explanation: apples sind zählbar, also eine Kiste. Dafür sagst du many oder a lot of, nicht much.
+        links:
+          - title: Lernlandkarte Englisch · Much, many, a lot of
+            url: https://lernapps.net/apps/map/englisch/c/much-many/
+      - type: language-task
+        id: much-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: peter-hasn-t-got-many-pens.mp3
+            target: Peter hasn't got many pens.
+          - audio: ellie-has-a-little-water.mp3
+            target: Ellie has a little water.
+          - audio: sophie-has-a-lot-of-bags.mp3
+            target: Sophie has a lot of bags.
+        hint: Hör genau auf das Etikett vor dem Ding. Ist es many, much, a few, a little oder a lot of?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und füllen
+    blocks:
+      - type: speaking-task
+        id: much-nachsprechen
+        language: en
+        items:
+          - audio: amir-has-a-few-books.mp3
+            text: Amir has a few books.
+          - audio: mrs-parker-hasn-t-got-much-rice.mp3
+            text: Mrs Parker hasn't got much rice.
+          - audio: peter-has-a-little-bread.mp3
+            text: Peter has a little bread.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Etikett vor dem Ding.
+      - type: open-task
+        id: much-schild
+        task: "Mr Hill fragt, was du für das Schulfest mitbringst. Schreibe zwei Sätze: einen über etwas Zählbares und einen über etwas Nicht-Zählbares (zum Beispiel: I have a few pens. I have a little rice)."
+        points:
+          - text: Ein Satz hat many, a few oder a lot of vor etwas Zählbarem.
+            source: /wie-viel-wie-viele/much-many/#neu
+          - text: Ein Satz hat much, a little oder a lot of vor etwas Nicht-Zählbarem.
+            source: /wie-viel-wie-viele/much-many/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I have a lot of apples. I have a little juice.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Die Gläser stehen im Regal. Aber Mrs Parker braucht für ihren Kuchen genaue Mengen, zum Beispiel einen Becher Zucker. Auf der nächsten Seite machst du aus einem Glas wieder etwas Zählbares.
