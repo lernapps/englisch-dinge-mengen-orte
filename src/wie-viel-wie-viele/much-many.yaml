@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Mrs Parker, Ellies Mutter, backt Kuchen für das Schulfest. Dafür kommen Zutaten in den Lagerraum: Eier und Äpfel liegen in **Kisten**. Zucker, Reis und Saft kommen in **Gläser**, denn du kannst sie nicht zählen. Mr Hill fragt: „Wie viel ist da?“"
+        text: "Mrs Parker, Ellies Mutter, backt Kuchen für das Schulfest. Dafür kommen Zutaten in den Lagerraum: Eier und Äpfel liegen in **Kisten**. Zucker, Reis und Saft kommen in **Gläser**. Mr Hill fragt: „Wie viel ist da?“"
       - type: text
         text: "**Das kannst du danach:** Du sagst mit many, much, a lot of, a few und a little, wie viel von etwas da ist."
       - type: table
@@ -32,6 +32,7 @@ blocks:
           - [egg, Ei]
           - [apple, Apfel]
           - [got, "have got = haben"]
+          - [hasn't got, hat nicht]
           - [a lot of, "viel, viele"]
           - [many, viele]
           - [much, viel]
@@ -78,7 +79,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              In **Aussagen** sagst du meistens **a lot of**: **a lot of cakes, a lot of milk**. **many** und **much** stehen vor allem in **Verneinungen und Fragen**: **not many cakes, not much milk, How many cakes? How much milk?** Bei Gläsern gibt es keine Mehrzahl: Du sagst nicht „sugars“.
+              In **Aussagen** sagst du meistens **a lot of**: **a lot of cakes, a lot of milk**. **many** und **much** stehen vor allem in **Verneinungen und Fragen**: **not many cakes, not much milk, How many cakes? How much milk?** **a few** und **a little** sagst du auch in Aussagen. Bei Gläsern gibt es keine Mehrzahl: Du sagst nicht „sugars“.
   - type: section
     id: uebung
     title: Übung

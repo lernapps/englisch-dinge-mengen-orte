@@ -195,8 +195,8 @@ blocks:
         items:
           - audio: the-ball-is-in-the-bag.mp3
             target: The ball is in the bag.
-          - audio: the-cap-is-under-the-chair.mp3
-            target: The cap is under the chair.
+          - audio: the-ball-is-under-the-window.mp3
+            target: The ball is under the window.
           - audio: peter-is-next-to-sophie.mp3
             target: Peter is next to Sophie.
         hint: Hör genau auf die Präposition. Wo ist das Ding?
@@ -208,8 +208,8 @@ blocks:
         id: ort-nachsprechen
         language: en
         items:
-          - audio: the-bag-is-behind-the-door.mp3
-            text: The bag is behind the door.
+          - audio: the-cap-is-behind-the-door.mp3
+            text: The cap is behind the door.
           - audio: amir-is-next-to-the-window.mp3
             text: Amir is next to the window.
           - audio: the-books-are-on-the-shelf.mp3

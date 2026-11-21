@@ -2,7 +2,7 @@
 title: "Wann ist das Schulfest? in, on und at"
 description: "Mr Hill trägt das Schulfest in den Schulkalender ein. Du lernst, wann in, on und at bei Zeitangaben stehen."
 competencies: [praepositionen-zeit]
-scope: "Die Seite führt die Präpositionen der Zeit ein. in steht bei Monaten und Jahren (in July), on bei Tagen und Daten (on Monday, on 5 May), at bei Uhrzeiten (at ten o'clock). Die Seite nutzt dafür das Bild der Zeit-Behälter: in ist die große Kiste, on die Fläche, at der Punkt. Typische Fehler sind in Monday, at July und on 8 o'clock."
+scope: "Die Seite führt die Präpositionen der Zeit ein. in steht bei Monaten und Jahren (in July), on bei Tagen und Daten (on Monday, on 5 May), at bei Uhrzeiten (at ten o'clock). Die Seite nutzt dafür das Bild der Zeit-Behälter: in ist der große Rahmen, on die Fläche, at der Punkt. Typische Fehler sind in Monday, at July und on 8 o'clock."
 blocks:
   - type: section
     id: einstieg
@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Neben der Lagerraumtür hängt der Schulkalender. Mr Hill trägt das Schulfest ein und sagt: „The fair is at ten o'clock.“ Das Schulfest (school fair) beginnt um zehn Uhr. Die Kinder tragen dazu die Geburtstage ein."
+        text: "Neben der Lagerraumtür hängt der Schulkalender. Mr Hill trägt das Schulfest ein und sagt: „The fair is at ten o'clock.“ Das Schulfest heißt auf Englisch school fair und hat eine feste Uhrzeit. Die Kinder tragen dazu die Geburtstage ein."
       - type: text
         text: "**Das kannst du danach:** Du sagst mit in, on und at, wann etwas ist."
       - type: table
@@ -53,11 +53,11 @@ blocks:
     title: Drei Zeit-Behälter
     blocks:
       - type: text
-        text: "Auch für die Zeit gibt es Etiketten. Die Zeit ist wie ein Behälter. **in** ist die **große Kiste** für lange Zeit: Monate und Jahre. **on** ist die **Fläche** für einen einzelnen Tag. **at** ist der **Punkt** für eine genaue Uhrzeit."
+        text: "Auch für die Zeit gibt es Etiketten. Wie bei den Kisten und Gläsern klebt auch hier ein Etikett. Die Zeit steckt in einem Behälter, den wir **Zeit-Behälter** nennen. **in** ist der **große Rahmen** für lange Zeit: Monate und Jahre. **on** ist die **Fläche** für einen einzelnen Tag. **at** ist der **Punkt** für eine genaue Uhrzeit."
       - type: figure
         image: images/zeit-behaelter.svg
-        alt: Drei Zeit-Behälter. in ist eine große Kiste für Monate und Jahre, on ist eine Fläche für Tage und Daten, at ist ein Punkt für Uhrzeiten.
-        caption: Die große Kiste, die Fläche und der Punkt.
+        alt: Drei Zeit-Behälter. in ist ein großer Rahmen für Monate und Jahre, on ist eine Fläche für Tage und Daten, at ist ein Punkt für Uhrzeiten.
+        caption: Der große Rahmen, die Fläche und der Punkt.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -90,7 +90,7 @@ blocks:
             distractors: [[on, at]]
             mistakes:
               - answer: Ellie's birthday is on July.
-                message: "July ist ein Monat. Ein Monat ist eine große Kiste, dafür gibt es eine andere Präposition als on."
+                message: "July ist ein Monat. Ein Monat ist ein großer Rahmen, dafür gibt es eine andere Präposition als on."
           - cue: Peters Geburtstag ist am 5. Mai.
             target: "Peter's birthday is [on] 5 May."
             distractors: [[in, at]]
@@ -109,18 +109,18 @@ blocks:
             mistakes:
               - answer: The English lesson is at Monday.
                 message: "Monday ist ein Tag, also eine Fläche. Für einen Tag gibt es eine andere Präposition als at."
-        hint: Frag dich, ob es ein Monat oder Jahr ist (große Kiste), ein Tag oder Datum (Fläche) oder eine Uhrzeit (Punkt).
+        hint: Frag dich, ob es ein Monat oder Jahr ist (großer Rahmen), ein Tag oder Datum (Fläche) oder eine Uhrzeit (Punkt).
       - type: matching
         id: zeit-zuordnen
         text: Welcher Zeit-Behälter passt zur Zeitangabe? Ordne zu.
         pairs:
           - left: July
-            right: in, die große Kiste
+            right: in, der große Rahmen
           - left: Saturday
             right: on, die Fläche
           - left: half past seven
             right: at, der Punkt
-        explanation: Monate und Jahre sind große Kisten (in), Tage sind Flächen (on), Uhrzeiten sind Punkte (at).
+        explanation: Monate und Jahre sind große Rahmen (in), Tage sind Flächen (on), Uhrzeiten sind Punkte (at).
         hint: Frag dich, ob die Zeitangabe lang ist (Monat), ein Tag ist oder eine genaue Uhrzeit.
         links:
           - title: Lernlandkarte Englisch · Präpositionen der Zeit
@@ -195,10 +195,10 @@ blocks:
         items:
           - audio: sophie-s-lesson-is-at-eight-o-clock.mp3
             text: Sophie's lesson is at eight o'clock.
-          - audio: amir-s-birthday-is-on-12-october.mp3
-            text: Amir's birthday is on 12 October.
-          - audio: the-fair-is-in-december.mp3
-            text: The fair is in December.
+          - audio: mr-hill-s-birthday-is-on-3-june.mp3
+            text: Mr Hill's birthday is on 3 June.
+          - audio: our-party-is-in-august.mp3
+            text: Our party is in August.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf in, on und at.
       - type: open-task
         id: zeit-kalender

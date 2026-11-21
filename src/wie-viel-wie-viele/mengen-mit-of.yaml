@@ -150,6 +150,7 @@ blocks:
         items:
           - cue: cup · tea · 2
             target: two cups of tea
+            accepted: [2 cups of tea]
             mistakes:
               - answer: two cups of teas
                 message: "Tee kannst du nicht zählen, er bekommt kein -s. Nur das Mengenwort bekommt es."
@@ -157,16 +158,18 @@ blocks:
                 message: "Zwischen Mengenwort und Inhalt fehlt of."
           - cue: bottle · water · 3
             target: three bottles of water
+            accepted: [3 bottles of water]
             mistakes:
               - answer: three bottle of water
                 message: "Bei drei Flaschen bekommt das Mengenwort ein -s."
           - cue: bag · rice · 1
-            target: a bag of rice
+            target: (a|one|1) bag of rice
             mistakes:
               - answer: a bag rice
                 message: "Zwischen Mengenwort und Inhalt fehlt of."
           - cue: pair · shoes · 2
             target: two pairs of shoes
+            accepted: [2 pairs of shoes]
             mistakes:
               - answer: two pair of shoes
                 message: "Bei zwei Paar bekommt das Mengenwort ein -s."
@@ -186,8 +189,8 @@ blocks:
         task: Hör zu und schreibe den ganzen Satz auf.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: peter-has-two-bottles-of-water.mp3
-            target: Peter has two bottles of water.
+          - audio: sophie-has-two-bottles-of-milk.mp3
+            target: Sophie has two bottles of milk.
           - audio: mrs-parker-has-a-cup-of-tea.mp3
             target: Mrs Parker has a cup of tea.
           - audio: sophie-has-a-pair-of-shoes.mp3
@@ -203,10 +206,10 @@ blocks:
         items:
           - audio: amir-has-three-pieces-of-cake.mp3
             text: Amir has three pieces of cake.
-          - audio: ellie-has-a-bag-of-rice.mp3
-            text: Ellie has a bag of rice.
-          - audio: the-women-have-two-pairs-of-shoes.mp3
-            text: The women have two pairs of shoes.
+          - audio: ellie-has-a-bag-of-sugar.mp3
+            text: Ellie has a bag of sugar.
+          - audio: the-women-have-two-pairs-of-jeans.mp3
+            text: The women have two pairs of jeans.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und verbinde Mengenwort und of zu einem Klang.
       - type: open-task
         id: mengen-liste

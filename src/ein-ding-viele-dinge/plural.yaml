@@ -80,7 +80,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **-es** steht nach s, x, sh und ch. Das Wort wird nur **-ies**, wenn vor dem **y** ein Konsonant steht (baby, babies). Steht davor ein Vokal, bleibt das y und du hängst nur -s an (toy, toys). Vor einer Mehrzahl steht **kein a und kein an**. **people** (Leute) ist schon die Mehrzahl von **person**. Du sagst nicht „peoples“.
+              **-es** steht nach s, x, sh und ch. Das Wort wird nur **-ies**, wenn vor dem **y** ein Konsonant steht (baby, babies). Steht davor ein Vokal, bleibt das y und du hängst nur -s an (toy, toys). Vor einer Mehrzahl steht **kein a und kein an**. Weitere Überraschungskisten lernst du auswendig: **man – men, woman – women, foot – feet, tooth – teeth, person – people**. Du sagst nicht „peoples“.
   - type: section
     id: uebung
     title: Übung
@@ -196,8 +196,8 @@ blocks:
             target: Sophie has two boxes.
           - audio: the-children-have-three-balls.mp3
             target: The children have three balls.
-          - audio: amir-has-two-watches.mp3
-            target: Amir has two watches.
+          - audio: amir-has-three-apples.mp3
+            target: Amir has three apples.
         hint: Hör genau auf das Ende des Wortes nach der Zahl.
   - type: section
     id: anwenden
@@ -209,8 +209,8 @@ blocks:
         items:
           - audio: peter-has-two-books.mp3
             text: Peter has two books.
-          - audio: ellie-has-two-pens.mp3
-            text: Ellie has two pens.
+          - audio: ellie-has-two-eggs.mp3
+            text: Ellie has two eggs.
           - audio: the-women-have-two-bags.mp3
             text: The women have two bags.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende des Wortes nach der Zahl.

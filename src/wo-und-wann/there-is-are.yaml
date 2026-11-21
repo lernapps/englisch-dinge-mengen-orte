@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Vor dem Schulfest macht Mr Hill Inventur. Das heißt, er schreibt auf, was es im Lagerraum gibt. Er sagt: „There is a box on the shelf.“ Das heißt: „Es gibt eine Kiste im Regal.“"
+        text: "Vor dem Schulfest macht Mr Hill Inventur. Das heißt, er schreibt auf, was es im Lagerraum gibt. Er sagt: „There is a box on the shelf.“"
       - type: text
         text: "**Das kannst du danach:** Du sagst mit there is und there are, was es an einem Ort gibt."
       - type: table
@@ -131,7 +131,7 @@ blocks:
         form: { case: hint, punctuation: hint }
         items:
           - cue: key · bag · 1
-            target: There is a key in the bag.
+            target: (There is|There's) a key in the bag.
             mistakes:
               - answer: There are a key in the bag.
                 message: "Es ist nur ein Schlüssel. Für ein Ding passt is, nicht are."
@@ -146,7 +146,7 @@ blocks:
               - answer: It is a pen in the bag.
                 message: "Für „es gibt“ sagst du there is, nicht it is."
           - cue: books · shelf · 3
-            target: There are three books on the shelf.
+            target: There are (three|3) books on the shelf.
             mistakes:
               - answer: There is three books on the shelf.
                 message: "Es sind drei Bücher. Für mehrere Dinge passt are, nicht is."
@@ -175,8 +175,8 @@ blocks:
         task: Hör zu und schreibe den ganzen Satz auf.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: there-is-a-cap-on-the-chair.mp3
-            target: There is a cap on the chair.
+          - audio: there-is-a-bike-next-to-the-door.mp3
+            target: There is a bike next to the door.
           - audio: there-are-three-pens-in-the-box.mp3
             target: There are three pens in the box.
           - audio: are-there-any-apples-on-the-table.mp3
@@ -194,8 +194,8 @@ blocks:
             text: There is a window next to the door.
           - audio: there-aren-t-any-books-under-the-table.mp3
             text: There aren't any books under the table.
-          - audio: is-there-a-key-in-the-bag.mp3
-            text: Is there a key in the bag?
+          - audio: is-there-a-phone-on-the-table.mp3
+            text: Is there a phone on the table?
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Bei der Frage geht die Stimme am Ende nach oben.
       - type: open-task
         id: there-inventur
