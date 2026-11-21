@@ -59,7 +59,7 @@ blocks:
     title: a, an oder the auf dem Etikett
     blocks:
       - type: text
-        text: "Zählbare Dinge liegen in **Kisten**: ein Ding, zwei Dinge, drei Dinge. Ein einzelnes Ding bekommt ein Etikett. **a** oder **an** heißt „ein, eine“. Es geht um irgendein Ding oder um eines, das neu ist. **the** heißt „der, die, das“. Es geht um ein Ding, das alle kennen."
+        text: "Zählbare Dinge liegen in **Kisten**. Ein einzelnes Ding bekommt ein Etikett. **a** oder **an** heißt „ein, eine“. Es geht um irgendein Ding oder um eines, das neu ist. **the** heißt „der, die, das“. Es geht um ein Ding, das alle kennen."
       - type: figure
         image: images/kisten-a-an.svg
         alt: Zwei Kisten. Die linke hat das Etikett a, darunter stehen ball, book, pen und bag. Die rechte hat das Etikett an, darunter stehen apple, egg, orange und umbrella.
@@ -79,7 +79,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Der **Laut** entscheidet, nicht der Buchstabe: **a euro** (das e klingt wie „ju“). Bei manchen Wörtern hört man das h nicht, dann zählt der Vokal-Laut danach. **the** sprichst du vor einem Vokal-Laut wie „di“ (the onion), sonst wie „de“ (the key). Wer die Kiste zum ersten Mal erwähnt, sagt a oder an. Danach sagt er the: „I have a key. The key is small.“
+              Der **Laut** entscheidet, nicht der Buchstabe: **a euro** (das e klingt wie „ju“). Bei manchen Wörtern hört man das h nicht, dann zählt der Vokal-Laut danach. **the** sprichst du vor einem Vokal-Laut wie „di“ (the onion), sonst wie „de“ (the key). Wer ein Ding zum ersten Mal erwähnt, sagt a oder an. Danach sagt er the: „I have a key. The key is small.“
   - type: section
     id: uebung
     title: Übung
@@ -109,7 +109,7 @@ blocks:
           - cue: ein Regenschirm
             target: "[an] umbrella"
             distractors: [[a, the]]
-        hint: Sprich das Wort laut. Beginnt es mit einem Vokal-Laut (a, e, i, o, u), nimmst du an, sonst a.
+        hint: Sprich das Wort laut. Beginnt es mit einem Vokal-Laut (wie a, e, i, o oder u klingen), nimmst du an, sonst a.
       - type: matching
         id: artikel-bekannt
         text: Welches Etikett passt? Ordne zu.
@@ -190,7 +190,7 @@ blocks:
             mistakes:
               - answer: an book
                 message: "book beginnt mit einem Konsonant-Laut (b). Davor steht a."
-        hint: Erst entscheiden, ob das Wort mit einem Vokal-Laut beginnt. Dann a oder an und das Wort.
+        hint: Entscheide zuerst, ob das Wort mit einem Vokal-Laut beginnt. Schreibe dann a oder an und das Wort.
       - type: true-false
         id: artikel-the-laut
         text: "In „the umbrella“ sprichst du the wie in „the key“, also wie „de“. Stimmt das?"
@@ -230,7 +230,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf an und auf the vor dem Vokal.
       - type: open-task
         id: artikel-kiste
-        task: "Mr Hill gibt dir drei Kisten für den Lagerraum. Schreibe drei Sätze über Dinge im Lagerraum. Nimm in einem Satz a, in einem an und in einem the (zum Beispiel: I have a pen.)."
+        task: "Mr Hill gibt dir drei Kisten für den Lagerraum. Schreibe drei Sätze über Dinge im Lagerraum. Nimm in einem Satz a, in einem an und in einem the (zum Beispiel: I have a pen)."
         points:
           - text: Ein Satz hat a vor einem Wort mit Konsonant-Laut, einer hat an vor einem Wort mit Vokal-Laut.
             source: /ein-ding-viele-dinge/artikel/#neu
