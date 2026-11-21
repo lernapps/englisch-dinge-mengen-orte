@@ -24,14 +24,10 @@ blocks:
         rows:
           - [somebody, jemand]
           - [something, etwas]
-          - [anybody, irgendjemand]
-          - [anything, irgendetwas]
-          - [nobody, niemand]
           - [nothing, nichts]
           - [everybody, "alle, jeder"]
           - [everything, alles]
           - [everywhere, überall]
-          - [nowhere, nirgends]
           - [list, Liste]
       - type: single-choice
         id: somebody-start
@@ -216,7 +212,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung am Anfang des Wortes.
       - type: open-task
         id: somebody-suche
-        task: "Die Klasse sucht die Liste. Schreibe zwei Sätze mit Wörtern wie somebody, nobody, everywhere oder nothing (zum Beispiel: Nobody has the list. I look everywhere)."
+        task: "Die Klasse sucht die Liste. Schreibe zwei Sätze mit Wörtern wie somebody, nobody, everywhere oder nothing (zum Beispiel: Nobody has the list. Nothing is in the box.)."
         points:
           - text: Ein Satz hat ein Wort mit some, any, no oder every und body, thing oder where.
             source: /wie-viel-wie-viele/somebody-anything/#neu
@@ -229,4 +225,4 @@ blocks:
     title: Rückblick auf Kapitel 2
     blocks:
       - type: text
-        text: "Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a cup of macht aus dem Glas etwas Zählbares, some und any wechseln mit dem Satz und somebody braucht kein Nomen. Mrs Parkers Liste ist wieder da. Jetzt muss alles an seinen Platz im Regal. Im nächsten Kapitel stellst du die Kisten in den Lagerraum und füllst den Schulkalender."
+        text: "Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a cup of macht aus dem Glas etwas Zählbares, some und any wechseln mit dem Satz und somebody braucht kein Nomen. Mrs Parkers Liste ist wieder da. Jetzt muss alles an seinen Platz im Regal. Im nächsten Kapitel wiederholst du kurz be, Wochentage und Uhrzeiten. Dann stellst du die Kisten in den Lagerraum und füllst den Schulkalender."

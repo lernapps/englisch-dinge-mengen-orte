@@ -32,7 +32,6 @@ blocks:
           - [rice, Reis]
           - [apple, Apfel]
           - [egg, Ei]
-          - [got, "have got = haben"]
       - type: single-choice
         id: some-start
         text: "Peter sagt: „I have some eggs.“ Was heißt some?"

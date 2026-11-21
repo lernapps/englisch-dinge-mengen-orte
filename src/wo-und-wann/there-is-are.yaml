@@ -94,19 +94,19 @@ blocks:
             source: eigene Zeichnung
             licence: CC-BY-4.0
         items:
-          - cue: Wie viele Bälle gibt es? Zwei.
+          - cue: Schau auf die Bälle im Regal.
             target: "[There are] two balls on the shelf."
             distractors: [[There is]]
             mistakes:
               - answer: There is two balls on the shelf.
                 message: "Es sind mehrere Bälle. Für mehrere Dinge passt eine andere Form als is."
-          - cue: Wie viele Taschen gibt es? Eine.
+          - cue: Schau auf die Tasche im Regal.
             target: "[There is] one bag on the shelf."
             distractors: [[There are]]
             mistakes:
               - answer: There are one bag on the shelf.
                 message: "Es ist nur eine Tasche. Für ein Ding passt eine andere Form als are."
-          - cue: Wie viele Bücher gibt es? Drei.
+          - cue: Schau auf die Bücher im Regal.
             target: "[There are] three books on the shelf."
             distractors: [[There is]]
             mistakes:

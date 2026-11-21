@@ -97,30 +97,30 @@ blocks:
             source: eigene Zeichnung
             licence: CC-BY-4.0
         items:
-          - cue: Wo ist die blaue Kiste?
-            target: "The blue box is [on] the table."
+          - cue: Wo ist die rote Kiste?
+            target: "The red box is [on] the table."
             distractors: [[in, under]]
             mistakes:
-              - answer: The blue box is in the table.
+              - answer: The red box is in the table.
                 message: "Die Kiste ist nicht im Tisch drin. Sie steht oben auf der Fläche."
-          - cue: Wo ist die gelbe Kiste?
-            target: "The yellow box is [under] the table."
+          - cue: Wo ist die blaue Kiste?
+            target: "The blue box is [under] the table."
             distractors: [[behind, on]]
             mistakes:
-              - answer: The yellow box is behind the table.
-                message: "behind heißt hinter, aber die gelbe Kiste steht nicht hinter dem Tisch. Schau, wo sie genau steht."
-          - cue: Wo ist die rote Kiste?
-            target: "The red box is [next to] the table."
+              - answer: The blue box is behind the table.
+                message: "behind heißt hinter, aber die blaue Kiste steht nicht hinter dem Tisch. Schau, wo sie genau steht."
+          - cue: Wo ist die grüne Kiste?
+            target: "The green box is [next to] the table."
             distractors: [[on, behind]]
             mistakes:
-              - answer: The red box is on the table.
-                message: "Die rote Kiste steht nicht auf dem Tisch. Schau, wo sie genau steht."
-          - cue: Wo ist die grüne Kiste?
-            target: "The green box is [behind] the chair."
+              - answer: The green box is on the table.
+                message: "Die grüne Kiste steht nicht auf dem Tisch. Schau, wo sie genau steht."
+          - cue: Wo ist die gelbe Kiste?
+            target: "The yellow box is [behind] the chair."
             distractors: [[under, in]]
             mistakes:
-              - answer: The green box is under the chair.
-                message: "Die grüne Kiste steht nicht unter dem Stuhl. Schau, wo sie genau steht."
+              - answer: The yellow box is under the chair.
+                message: "Die gelbe Kiste steht nicht unter dem Stuhl. Schau, wo sie genau steht."
         hint: Schau auf die Kiste und auf den Tisch oder den Stuhl. Ist sie drin, oben drauf, darunter, daneben oder dahinter?
       - type: matching
         id: ort-zuordnen

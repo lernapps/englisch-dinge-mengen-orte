@@ -71,15 +71,15 @@ blocks:
         rowHeaders: true
         rows:
           - ["-s", ball, balls]
-          - ["-es nach s, x, sh, ch", box, boxes]
+          - ["-es", box, boxes]
           - ["y wird -ies", baby, babies]
-          - [Überraschungskiste, child, children]
+          - [Überraschung, child, children]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              Das Wort wird nur **-ies**, wenn vor dem **y** ein Konsonant steht (baby, babies). Steht davor ein Vokal, bleibt das y und du hängst nur -s an (toy, toys). Vor einer Mehrzahl steht **kein a und kein an**. **people** (Leute) ist schon die Mehrzahl von **person**. Du sagst nicht „peoples“.
+              **-es** steht nach s, x, sh und ch. Das Wort wird nur **-ies**, wenn vor dem **y** ein Konsonant steht (baby, babies). Steht davor ein Vokal, bleibt das y und du hängst nur -s an (toy, toys). Vor einer Mehrzahl steht **kein a und kein an**. **people** (Leute) ist schon die Mehrzahl von **person**. Du sagst nicht „peoples“.
   - type: section
     id: uebung
     title: Übung

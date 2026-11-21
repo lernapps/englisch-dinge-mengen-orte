@@ -32,7 +32,6 @@ blocks:
           - [boy, Junge]
           - [girl, Mädchen]
           - [name, Name]
-          - [teacher, Lehrer]
           - [where, wo]
           - [storeroom, Lagerraum]
       - type: single-choice
