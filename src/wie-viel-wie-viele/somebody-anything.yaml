@@ -188,12 +188,12 @@ blocks:
         task: Hör zu und schreibe den ganzen Satz auf.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: has-anybody-got-the-list.mp3
-            target: Has anybody got the list?
-          - audio: nobody-is-in-the-storeroom.mp3
-            target: Nobody is in the storeroom.
-          - audio: peter-has-something-in-the-bag.mp3
-            target: Peter has something in the bag.
+          - audio: has-anybody-got-a-pen.mp3
+            target: Has anybody got a pen?
+          - audio: nobody-is-in-the-room.mp3
+            target: Nobody is in the room.
+          - audio: ellie-has-something-in-the-box.mp3
+            target: Ellie has something in the box.
         hint: Hör genau auf den Anfang des Wortes. Ist es some, any, no oder every?
   - type: section
     id: anwenden
@@ -203,10 +203,10 @@ blocks:
         id: somebody-nachsprechen
         language: en
         items:
-          - audio: everybody-has-a-bag.mp3
-            text: Everybody has a bag.
-          - audio: ellie-hasn-t-got-anything.mp3
-            text: Ellie hasn't got anything.
+          - audio: everybody-is-in-the-storeroom.mp3
+            text: Everybody is in the storeroom.
+          - audio: sophie-hasn-t-got-anything.mp3
+            text: Sophie hasn't got anything.
           - audio: the-list-is-somewhere-in-the-storeroom.mp3
             text: The list is somewhere in the storeroom.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung am Anfang des Wortes.
@@ -225,4 +225,4 @@ blocks:
     title: Rückblick auf Kapitel 2
     blocks:
       - type: text
-        text: "Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a cup of macht aus dem Glas etwas Zählbares, some und any wechseln mit dem Satz und somebody braucht kein Nomen. Mrs Parkers Liste ist wieder da. Jetzt muss alles an seinen Platz im Regal. Im nächsten Kapitel wiederholst du kurz be, Wochentage und Uhrzeiten. Dann stellst du die Kisten in den Lagerraum und füllst den Schulkalender."
+        text: "Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a cup of macht aus dem Glas etwas Zählbares, some und any wechseln mit dem Satz und somebody braucht kein Nomen. Mrs Parkers Liste ist wieder da. Jetzt muss alles an seinen Platz im Regal. Im nächsten Kapitel wiederholst du kurz be, Wochentage, Monate, Datum und Uhrzeiten. Dann stellst du die Kisten in den Lagerraum und füllst den Schulkalender."

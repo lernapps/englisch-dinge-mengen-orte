@@ -2,7 +2,7 @@
 title: "Wem gehört die Kiste? ’s und of"
 description: "Die Klasse klebt Namensschilder auf die Kisten. Du lernst, mit ’s, mit s’ und mit of zu sagen, wem etwas gehört."
 competencies: [genitiv]
-scope: Die Seite führt den s-Genitiv und of ein. Bei einer Person steht ’s hinter dem Namen (Mr Hill’s coat). Bei mehreren Personen mit -s steht nur der Apostroph hinter dem s (the boys’ room). Bei einer unregelmäßigen Mehrzahl steht ’s (the men’s shoes). Bei Dingen steht meistens of (the window of the room). Typische Fehler sind Peters cap ohne Apostroph, the girl’s room für mehrere Mädchen, the childrens’ shoes und the room’s door.
+scope: Die Seite führt den s-Genitiv und of ein. Bei einer Person steht ’s hinter dem Namen (Mr Hill’s coat). Bei mehreren Personen mit -s steht nur der Apostroph hinter dem s (the boys’ room). Bei einer unregelmäßigen Mehrzahl steht ’s (the men’s shoes). Bei Dingen steht meistens of (the window of the room). Typische Fehler sind Peters cap ohne Apostroph, the girl’s room für mehrere Mädchen und the childrens’ shoes.
 blocks:
   - type: section
     id: einstieg
@@ -77,7 +77,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Im Deutschen sagst du oft „die Mütze von Peter“. Im Englischen kommt der **Besitzer** zuerst: **Peter’s cap**. Den Apostroph vergisst du nicht: **Peters cap** ist falsch. Bei Dingen ist **of** üblich: **the window of the room**.
+              Im Deutschen sagst du oft „die Mütze von Peter“. Im Englischen kommt der **Besitzer** zuerst: **Mrs Parker’s cap**. Den Apostroph vergisst du nicht: **Mrs Parkers cap** ist falsch. Bei Dingen ist **of** üblich: **the window of the room**.
   - type: section
     id: uebung
     title: Übung
@@ -177,8 +177,8 @@ blocks:
         task: Hör zu und schreibe den ganzen Satz auf.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: amir-s-bike-is-in-the-storeroom.mp3
-            target: Amir's bike is in the storeroom.
+          - audio: ellie-s-bag-is-in-the-storeroom.mp3
+            target: Ellie's bag is in the storeroom.
           - audio: the-door-of-the-room-is-red.mp3
             target: The door of the room is red.
           - audio: the-children-s-shoes-are-in-the-bag.mp3

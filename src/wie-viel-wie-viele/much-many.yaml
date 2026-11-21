@@ -71,14 +71,14 @@ blocks:
         header: [Kiste oder Glas, Etikett, Beispiel]
         rowHeaders: true
         rows:
-          - [Kiste (zählbar), many · a few · a lot of, many eggs]
-          - [Glas (nicht zählbar), much · a little · a lot of, much sugar]
+          - [Kiste (zählbar), many · a few · a lot of, many cakes]
+          - [Glas (nicht zählbar), much · a little · a lot of, much milk]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              In **Aussagen** sagst du meistens **a lot of**: **a lot of eggs, a lot of milk**. **many** und **much** stehen vor allem in **Verneinungen und Fragen**: **not many eggs, not much milk, How many eggs? How much milk?** Bei Gläsern gibt es keine Mehrzahl: Du sagst nicht „sugars“.
+              In **Aussagen** sagst du meistens **a lot of**: **a lot of cakes, a lot of milk**. **many** und **much** stehen vor allem in **Verneinungen und Fragen**: **not many cakes, not much milk, How many cakes? How much milk?** Bei Gläsern gibt es keine Mehrzahl: Du sagst nicht „sugars“.
   - type: section
     id: uebung
     title: Übung
@@ -171,7 +171,7 @@ blocks:
         id: much-apples
         text: "Peter sagt: „Ellie has much apples.“ Stimmt das?"
         answer: false
-        hint: Schau in den Kasten „Merke“. Für welches Behälter-Etikett steht much?
+        hint: Schau in den Kasten „Merke“. Für welches Etikett steht much?
         explanation: apples sind zählbar, also eine Kiste. Dafür sagst du many oder a lot of, nicht much.
         links:
           - title: Lernlandkarte Englisch · Much, many, a lot of

@@ -33,6 +33,7 @@ blocks:
           - [foot, Fuß]
           - [tooth, Zahn]
           - [baby, Baby]
+          - [family, Familie]
           - [child, Kind]
           - [two, zwei]
           - [three, drei]
@@ -93,10 +94,10 @@ blocks:
         items:
           - cue: Peter hat zwei Stifte.
             target: "Peter has two [pens]."
-            distractors: [[penes]]
+            distractors: [[pen]]
             mistakes:
-              - answer: Peter has two penes.
-                message: "-es gibt es nur nach s, x, sh und ch. Bei pen reicht ein -s."
+              - answer: Peter has two pen.
+                message: "Es sind zwei Stifte. Nach der Zahl steht die Mehrzahl."
           - cue: Sophie hat zwei Schüsseln.
             target: "Sophie has two [dishes]."
             distractors: [[dishs]]
@@ -147,7 +148,7 @@ blocks:
             - [city, "[cities]"]
             - [day, "[days]"]
             - [watch, "[watches]"]
-            - [baby, "[babies]"]
+            - [family, "[families]"]
         hint: Steht vor dem y ein Konsonant oder ein Vokal? Danach richtet sich das Wort.
       - type: language-task
         id: plural-schreiben

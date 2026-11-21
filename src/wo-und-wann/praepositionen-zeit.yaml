@@ -62,7 +62,7 @@ blocks:
         licence: CC-BY-4.0
       - type: table
         caption: Schulkalender · Zeitangaben
-        header: [Behälter, Beispiel]
+        header: [Zeit-Behälter, Beispiel]
         rowHeaders: true
         rows:
           - [in, in 2027]
@@ -112,7 +112,7 @@ blocks:
         hint: Frag dich, ob es ein Monat oder Jahr ist (große Kiste), ein Tag oder Datum (Fläche) oder eine Uhrzeit (Punkt).
       - type: matching
         id: zeit-zuordnen
-        text: Welcher Behälter passt zur Zeitangabe? Ordne zu.
+        text: Welcher Zeit-Behälter passt zur Zeitangabe? Ordne zu.
         pairs:
           - left: July
             right: in, die große Kiste
@@ -167,7 +167,7 @@ blocks:
         id: zeit-monday
         text: "Mr Hill schreibt „The lesson is in Monday.“ Stimmt das?"
         answer: false
-        hint: Schau in das Bild der Zeit-Behälter. Welcher Behälter gehört zu einem Tag?
+        hint: Schau in das Bild der Zeit-Behälter. Welcher Zeit-Behälter gehört zu einem Tag?
         explanation: Monday ist ein einzelner Tag, also eine Fläche. Es heißt on Monday.
         links:
           - title: Lernlandkarte Englisch · Präpositionen der Zeit
@@ -193,8 +193,8 @@ blocks:
         id: zeit-nachsprechen
         language: en
         items:
-          - audio: the-fair-is-at-ten-o-clock.mp3
-            text: The fair is at ten o'clock.
+          - audio: sophie-s-lesson-is-at-eight-o-clock.mp3
+            text: Sophie's lesson is at eight o'clock.
           - audio: amir-s-birthday-is-on-12-october.mp3
             text: Amir's birthday is on 12 October.
           - audio: the-fair-is-in-december.mp3

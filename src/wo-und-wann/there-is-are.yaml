@@ -68,14 +68,12 @@ blocks:
         rows:
           - [Aussage, There is a coat on the chair.]
           - [Mehrzahl, There are two coats on the chair.]
-          - [Verneinung, There aren't any coats on the chair.]
-          - [Frage, Are there any coats on the chair?]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **There is** steht bei einem Ding und bei einem Glas (**There is some milk**). **There are** steht bei mehreren. Die Verneinung ist **there isn't** oder **there aren't** mit **any**. In der Frage tauschen die Wörter die Plätze: **Is there …? Are there …?**
+              **There is** steht bei einem Ding und bei einem Glas (**There is some milk**). **There are** steht bei mehreren. Die Verneinung bildest du wie bei be: not steht hinter is oder are, dazu passt any. In der Frage tauschen there und is oder are die Plätze.
   - type: section
     id: uebung
     title: Übung

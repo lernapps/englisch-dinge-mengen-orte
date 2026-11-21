@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Aus dem Glas wird etwas Zählbares: a cup of"
-description: "Mrs Parker braucht für ihren Kuchen genaue Mengen. Du lernst, mit a cup of, a bottle of und a pair of aus Nicht-Zählbarem etwas Zählbares zu machen."
+description: "Mrs Parker braucht für ihren Kuchen genaue Mengen. Du lernst, mit a cup of, a bottle of und a pair of Mengen anzugeben."
 competencies: [mengen-mit-of]
 scope: Die Seite führt Mengenangaben mit of ein (a cup of tea, a glass of milk, a bottle of water, a piece of cake, a bag of rice, a pair of shoes). Das erste Nomen ist zählbar und bekommt in der Mehrzahl das -s (two cups of tea), das Nomen nach of bleibt unverändert (nicht teas). a pair of steht für Dinge, die aus zwei Teilen bestehen. Typische Fehler sind a cup tea (ohne of), two cup of tea und two cups of teas.
 blocks:
@@ -53,10 +53,10 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/mengen-mit-of/
   - type: section
     id: neu
-    title: Ein Behälter plus of macht das Glas zählbar
+    title: Ein Mengenwort plus of macht Nicht-Zählbares zählbar
     blocks:
       - type: text
-        text: "Etwas Nicht-Zählbares wie milk kannst du nicht zählen. Du nimmst ein Gefäß, das du zählen kannst, zum Beispiel ein Trinkglas, eine Tasse oder eine Flasche. Ich nenne es den **Behälter**. Er steht vor **of**, dann kommt, was darin ist: **a glass of milk**. Zwei Behälter sind **two glasses of milk**."
+        text: "Etwas Nicht-Zählbares wie milk kannst du nicht zählen. Du nimmst ein Gefäß, das du zählen kannst, zum Beispiel ein Trinkglas, eine Tasse oder eine Flasche. Ich nenne es das **Mengenwort**. Er steht vor **of**, dann kommt, was darin ist: **a glass of milk**. Zwei Mengenwörter sind **two glasses of milk**. Bei **a pair of** gibt es kein Glas: Ein Paar sind zwei Teile, die zusammengehören."
       - type: figure
         image: images/glas-wird-zaehlbar.svg
         alt: Ein Glas mit milk wird zu zwei Trinkgläsern, beide mit a glass of milk. Darunter steht two glasses of milk.
@@ -65,7 +65,7 @@ blocks:
         licence: CC-BY-4.0
       - type: table
         caption: Klassenzimmer-Poster · Mengen mit of
-        header: [Behälter plus of, Was darin ist]
+        header: [Mengenwort plus of, Was darin ist]
         rowHeaders: true
         rows:
           - [a glass of, milk]
@@ -78,7 +78,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Das **-s** bekommt der **Behälter**, nicht das, was darin ist: **two glasses of milk**, nicht „two glass of milks“. Vergiss **of** nicht: **a glass of milk**, nicht „a glass milk“. **a pair of** sagst du bei Dingen mit zwei Teilen wie shoes: **two pairs of jeans**.
+              Das **-s** bekommt das **Mengenwort**, nicht das, was darin ist: **two glasses of milk**, nicht „two glass of milks“. Vergiss **of** nicht: **a glass of milk**, nicht „a glass milk“. **a pair of** sagst du bei Dingen mit zwei Teilen wie shoes: **two pairs of jeans**.
   - type: section
     id: uebung
     title: Übung
@@ -95,29 +95,29 @@ blocks:
             distractors: [[cup]]
             mistakes:
               - answer: Amir has two cup of tea.
-                message: "Es sind zwei Tassen. Der Behälter steht in der Mehrzahl, nicht der Tee."
+                message: "Es sind zwei Tassen. Das Mengenwort steht in der Mehrzahl, nicht der Tee."
           - cue: Peter hat drei Flaschen Wasser.
             target: "Peter has three [bottles] of water."
             distractors: [[bottle]]
             mistakes:
               - answer: Peter has three bottle of water.
-                message: "Es sind drei Flaschen. Der Behälter steht in der Mehrzahl, nicht das Wasser."
+                message: "Es sind drei Flaschen. Das Mengenwort steht in der Mehrzahl, nicht das Wasser."
           - cue: Sophie hat ein Stück Kuchen.
             target: "Sophie has a [piece] of cake."
             distractors: [[pieces]]
             mistakes:
               - answer: Sophie has a pieces of cake.
-                message: "Es ist nur ein Stück. Vor dem Behälter steht a, dann bleibt er in der Einzahl."
+                message: "Es ist nur ein Stück. Vor dem Mengenwort steht a, dann bleibt es in der Einzahl."
           - cue: Ellie hat zwei Paar Schuhe.
             target: "Ellie has two [pairs] of shoes."
             distractors: [[pair]]
             mistakes:
               - answer: Ellie has two pair of shoes.
-                message: "Es sind zwei Paar. Der Behälter steht in der Mehrzahl."
-        hint: Schau auf die Zahl vor dem Behälter. Bei einer Zahl über eins bekommt der Behälter ein -s.
+                message: "Es sind zwei Paar. Das Mengenwort steht in der Mehrzahl."
+        hint: Schau auf die Zahl vor dem Mengenwort. Bei einer Zahl über eins bekommt das Mengenwort ein -s.
       - type: matching
         id: mengen-zuordnen
-        text: Welcher Behälter passt am besten zu dem, was darin ist? Ordne zu.
+        text: Welches Mengenwort passt am besten zu dem, was darin ist? Ordne zu.
         pairs:
           - left: a cup of
             right: tea
@@ -136,9 +136,9 @@ blocks:
       - type: ordering
         id: mengen-reihenfolge
         text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
-        items: [Peter, has, two, bottles, of, water]
-        explanation: Zuerst kommt die Person, dann has und die Zahl. Danach folgt der Behälter, dann of und zuletzt, was darin ist.
-        hint: Der Behälter steht vor of, dann kommt, was darin ist.
+        items: [Amir, has, two, bottles, of, juice]
+        explanation: Zuerst kommt die Person, dann has und die Zahl. Danach folgt das Mengenwort, dann of und zuletzt, was darin ist.
+        hint: Das Mengenwort steht vor of, dann kommt, was darin ist.
         links:
           - title: Lernlandkarte Englisch · Mengenangaben mit of
             url: https://lernapps.net/apps/map/englisch/c/mengen-mit-of/
@@ -152,31 +152,31 @@ blocks:
             target: two cups of tea
             mistakes:
               - answer: two cups of teas
-                message: "Tee kannst du nicht zählen, er bekommt kein -s. Nur der Behälter bekommt es."
+                message: "Tee kannst du nicht zählen, er bekommt kein -s. Nur das Mengenwort bekommt es."
               - answer: two cups tea
-                message: "Zwischen Behälter und Inhalt fehlt of."
+                message: "Zwischen Mengenwort und Inhalt fehlt of."
           - cue: bottle · water · 3
             target: three bottles of water
             mistakes:
               - answer: three bottle of water
-                message: "Bei drei Flaschen bekommt der Behälter ein -s."
+                message: "Bei drei Flaschen bekommt das Mengenwort ein -s."
           - cue: bag · rice · 1
             target: a bag of rice
             mistakes:
               - answer: a bag rice
-                message: "Zwischen Behälter und Inhalt fehlt of."
+                message: "Zwischen Mengenwort und Inhalt fehlt of."
           - cue: pair · shoes · 2
             target: two pairs of shoes
             mistakes:
               - answer: two pair of shoes
-                message: "Bei zwei Paar bekommt der Behälter ein -s."
-        hint: Erst die Zahl, dann der Behälter (mit -s bei mehreren), dann of, dann der Inhalt.
+                message: "Bei zwei Paar bekommt das Mengenwort ein -s."
+        hint: Erst die Zahl, dann das Mengenwort (mit -s bei mehreren), dann of, dann der Inhalt.
       - type: true-false
         id: mengen-tee
         text: "Peter sagt: „Mrs Parker has two cups of teas.“ Stimmt das?"
         answer: false
         hint: Schau in den Kasten „Merke“. Welches Wort bekommt das -s?
-        explanation: Nur der Behälter bekommt das -s. Es heißt two cups of tea.
+        explanation: Nur das Mengenwort bekommt das -s. Es heißt two cups of tea.
         links:
           - title: Lernlandkarte Englisch · Mengenangaben mit of
             url: https://lernapps.net/apps/map/englisch/c/mengen-mit-of/
@@ -192,7 +192,7 @@ blocks:
             target: Mrs Parker has a cup of tea.
           - audio: sophie-has-a-pair-of-shoes.mp3
             target: Sophie has a pair of shoes.
-        hint: Hör genau auf den Behälter vor of. Steht er in der Einzahl oder in der Mehrzahl?
+        hint: Hör genau auf das Mengenwort vor of. Steht es in der Einzahl oder in der Mehrzahl?
   - type: section
     id: anwenden
     title: Selbst sagen und aufschreiben
@@ -207,14 +207,14 @@ blocks:
             text: Ellie has a bag of rice.
           - audio: the-women-have-two-pairs-of-shoes.mp3
             text: The women have two pairs of shoes.
-        hint: Hör den Satz zuerst. Sprich dann langsam nach und verbinde Behälter und of zu einem Klang.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und verbinde Mengenwort und of zu einem Klang.
       - type: open-task
         id: mengen-liste
         task: "Schreibe für Mrs Parker eine Einkaufsliste mit zwei Mengen (zum Beispiel: two cups of tea, a bag of rice)."
         points:
-          - text: Jede Menge hat einen Behälter, dann of und dann, was darin ist.
+          - text: Jede Menge hat ein Mengenwort, dann of und dann, was darin ist.
             source: /wie-viel-wie-viele/mengen-mit-of/#neu
-          - text: Bei mehr als einem Behälter hat der Behälter ein -s.
+          - text: Bei mehr als einem Mengenwort hat das Mengenwort ein -s.
             source: /wie-viel-wie-viele/mengen-mit-of/#neu
         solution: |
           three bottles of juice, a piece of cheese

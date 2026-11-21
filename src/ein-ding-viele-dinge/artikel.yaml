@@ -250,8 +250,8 @@ blocks:
         items:
           - audio: amir-has-an-umbrella.mp3
             text: Amir has an umbrella.
-          - audio: the-orange-is-in-the-bag.mp3
-            text: The orange is in the bag.
+          - audio: the-pen-is-in-the-bag.mp3
+            text: The pen is in the bag.
           - audio: ellie-has-a-ball-and-an-egg.mp3
             text: Ellie has a ball and an egg.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Vor einem Vokal-Laut sprichst du the wie „di“.
