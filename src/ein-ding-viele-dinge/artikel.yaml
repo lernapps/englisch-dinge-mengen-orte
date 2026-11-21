@@ -39,8 +39,10 @@ blocks:
           - [red, rot]
           - [euro, Euro]
           - [have, haben]
-          - [has, "hat (bei he, she, it und Namen)"]
+          - [has, "hat (bei Ellie, Peter, Sophie)"]
           - [small, klein]
+          - [is, ist]
+          - [in, in]
       - type: single-choice
         id: artikel-start
         text: "Sophie sagt: „I have a ball.“ Das Wort have heißt „haben“. Was heißt a?"
@@ -83,7 +85,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Ein **Vokal-Laut** klingt wie a, e, i, o oder u, alle anderen Anfangslaute sind **Konsonant-Laute**. Der Laut entscheidet, nicht der Buchstabe: **a euro** (das e klingt wie „ju“, ein Konsonant-Laut), aber vor manchen Wörtern hört man einen Buchstaben am Anfang nicht, dann zählt der nächste Laut. **the** sprichst du vor einem Vokal-Laut wie „di“ (the egg), sonst wie „de“ (the bag). Wer ein Ding zum ersten Mal erwähnt, sagt a oder an. Danach sagt er the.
+              Ein **Laut** ist das, was du hörst, nicht das, was du schreibst. Ein **Vokal-Laut** klingt wie a, e, i, o oder u, alle anderen Anfangslaute sind **Konsonant-Laute**. Der Laut entscheidet, nicht der Buchstabe: **a euro** (das e klingt wie „ju“, ein Konsonant-Laut), aber **an hour** (hour spricht man „AU-er“, das h hört man nicht). **the** sprichst du vor einem Vokal-Laut wie „di“ (the egg), sonst wie „de“ (the bag). Wer ein Ding zum ersten Mal erwähnt, sagt a oder an. Danach sagt er the.
   - type: section
     id: uebung
     title: Übung
@@ -124,15 +126,15 @@ blocks:
         id: artikel-bekannt
         text: Welches Etikett passt? Ordne zu.
         pairs:
-          - left: Amir sieht zum ersten Mal einen Apfel.
-            right: an apple
-          - left: Mr Hill meint den Apfel, den Amir in der Hand hält.
-            right: the apple
-          - left: Sophie sieht zum ersten Mal einen Ball.
-            right: a ball
-          - left: Mr Hill meint den Ball, über den alle sprechen.
-            right: the ball
-        distractors: [a apple]
+          - left: Amir sieht zum ersten Mal einen Regenschirm.
+            right: an umbrella
+          - left: Mr Hill meint den Regenschirm, den Amir in der Hand hält.
+            right: the umbrella
+          - left: Sophie sieht zum ersten Mal eine Tasche.
+            right: a bag
+          - left: Mr Hill meint die Tasche, über die alle sprechen.
+            right: the bag
+        distractors: [a umbrella]
         explanation: Neues bekommt a oder an. Etwas, das alle kennen, bekommt the.
         hint: Frag dich bei jedem Satz, ob das Ding neu ist oder ob alle schon wissen, welches gemeint ist.
         links:
@@ -196,12 +198,12 @@ blocks:
         task: Schreibe a oder an und das Wort auf Englisch.
         form: { case: hint, punctuation: hint }
         items:
-          - source: ein Ball
-            target: a ball
+          - source: eine Tasche
+            target: a bag
             mistakes:
-              - answer: an ball
-                message: "ball beginnt mit einem Konsonant-Laut (b). Vor so einem Laut passt an nicht."
-              - answer: ball
+              - answer: an bag
+                message: "bag beginnt mit einem Konsonant-Laut (b). Vor so einem Laut passt an nicht."
+              - answer: bag
                 message: "Ein einzelnes Ding braucht ein Etikett."
           - source: ein Regenschirm
             target: an umbrella
@@ -210,15 +212,15 @@ blocks:
                 message: "umbrella beginnt mit einem Vokal-Laut. Vor so einem Laut passt a nicht."
               - answer: umbrella
                 message: "Ein einzelnes Ding braucht ein Etikett."
-          - source: ein Ei
-            target: an egg
+          - source: ein Schlüssel
+            target: a key
             mistakes:
-              - answer: a egg
-                message: "egg beginnt mit einem Vokal-Laut (e). Vor so einem Laut passt a nicht."
+              - answer: an key
+                message: "key beginnt mit einem Konsonant-Laut (k). Vor so einem Laut passt an nicht."
         hint: Sprich das Wort laut. Beginnt es mit einem Vokal-Laut oder mit einem anderen Laut?
       - type: true-false
         id: artikel-the-laut
-        text: "In „the umbrella“ sprichst du the wie in „the key“, also wie „de“. Stimmt das?"
+        text: "In „the umbrella“ sprichst du the wie in „the bag“, also wie „de“. Stimmt das?"
         answer: false
         hint: Schau in den Kasten „Merke“. Wie sprichst du the vor einem Vokal-Laut?
         explanation: "Vor einem Vokal-Laut sprichst du the wie „di“: „di umbrella“. Vor einem Konsonant-Laut sagst du „de“."
@@ -255,16 +257,16 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Vor einem Vokal-Laut sprichst du the wie „di“.
       - type: open-task
         id: artikel-kiste
-        task: "Mr Hill gibt dir drei Kisten für den Lagerraum. Schreibe drei Sätze über Dinge im Lagerraum. Nimm in einem Satz a, in einem an und in einem the für ein Ding, das du vorher schon genannt hast (zum Beispiel: I have a pen)."
+        task: "Mr Hill zeigt dir ein Ding im Lagerraum. Schreibe zwei Sätze über dieses Ding. Im ersten Satz sagst du es zum ersten Mal, im zweiten Satz meinst du dasselbe Ding noch einmal (zum Beispiel: I have a pen. The pen is red)."
         points:
-          - text: Ein Satz hat a vor einem Wort mit Konsonant-Laut, einer hat an vor einem Wort mit Vokal-Laut.
+          - text: Der erste Satz hat a oder an vor dem Ding.
             source: /ein-ding-viele-dinge/artikel/#neu
-          - text: Ein Satz hat the bei einem Ding, das schon bekannt ist.
+          - text: Der zweite Satz hat the vor demselben Ding.
             source: /ein-ding-viele-dinge/artikel/#neu
           - text: Es sind ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
-          I have a bag. Peter has an egg. The bag is red.
+          Peter has an egg. The egg is small.
   - type: section
     id: weiter
     title: Wie es weitergeht

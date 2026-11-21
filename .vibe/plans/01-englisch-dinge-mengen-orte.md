@@ -66,6 +66,8 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
 
 **Geprüft und behoben (Musterseite `artikel`):** Lerner-Check mit Sub-Agent (Kind Klasse 5): Vokal-/Konsonant-Laut und „zählbar“ waren nicht erklärt (jetzt im Kasten „Merke“ und im Text), die Einstiegsfrage prüfte die Regel vor ihrer Erklärung (jetzt: Was heißt a?), „hour“ ohne Beispiel (jetzt im Merke), the/„alle kennen“ zu spät (jetzt vor der Tabelle, mit Beispiel), deutsche Cues verrieten the (jetzt „Er/Es/Sie“), Fragezeichen-Kiste im Bild ohne Sinn (entfernt), Aufgabentexte zu Etikett und Diktat unklar (präzisiert), the-Aussprache im Nachsprechen (Hinweis „di“). Sprachprüfung Englisch/Deutsch mit Sub-Agent: keine Englischfehler, vier Textvorschläge eingearbeitet. Nicht behebbar in der App (Vorlage): Standardmeldung „Deine Fassung kann trotzdem richtig sein“ beim Diktat, gleiche Audio-Beschriftung „Audio abspielen“, nur „nicht richtig“ bei Auswahl-Lücken.
 
+**Zweiter Lerner-Check (Sub-Agent, nach den Auflagen des Orchestrators):** Funde und Fixes: Bild zeigt nur noch ball, book, apple, egg und keine Wörter mehr, die Aufgaben abfragen (Matching und Schreiben nutzen umbrella, bag, key); „Laut“ erklärt; „an hour“ als Ausnahme im Merke mit Lesehilfe; is, in, has, small in der Wörter-Tabelle; the-Beispiel im Wahr/Falsch mit bag statt key; freie Aufgabe auf zwei Sätze (erst a/an, dann the) vereinfacht. Offen, Vorlage: die Meldungen (`mistakes`) von Auswahl-Lücken (mode `choice`) werden nicht angezeigt, nur „nicht richtig“; sie stehen trotzdem in den Dateien und zählen bei `write`. Regel für alle Seiten: Bildwörter ≠ Aufgabenwörter, mistakes je Item, Distraktoren nur echte Lernerfehler.
+
 **Umfang:** drin: alle 11 Bausteine, 12 Seiten, Wörter aus A1/A2 (Grundwortschatz), Aussprache nur über Hörtexte. Draußen: Kapitel 4, Phrasal verbs (#485), Possessivbegleiter (#471), Adjektive und one (#476), freie Aufgaben ohne Prüfung (nur `open-task`), Spracherkennung. Sprache: Deutsch (englische Beispiele); keine englische Fassung (Vorgabe wie #472, guess).
 
 **Quellen:** Karte (s. o.); Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/`; Wikipedia, nur Fakten, keine Sätze (CC BY-SA), geöffnet am 2026-11-21: `English articles`, `English plurals`, `English possessive`, `English prepositions`, `Demonstrative`. Nicht geprüft: `Mass noun` und `English determiners` (HTTP 429), deutsche Wikipedia und Klexikon nicht gelesen. Beispielsätze eigene aus dem Alltag der Figuren. Material der Ersteller:in: keines.
@@ -225,9 +227,10 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Musterseite `ein-ding-viele-dinge/artikel`: Szene und Kisten-Zeichnung, Wörter-Tabelle, Merke-Kasten, mindestens vier Übungen mit mistakes, Diktat und Nachsprechen (Audio), open-task; dazu app.yaml und chapter.yaml des Kapitels. Zeigt die Kisten-Idee und den Seitenaufbau.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
+      Creator: Ja, die übrigen elf Seiten nach diesem Muster, wenn die Auflagen D, E, F, A, G, B auf artikel und danach auf allen Seiten gleich umgesetzt werden (feedback-applied-everywhere); Vorlagenfehler meldet die Orchestrator-Session; weiter bis Gesamtcheck, dann Checkpoint Veröffentlichen.
 - [ ] Seite `plural` (Kisten mit -s, -es, -ies, Überraschungskisten) mit Übungen, Audio und Szene.
 - [ ] Seite `genitiv` (Sophie’s box, the girls’ box, of) mit Übungen, Audio und Szene.
 - [ ] Seite `demonstrativ` (this/these, that/those) mit Übungen, Audio, Szene, Kapitelrückblick und selfAssessment von Kapitel 1.
