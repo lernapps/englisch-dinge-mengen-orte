@@ -81,7 +81,7 @@ Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://le
 1. Baustein auf der Karte wählen; die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen (Kapitel 4 braucht `artikel` und `plural`, beide stehen auf Kapitel 1).
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, `competencies` setzen. Stufe 7-8: Form der Geschichte wechselt zu Nachrichten und kurzen Dialogen (Konventionen 2); Kisten ohne Etikett (Nullartikel), news als Glas (is), police als Gruppe von Kisten (are).
 3. Zeichnung und Poster erweitern (gleiche Bildwörter).
-4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 in `selfAssessment`.
+4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt.
 5. Hörtexte: Datei `src/audio/<satz>.mp3`, Eintrag in `.agents/skills/app-content/scripts/audio-texte.json`, erzeugt mit `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"` (Skript aus hello-millbrook, schneidet das Ausklingen ab); anhören lassen; Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 

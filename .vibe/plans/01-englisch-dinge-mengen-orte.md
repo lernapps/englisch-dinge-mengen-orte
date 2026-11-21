@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -34,6 +34,7 @@ Kinder der Klassen 5-6 füllen Kisten (zählbar) und Gläser (nicht zählbar) f�
 - Eine Seite je Baustein, 12 Seiten in 3 Kapiteln: 11 Bausteine plus eine Sammel-Wiederholung am Anfang von Kapitel 3.
 - Keine Komponente und keine Datendatei (`prefer-built-in-block`): Kisten und Gläser sind Zeichnungen (SVG); Ziehen und Füllen wäre ein Wunsch für ein Inkrement (guess).
 - Hörtexte: je Seite 3 Diktatsätze und 3 Nachsprechsätze, wie in #472 (guess).
+- Selbsteinschätzung in jedem der drei Kapitel: je Seite eine Auswahl- oder Bildaufgabe und eine Schreibaufgabe, die ohne die Seite verständlich sind; die Wiederholungsseite ist nicht Teil davon (Sub-Agent hat alle vier Durchläufe geprüft).
 
 ## Notes
 
@@ -249,7 +250,7 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
 - [x] Run `npx --no -- lernapps check` until it passes.
 - [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit
@@ -262,7 +263,7 @@ Von außen braucht die Karte: `to-be`, `datum`, `uhrzeit` (alle nur in Kapitel 3
 
 ### Tasks
 
-- [ ] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
+- [x] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
       decisions" why the app has none. Commit.
 - [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
