@@ -23,7 +23,7 @@ blocks:
           - text: going
             correct: false
             info: "going passt nur mit einer Form von be, zum Beispiel Peter is going."
-        explanation: Bei he, she, it und einem einzelnen Namen hängt am Verb ein -s. Das brauchst du gleich bei news und police.
+        explanation: Bei he, she, it und einem einzelnen Namen hängt am Verb ein -s. Gleich geht es darum, welche Form von be zu news und police passt.
         links:
           - title: Lernlandkarte Englisch · Kongruenz bei news und police
             url: https://lernapps.net/apps/map/englisch/c/nomen-kongruenz/
@@ -41,7 +41,7 @@ blocks:
         term: cycle
         explanation: Rad fahren
       - type: text
-        text: "**Abschnitt 2 · Was die Polizei rät** The police are clear: many accidents happen in the morning. Their advice is simple. Wear a helmet, use lights and look left and right. Here is one more piece of advice: Never use your phone on the bike."
+        text: "**Abschnitt 2 · Was die Polizei rät** The police have a clear message: many accidents happen in the morning. Their advice is simple. Wear a helmet, use lights and look left and right. Here is one more piece of advice: Never use your phone when you cycle."
       - type: definition
         term: accident
         explanation: Unfall
@@ -53,6 +53,12 @@ blocks:
       - type: definition
         term: route
         explanation: Weg, Strecke
+      - type: definition
+        term: exciting
+        explanation: spannend
+      - type: definition
+        term: free
+        explanation: kostenlos
       - type: single-choice
         id: kongruenz-lesen
         text: "Wann kommt die Polizei an die Schule?"
@@ -92,7 +98,7 @@ blocks:
     title: Ein Glas, eine Kistengruppe
     blocks:
       - type: text
-        text: "Im Artikel steht „The news **is** exciting“, aber „The police **are** clear“. Beide Nomen sehen mehrzahlig aus, aber nur eines ist es. **news, information** und **advice** sind **Gläser**: Du kannst sie nicht zählen, sie haben kein Plural-s und kein a, und das Verb steht in der Einzahl. **police** ist eine **Kistengruppe**: Das Verb steht in der Mehrzahl."
+        text: "Im Artikel steht „The news **is** exciting“, aber „The police **are** coming“. **news** sieht aus wie eine Mehrzahl (-s), ist aber ein Glas. **police** hat kein -s, steht aber mit are. **news, information** und **advice** sind **Gläser**: Du kannst sie nicht zählen, sie haben kein Plural-s und kein a, und das Verb steht in der Einzahl. **police** ist eine **Kistengruppe**: Das Verb steht in der Mehrzahl."
       - type: figure
         image: images/glas-news-police.svg
         alt: Links ein Glas mit dem Wort news und dem Verb is, rechts mehrere Kisten mit dem Wort police und dem Verb are.
@@ -112,7 +118,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Ein Glas bekommt kein **-s** und kein **a**: Es heißt **some news**, **a piece of news**, nicht „a news“ und nicht „informations“. Auch **furniture** und **homework** sind Gläser. Ein einzelner Polizist heißt **a police officer**. Im britischen Englisch nehmen Sammelwörter wie **police** meist ein Verb in der Mehrzahl: **The police work hard.**
+              Ein Glas bekommt kein **-s** und kein **a**: Es heißt **some news**, **a piece of news**, nicht „a news“ und nicht „informations“. Auch **furniture** und **homework** sind Gläser. Ein einzelner Polizist heißt **a police officer**. Im britischen Englisch steht **police** immer mit einem Verb in der Mehrzahl: **The police work hard.**
   - type: section
     id: uebung
     title: Übung
@@ -142,7 +148,7 @@ blocks:
             mistakes:
               - answer: The police is outside the school.
                 message: "police ist eine Kistengruppe. Das Verb steht in der Mehrzahl."
-          - cue: Die Hausaufgabe ist heute lang.
+          - cue: Unsere Hausaufgabe ist heute lang.
             target: "Our homework [is] long today."
             distractors: [[are]]
             mistakes:
@@ -189,17 +195,17 @@ blocks:
           - left: eine einzelne Neuigkeit
             right: a piece of news
         explanation: Bei Gläsern zählst du mit a piece of. Bei police sagst du für eine Person a police officer.
-        hint: Welche der vier Wörter sind Gläser? Dort steht a piece of.
+        hint: Welche der vier Nomen sind Gläser? Dort steht a piece of.
         links:
           - title: Lernlandkarte Englisch · Kongruenz bei news und police
             url: https://lernapps.net/apps/map/englisch/c/nomen-kongruenz/
       - type: language-task
         id: kongruenz-schreiben
         languages: { source: de, target: en }
-        task: Schreibe den Satz auf Englisch.
+        task: Schreibe den Satz auf Englisch, ohne Kurzformen.
         form: { case: hint, punctuation: ok }
         items:
-          - source: Die Nachrichten sind schlecht.
+          - source: Die Nachrichten sind schlecht (bad).
             target: The news is bad.
             mistakes:
               - answer: The news are bad.
@@ -215,7 +221,7 @@ blocks:
               - answer: That is a good advice.
                 message: "advice ist ein Glas und hat kein a. Zähle mit a piece of."
           - source: Ich brauche eine Information.
-            target: I need (some information|a piece of information).
+            target: I need (some |a piece of |a bit of |)information.
             mistakes:
               - answer: I need an information.
                 message: "information ist ein Glas und hat kein a. Zähle mit a piece of oder sage some."
@@ -259,7 +265,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Verb nach dem Nomen.
       - type: open-task
         id: kongruenz-rat
-        task: "Millbrook News fragt: Welchen Rat gibst du Radfahrern? Schreibe zwei bis drei Sätze für die Zeitung (zum Beispiel: My advice is simple. Look left and right. The police are at the school on Tuesday.)."
+        task: "Millbrook News fragt: Welchen Rat gibst du Radfahrern? Schreibe zwei bis drei Sätze für die Zeitung (zum Beispiel: My advice is simple. Look left and right.)"
         points:
           - text: Ein Satz hat advice, news oder information mit einem Verb in der Einzahl.
             source: /ohne-etikett/nomen-kongruenz/#neu
@@ -268,7 +274,7 @@ blocks:
           - text: Es sind ganze Sätze und eine eigene Meinung.
             kind: form
         solution: |
-          My advice is to use lights. The police are happy about helmets. A helmet is useful.
+          My advice is to use lights. The police like helmets. A helmet is useful.
   - type: section
     id: weiter
     title: Rückblick auf die App
