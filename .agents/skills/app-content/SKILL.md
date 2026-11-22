@@ -46,6 +46,7 @@ Jede Seite nennt `competencies: [<id>]` mit der Karten-Id; die „Ich kann“-S�
 
 - „Ausdruck“ (fester Ausdruck), nie „Wendung“. Fachbegriffe noun, verb, adjective, sentence, tense (aus #470).
 - Bildwörter, immer gleich: **Kiste** (zählbares Nomen), **Glas** (nicht zählbares Nomen), **Etikett** (Begleiter: a, an, the, this, some, much …), **Überraschungskiste** (unregelmäßiger Plural), **Mengenwort** (a cup of, a bottle of, a piece of, a bag of, a pair of: macht Nicht-Zählbares zählbar; nie „Behälter“ nennen), **Zeit-Behälter** (in, on, at bei Zeitangaben; nur dieses Wort mit „Behälter“), **Regal** (Ort). Das Wort Glas (Bild für Nicht-Zählbares) und das englische glass (Trinkglas, ein Mengenwort) werden auf der Seite `mengen-mit-of` ausdrücklich unterschieden. Kein „Artikelwort“, kein „Zählwort“ ohne Erklärung; „zählbar / nicht zählbar“ steht daneben.
+- Menschen sind keine „Dinge“: Bei ’s und bei Beziehungen zwischen Personen (her brother, his sister) heißt es „wem gehört es?“ oder „die Person, zu der es gehört“, nie „Besitzer“ und „Ding“; „Gegenstand“ und „Ding“ nur für Sachen.
 - Britisches Englisch (colour, favourite). Englische Aufgaben enthalten kein deutsches Wort; englische Wörter immer mit deutscher Bedeutung, wo sie neu sind.
 - Aussprache: Lesehilfe in deutscher Annäherung, betonte Silbe in Großbuchstaben, nur wo sie nötig ist (zum Beispiel „the“ vor Vokal); keine Lautschrift (IPA gehört zu #482). Hörtexte nur als ganze Sätze.
 
@@ -89,6 +90,8 @@ Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://le
 
 Je Seite drei Diktatsätze (`<seite>-hoeren`) und drei Sätze zum Nachsprechen (`<seite>-nachsprechen`), 66 Sätze für 11 Seiten (die Wiederholungsseite hat keine), alle in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz). Der Dateiname ist der Satz in Kleinbuchstaben, jedes Zeichen außer Buchstaben und Ziffern wird zu `-` (`amir-s-bike-is-in-the-storeroom.mp3`). Erzeugen: `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"`.
 
+Jeder der 66 Sätze endet auf ein zweisilbiges Wort (apple, window, table, storeroom, o'clock, Friday, August, Peter's) oder auf einen zweisilbigen Namen (Sophie, Peter, Amir, Ellie): Sätze, die auf ein einsilbiges Wort enden, bekommen eine Anrede am Ende („The egg is in the box, Peter.“), weil die Stimme einsilbige Enden sonst mit einem Fehllaut spricht. Hörliste für die gezielte Kontrolle der Ersteller:in: keine Sätze mit einsilbigem Ende. Die Schreibaufgaben nehmen die Anrede mit auf (`punctuation: ok`, das Komma ist nicht verlangt).
+
 ## Rules learned from mistakes
 
 Aus #470 und den Schwester-Explainern übernommen:
@@ -110,3 +113,6 @@ Aus dieser App (Lerner-Check der Musterseite, zweiter Check, Auflagen der Orches
 - Bei Apostroph-Aufgaben (`genitiv`) nicht `apostrophe: ok` setzen, sonst zählt der Fehler als richtig.
 - Ein Satz, der in der Aufgabe steht, steht nicht noch einmal als Hörtext derselben Seite.
 - `scope`-Texte in YAML in Anführungszeichen setzen, wenn sie einen Doppelpunkt enthalten.
+- Hörsätze enden auf ein zweisilbiges Wort, am besten auf einen Namen (Sophie, Peter, Amir, Ellie).
+- Menschen sind keine „Dinge“: nicht „Besitzer“ und „Ding“ für Personen und ihre Beziehungen (Rückmeldung der Ersteller:in zu #471).
+- `punctuation: ok` in allen Schreib- und Diktataufgaben (die Vorlage meldet bei `hint` auch bei richtigen Antworten „Achte auf die Satzzeichen“).

@@ -90,7 +90,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Mehrzahl.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Peter hat zwei Stifte.
             target: "Peter has two [pens]."
@@ -154,7 +154,7 @@ blocks:
         id: plural-schreiben
         languages: { source: de, target: en }
         task: Schreibe die Überraschungskisten mit der Zahl.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: man · two
             target: two men
@@ -190,12 +190,12 @@ blocks:
         id: plural-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe den ganzen Satz auf.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: sophie-has-two-boxes.mp3
             target: Sophie has two boxes.
-          - audio: the-children-have-three-balls.mp3
-            target: The children have three balls.
+          - audio: the-children-have-three-balls-ellie.mp3
+            target: The children have three balls, Ellie.
           - audio: amir-has-three-apples.mp3
             target: Amir has three apples.
         hint: Hör genau auf das Ende des Wortes nach der Zahl.
@@ -207,12 +207,12 @@ blocks:
         id: plural-nachsprechen
         language: en
         items:
-          - audio: peter-has-two-books.mp3
-            text: Peter has two books.
-          - audio: ellie-has-two-eggs.mp3
-            text: Ellie has two eggs.
-          - audio: the-women-have-two-bags.mp3
-            text: The women have two bags.
+          - audio: peter-has-two-books-sophie.mp3
+            text: Peter has two books, Sophie.
+          - audio: ellie-has-two-eggs-peter.mp3
+            text: Ellie has two eggs, Peter.
+          - audio: the-women-have-two-bags-amir.mp3
+            text: The women have two bags, Amir.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende des Wortes nach der Zahl.
       - type: open-task
         id: plural-kiste

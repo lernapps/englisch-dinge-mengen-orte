@@ -91,7 +91,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Schau auf das Bild und wähle die richtige Präposition.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         material:
           - type: figure
             image: images/regal-aufgabe.svg
@@ -146,7 +146,7 @@ blocks:
         id: ort-schreiben
         languages: { source: de, target: en }
         task: Schreibe den Satz.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: the ball · in · the box
             target: The ball is in the box.
@@ -191,10 +191,10 @@ blocks:
         id: ort-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe den ganzen Satz auf.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - audio: the-ball-is-in-the-bag.mp3
-            target: The ball is in the bag.
+          - audio: the-ball-is-in-the-bag-amir.mp3
+            target: The ball is in the bag, Amir.
           - audio: the-ball-is-under-the-window.mp3
             target: The ball is under the window.
           - audio: peter-is-next-to-sophie.mp3
@@ -208,12 +208,12 @@ blocks:
         id: ort-nachsprechen
         language: en
         items:
-          - audio: the-cap-is-behind-the-door.mp3
-            text: The cap is behind the door.
+          - audio: the-cap-is-behind-the-door-ellie.mp3
+            text: The cap is behind the door, Ellie.
           - audio: amir-is-next-to-the-window.mp3
             text: Amir is next to the window.
-          - audio: the-books-are-on-the-shelf.mp3
-            text: The books are on the shelf.
+          - audio: the-books-are-on-the-shelf-sophie.mp3
+            text: The books are on the shelf, Sophie.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und betone das Ding und den Ort.
       - type: open-task
         id: ort-regal

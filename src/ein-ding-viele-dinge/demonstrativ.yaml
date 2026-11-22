@@ -84,7 +84,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle das richtige Wort für nah oder fern.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Sophie hält einen Schlüssel in der Hand. Er ist klein.
             target: "[This] key is small."
@@ -145,7 +145,7 @@ blocks:
         id: demonstrativ-schreiben
         languages: { source: de, target: en }
         task: Schreibe das Etikett mit dem Wort.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: here · coat
             target: this coat
@@ -181,14 +181,14 @@ blocks:
         id: demonstrativ-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe den ganzen Satz auf.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - audio: these-shoes-are-in-the-box.mp3
-            target: These shoes are in the box.
+          - audio: these-shoes-are-in-the-box-amir.mp3
+            target: These shoes are in the box, Amir.
           - audio: that-cap-is-peter-s.mp3
             target: That cap is Peter's.
-          - audio: those-coats-are-red.mp3
-            target: Those coats are red.
+          - audio: those-coats-are-red-ellie.mp3
+            target: Those coats are red, Ellie.
         hint: Hör genau auf das erste Wort. Ist das Ding nah oder fern, eines oder mehrere?
   - type: section
     id: anwenden
@@ -198,12 +198,12 @@ blocks:
         id: demonstrativ-nachsprechen
         language: en
         items:
-          - audio: this-is-sophie-s-coat.mp3
-            text: This is Sophie's coat.
-          - audio: that-is-mr-hill-s-bike.mp3
-            text: That is Mr Hill's bike.
-          - audio: those-bikes-are-blue.mp3
-            text: Those bikes are blue.
+          - audio: this-is-sophie-s-coat-peter.mp3
+            text: This is Sophie's coat, Peter.
+          - audio: that-is-mr-hill-s-bike-peter.mp3
+            text: That is Mr Hill's bike, Peter.
+          - audio: those-bikes-are-blue-amir.mp3
+            text: Those bikes are blue, Amir.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und zeige dabei mit der Hand nah oder fern.
       - type: open-task
         id: demonstrativ-zeigen

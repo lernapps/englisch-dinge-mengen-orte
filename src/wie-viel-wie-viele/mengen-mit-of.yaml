@@ -88,7 +88,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle die richtige Form.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Amir hat zwei Tassen Tee.
             target: "Amir has two [cups] of tea."
@@ -146,7 +146,7 @@ blocks:
         id: mengen-schreiben
         languages: { source: de, target: en }
         task: Schreibe die Menge mit of.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: cup · tea · 2
             target: two cups of tea
@@ -187,14 +187,14 @@ blocks:
         id: mengen-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe den ganzen Satz auf.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
-          - audio: sophie-has-two-bottles-of-milk.mp3
-            target: Sophie has two bottles of milk.
-          - audio: mrs-parker-has-a-cup-of-tea.mp3
-            target: Mrs Parker has a cup of tea.
-          - audio: sophie-has-a-pair-of-shoes.mp3
-            target: Sophie has a pair of shoes.
+          - audio: sophie-has-two-bottles-of-milk-peter.mp3
+            target: Sophie has two bottles of milk, Peter.
+          - audio: mrs-parker-has-a-cup-of-tea-peter.mp3
+            target: Mrs Parker has a cup of tea, Peter.
+          - audio: sophie-has-a-pair-of-shoes-amir.mp3
+            target: Sophie has a pair of shoes, Amir.
         hint: Hör genau auf das Mengenwort vor of. Steht es in der Einzahl oder in der Mehrzahl?
   - type: section
     id: anwenden
@@ -204,12 +204,12 @@ blocks:
         id: mengen-nachsprechen
         language: en
         items:
-          - audio: amir-has-three-pieces-of-cake.mp3
-            text: Amir has three pieces of cake.
+          - audio: amir-has-three-pieces-of-cake-ellie.mp3
+            text: Amir has three pieces of cake, Ellie.
           - audio: ellie-has-a-bag-of-sugar.mp3
             text: Ellie has a bag of sugar.
-          - audio: the-women-have-two-pairs-of-jeans.mp3
-            text: The women have two pairs of jeans.
+          - audio: the-women-have-two-pairs-of-jeans-sophie.mp3
+            text: The women have two pairs of jeans, Sophie.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und verbinde Mengenwort und of zu einem Klang.
       - type: open-task
         id: mengen-liste

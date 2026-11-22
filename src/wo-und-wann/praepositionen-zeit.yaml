@@ -83,7 +83,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Wähle in, on oder at.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Ellies Geburtstag ist im Juli.
             target: "Ellie's birthday is [in] July."
@@ -129,7 +129,7 @@ blocks:
         id: zeit-schreiben
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Amirs Geburtstag ist im Oktober.
             target: Amir's birthday is in October.
@@ -176,12 +176,12 @@ blocks:
         id: zeit-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe den ganzen Satz auf.
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - audio: the-party-is-on-friday.mp3
             target: The party is on Friday.
-          - audio: mrs-parker-s-birthday-is-in-march.mp3
-            target: Mrs Parker's birthday is in March.
+          - audio: mrs-parker-s-birthday-is-in-march-sophie.mp3
+            target: Mrs Parker's birthday is in March, Sophie.
           - audio: the-lesson-is-at-nine-o-clock.mp3
             target: The lesson is at nine o'clock.
         hint: Hör genau auf das Wort vor der Zeit. Ist es in, on oder at?
@@ -195,8 +195,8 @@ blocks:
         items:
           - audio: sophie-s-lesson-is-at-eight-o-clock.mp3
             text: Sophie's lesson is at eight o'clock.
-          - audio: mr-hill-s-birthday-is-on-3-june.mp3
-            text: Mr Hill's birthday is on 3 June.
+          - audio: mr-hill-s-birthday-is-on-3-june-peter.mp3
+            text: Mr Hill's birthday is on 3 June, Peter.
           - audio: our-party-is-in-august.mp3
             text: Our party is in August.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf in, on und at.
