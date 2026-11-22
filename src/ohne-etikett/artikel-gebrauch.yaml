@@ -63,6 +63,9 @@ blocks:
         term: report
         explanation: Bericht
       - type: definition
+        term: Year 8
+        explanation: "Klasse 8 (in England die achte Jahrgangsstufe)"
+      - type: definition
         term: until
         explanation: bis
       - type: definition
@@ -128,7 +131,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Bei **school, bed, hospital** und **work** meinst du nicht das Gebäude, sondern das, was man dort tut (lernen, schlafen, als Patient liegen, arbeiten), bei **home** einfach „zu Hause“: **be in hospital** heißt „im Krankenhaus liegen“. **be in the hospital** heißt, dass du im Gebäude bist, zum Beispiel zu Besuch. Vergleiche mit Zeile 5 und Zeile 12 im Chat. Nach **by** steht auch kein Etikett: **by bus, by train**. Sobald klar ist, **welches** Ding gemeint ist, brauchst du wieder **the**.
+              Bei **school, bed, hospital** und **work** meinst du nicht das Gebäude, sondern das, was man dort tut (lernen, schlafen, als Patient liegen, arbeiten), bei **home** einfach „zu Hause“: **be in hospital** heißt „im Krankenhaus liegen“. **be in the hospital** heißt, dass du im Gebäude bist, zum Beispiel zu Besuch. Vergleiche mit Zeile 5 und Zeile 12 im Chat. Nach **by** steht auch kein Etikett: **by train, by car**. Sobald klar ist, **welches** Ding gemeint ist, brauchst du wieder **the**.
   - type: section
     id: uebung
     title: Übung
@@ -170,8 +173,8 @@ blocks:
             mistakes:
               - answer: The water is important for animals.
                 message: "Hier geht es um Wasser allgemein, nicht um ein bestimmtes Wasser. Dann steht kein the."
-          - cue: Peter isst in der Schule zu Mittag.
-            target: "Peter has [lunch] at school."
+          - cue: Ellie isst um halb eins zu Mittag.
+            target: "Ellie has [lunch] at half past twelve."
             distractors: [[the lunch]]
             mistakes:
               - answer: Peter has the lunch at school.
@@ -187,8 +190,8 @@ blocks:
             right: I go to the school.
           - left: Pizza ist gut (allgemein).
             right: Pizza is good.
-          - left: Die Musik der Schulband ist laut.
-            right: The music of the school band is loud.
+          - left: Die Musik der Band ist toll.
+            right: The music of the band is great.
         explanation: Allgemeines und der Besuch von school als Aufgabe stehen ohne the. Ein bestimmtes Gebäude oder eine bestimmte Musik braucht the.
         hint: Frag dich bei jedem Satz, ob er allgemein ist oder ein bestimmtes Ding meint.
         links:
@@ -205,14 +208,14 @@ blocks:
             mistakes:
               - answer: Amir loves the pizza.
                 message: "Amir mag Pizza allgemein. Für Allgemeines passt kein the."
-          - cue: Ellie · go · school · bus
+          - source: Ellie fährt mit dem Bus zur Schule.
             target: Ellie goes to school by bus.
             mistakes:
               - answer: Ellie goes to the school by bus.
                 message: "Bei school als Aufgabe fehlt das Etikett."
               - answer: Ellie goes to the school by the bus.
                 message: "Bei Schule als Aufgabe und bei by bus fehlt das Etikett."
-          - cue: we · have · lunch · school
+          - source: Wir essen in der Schule zu Mittag.
             target: We have lunch at school.
             mistakes:
               - answer: We have lunch at the school.
@@ -232,15 +235,15 @@ blocks:
         text: Bringe die Wörter in die richtige Reihenfolge, so dass eine Frage entsteht.
         items: [Is, Amir, at, school, today?]
         explanation: Die Frage beginnt mit Is, dann kommt die Person, danach at school ohne the und zuletzt today.
-        hint: Die Frage beginnt mit Is. school steht ohne Etikett.
+        hint: Die Frage beginnt mit Is.
         links:
           - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
             url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
       - type: true-false
         id: gebrauch-schule
-        text: "Amir schreibt: „I go to the bed at ten.“ Er meint, dass er um zehn schlafen geht. Stimmt das?"
+        text: "Amir schreibt: „I go to the bed after dinner.“ Er meint, dass er um zehn schlafen geht. Stimmt das?"
         answer: false
-        hint: Schau in den Kasten „Merke“. Was meinst du mit bed ohne the?
+        hint: Schau in den Kasten „Merke“. Dort geht es darum, was man tut, nicht um das Gebäude oder Möbelstück.
         explanation: Bei schlafen gehen heißt es go to bed ohne the. Mit the würdest du zum Möbelstück gehen.
         links:
           - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
@@ -275,7 +278,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte darauf, dass in diesen Sätzen kein the vorkommt.
       - type: open-task
         id: gebrauch-meinung
-        task: "Ellie schreibt: „Music is fun.“ Schreibe für Millbrook News zwei bis drei Sätze über etwas, das dir wichtig ist (zum Beispiel: Music is important for me. I play at home. The band is great.)"
+        task: "Ellie schreibt: „Music is fun.“ Schreibe für Millbrook News zwei bis drei Sätze über etwas, das dir wichtig ist (zum Beispiel: Sport is important. I do sport at school.)"
         points:
           - text: Ein Satz sagt etwas Allgemeines ohne Etikett.
             source: /ohne-etikett/artikel-gebrauch/#neu

@@ -9,7 +9,7 @@ blocks:
     title: Die Polizei besucht Millbrook School
     blocks:
       - type: text
-        text: "Millbrook News braucht einen Artikel für die erste Ausgabe. Ellie schreibt über den Besuch der Polizei an der Schule. Mr Hill korrigiert, Sophie macht die Überschriften. Lies Ellies Artikel."
+        text: "Millbrook News braucht einen Artikel für die erste Ausgabe. Ellie schreibt über den Besuch der Polizei an der Schule. Mr Hill korrigiert, Sophie macht die Überschriften. Lies Ellies Artikel. Aus Kapitel 2 kennst du die Gläser (Nicht-Zählbares). Heute kommt die **Kistengruppe** dazu: eine Gruppe von Kisten, die zusammengehört."
       - type: single-choice
         id: kongruenz-start
         text: "Sophie schreibt: „Peter ___ to school by bus.“ Welche Form passt?"
@@ -30,7 +30,7 @@ blocks:
       - type: text
         text: "**Das kannst du danach:** Du verbindest news, information, advice und police mit dem passenden Verb."
       - type: text
-        text: "**Abschnitt 1 · Gute Nachrichten für Radfahrer** Millbrook School has some good news. The police are coming to our school on Tuesday. Two officers will talk to Year 8 about road safety. The news is exciting for many students, because lots of us cycle to school."
+        text: "**Abschnitt 1 · Gute Nachrichten für Radfahrer** Millbrook School has some good news. The police are coming to our school on Tuesday. Two police officers will talk to Year 8 about road safety. The news is exciting for many students, because lots of us cycle to school."
       - type: definition
         term: officer
         explanation: Polizist, Polizistin
@@ -110,7 +110,7 @@ blocks:
         header: [Art, Beispiel]
         rowHeaders: true
         rows:
-          - [Glas, The weather is nice.]
+          - [Glas, The water is cold.]
           - [Glas als Menge, a piece of furniture]
           - [Kistengruppe, The people are kind.]
       - type: note
@@ -118,7 +118,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Ein Glas bekommt kein **-s** und kein **a**: Es heißt **some news**, **a piece of news**, nicht „a news“ und nicht „informations“. Auch **furniture** und **homework** sind Gläser. Ein einzelner Polizist heißt **a police officer**. Im britischen Englisch steht **police** immer mit einem Verb in der Mehrzahl: **The police work hard.**
+              Ein Glas bekommt kein **-s** und kein **a**: Es heißt **some news**, **a piece of news**, nicht „a news“ und nicht „informations“. Auch **furniture** und **homework** sind Gläser. Ein einzelner Polizist heißt **a police officer**. Bei **police** steht im britischen Englisch immer mit einem Verb in der Mehrzahl: **The police work hard.**
   - type: section
     id: uebung
     title: Übung
@@ -280,4 +280,4 @@ blocks:
     title: Rückblick auf die App
     blocks:
       - type: text
-        text: "Die erste Ausgabe von Millbrook News ist fertig. Du kannst jetzt Dinge mit Etiketten benennen, aus Kisten viele machen, Mengen und Orte angeben, die Zeit mit in, on und at sagen, und du weißt, wann die Kiste kein Etikett braucht und welches Verb zu einem Glas oder einer Kistengruppe passt."
+        text: "Die erste Ausgabe von Millbrook News ist fertig. Du kannst jetzt Dinge mit Etiketten benennen, aus Kisten viele machen, mit this und that zeigen, Mengen angeben, mit there is und there are sagen, was es gibt, Orte und Zeiten mit in, on und at nennen, und du weißt, wann die Kiste kein Etikett braucht und welches Verb zu einem Glas oder einer Kistengruppe passt."
