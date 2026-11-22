@@ -51,6 +51,8 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
 
 **Quellen und Prüfung:** alle Texte und Sätze sind eigene Texte nach Fakten. Geöffnet am 2026-11-22: Wikipedia `English articles` (Zusammenfassung: no determiner is the default for other common nouns; the, wenn alle den Gegenstand kennen), `Mass noun` (Zusammenfassung: uncountable nouns, undifferentiated unit), `Collective noun` (HTML: in British English können Sammelnomen den Singular oder den Plural des Verbs nehmen, je nach Zusammenhang). Nicht geprüft (HTTP 429 oder nur Zusammenfassung): Abschnitt „zero article“ von English articles, Wörterbuch-Einträge zu police (Plural im britischen Englisch), news, advice, information; keine VOA/Wikinews-Texte benutzt.
 
+**Geprüft und behoben (Musterseite `artikel-gebrauch`, Lerner-Check Klasse 7 und Sprachprüfung durch Sub-Agenten):** Das Etikett-Bild wird im Einstieg erklärt; Einstiegsfrage mit anderem Satz („Close the door“); der Gegensatz Gebäude/Tätigkeit stand nur im Merke und steht jetzt mit hospital im Merke und mit school im Chat (Zeile 5 und 12); Zeitplan des Chats stimmig (nächsten Freitag, Konzert Samstag); Randglossar um until und Life is short ergänzt; Poster- und Übungsbeispiele getrennt; Tipps ohne Lösung; Ordnen als Frage mit eindeutiger Reihenfolge; Schreibaufgaben mit deutschem Satz, Varianten (loves|likes) und eigenen Meldungen; Meinungsaufgabe mit anderem Beispiel; kleine Deutschfehler. Offen (Vorlage): Meldung „Deine Fassung kann trotzdem richtig sein“, Titel erscheint zweimal, Hinweis zum KI-Tutor.
+
 ## Explore
 
 <!--
@@ -143,8 +145,8 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Kapitel `ohne-etikett` anlegen (app.yaml, chapter.yaml) und Wiederholungsseite `das-brauchst-du` (recap englisch/simple-present, nur Text und Tabelle, kein Sub-Agent).
-- [ ] Seite `artikel-gebrauch` (Musterseite für das Lesestück: Chat, Randglossar, Aufgaben Verstehen/Belegen/Meinung, Schreibauftrag, Diktat und Nachsprechen); Figuren, Audio, Inhaltsführer (kein Sub-Agent).
+- [x] Kapitel `ohne-etikett` anlegen (app.yaml, chapter.yaml) und Wiederholungsseite `das-brauchst-du` (recap englisch/simple-present, nur Text und Tabelle, kein Sub-Agent).
+- [x] Seite `artikel-gebrauch` (Musterseite für das Lesestück: Chat, Randglossar, Aufgaben Verstehen/Belegen/Meinung, Schreibauftrag, Diktat und Nachsprechen); Figuren, Audio, Inhaltsführer (kein Sub-Agent).
 - [ ] Seite `nomen-kongruenz` (Lesestück: Artikel der Schülerzeitung, Aufgaben, Audio, Selbsteinschätzung Kapitel 4; kein Sub-Agent, weil sie das Muster der vorigen Seite braucht).
 <!-- tasks: slices (3 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
