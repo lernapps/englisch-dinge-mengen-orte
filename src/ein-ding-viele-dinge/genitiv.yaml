@@ -18,22 +18,22 @@ blocks:
         text: "Im Lagerraum stehen jetzt viele Kisten. Mr Hill sagt: „Jede Kiste bekommt ein Namensschild. Dann wissen alle, wem sie gehört.“"
       - type: text
         text: "**Das kannst du danach:** Du sagst mit ’s, mit s’ und mit of, wem etwas gehört."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [bike, Fahrrad]
-          - [cap, Mütze]
-          - [coat, Mantel]
-          - [shoe, Schuh]
-          - [door, Tür]
-          - [window, Fenster]
-          - [room, Zimmer]
-          - [boy, Junge]
-          - [girl, Mädchen]
-          - [name, Name]
-          - [where, wo]
-          - [storeroom, Lagerraum]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "bike", source: "Fahrrad" }
+          - { target: "cap", source: "Mütze" }
+          - { target: "coat", source: "Mantel" }
+          - { target: "shoe", source: "Schuh" }
+          - { target: "door", source: "Tür" }
+          - { target: "window", source: "Fenster" }
+          - { target: "room", source: "Zimmer" }
+          - { target: "boy", source: "Junge" }
+          - { target: "girl", source: "Mädchen" }
+          - { target: "name", source: "Name" }
+          - { target: "where", source: "wo" }
+          - { target: "storeroom", source: "Lagerraum" }
       - type: single-choice
         id: genitiv-start
         text: "Auf einer Kiste klebt ein Schild mit „Ellie’s box“. Wem gehört die Kiste?"

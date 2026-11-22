@@ -18,31 +18,31 @@ blocks:
         text: "Die Millbrook School feiert ein Schulfest. Mr Hill, der Englischlehrer, öffnet den **Lagerraum** (storeroom). Sophie (11) aus Deutschland wohnt bei Ellie Parker (11). Peter (9) ist Ellies Bruder und Amir (11) ein Freund. Die vier sortieren Dinge in Kisten. Auf jede Kiste kommt ein **Etikett**. Das Etikett steht vor dem Ding."
       - type: text
         text: "**Das kannst du danach:** Du weißt, wann a, an oder the vor einem Ding steht, und du sprichst the richtig aus."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter (lies sie, du brauchst sie gleich)
-        header: [Wort, Bedeutung]
-        rows:
-          - [box, Kiste]
-          - [ball, Ball]
-          - [book, Buch]
-          - [pen, Stift]
-          - [bag, Tasche]
-          - [egg, Ei]
-          - [apple, Apfel]
-          - [orange, Orange]
-          - [umbrella, Regenschirm]
-          - [university, Universität]
-          - [uniform, Uniform]
-          - [key, Schlüssel]
-          - [onion, Zwiebel]
-          - [hour, Stunde]
-          - [red, rot]
-          - [euro, Euro]
-          - [have, haben]
-          - [has, "hat (bei he, she, it und Namen)"]
-          - [small, klein]
-          - [is, ist]
-          - [in, in]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter (lies sie, du brauchst sie gleich)"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "box", source: "Kiste" }
+          - { target: "ball", source: "Ball" }
+          - { target: "book", source: "Buch" }
+          - { target: "pen", source: "Stift" }
+          - { target: "bag", source: "Tasche" }
+          - { target: "egg", source: "Ei" }
+          - { target: "apple", source: "Apfel" }
+          - { target: "orange", source: "Orange" }
+          - { target: "umbrella", source: "Regenschirm" }
+          - { target: "university", source: "Universität" }
+          - { target: "uniform", source: "Uniform" }
+          - { target: "key", source: "Schlüssel" }
+          - { target: "onion", source: "Zwiebel" }
+          - { target: "hour", source: "Stunde" }
+          - { target: "red", source: "rot" }
+          - { target: "euro", source: "Euro" }
+          - { target: "have", source: "haben" }
+          - { target: "has", source: "hat (bei he, she, it und Namen)" }
+          - { target: "small", source: "klein" }
+          - { target: "is", source: "ist" }
+          - { target: "in", source: "in" }
       - type: single-choice
         id: artikel-start
         text: "Sophie sagt: „I have a ball.“ Das Wort have heißt „haben“. Was heißt a?"

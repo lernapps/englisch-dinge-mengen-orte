@@ -18,25 +18,25 @@ blocks:
         text: "Mr Hill sagt: „Jede Kiste braucht den richtigen Platz im Lagerraum.“ Dazu brauchst du kleine Wörter, die sagen, **wo** etwas ist. Sie heißen **Präpositionen**."
       - type: text
         text: "**Das kannst du danach:** Du sagst mit in, on, under, next to und behind, wo etwas steht."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [table, Tisch]
-          - [chair, Stuhl]
-          - [shelf, Regal]
-          - [door, Tür]
-          - [floor, Boden]
-          - [wall, Wand]
-          - [room, Zimmer]
-          - [window, Fenster]
-          - [ball, Ball]
-          - [green, grün]
-          - [yellow, gelb]
-          - [blue, blau]
-          - [red, rot]
-          - [is, ist]
-          - [are, sind]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "table", source: "Tisch" }
+          - { target: "chair", source: "Stuhl" }
+          - { target: "shelf", source: "Regal" }
+          - { target: "door", source: "Tür" }
+          - { target: "floor", source: "Boden" }
+          - { target: "wall", source: "Wand" }
+          - { target: "room", source: "Zimmer" }
+          - { target: "window", source: "Fenster" }
+          - { target: "ball", source: "Ball" }
+          - { target: "green", source: "grün" }
+          - { target: "yellow", source: "gelb" }
+          - { target: "blue", source: "blau" }
+          - { target: "red", source: "rot" }
+          - { target: "is", source: "ist" }
+          - { target: "are", source: "sind" }
       - type: single-choice
         id: ort-start
         text: "Peter sagt: „The box is on the floor.“ Wo steht die Kiste?"

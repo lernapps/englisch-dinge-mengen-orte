@@ -18,21 +18,21 @@ blocks:
         text: "Mr Hill steht an der Tür. Er möchte, dass die Kinder eine Kiste tragen. Er sagt: „Look at that box.“ Look at heißt „sieh dir an“. Sophie und Peter schauen sich um."
       - type: text
         text: "**Das kannst du danach:** Du zeigst auf Englisch auf Dinge hier und dort drüben, bei einem Ding und bei vielen."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [here, hier]
-          - [there, dort]
-          - [look at, ansehen]
-          - [red, rot]
-          - [brown, braun]
-          - [blue, blau]
-          - [key, Schlüssel]
-          - [coat, Mantel]
-          - [cap, Mütze]
-          - [shoe, Schuh]
-          - [bike, Fahrrad]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "here", source: "hier" }
+          - { target: "there", source: "dort" }
+          - { target: "look at", source: "ansehen" }
+          - { target: "red", source: "rot" }
+          - { target: "brown", source: "braun" }
+          - { target: "blue", source: "blau" }
+          - { target: "key", source: "Schlüssel" }
+          - { target: "coat", source: "Mantel" }
+          - { target: "cap", source: "Mütze" }
+          - { target: "shoe", source: "Schuh" }
+          - { target: "bike", source: "Fahrrad" }
       - type: single-choice
         id: demonstrativ-start
         text: "Mr Hill zeigt von der Tür aus auf eine Kiste weit hinten im Regal und sagt „Look at that box.“ Wo steht die Kiste?"

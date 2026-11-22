@@ -18,20 +18,20 @@ blocks:
         text: "Vor dem Schulfest macht Mr Hill Inventur. Das heißt, er schreibt auf, was es im Lagerraum gibt. Er sagt: „There is a box on the shelf.“"
       - type: text
         text: "**Das kannst du danach:** Du sagst mit there is und there are, was es an einem Ort gibt."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [there is, "es gibt (ein Ding)"]
-          - [there are, "es gibt (mehrere Dinge)"]
-          - [list, Liste]
-          - [book, Buch]
-          - [bag, Tasche]
-          - [pen, Stift]
-          - [apple, Apfel]
-          - [key, Schlüssel]
-          - [window, Fenster]
-          - [one, "eins, ein"]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "there is", source: "es gibt (ein Ding)" }
+          - { target: "there are", source: "es gibt (mehrere Dinge)" }
+          - { target: "list", source: "Liste" }
+          - { target: "book", source: "Buch" }
+          - { target: "bag", source: "Tasche" }
+          - { target: "pen", source: "Stift" }
+          - { target: "apple", source: "Apfel" }
+          - { target: "key", source: "Schlüssel" }
+          - { target: "window", source: "Fenster" }
+          - { target: "one", source: "eins, ein" }
       - type: single-choice
         id: there-start
         text: "Mr Hill sagt: „There is a box on the shelf.“ Was heißt „there is“?"

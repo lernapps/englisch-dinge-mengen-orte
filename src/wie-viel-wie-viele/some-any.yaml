@@ -18,20 +18,20 @@ blocks:
         text: "Mrs Parker fragt Peter nach den Zutaten. Peter sieht im Regal nach und sagt: „I have some eggs.“ Das heißt: „Ich habe ein paar Eier.“ some steht vor etwas, das da ist."
       - type: text
         text: "**Das kannst du danach:** Du sagst mit some, any und no, was da ist und was nicht, in Aussagen, Fragen und Verneinungen."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [some, "ein paar, etwas"]
-          - [any, "irgendein, irgendwelche"]
-          - [no, kein]
-          - [pen, Stift]
-          - [bread, Brot]
-          - [cheese, Käse]
-          - [juice, Saft]
-          - [rice, Reis]
-          - [apple, Apfel]
-          - [egg, Ei]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "some", source: "ein paar, etwas" }
+          - { target: "any", source: "irgendein, irgendwelche" }
+          - { target: "no", source: "kein" }
+          - { target: "pen", source: "Stift" }
+          - { target: "bread", source: "Brot" }
+          - { target: "cheese", source: "Käse" }
+          - { target: "juice", source: "Saft" }
+          - { target: "rice", source: "Reis" }
+          - { target: "apple", source: "Apfel" }
+          - { target: "egg", source: "Ei" }
       - type: single-choice
         id: some-start
         text: "Peter sagt: „I have some eggs.“ Was heißt some?"

@@ -31,34 +31,30 @@ blocks:
         text: "**Das kannst du danach:** Du verbindest news, information, advice und police mit dem passenden Verb."
       - type: text
         text: "**Abschnitt 1 · Gute Nachrichten für Radfahrer** Millbrook School has some good news. The police are coming to our school on Tuesday. Two police officers will talk to Year 8 about road safety. The news is exciting for many students, because lots of us cycle to school."
-      - type: definition
-        term: officer
-        explanation: Polizist, Polizistin
-      - type: definition
-        term: safety
-        explanation: Sicherheit
-      - type: definition
-        term: cycle
-        explanation: Rad fahren
+      - type: vocabulary
+        caption: Randglossar
+        languages: { source: de, target: en }
+        entries:
+          - { target: "officer", source: "Polizist, Polizistin" }
+          - { target: "safety", source: "Sicherheit" }
+          - { target: "cycle", source: "Rad fahren" }
       - type: text
         text: "**Abschnitt 2 · Was die Polizei rät** The police have a clear message: many accidents happen in the morning. Their advice is simple. Wear a helmet, use lights and look left and right. Here is one more piece of advice: Never use your phone when you cycle."
-      - type: definition
-        term: accident
-        explanation: Unfall
-      - type: definition
-        term: helmet
-        explanation: Helm
+      - type: vocabulary
+        caption: Randglossar
+        languages: { source: de, target: en }
+        entries:
+          - { target: "accident", source: "Unfall" }
+          - { target: "helmet", source: "Helm" }
       - type: text
         text: "**Abschnitt 3 · Mehr Informationen** Information about safe routes is on a big poster in the hall. It is free, and everybody can read it. Mr Hill has some information on paper, too. Do you have any news about your own way to school? Send it to Millbrook News!"
-      - type: definition
-        term: route
-        explanation: Weg, Strecke
-      - type: definition
-        term: exciting
-        explanation: spannend
-      - type: definition
-        term: free
-        explanation: kostenlos
+      - type: vocabulary
+        caption: Randglossar
+        languages: { source: de, target: en }
+        entries:
+          - { target: "route", source: "Weg, Strecke" }
+          - { target: "exciting", source: "spannend" }
+          - { target: "free", source: "kostenlos" }
       - type: single-choice
         id: kongruenz-lesen
         text: "Wann kommt die Polizei an die Schule?"

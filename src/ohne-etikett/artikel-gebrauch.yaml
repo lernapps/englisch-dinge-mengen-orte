@@ -50,27 +50,20 @@ blocks:
           - ["11", Ellie, "And I write the report. English is easy for me."]
           - ["12", Sophie, "Mr Hill, can we meet at the school on Saturday? The concert is in the hall."]
           - ["13", Mr Hill, "Yes. Please finish the text before school on Monday."]
-      - type: definition
-        term: issue
-        explanation: Ausgabe einer Zeitung
-      - type: definition
-        term: concert
-        explanation: Konzert
-      - type: definition
-        term: loud
-        explanation: laut
-      - type: definition
-        term: report
-        explanation: Bericht
-      - type: definition
-        term: Year 8
-        explanation: "Klasse 8 (in England die achte Jahrgangsstufe)"
-      - type: definition
-        term: until
-        explanation: bis
-      - type: definition
-        term: Life is short.
-        explanation: "Das Leben ist kurz. So sagt man, wenn man etwas nicht aufschieben will."
+      - type: vocabulary
+        caption: Randglossar
+        languages: { source: de, target: en }
+        entries:
+          - { target: "issue", source: "Ausgabe einer Zeitung" }
+          - { target: "concert", source: "Konzert" }
+          - { target: "loud", source: "laut" }
+          - { target: "report", source: "Bericht" }
+          - { target: "Year 8", source: "Klasse 8 (in England die achte Jahrgangsstufe)" }
+          - { target: "until", source: "bis" }
+          - {
+              target: "Life is short.",
+              source: "Das Leben ist kurz. So sagt man, wenn man etwas nicht aufschieben will.",
+            }
       - type: single-choice
         id: gebrauch-lesen
         text: "Wann ist das Konzert der Schulband?"

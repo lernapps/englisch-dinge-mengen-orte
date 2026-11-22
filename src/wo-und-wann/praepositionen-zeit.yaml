@@ -18,19 +18,19 @@ blocks:
         text: "Neben der Lagerraumtür hängt der Schulkalender. Mr Hill trägt das Schulfest ein und sagt: „The fair is at ten o'clock.“ Das Schulfest heißt auf Englisch school fair und hat eine feste Uhrzeit. Die Kinder tragen dazu die Geburtstage ein."
       - type: text
         text: "**Das kannst du danach:** Du sagst mit in, on und at, wann etwas ist."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [fair, Fest]
-          - [birthday, Geburtstag]
-          - [lesson, Unterrichtsstunde]
-          - [lunch, Mittagessen]
-          - [start, beginnen]
-          - [school, Schule]
-          - [English, Englisch]
-          - [party, Feier]
-          - [March, März]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "fair", source: "Fest" }
+          - { target: "birthday", source: "Geburtstag" }
+          - { target: "lesson", source: "Unterrichtsstunde" }
+          - { target: "lunch", source: "Mittagessen" }
+          - { target: "start", source: "beginnen" }
+          - { target: "school", source: "Schule" }
+          - { target: "English", source: "Englisch" }
+          - { target: "party", source: "Feier" }
+          - { target: "March", source: "März" }
       - type: single-choice
         id: zeit-start
         text: "Mr Hill sagt: „The fair is at ten o'clock.“ Was sagt er mit „at ten o'clock“?"
