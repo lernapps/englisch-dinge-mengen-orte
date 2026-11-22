@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -35,6 +35,7 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
 - Kapitel 4 `ohne-etikett` mit drei Seiten: Wiederholung `das-brauchst-du` (recap simple-present), `artikel-gebrauch`, `nomen-kongruenz`; je Seite ein Lesestück (Chat, Schülerzeitung) (guess: Reihenfolge und Formen).
 - Figuren: Sophie 13 bis 14, Ellie, Amir 13, Peter 11 bis 12, Mr Hill; Chats statt Szenenbilder; Bilder nur, wo sie etwas zeigen (guess).
 - Das Etikettenbild (Kisten, Gläser) trägt weiter: Kiste ohne Etikett (Plural, Allgemeines), news als Glas, police als Gruppe von Kisten.
+- `scope`: die App hat es schon (open-task nutzt es); Kapitel 4 bekommt `scope` je Seite wie bisher, `app.yaml` bekommt den Hinweis auf Kapitel 4 (in) statt „später“ (out).
 
 ## Notes
 
@@ -95,10 +96,11 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
 - [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
 - [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
+- [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, Plan und Inhaltsmethode bestätigt. Weiter mit Slice 1 und der Musterseite artikel-gebrauch.
 
 ### Content method
 
@@ -131,15 +133,15 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Kapitel `ohne-etikett` anlegen (app.yaml, chapter.yaml) und Wiederholungsseite `das-brauchst-du` (recap englisch/simple-present, nur Text und Tabelle, kein Sub-Agent).
 - [ ] Seite `artikel-gebrauch` (Musterseite für das Lesestück: Chat, Randglossar, Aufgaben Verstehen/Belegen/Meinung, Schreibauftrag, Diktat und Nachsprechen); Figuren, Audio, Inhaltsführer (kein Sub-Agent).
