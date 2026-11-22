@@ -1,0 +1,278 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Kisten ohne Etikett: wann the wegfällt"
+description: "Im Chat der Schülerzeitung stehen Sätze ohne the. Du lernst, wann eine Kiste kein Etikett braucht und wann the nötig ist."
+competencies: [artikel-gebrauch]
+scope: "Die Seite zeigt, wann the wegfällt: bei allgemeinen Aussagen mit Mehrzahl oder nicht zählbaren Nomen (Cats are nice. Life is short.), bei school, home, bed, work und lunch als Ort oder Tätigkeit (go to school, at home, in bed), bei Wochentagen und Mahlzeiten (on Monday, have breakfast). the steht, wenn ein bestimmtes Ding gemeint ist (Open the window.). Ein Lesestück (Chat) trägt die Seite. Typische Fehler sind the bei Allgemeinem (The music is fun), I go to the school für den Schulbesuch und the bei Mahlzeiten und Wochentagen."
+blocks:
+  - type: section
+    id: einstieg
+    title: Der Chat der Schülerzeitung
+    blocks:
+      - type: text
+        text: "Millbrook News, die Schülerzeitung der Millbrook School, soll am Freitag zum ersten Mal erscheinen. Das Team schreibt im Gruppenchat: Mr Hill (Englischlehrer) und Sophie, Ellie, Amir und Peter. Sophie ist 13, Ellie und Amir sind auch 13, Peter ist 11."
+      - type: single-choice
+        id: gebrauch-start
+        text: "Mr Hill schreibt: „The first issue is on Friday.“ Welches Wort ist hier das Etikett vor „issue“?"
+        options:
+          - text: the
+            correct: true
+            info: "the steht vor „first issue“ und meint eine bestimmte Ausgabe: die erste Ausgabe der Zeitung."
+          - text: first
+            correct: false
+            info: "first heißt „erste“ und sagt, welche Ausgabe gemeint ist. Das Etikett steht noch davor."
+          - text: is
+            correct: false
+            info: "is ist das Verb. Es steht hinter dem Nomen und hat mit dem Etikett nichts zu tun."
+        explanation: Das Etikett steht vor dem Nomen. the zeigt auf eine bestimmte Ausgabe.
+        links:
+          - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
+            url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
+      - type: text
+        text: "**Das kannst du danach:** Du entscheidest, wann auf einer Kiste kein Etikett steht, und wann the nötig ist. Lies zuerst den Chat. Er hat zwölf nummerierte Zeilen."
+      - type: table
+        caption: Chat · Millbrook News
+        header: [Zeile, Wer, Nachricht]
+        rows:
+          - ["1", Mr Hill, "Good morning, team! The first issue of Millbrook News is on Friday. What is our big story?"]
+          - ["2", Ellie, "Music! Music is fun, and I love the school band."]
+          - ["3", Amir, "Hmm. The band is very loud. Some people don't like it."]
+          - ["4", Sophie, "Life is short, Amir. Let's write about the concert. It is on Saturday."]
+          - ["5", Peter, "I can't come. I go to school by bus, but on Saturday I am at home."]
+          - ["6", Ellie, "Peter is always in bed until ten on Saturday!"]
+          - ["7", Peter, "That's not true! I have breakfast at eight. Then I play football with friends."]
+          - ["8", Sophie, "Friends are important, Peter, but we need photos of the band. Can you take them, Amir?"]
+          - ["9", Amir, "OK. I take my camera to the concert."]
+          - ["10", Mr Hill, "Good. People love pictures! Send the photos to me by email on Sunday."]
+          - ["11", Ellie, "And I write the report. English is easy for me."]
+          - ["12", Mr Hill, "Fine. Please finish the text before school on Monday."]
+      - type: definition
+        term: issue
+        explanation: Ausgabe einer Zeitung
+      - type: definition
+        term: concert
+        explanation: Konzert
+      - type: definition
+        term: loud
+        explanation: laut
+      - type: definition
+        term: report
+        explanation: Bericht
+      - type: single-choice
+        id: gebrauch-lesen
+        text: "Wann ist das Konzert der Schulband?"
+        options:
+          - text: am Freitag
+            correct: false
+            info: "Am Freitag erscheint die erste Ausgabe der Zeitung, nicht das Konzert."
+          - text: am Samstag
+            correct: true
+            info: "Sophie sagt, dass das Konzert am Samstag ist."
+          - text: am Sonntag
+            correct: false
+            info: "Am Sonntag schickt Amir seine Fotos an Mr Hill."
+        explanation: Das Konzert ist am Samstag. Die Zeitung erscheint am Freitag.
+        links:
+          - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
+            url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
+      - type: single-choice
+        id: gebrauch-beleg
+        text: "In welcher Zeile steht, dass Peter am Samstag lange im Bett liegt?"
+        options:
+          - text: Zeile 5
+            correct: false
+            info: "In Zeile 5 sagt Peter, dass er am Samstag zu Hause ist, aber nicht, dass er im Bett liegt."
+          - text: Zeile 6
+            correct: true
+            info: "In Zeile 6 sagt Ellie, dass Peter am Samstag bis zehn im Bett ist."
+          - text: Zeile 7
+            correct: false
+            info: "In Zeile 7 sagt Peter, dass er um acht frühstückt."
+        explanation: "Zeile 6 sagt es: Peter ist bis zehn im Bett."
+        links:
+          - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
+            url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
+  - type: section
+    id: neu
+    title: Wann die Kiste kein Etikett braucht
+    blocks:
+      - type: text
+        text: "Im Chat steht oft **kein** Etikett: „Music is fun“ (Zeile 2), „Life is short“ (Zeile 4). Wer **allgemein** von Mehrzahl oder von nicht zählbaren Dingen spricht, lässt das Etikett weg. Auch bei **school**, **bed** und **home** fehlt es: „I go to school“ (Zeile 5). Dagegen steht **the** bei etwas Bestimmtem: „the school band“ (Zeile 2), „the photos“ (Zeile 10)."
+      - type: figure
+        image: images/kiste-ohne-etikett.svg
+        alt: Zwei Kisten. Die linke hat ein leeres Etikett und gehört zu einer allgemeinen Aussage. Die rechte hat das Etikett the und gehört zu etwas Bestimmtem.
+        caption: Links die Kiste ohne Etikett (etwas Allgemeines), rechts die Kiste mit the (etwas Bestimmtes).
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Kiste ohne Etikett
+        header: [Wann kein Etikett?, Beispiel]
+        rowHeaders: true
+        rows:
+          - [Allgemeines in der Mehrzahl, Cats are nice.]
+          - ["Allgemeines, nicht zählbar", Sport is healthy.]
+          - ["Schule, Bett, Zuhause, Arbeit", I am at work.]
+          - [Wochentage und Mahlzeiten, I have dinner on Tuesday.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Bei **school, bed, home** und **work** meinst du den Ort als Aufgabe: **go to school** heißt „zur Schule gehen, um zu lernen“. **go to the school** heißt, dass du zum Gebäude gehst, zum Beispiel für ein Gespräch. Nach **by** steht auch kein Etikett: **by bus, by train**. Sobald klar ist, **welches** Ding gemeint ist, brauchst du wieder **the**.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: gebrauch-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form. Eine Kiste kann auch ohne Etikett bleiben.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Kinder lieben Pizza.
+            target: "[Children] love pizza."
+            distractors: [[The children]]
+            mistakes:
+              - answer: The children love pizza.
+                message: "Hier sind alle Kinder gemeint, nicht bestimmte. Für Allgemeines passt kein the."
+          - cue: Amir geht jeden Tag zur Schule.
+            target: "Amir goes to [school] every day."
+            distractors: [[the school]]
+            mistakes:
+              - answer: Amir goes to the school every day.
+                message: "Amir besucht die Schule als Schüler. Dann steht school ohne the."
+          - cue: Sophies Vater ist jetzt bei der Arbeit.
+            target: "Sophie's father is at [work] now."
+            distractors: [[the work]]
+            mistakes:
+              - answer: Sophie's father is at the work now.
+                message: "Bei der Arbeit sein heißt at work, ohne the."
+          - cue: Bitte öffne das Fenster.
+            target: "Please open [the window]."
+            distractors: [[window]]
+            mistakes:
+              - answer: Please open window.
+                message: "Hier ist ein bestimmtes Fenster gemeint. Dafür brauchst du the."
+          - cue: Wasser ist wichtig für Tiere.
+            target: "[Water] is important for animals."
+            distractors: [[The water]]
+            mistakes:
+              - answer: The water is important for animals.
+                message: "Hier geht es um Wasser allgemein, nicht um ein bestimmtes Wasser. Dann steht kein the."
+          - cue: Peter isst in der Schule zu Mittag.
+            target: "Peter has [lunch] at school."
+            distractors: [[the lunch]]
+            mistakes:
+              - answer: Peter has the lunch at school.
+                message: "Nach have bei einer Mahlzeit steht kein the."
+        hint: Frag dich, ob etwas Allgemeines oder etwas Bestimmtes gemeint ist. Bei school, work und Mahlzeiten fehlt das Etikett.
+      - type: matching
+        id: gebrauch-zuordnen
+        text: Welcher englische Satz passt zur Situation? Ordne zu.
+        pairs:
+          - left: Ich gehe als Schüler zur Schule.
+            right: I go to school.
+          - left: Ich gehe zum Schulgebäude, um mit dem Direktor zu sprechen.
+            right: I go to the school.
+          - left: Pizza ist lecker (allgemein).
+            right: Pizza is good.
+          - left: Die Musik der Schulband ist laut.
+            right: The music of the school band is loud.
+        explanation: Allgemeines und der Besuch von school als Aufgabe stehen ohne the. Ein bestimmtes Gebäude oder eine bestimmte Musik braucht the.
+        hint: Frag dich bei jedem Satz, ob er allgemein ist oder ein bestimmtes Ding meint.
+        links:
+          - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
+            url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
+      - type: language-task
+        id: gebrauch-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Amir · love · pizza
+            target: Amir loves pizza.
+            mistakes:
+              - answer: Amir loves the pizza.
+                message: "Amir mag Pizza allgemein. Für Allgemeines passt kein the."
+          - cue: Ellie · go · school · bus
+            target: Ellie goes to school by bus.
+            mistakes:
+              - answer: Ellie goes to the school by the bus.
+                message: "Bei Schule als Aufgabe und bei by bus fehlt das Etikett."
+          - cue: we · have · lunch · school
+            target: We have lunch at school.
+            mistakes:
+              - answer: We have the lunch at the school.
+                message: "Bei der Mahlzeit und bei school als Ort fehlt das Etikett."
+          - cue: friends · help · you
+            target: Friends help you.
+            mistakes:
+              - answer: The friends help you.
+                message: "Hier sind Freunde allgemein gemeint. Dann steht kein the."
+        hint: Allgemeines und feste Ausdrücke bekommen kein Etikett.
+      - type: ordering
+        id: gebrauch-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        items: [Amir, goes, to, school, on, Friday]
+        explanation: Zuerst kommt die Person mit dem Verb, dann to school ohne the und zuletzt on mit dem Tag.
+        hint: school und Friday stehen ohne Etikett.
+        links:
+          - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
+            url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
+      - type: true-false
+        id: gebrauch-schule
+        text: "Auf Deutsch heißt „I go to the school.“ dasselbe wie „I go to school.“ Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Was ändert das the?
+        explanation: Mit the geht es um ein Gebäude, zum Beispiel für ein Gespräch. Ohne the geht es um den Schulbesuch.
+        links:
+          - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
+            url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
+      - type: language-task
+        id: gebrauch-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: we-play-tennis-on-saturday.mp3
+            target: We play tennis on Saturday.
+          - audio: dogs-are-friendly-animals.mp3
+            target: Dogs are friendly animals.
+          - audio: sophie-is-at-home-on-sunday.mp3
+            target: Sophie is at home on Sunday.
+        hint: Achte darauf, welche Wörter gesprochen werden und welche fehlen.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: gebrauch-nachsprechen
+        language: en
+        items:
+          - audio: ellie-has-breakfast-at-home.mp3
+            text: Ellie has breakfast at home.
+          - audio: people-love-good-music.mp3
+            text: People love good music.
+          - audio: peter-goes-to-bed-at-ten.mp3
+            text: Peter goes to bed at ten.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Sätze ohne the.
+      - type: open-task
+        id: gebrauch-meinung
+        task: "Ellie schreibt: „Music is fun.“ Wie siehst du das? Schreibe für Millbrook News zwei bis drei Sätze über etwas, das du wichtig findest (zum Beispiel: Sport is important. I do sport at school. The school team is good.)."
+        points:
+          - text: Ein Satz sagt etwas Allgemeines ohne Etikett.
+            source: /ohne-etikett/artikel-gebrauch/#neu
+          - text: Ein Satz hat den festen Ausdruck at school oder at home.
+            source: /ohne-etikett/artikel-gebrauch/#neu
+          - text: Ein Satz hat the bei etwas Bestimmtem.
+            source: /ohne-etikett/artikel-gebrauch/#neu
+          - text: Es sind ganze Sätze und eine eigene Meinung.
+            kind: form
+        solution: |
+          Music is important for me. I listen to music at home. The school band is great.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Der Chat ist fertig, die erste Ausgabe wächst. Am Montag will Mr Hill zeigen, was die Polizei der Schule rät. Auf der nächsten Seite lernst du, warum news ein anderes Verb braucht als police."
