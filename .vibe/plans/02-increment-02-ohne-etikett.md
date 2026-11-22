@@ -149,10 +149,11 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
 - [x] Seite `artikel-gebrauch` (Musterseite für das Lesestück: Chat, Randglossar, Aufgaben Verstehen/Belegen/Meinung, Schreibauftrag, Diktat und Nachsprechen); Figuren, Audio, Inhaltsführer (kein Sub-Agent).
 - [x] Seite `nomen-kongruenz` (Lesestück: Artikel der Schülerzeitung, Aufgaben, Audio, Selbsteinschätzung Kapitel 4; kein Sub-Agent, weil sie das Muster der vorigen Seite braucht).
 <!-- tasks: slices (3 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+      Creator: Ja, nomen-kongruenz darf nach dem Muster folgen (Orchestrator-Session in der Rolle der Ersteller:in).
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
