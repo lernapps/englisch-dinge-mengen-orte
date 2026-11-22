@@ -70,20 +70,20 @@ Klassenzimmer-Poster · Neue Wörter:
 
 ### ’s, s’ und of auf dem Namensschild
 
-Auf dem Namensschild steht, **wem** die Kiste gehört. Bei einer Person hängst du **’s** an den Namen. Bei mehreren Personen mit -s steht nur ein **’** hinter dem s. Bei einer Überraschungskiste (men, children) steht wieder **’s**. Bei Dingen sagst du meistens **of**.
+Auf dem Namensschild steht, **wem** die Kiste gehört. Bei einer Person hängst du **’s** an den Namen. Bei mehreren Personen mit -s steht nur ein **’** hinter dem s. Bei einer Überraschungskiste (men, children) steht wieder **’s**. Bei Gegenständen sagst du meistens **of**.
 
-Bild: Vier Kisten mit Namensschildern. Auf der ersten steht Mr Hill's, auf der zweiten the boys', auf der dritten the men's, auf der vierten of. Darunter stehen vier Beispiele. Bildunterschrift: Vier Namensschilder. Der Besitzer steht vor dem Ding.
+Bild: Vier Kisten mit Namensschildern. Auf der ersten steht Mr Hill's, auf der zweiten the boys', auf der dritten the men's, auf der vierten of. Darunter stehen vier Beispiele. Bildunterschrift: Vier Namensschilder. Zuerst steht, wem es gehört, dann der Gegenstand.
 
 Klassenzimmer-Poster · Wem gehört die Kiste?:
-- Besitzer | Beispiel
+- Wem gehört es? | Beispiel
 - eine Person | Mr Hill’s coat
 - mehrere mit -s | the boys’ room
 - Überraschungskiste | the men’s shoes
-- ein Ding | the window of the room
+- ein Gegenstand | the window of the room
 
 **Merke: Merke**
 
-Im Deutschen sagst du oft „die Mütze von Peter“. Im Englischen kommt der **Besitzer** zuerst: **Mrs Parker’s cap**. Den Apostroph vergisst du nicht: **Mrs Parkers cap** ist falsch. Bei Dingen ist **of** üblich: **the window of the room**.
+Im Deutschen sagst du oft „die Mütze von Peter“. Im Englischen kommt zuerst, **wem es gehört**: **Mrs Parker’s cap**. Den Apostroph vergisst du nicht: **Mrs Parkers cap** ist falsch. Bei Gegenständen ist **of** üblich: **the window of the room**.
 
 ### Übung
 
@@ -123,7 +123,7 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
 
 - Aufgabe: Wähle das richtige Namensschild.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Es ist Peters Mütze. → It is Peter's cap.
      - It is Peters cap.: Es fehlt der Apostroph. Er zeigt, dass die Mütze Peter gehört.
@@ -133,7 +133,7 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
      - It is the girl's room.: girl's meint nur ein Mädchen. Hier sind es mehrere.
 4. Es sind die Schuhe der Kinder. → They are the children's shoes.
      - They are the childrens' shoes.: children ist schon die Mehrzahl und hat kein -s. Dann steht wieder ’s.
-- Tipp der App: Frage dich, ob der Besitzer eine Person, mehrere mit -s oder eine Überraschungskiste ist.
+- Tipp der App: Frage dich, ob es zu einer Person, zu mehreren mit -s oder zu einer Überraschungskiste gehört.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#genitiv-wahl](../?via=tutor#genitiv-wahl)
 
@@ -142,26 +142,26 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
 - Aufgabe: Wem gehört die Kiste? Ordne zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: Amir – Amir's bike; die zwei Jungen – the boys' room; die Kinder – the children's room; der Lagerraum – the door of the storeroom
-- Erklärung: Bei einer Person steht ’s, bei mehreren mit -s nur ’, bei children wieder ’s und bei einem Ding meistens of.
-- Tipp der App: Frage dich, wer der Besitzer ist und ob es einer oder mehrere sind.
+- Erklärung: Bei einer Person steht ’s, bei mehreren mit -s nur ’, bei children wieder ’s und bei einem Gegenstand meistens of.
+- Tipp der App: Frage dich, zu wem es gehört und ob es eine Person oder mehrere sind.
 - Link: [../?via=tutor#genitiv-besitzer](../?via=tutor#genitiv-besitzer)
 
 ### Aufgabe genitiv-schreiben
 
 - Aufgabe: Schreibe das Namensschild.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Amir · bike → Amir's bike
      - Amirs bike: Es fehlt der Apostroph. Er zeigt, dass das Fahrrad Amir gehört.
-     - bike Amir's: Der Besitzer steht im Englischen vor dem Ding.
+     - bike Amir's: Im Englischen steht zuerst, wem es gehört.
 2. the girls · coats → the girls' coats
      - the girl's coats: Hier sind es mehrere Mädchen. Der Apostroph kommt hinter das s.
 3. the children · shoes → the children's shoes
      - the childrens shoes: children ist eine Überraschungskiste. Hier brauchst du ’s.
 4. the storeroom · door → the door of the storeroom (auch richtig: the storeroom's door)
-     - the door the room: Zwischen den beiden Dingen fehlt of.
-- Tipp der App: Der Besitzer steht zuerst. Dann kommt das Ding. Bei einem Ding als Besitzer steht of dazwischen.
+     - the door the room: Zwischen den beiden Gegenständen fehlt of.
+- Tipp der App: Zuerst steht, wem es gehört. Dann kommt der Gegenstand. Gehört er zu einem Raum oder einer Tür, steht of dazwischen.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#genitiv-schreiben](../?via=tutor#genitiv-schreiben)
 
@@ -178,11 +178,11 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
 
 - Aufgabe: Hör zu und schreibe den ganzen Satz auf.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Ellie's bag is in the storeroom.
-2. Audio → The door of the room is red.
-3. Audio → The children's shoes are in the bag.
+2. Audio → The door of the room is red, Ellie.
+3. Audio → The children's shoes are in the bag, Sophie.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau hin, wem etwas gehört. Der Apostroph hört sich nicht an, du musst ihn schreiben.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -193,7 +193,7 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Peter's cap is in the box.
+1. Audio → Peter's cap is in the box, Amir.
 2. Audio → The girls' coats are in the boxes.
 3. Audio → Where is the window of the storeroom?
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Der Apostroph wird nicht gesprochen.
@@ -204,8 +204,8 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
 - Aufgabe: Schreibe zwei Namensschilder für Kisten im Lagerraum, eines mit ’s und eines mit of (zum Beispiel: Mr Hill's coat und the door of the room).
 - Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
 - Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
-  - P1 (Inhalt) Ein Schild hat Besitzer plus ’s und dann ein Ding. Quelle: [/ein-ding-viele-dinge/genitiv/#neu](../../../ein-ding-viele-dinge/genitiv/#neu)
-  - P2 (Inhalt) Ein Schild hat ein Ding, dann of und ein weiteres Ding. Quelle: [/ein-ding-viele-dinge/genitiv/#neu](../../../ein-ding-viele-dinge/genitiv/#neu)
+  - P1 (Inhalt) Ein Schild hat den Namen plus ’s und dann den Gegenstand. Quelle: [/ein-ding-viele-dinge/genitiv/#neu](../../../ein-ding-viele-dinge/genitiv/#neu)
+  - P2 (Inhalt) Ein Schild hat einen Gegenstand, dann of und einen weiteren Gegenstand. Quelle: [/ein-ding-viele-dinge/genitiv/#neu](../../../ein-ding-viele-dinge/genitiv/#neu)
   - P3 (Form) Der Apostroph steht an der richtigen Stelle.
 - Musterantwort: Sophie's bag. The window of the storeroom.
 - So hilfst du: Die App zeigt die Punkte erst nach der Antwort; das Kind hakt selbst ab, welche seine Antwort enthält, und „es fehlen P2, P4“ nennt die anderen. Fehlt dir die Antwort, bitte das Kind, sie einzufügen oder das Foto seines Blatts anzuhängen. Prüf Punkt für Punkt, auch die abgehakten, und sag zuerst, was gelungen ist. Zu einem fehlenden Punkt stell eine Frage, die dorthin führt, und nenn seine Quelle. Verrate die Musterantwort nicht, bevor das Kind es noch einmal versucht hat. Zu einem Punkt der Form zeig an einem Satz des Kindes, wie es besser geht.

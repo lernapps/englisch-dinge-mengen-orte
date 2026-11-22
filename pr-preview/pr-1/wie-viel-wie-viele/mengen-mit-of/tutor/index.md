@@ -126,7 +126,7 @@ Mrs Parker hat jetzt ihre Liste. Aber was ist schon im Lagerraum? Mrs Parker fra
 
 - Aufgabe: Wähle die richtige Form.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Amir hat zwei Tassen Tee. → Amir has two cups of tea.
      - Amir has two cup of tea.: Es sind zwei Tassen. Das Mengenwort steht in der Mehrzahl, nicht der Tee.
@@ -162,7 +162,7 @@ Mrs Parker hat jetzt ihre Liste. Aber was ist schon im Lagerraum? Mrs Parker fra
 
 - Aufgabe: Schreibe die Menge mit of.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. cup · tea · 2 → two cups of tea (auch richtig: 2 cups of tea)
      - two cups of teas: Tee kannst du nicht zählen, er bekommt kein -s. Nur das Mengenwort bekommt es.
@@ -190,11 +190,11 @@ Mrs Parker hat jetzt ihre Liste. Aber was ist schon im Lagerraum? Mrs Parker fra
 
 - Aufgabe: Hör zu und schreibe den ganzen Satz auf.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Sophie has two bottles of milk.
-2. Audio → Mrs Parker has a cup of tea.
-3. Audio → Sophie has a pair of shoes.
+1. Audio → Sophie has two bottles of milk, Peter.
+2. Audio → Mrs Parker has a cup of tea, Peter.
+3. Audio → Sophie has a pair of shoes, Amir.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das Mengenwort vor of. Steht es in der Einzahl oder in der Mehrzahl?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -205,9 +205,9 @@ Mrs Parker hat jetzt ihre Liste. Aber was ist schon im Lagerraum? Mrs Parker fra
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Amir has three pieces of cake.
+1. Audio → Amir has three pieces of cake, Ellie.
 2. Audio → Ellie has a bag of sugar.
-3. Audio → The women have two pairs of jeans.
+3. Audio → The women have two pairs of jeans, Sophie.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und verbinde Mengenwort und of zu einem Klang.
 - Link: [../?via=tutor#mengen-nachsprechen](../?via=tutor#mengen-nachsprechen)
 

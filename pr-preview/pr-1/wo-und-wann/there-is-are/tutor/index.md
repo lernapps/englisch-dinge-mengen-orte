@@ -121,7 +121,7 @@ Die Inventur ist fertig. Jetzt will Mr Hill wissen, wann das Schulfest ist, und 
 
 - Aufgabe: Schau auf das Regal und wähle there is oder there are.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Schau auf die Bälle im Regal. → There are two balls on the shelf.
      - There is two balls on the shelf.: Es sind mehrere Bälle. Für mehrere Dinge passt eine andere Form als is.
@@ -149,7 +149,7 @@ Die Inventur ist fertig. Jetzt will Mr Hill wissen, wann das Schulfest ist, und 
 
 - Aufgabe: Schreibe den Satz.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. key · bag · 1 → There is a key in the bag. (auch richtig: There's a key in the bag.)
      - There are a key in the bag.: Es ist nur ein Schlüssel. Für ein Ding passt is, nicht are.
@@ -185,10 +185,10 @@ Die Inventur ist fertig. Jetzt will Mr Hill wissen, wann das Schulfest ist, und 
 
 - Aufgabe: Hör zu und schreibe den ganzen Satz auf.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → There is a bike next to the door.
-2. Audio → There are three pens in the box.
+1. Audio → There is a bike next to the door, Peter.
+2. Audio → There are three pens in the box, Amir.
 3. Audio → Are there any apples on the table?
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf die ersten beiden Wörter. Gibt es ein Ding oder mehrere?
@@ -200,7 +200,7 @@ Die Inventur ist fertig. Jetzt will Mr Hill wissen, wann das Schulfest ist, und 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → There is a window next to the door.
+1. Audio → There is a window next to the door, Ellie.
 2. Audio → There aren't any books under the table.
 3. Audio → Is there a phone on the table?
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Bei der Frage geht die Stimme am Ende nach oben.

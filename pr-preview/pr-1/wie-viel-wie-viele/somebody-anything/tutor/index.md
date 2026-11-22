@@ -118,7 +118,7 @@ Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a 
 
 - Aufgabe: Wähle das richtige Wort.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Hat jemand die Liste? → Has anybody got the list?
      - Has somebody got the list?: Das ist eine Frage. In Fragen wechselt das Etikett, genau wie bei some und any.
@@ -159,7 +159,7 @@ Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a 
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Niemand hat die Liste. → Nobody has the list. (auch richtig: No one has the list.; Nobody has got the list.)
      - Nobody have the list.: nobody ist eine Einzahl. Es heißt has, nicht have.
@@ -187,11 +187,11 @@ Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a 
 
 - Aufgabe: Hör zu und schreibe den ganzen Satz auf.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Is anybody here?
-2. Audio → Nobody is in the room.
-3. Audio → Mr Hill has something for you.
+1. Audio → Is anybody here, Amir?
+2. Audio → Nobody is in the room, Ellie.
+3. Audio → Mr Hill has something for you, Sophie.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf den Anfang des Wortes. Ist es some, any, no oder every?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -203,7 +203,7 @@ Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a 
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Everybody is in the storeroom.
-2. Audio → Have you got anything in the bag?
+2. Audio → Have you got anything in the bag, Peter?
 3. Audio → The list is somewhere in the storeroom.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung am Anfang des Wortes.
 - Link: [../?via=tutor#somebody-nachsprechen](../?via=tutor#somebody-nachsprechen)

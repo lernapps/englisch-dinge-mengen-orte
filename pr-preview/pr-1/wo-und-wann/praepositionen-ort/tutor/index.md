@@ -129,7 +129,7 @@ Die Kisten haben ihren Platz. Mr Hill schaut sich im Lagerraum um und sagt, wie 
 
 - Aufgabe: Schau auf das Bild und wähle die richtige Präposition.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Wo ist die rote Kiste? → The red box is on the table.
      - The red box is in the table.: Die Kiste ist nicht im Tisch drin. Sie steht oben auf der Fläche.
@@ -156,7 +156,7 @@ Die Kisten haben ihren Platz. Mr Hill schaut sich im Lagerraum um und sagt, wie 
 
 - Aufgabe: Schreibe den Satz.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. the ball · in · the box → The ball is in the box.
      - The ball is on the box.: Der Ball ist drin, nicht oben drauf. Dafür gibt es eine andere Präposition als on.
@@ -192,9 +192,9 @@ Die Kisten haben ihren Platz. Mr Hill schaut sich im Lagerraum um und sagt, wie 
 
 - Aufgabe: Hör zu und schreibe den ganzen Satz auf.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → The ball is in the bag.
+1. Audio → The ball is in the bag, Amir.
 2. Audio → The ball is under the window.
 3. Audio → Peter is next to Sophie.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
@@ -207,9 +207,9 @@ Die Kisten haben ihren Platz. Mr Hill schaut sich im Lagerraum um und sagt, wie 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → The cap is behind the door.
+1. Audio → The cap is behind the door, Ellie.
 2. Audio → Amir is next to the window.
-3. Audio → The books are on the shelf.
+3. Audio → The books are on the shelf, Sophie.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und betone das Ding und den Ort.
 - Link: [../?via=tutor#ort-nachsprechen](../?via=tutor#ort-nachsprechen)
 

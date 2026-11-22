@@ -135,7 +135,7 @@ Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Din
 
 - Aufgabe: Wähle das Etikett für die Kiste.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. ein Schlüssel → a key
      - an key: key beginnt mit einem Konsonant-Laut (k). Vor so einem Laut passt an nicht.
@@ -162,7 +162,7 @@ Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Din
 
 - Aufgabe: Achtung auf den Anfangslaut: Wähle a oder an.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. eine Universität → a university
      - an university: university beginnt mit dem Laut „ju“, das ist ein Konsonant-Laut. Ob das u ein Vokal-Buchstabe ist, spielt keine Rolle.
@@ -178,7 +178,7 @@ Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Din
 
 - Aufgabe: Wähle a, an oder the.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ellie hat einen Ball. Er ist rot. → Ellie has a ball. The ball is red.
      - Ellie has a ball. A ball is red.: Der Ball ist jetzt bekannt. Von einem bekannten Ding sagst du nicht mehr a.
@@ -194,7 +194,7 @@ Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Din
 
 - Aufgabe: Schreibe a oder an und das Wort auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. eine Tasche → a bag
      - an bag: bag beginnt mit einem Konsonant-Laut (b). Vor so einem Laut passt an nicht.
@@ -221,10 +221,10 @@ Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Din
 
 - Aufgabe: Hör zu und schreibe den ganzen Satz auf.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Peter has an apple.
-2. Audio → The egg is in the box.
+2. Audio → The egg is in the box, Sophie.
 3. Audio → Sophie has a book and an orange.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das Wort vor dem Ding. Ist es a, an oder the?
@@ -237,8 +237,8 @@ Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Din
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Amir has an umbrella.
-2. Audio → The pen is in the bag.
-3. Audio → Ellie has a ball and an egg.
+2. Audio → The pen is in the bag, Peter.
+3. Audio → Ellie has a ball and an egg, Amir.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Vor einem Vokal-Laut sprichst du the wie „di“.
 - Link: [../?via=tutor#artikel-nachsprechen](../?via=tutor#artikel-nachsprechen)
 

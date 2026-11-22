@@ -125,7 +125,7 @@ Die Gläser stehen im Regal. Aber Mrs Parker braucht für ihren Kuchen genaue Me
 
 - Aufgabe: Wähle das richtige Etikett.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter hat nicht viele Bücher. → Peter hasn't got many books.
      - Peter hasn't got much books.: books kannst du zählen. Zählbares liegt in einer Kiste, dafür brauchst du ein anderes Etikett als much.
@@ -157,7 +157,7 @@ Die Gläser stehen im Regal. Aber Mrs Parker braucht für ihren Kuchen genaue Me
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Mrs Parker hat nicht viel Zucker. → Mrs Parker hasn't got much sugar. (auch richtig: Mrs Parker has not got much sugar.; Mrs Parker doesn't have much sugar.; Mrs Parker hasn't got a lot of sugar.)
      - Mrs Parker hasn't got many sugar.: sugar ist nicht zählbar, ein Glas. Dafür passt many nicht.
@@ -184,11 +184,11 @@ Die Gläser stehen im Regal. Aber Mrs Parker braucht für ihren Kuchen genaue Me
 
 - Aufgabe: Hör zu und schreibe den ganzen Satz auf.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter hasn't got many pens.
+1. Audio → Peter hasn't got many pens, Ellie.
 2. Audio → Ellie has a little water.
-3. Audio → Sophie has a lot of bags.
+3. Audio → Sophie has a lot of bags, Peter.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das Etikett vor dem Ding. Ist es many, much, a few, a little oder a lot of?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -199,9 +199,9 @@ Die Gläser stehen im Regal. Aber Mrs Parker braucht für ihren Kuchen genaue Me
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Amir has a few books.
-2. Audio → Mrs Parker hasn't got much rice.
-3. Audio → Peter has a little bread.
+1. Audio → Amir has a few books, Peter.
+2. Audio → Mrs Parker hasn't got much rice, Amir.
+3. Audio → Peter has a little bread, Ellie.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Etikett vor dem Ding.
 - Link: [../?via=tutor#much-nachsprechen](../?via=tutor#much-nachsprechen)
 

@@ -122,7 +122,7 @@ Der Lagerraum ist geordnet. Jede Kiste hat ein Etikett (a, an, the), viele Kiste
 
 - Aufgabe: Wähle das richtige Wort für nah oder fern.
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Sophie hält einen Schlüssel in der Hand. Er ist klein. → This key is small.
      - That key is small.: Der Schlüssel ist in Sophies Hand, also ganz nah. that zeigt auf etwas Fernes.
@@ -161,7 +161,7 @@ Der Lagerraum ist geordnet. Jede Kiste hat ein Etikett (a, an, the), viele Kiste
 
 - Aufgabe: Schreibe das Etikett mit dem Wort.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. here · coat → this coat
      - that coat: here heißt „hier“, also ist der Mantel nah. that zeigt auf etwas Fernes.
@@ -188,11 +188,11 @@ Der Lagerraum ist geordnet. Jede Kiste hat ein Etikett (a, an, the), viele Kiste
 
 - Aufgabe: Hör zu und schreibe den ganzen Satz auf.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → These shoes are in the box.
+1. Audio → These shoes are in the box, Amir.
 2. Audio → That cap is Peter's.
-3. Audio → Those coats are red.
+3. Audio → Those coats are red, Ellie.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das erste Wort. Ist das Ding nah oder fern, eines oder mehrere?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -203,9 +203,9 @@ Der Lagerraum ist geordnet. Jede Kiste hat ein Etikett (a, an, the), viele Kiste
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → This is Sophie's coat.
-2. Audio → That is Mr Hill's bike.
-3. Audio → Those bikes are blue.
+1. Audio → This is Sophie's coat, Peter.
+2. Audio → That is Mr Hill's bike, Peter.
+3. Audio → Those bikes are blue, Amir.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und zeige dabei mit der Hand nah oder fern.
 - Link: [../?via=tutor#demonstrativ-nachsprechen](../?via=tutor#demonstrativ-nachsprechen)
 
