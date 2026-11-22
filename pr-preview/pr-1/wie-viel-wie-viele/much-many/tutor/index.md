@@ -186,9 +186,9 @@ Die Gläser stehen im Regal. Aber Mrs Parker braucht für ihren Kuchen genaue Me
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter hasn't got many pens, Ellie.
+1. Audio → Peter hasn't got many pens.
 2. Audio → Ellie has a little water.
-3. Audio → Sophie has a lot of bags, Peter.
+3. Audio → Sophie has a lot of bags.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das Etikett vor dem Ding. Ist es many, much, a few, a little oder a lot of?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -199,9 +199,9 @@ Die Gläser stehen im Regal. Aber Mrs Parker braucht für ihren Kuchen genaue Me
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Amir has a few books, Peter.
-2. Audio → Mrs Parker hasn't got much rice, Amir.
-3. Audio → Peter has a little bread, Ellie.
+1. Audio → Amir has a few books.
+2. Audio → Mrs Parker hasn't got much rice.
+3. Audio → Peter has a little bread.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Etikett vor dem Ding.
 - Link: [../?via=tutor#much-nachsprechen](../?via=tutor#much-nachsprechen)
 

@@ -199,7 +199,7 @@ Jetzt stehen viele Kisten im Lagerraum. Aber wem gehören sie? Auf der nächsten
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Sophie has two boxes.
-2. Audio → The children have three balls, Ellie.
+2. Audio → The children have three balls.
 3. Audio → Amir has three apples.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das Ende des Wortes nach der Zahl.
@@ -211,9 +211,9 @@ Jetzt stehen viele Kisten im Lagerraum. Aber wem gehören sie? Auf der nächsten
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Peter has two books, Sophie.
-2. Audio → Ellie has two eggs, Peter.
-3. Audio → The women have two bags, Amir.
+1. Audio → Peter has two books.
+2. Audio → Ellie has two eggs.
+3. Audio → The women have two bags.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende des Wortes nach der Zahl.
 - Link: [../?via=tutor#plural-nachsprechen](../?via=tutor#plural-nachsprechen)
 

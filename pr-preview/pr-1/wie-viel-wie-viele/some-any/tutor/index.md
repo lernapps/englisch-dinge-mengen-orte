@@ -187,9 +187,9 @@ Peter hat im Regal einiges gefunden, aber nicht alles. Jemand hat Mrs Parkers Li
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Have you got any rice, Peter?
+1. Audio → Have you got any rice?
 2. Audio → Peter has some apples.
-3. Audio → Amir hasn't got any juice, Ellie.
+3. Audio → Amir hasn't got any juice.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das Etikett vor dem Ding. Ist es some, any oder no?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -200,9 +200,9 @@ Peter hat im Regal einiges gefunden, aber nicht alles. Jemand hat Mrs Parkers Li
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Ellie has no bread, Sophie.
-2. Audio → Has Sophie got any pens, Peter?
-3. Audio → Mrs Parker has some eggs, Peter.
+1. Audio → Ellie has no bread.
+2. Audio → Has Sophie got any pens?
+3. Audio → Mrs Parker has some eggs.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Bei der Frage geht die Stimme am Ende nach oben.
 - Link: [../?via=tutor#some-nachsprechen](../?via=tutor#some-nachsprechen)
 

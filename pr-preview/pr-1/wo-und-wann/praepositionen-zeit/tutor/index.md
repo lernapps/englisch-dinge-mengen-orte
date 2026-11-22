@@ -187,7 +187,7 @@ Der Lagerraum ist fertig und das Schulfest steht im Kalender: am ersten Samstag 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → The party is on Friday.
-2. Audio → Mrs Parker's birthday is in March, Sophie.
+2. Audio → Mrs Parker's birthday is in March.
 3. Audio → The lesson is at nine o'clock.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das Wort vor der Zeit. Ist es in, on oder at?
@@ -200,7 +200,7 @@ Der Lagerraum ist fertig und das Schulfest steht im Kalender: am ersten Samstag 
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Sophie's lesson is at eight o'clock.
-2. Audio → Mr Hill's birthday is on 3 June, Peter.
+2. Audio → Mr Hill's birthday is on 3 June.
 3. Audio → Our party is in August.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf in, on und at.
 - Link: [../?via=tutor#zeit-nachsprechen](../?via=tutor#zeit-nachsprechen)

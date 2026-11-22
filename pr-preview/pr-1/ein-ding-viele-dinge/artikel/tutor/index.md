@@ -224,7 +224,7 @@ Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Din
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Peter has an apple.
-2. Audio → The egg is in the box, Sophie.
+2. Audio → The egg is in the box.
 3. Audio → Sophie has a book and an orange.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau auf das Wort vor dem Ding. Ist es a, an oder the?
@@ -237,8 +237,8 @@ Alle Kisten haben jetzt ein Etikett. Doch im Regal liegen nicht nur einzelne Din
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Amir has an umbrella.
-2. Audio → The pen is in the bag, Peter.
-3. Audio → Ellie has a ball and an egg, Amir.
+2. Audio → The pen is in the bag.
+3. Audio → Ellie has a ball and an egg.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Vor einem Vokal-Laut sprichst du the wie „di“.
 - Link: [../?via=tutor#artikel-nachsprechen](../?via=tutor#artikel-nachsprechen)
 

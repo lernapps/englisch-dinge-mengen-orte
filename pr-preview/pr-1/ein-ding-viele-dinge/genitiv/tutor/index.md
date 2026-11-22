@@ -181,8 +181,8 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Ellie's bag is in the storeroom.
-2. Audio → The door of the room is red, Ellie.
-3. Audio → The children's shoes are in the bag, Sophie.
+2. Audio → The door of the room is red.
+3. Audio → The children's shoes are in the bag.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Hör genau hin, wem etwas gehört. Der Apostroph hört sich nicht an, du musst ihn schreiben.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -193,7 +193,7 @@ Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von W
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Peter's cap is in the box, Amir.
+1. Audio → Peter's cap is in the box.
 2. Audio → The girls' coats are in the boxes.
 3. Audio → Where is the window of the storeroom?
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach. Der Apostroph wird nicht gesprochen.
