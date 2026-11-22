@@ -25,7 +25,7 @@ Alle elf sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Reihenfolge n
    - `mengen-mit-of` → `…/mengen-mit-of`
    - `some-any` → `…/some-any`
    - `somebody-anything` → `…/somebody-anything`
-4. Kapitel `ohne-etikett` („Ohne Etikett und Sonderfälle“, Stufe 7-8): Wiederholung `recap: englisch/simple-present` → `ohne-etikett/das-brauchst-du` (ohne Übung); `artikel-gebrauch` → `ohne-etikett/artikel-gebrauch` (Lesestück Chat); `nomen-kongruenz` → `ohne-etikett/nomen-kongruenz` (Lesestück Schülerzeitung, folgt).
+4. Kapitel `ohne-etikett` („Ohne Etikett und Sonderfälle“, Stufe 7-8): Wiederholung `recap: englisch/simple-present` → `ohne-etikett/das-brauchst-du` (ohne Übung); `artikel-gebrauch` → `ohne-etikett/artikel-gebrauch` (Lesestück Chat); `nomen-kongruenz` → `ohne-etikett/nomen-kongruenz` (Lesestück Schülerzeitung).
 3. Kapitel `wo-und-wann` („Wo und wann?“)
    - Wiederholung `recap: [englisch/to-be, englisch/datum, englisch/uhrzeit]` → `wo-und-wann/das-brauchst-du` (ohne Übung, ohne `competencies`)
    - `praepositionen-ort` → `…/praepositionen-ort`
@@ -62,6 +62,7 @@ Aufbau leicht → schwer: zuordnen/wählen → Lücke → Tabelle ableiten → s
 - (f) Reihenfolge: `ordering` (Satzbau mit there is/are, Zeitangabe). (g) Entscheiden mit Begründung: `true-false`, `single-choice`; die Rückmeldung nennt die Kiste, das Glas oder den Zeit-Behälter.
 - (h) Hören und schreiben: `language-task` mit `audio` (je Seite drei ganze Sätze, nie wiederholt); Nachsprechen: `speaking-task` (drei weitere Sätze).
 - (i) Freies Schreiben: `open-task` (eigenes Etikett, eigenes Regal, eigener Kalendereintrag).
+- Gläser und Kistengruppe (Kapitel 4): news, information, advice, furniture, homework sind Gläser (Verb Einzahl, kein a, kein -s, Menge mit a piece of); police ist eine Kistengruppe (Verb Mehrzahl, a police officer). Beispiele der Übungen: advice, information, police, homework, furniture, news; Poster und Merke nennen weather, people, furniture, work.
 - Lesestück-Aufgaben: Verstehen (`single-choice`), Belegen mit Zeile (`single-choice`: „In welcher Zeile steht …?“), Meinung (`open-task`).
 - Typische Fehler (jeweils `mistakes`): the bei Allgemeinem (The music is fun), I go to the school für den Schulbesuch, the bei Mahlzeiten und by bus,  a vor Vokal (a egg), an vor Konsonant, an university / a hour (Laut, nicht Buchstabe), childs / mans / apple’s, the Sophie’s bike, Peters’s, this books, much books / many water, some in der Frage und any in der Aussage, there is two boxes, in Monday / at July / on 8 o’clock.
 - Selbsteinschätzung: je Kapitel zwei Übungen je Seite (Skill `lernapps-explainer-self-assessment`).
@@ -75,7 +76,7 @@ Aufbau leicht → schwer: zuordnen/wählen → Lücke → Tabelle ableiten → s
 - Szenen: je Seite `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von hello-millbrook und gleich gelassen. `alt` sagt, was die Szene zeigt, nie die Lösung; die Bildunterschrift nennt, wer wer ist (Sophie Zöpfe, Ellie roter Pferdeschwanz, Amir Brille, Peter gelbe Jacke).
 - Kisten und Gläser: Kiste = braune Kiste mit Etikett (zählbar), Glas = Glas mit Etikett (nicht zählbar); später Regalplan (`regal-*.svg`) und Zeit-Behälter (`zeit-behaelter.svg`: großer Rahmen = in, Fläche = on, Punkt = at). Gebaut (alle in `src/images/`): `szene-<seite>.svg` für jede Seite (die Szene der Wiederholungsseite fehlt), dazu `kisten-a-an`, `kisten-plural`, `namensschilder`, `hand-nah-fern`, `kisten-glaeser`, `glas-wird-zaehlbar`, `some-any-etiketten`, `etiketten-ohne-nomen`, `regal-orte`, `regal-aufgabe` (Aufgabenbild als `material`, farbige Kisten), `there-is-are`, `regal-inventur` (Aufgabenbild als `material`), `zeit-behaelter`. Das Bild einer Seite zeigt nie die Wörter, die ihre Übungen abfragen.
 - Poster und Kalender sind `table`-Blöcke, sie wachsen von Seite zu Seite.
-- Kapitel 4: `kiste-ohne-etikett.svg` (Kiste mit leerem, gestricheltem Etikett = allgemein; Kiste mit the = bestimmt), `glas-news.svg` und `kistengruppe-police.svg` (folgen).
+- Kapitel 4: `kiste-ohne-etikett.svg` (Kiste mit leerem, gestricheltem Etikett = allgemein; Kiste mit the = bestimmt), `glas-news-police.svg` (Glas news mit is, Kistengruppe police mit are).
 
 ## Sources
 
@@ -142,6 +143,8 @@ Die Stimme hängt an Sätzen manchmal einen Fehllaut an. Erzeugt wird mit `regen
 - The lesson is at nine o'clock.
 - Sophie's lesson is at eight o'clock.
 - Our party is in August.
+
+Kapitel 4 (12 Sätze, Stand Inkrement 02): geschnitten wurden „Dogs are friendly animals.“ (95 ms) und „The news is on the radio at six.“ (85 ms). Einsilbiges Ende zum gezielten Hören: „We play tennis on Saturday.“ (Saturday ist zweisilbig, kein Risiko), „The news is on the radio at six.“ (six), „Peter goes to bed at ten.“ (ten), „People love good music.“ (zweisilbig), „Good advice is useful.“ (zweisilbig), „We need more information today.“ (zweisilbig), „Is the news good today?“ (zweisilbig). Alle anderen enden auf zweisilbige Wörter.
 
 ## Rules learned from mistakes
 

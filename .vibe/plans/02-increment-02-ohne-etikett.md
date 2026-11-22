@@ -147,7 +147,7 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Kapitel `ohne-etikett` anlegen (app.yaml, chapter.yaml) und Wiederholungsseite `das-brauchst-du` (recap englisch/simple-present, nur Text und Tabelle, kein Sub-Agent).
 - [x] Seite `artikel-gebrauch` (Musterseite für das Lesestück: Chat, Randglossar, Aufgaben Verstehen/Belegen/Meinung, Schreibauftrag, Diktat und Nachsprechen); Figuren, Audio, Inhaltsführer (kein Sub-Agent).
-- [ ] Seite `nomen-kongruenz` (Lesestück: Artikel der Schülerzeitung, Aufgaben, Audio, Selbsteinschätzung Kapitel 4; kein Sub-Agent, weil sie das Muster der vorigen Seite braucht).
+- [x] Seite `nomen-kongruenz` (Lesestück: Artikel der Schülerzeitung, Aufgaben, Audio, Selbsteinschätzung Kapitel 4; kein Sub-Agent, weil sie das Muster der vorigen Seite braucht).
 <!-- tasks: slices (3 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it

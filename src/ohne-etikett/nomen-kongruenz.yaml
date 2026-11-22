@@ -1,0 +1,277 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Glas oder Kistengruppe: news, advice und police"
+description: "Die Polizei besucht die Millbrook School. Du lernst, warum bei news, information und advice das Verb in der Einzahl steht und bei police in der Mehrzahl."
+competencies: [nomen-kongruenz]
+scope: "Die Seite zeigt, welches Verb zu news, information, advice, furniture, homework und police passt. news, information, advice, furniture und homework sind nicht zählbar (Gläser), haben kein Plural-s und kein a, und das Verb steht in der Einzahl (The news is good). Eine einzelne Menge heißt a piece of news, a piece of advice. police ist eine Gruppe von Kisten, das Verb steht im britischen Englisch in der Mehrzahl (The police are here). Ein Lesestück (Artikel der Schülerzeitung) trägt die Seite. Typische Fehler sind The news are good, an advice, informations und The police is here."
+blocks:
+  - type: section
+    id: einstieg
+    title: Die Polizei besucht Millbrook School
+    blocks:
+      - type: text
+        text: "Millbrook News braucht einen Artikel für die erste Ausgabe. Ellie schreibt über den Besuch der Polizei an der Schule. Mr Hill korrigiert, Sophie macht die Überschriften. Lies Ellies Artikel."
+      - type: single-choice
+        id: kongruenz-start
+        text: "Sophie schreibt: „Peter ___ to school by bus.“ Welche Form passt?"
+        options:
+          - text: goes
+            correct: true
+            info: "Peter ist eine einzelne Person (he). Dann hängt am Verb ein -s: goes."
+          - text: go
+            correct: false
+            info: "go ist die Form für I, you, we und they. Bei Peter (he) brauchst du ein -s."
+          - text: going
+            correct: false
+            info: "going passt nur mit einer Form von be, zum Beispiel Peter is going."
+        explanation: Bei he, she, it und einem einzelnen Namen hängt am Verb ein -s. Das brauchst du gleich bei news und police.
+        links:
+          - title: Lernlandkarte Englisch · Kongruenz bei news und police
+            url: https://lernapps.net/apps/map/englisch/c/nomen-kongruenz/
+      - type: text
+        text: "**Das kannst du danach:** Du verbindest news, information, advice und police mit dem passenden Verb."
+      - type: text
+        text: "**Abschnitt 1 · Gute Nachrichten für Radfahrer** Millbrook School has some good news. The police are coming to our school on Tuesday. Two officers will talk to Year 8 about road safety. The news is exciting for many students, because lots of us cycle to school."
+      - type: definition
+        term: officer
+        explanation: Polizist, Polizistin
+      - type: definition
+        term: safety
+        explanation: Sicherheit
+      - type: definition
+        term: cycle
+        explanation: Rad fahren
+      - type: text
+        text: "**Abschnitt 2 · Was die Polizei rät** The police are clear: many accidents happen in the morning. Their advice is simple. Wear a helmet, use lights and look left and right. Here is one more piece of advice: Never use your phone on the bike."
+      - type: definition
+        term: accident
+        explanation: Unfall
+      - type: definition
+        term: helmet
+        explanation: Helm
+      - type: text
+        text: "**Abschnitt 3 · Mehr Informationen** Information about safe routes is on a big poster in the hall. It is free, and everybody can read it. Mr Hill has some information on paper, too. Do you have any news about your own way to school? Send it to Millbrook News!"
+      - type: definition
+        term: route
+        explanation: Weg, Strecke
+      - type: single-choice
+        id: kongruenz-lesen
+        text: "Wann kommt die Polizei an die Schule?"
+        options:
+          - text: am Montag
+            correct: false
+            info: "Am Montag wird in diesem Artikel nichts erwähnt. Die Polizei kommt an einem anderen Tag."
+          - text: am Dienstag
+            correct: true
+            info: "Der Artikel sagt: The police are coming to our school on Tuesday."
+          - text: am Freitag
+            correct: false
+            info: "Am Freitag erscheint die Zeitung, aber der Besuch ist an einem anderen Tag."
+        explanation: Die Polizei kommt am Dienstag.
+        links:
+          - title: Lernlandkarte Englisch · Kongruenz bei news und police
+            url: https://lernapps.net/apps/map/englisch/c/nomen-kongruenz/
+      - type: single-choice
+        id: kongruenz-beleg
+        text: "In welchem Abschnitt steht, was man auf dem Fahrrad tragen soll?"
+        options:
+          - text: Abschnitt 1
+            correct: false
+            info: "Abschnitt 1 erzählt vom Besuch und davon, dass viele Schüler mit dem Rad kommen."
+          - text: Abschnitt 2
+            correct: true
+            info: "In Abschnitt 2 steht der Rat der Polizei: Wear a helmet."
+          - text: Abschnitt 3
+            correct: false
+            info: "Abschnitt 3 sagt, wo es mehr Informationen gibt."
+        explanation: "Abschnitt 2 enthält den Rat: ein Helm, Licht und der Blick nach links und rechts."
+        links:
+          - title: Lernlandkarte Englisch · Kongruenz bei news und police
+            url: https://lernapps.net/apps/map/englisch/c/nomen-kongruenz/
+  - type: section
+    id: neu
+    title: Ein Glas, eine Kistengruppe
+    blocks:
+      - type: text
+        text: "Im Artikel steht „The news **is** exciting“, aber „The police **are** clear“. Beide Nomen sehen mehrzahlig aus, aber nur eines ist es. **news, information** und **advice** sind **Gläser**: Du kannst sie nicht zählen, sie haben kein Plural-s und kein a, und das Verb steht in der Einzahl. **police** ist eine **Kistengruppe**: Das Verb steht in der Mehrzahl."
+      - type: figure
+        image: images/glas-news-police.svg
+        alt: Links ein Glas mit dem Wort news und dem Verb is, rechts mehrere Kisten mit dem Wort police und dem Verb are.
+        caption: Links ein Glas (Verb in der Einzahl), rechts eine Gruppe von Kisten (Verb in der Mehrzahl).
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Glas oder Kistengruppe
+        header: [Art, Beispiel]
+        rowHeaders: true
+        rows:
+          - [Glas, The weather is nice.]
+          - [Glas als Menge, a piece of furniture]
+          - [Kistengruppe, The people are kind.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Ein Glas bekommt kein **-s** und kein **a**: Es heißt **some news**, **a piece of news**, nicht „a news“ und nicht „informations“. Auch **furniture** und **homework** sind Gläser. Ein einzelner Polizist heißt **a police officer**. Im britischen Englisch nehmen Sammelwörter wie **police** meist ein Verb in der Mehrzahl: **The police work hard.**
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: kongruenz-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das passende Verb.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Mr Hills Rat ist immer nützlich.
+            target: "Mr Hill's advice [is] always useful."
+            distractors: [[are]]
+            mistakes:
+              - answer: Mr Hill's advice are always useful.
+                message: "advice ist ein Glas, also nicht zählbar. Dann steht das Verb in der Einzahl."
+          - cue: Die Information in diesem Buch ist alt.
+            target: "The information in this book [is] old."
+            distractors: [[are]]
+            mistakes:
+              - answer: The information in this book are old.
+                message: "information ist ein Glas. Das Verb steht in der Einzahl."
+          - cue: Die Polizei ist vor der Schule.
+            target: "The police [are] outside the school."
+            distractors: [[is]]
+            mistakes:
+              - answer: The police is outside the school.
+                message: "police ist eine Kistengruppe. Das Verb steht in der Mehrzahl."
+          - cue: Die Hausaufgabe ist heute lang.
+            target: "Our homework [is] long today."
+            distractors: [[are]]
+            mistakes:
+              - answer: Our homework are long today.
+                message: "homework ist ein Glas. Das Verb steht in der Einzahl."
+          - cue: Die Möbel im Raum sind neu.
+            target: "The furniture in the room [is] new."
+            distractors: [[are]]
+            mistakes:
+              - answer: The furniture in the room are new.
+                message: "furniture ist ein Glas, obwohl es im Deutschen die Möbel heißt. Das Verb steht in der Einzahl."
+        hint: Frag dich, ob das Nomen ein Glas (nicht zählbar) oder eine Kistengruppe ist.
+      - type: multiple-choice
+        id: kongruenz-richtig
+        text: Welche Sätze sind richtig? Wähle alle richtigen.
+        options:
+          - text: The news are good.
+            correct: false
+            info: "news ist ein Glas. Es heißt The news is good."
+          - text: The police are friendly.
+            correct: true
+            info: "police ist eine Kistengruppe, darum steht are."
+          - text: I have an advice for you.
+            correct: false
+            info: "advice ist ein Glas und hat kein a. Es heißt a piece of advice oder some advice."
+          - text: We need some information.
+            correct: true
+            info: "information ist ein Glas. Mit some ist der Satz richtig."
+        explanation: Gläser (news, advice, information) bleiben in der Einzahl und haben kein a. police nimmt das Verb in der Mehrzahl.
+        hint: Welches Nomen ist ein Glas, welches eine Kistengruppe?
+        links:
+          - title: Lernlandkarte Englisch · Kongruenz bei news und police
+            url: https://lernapps.net/apps/map/englisch/c/nomen-kongruenz/
+      - type: matching
+        id: kongruenz-zuordnen
+        text: Welcher englische Ausdruck passt? Ordne zu.
+        pairs:
+          - left: ein einzelner Rat
+            right: a piece of advice
+          - left: ein einzelner Polizist
+            right: a police officer
+          - left: viele Informationen
+            right: a lot of information
+          - left: eine einzelne Neuigkeit
+            right: a piece of news
+        explanation: Bei Gläsern zählst du mit a piece of. Bei police sagst du für eine Person a police officer.
+        hint: Welche der vier Wörter sind Gläser? Dort steht a piece of.
+        links:
+          - title: Lernlandkarte Englisch · Kongruenz bei news und police
+            url: https://lernapps.net/apps/map/englisch/c/nomen-kongruenz/
+      - type: language-task
+        id: kongruenz-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Die Nachrichten sind schlecht.
+            target: The news is bad.
+            mistakes:
+              - answer: The news are bad.
+                message: "news ist ein Glas und endet nur zufällig auf -s. Das Verb steht in der Einzahl."
+          - source: Die Polizei ist hier.
+            target: The police are here.
+            mistakes:
+              - answer: The police is here.
+                message: "police ist eine Kistengruppe. Das Verb steht in der Mehrzahl."
+          - source: Das ist ein guter Rat.
+            target: That is (good advice|a good piece of advice).
+            mistakes:
+              - answer: That is a good advice.
+                message: "advice ist ein Glas und hat kein a. Zähle mit a piece of."
+          - source: Ich brauche eine Information.
+            target: I need (some information|a piece of information).
+            mistakes:
+              - answer: I need an information.
+                message: "information ist ein Glas und hat kein a. Zähle mit a piece of oder sage some."
+        hint: Glas oder Kistengruppe? Danach wählst du das Verb.
+      - type: true-false
+        id: kongruenz-plural
+        text: "Mr Hill schreibt „We have three informations on the poster.“ Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Kann information ein Plural-s haben?
+        explanation: information ist ein Glas und hat kein Plural-s. Es heißt three pieces of information.
+        links:
+          - title: Lernlandkarte Englisch · Kongruenz bei news und police
+            url: https://lernapps.net/apps/map/englisch/c/nomen-kongruenz/
+      - type: language-task
+        id: kongruenz-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-news-is-on-the-radio-at-six.mp3
+            target: The news is on the radio at six.
+          - audio: her-advice-is-very-helpful.mp3
+            target: Her advice is very helpful.
+          - audio: the-police-are-at-the-station.mp3
+            target: The police are at the station.
+        hint: Achte auf das Verb nach dem Nomen. Ist es is oder are?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: kongruenz-nachsprechen
+        language: en
+        items:
+          - audio: we-need-more-information-today.mp3
+            text: We need more information today.
+          - audio: is-the-news-good-today.mp3
+            text: Is the news good today?
+          - audio: good-advice-is-useful.mp3
+            text: Good advice is useful.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Verb nach dem Nomen.
+      - type: open-task
+        id: kongruenz-rat
+        task: "Millbrook News fragt: Welchen Rat gibst du Radfahrern? Schreibe zwei bis drei Sätze für die Zeitung (zum Beispiel: My advice is simple. Look left and right. The police are at the school on Tuesday.)."
+        points:
+          - text: Ein Satz hat advice, news oder information mit einem Verb in der Einzahl.
+            source: /ohne-etikett/nomen-kongruenz/#neu
+          - text: Ein Satz hat police mit einem Verb in der Mehrzahl.
+            source: /ohne-etikett/nomen-kongruenz/#neu
+          - text: Es sind ganze Sätze und eine eigene Meinung.
+            kind: form
+        solution: |
+          My advice is to use lights. The police are happy about helmets. A helmet is useful.
+  - type: section
+    id: weiter
+    title: Rückblick auf die App
+    blocks:
+      - type: text
+        text: "Die erste Ausgabe von Millbrook News ist fertig. Du kannst jetzt Dinge mit Etiketten benennen, aus Kisten viele machen, Mengen und Orte angeben, die Zeit mit in, on und at sagen, und du weißt, wann die Kiste kein Etikett braucht und welches Verb zu einem Glas oder einer Kistengruppe passt."
