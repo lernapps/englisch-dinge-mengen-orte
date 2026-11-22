@@ -192,12 +192,16 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Explore, Plan, Code erreicht; Commit begonnen: Branch `increment/02-ohne-etikett` gepusht, Vorschau-Pull-Request geöffnet (nicht gemergt, kein Katalogeintrag). Checkpoints von der Orchestrator-Session (in der Rolle der Ersteller:in) bestätigt: Recherche, Plan und Inhaltsmethode, Musterseite. „Veröffentlichen“ wird gemeldet; Veröffentlichen und Eintragen stehen aus (Vorgabe: Stopp vor dem Veröffentlichen).
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Menschliche Rückmeldungen der Ersteller:in nach der Bestätigung des Plans: 3 (Neuer Versuch nach dem Neustart der Session; Auftrag zum Vokabelblock; Erlaubnis zum Pushen „Ja, alle pushen“, über die Orchestrator-Session weitergegeben). Dazu Nachrichten der Orchestrator-Session (in der Rolle der Ersteller:in): Ja zu Plan und Musterseite, Hinweis zum Warten auf den Push.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+- Reihenfolge und Form der drei Seiten (Wiederholungsseite für simple present, Chat, Zeitungsartikel) und das Alter der Figuren nach zwei Jahren (13/13/13/11).
+- Kein „church“ und keine Religionsdetails; der Polizeibesuch ist eine erfundene Schulveranstaltung zur Verkehrssicherheit, neutral.
+- Ob der Vokabelblock auch das Randglossar der Lesestücke ersetzen soll (ja, ein Block „Randglossar“ je Abschnitt).
+- police immer mit Verb in der Mehrzahl (britisches Englisch); Wörterbucheinträge und der Abschnitt „zero article“ von English articles wurden nicht geprüft (HTTP 429).
+- Die Hörliste (Fehllaut-Schnitt, zweisilbige Enden) ist nicht angehört; nur Dateien und Sätze wurden abgeglichen.
