@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -71,8 +71,9 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Ja, passt (drei Seiten, Wiederholung simple-present nur Text und Tabelle, zwei Lesestück-Sorten Chat und Schülerzeitung). Weiter zu Plan und Inhaltsmethode. Nichts weiter pushen, bis die Ersteller:in es erlaubt; Pull-Request noch nicht öffnen.
 
 ### Answers
 
@@ -88,10 +89,10 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
 - [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
@@ -101,11 +102,23 @@ Jugendliche (Stufe 7-8) entscheiden, wann im Englischen kein „the“ steht (al
 
 ### Content method
 
-<!-- One line each: the guide's patterns, figures and components used, and where; anything new, what it does and
-cannot. Something new goes into the guide in the slice that adds it. -->
-<!-- An explainer: per figure, model and component its learning action in two to four sentences
-(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
-page, which a link. -->
+**Das Neue gegenüber der ersten Version: das Lesestück** (Konventionen Abschnitt 8). Die Muster der Seiten bleiben (Abschnitte einstieg/neu/uebung/anwenden/weiter, Neue-Wörter-Tabelle, Poster, Merke, `language-task`, `ordering`, Diktat, `speaking-task`, `open-task`, selfAssessment). Neu ist nur die Form des Einstiegs: ein Lesestück statt einer Szene. Mit den vorhandenen Blöcken, keine Komponente (`prefer-built-in-block`):
+- **Chat:** `table` mit den Spalten Zeile, Wer, Nachricht, 8 bis 14 nummerierte Zeilen (so kann „Belege mit Zeile“ fragen). Bei der Schülerzeitung: `text`-Blöcke je Abschnitt (zwei bis drei).
+- **Randglossar:** `definition`-Blöcke direkt unter dem Abschnitt (schwere Wörter am Rand, höchstens 6; sie erscheinen im Glossar der App).
+- **Aufgaben in drei Stufen** (id-Präfix wie bisher): Verstehen (`single-choice`/`multiple-choice`, ohne die Antwort im Text direkt darüber), Belegen (`language-task` mode `choice` „In welcher Zeile steht …“ oder `single-choice` mit Zeilenzahl), Meinung (`open-task`). Dazu die Übungen zur Regel (Wahl, Zuordnung, Schreiben, Ordnen), Diktat und Nachsprechen.
+- **Figuren:** ein Bild nur, wo es etwas zeigt (Kistenbild: Kiste ohne Etikett; news = Glas; police = Gruppe von Kisten); keine Szenenbilder der Figuren (Sophie ist 13 bis 14, Chat).
+- Warum die Muster nicht ausreichen: ein Lesestück hat bisher gefehlt; es steht nach dem Bau der Seite `artikel-gebrauch` im Inhaltsführer (Abschnitt „Content structure“ und „Exercise patterns“).
+
+**Seiten:**
+1. `das-brauchst-du` (recap `englisch/simple-present`): Text und Tabelle (Person, Verb mit -s bei he/she/it), kein Lesestück, keine Übung; sie nennt den „Ich kann“-Satz der Karte.
+2. `artikel-gebrauch` (`competencies: [artikel-gebrauch]`): Lesestück 1 „Millbrook News: Wer macht mit?“ (Chat, Schülerzeitung, 8 bis 10 Zeilen, Sophie 13, Ellie, Amir, Peter, Mr Hill; Beispiele für go to school, at home, in bed, by bus, Music is fun, People like …); Regel: Kiste ohne Etikett bei Allgemeinem (Plural, Glas), bei school/bed/home/work und Wochentagen, the bei Bestimmtem. Poster „Klassenzimmer-Poster · Kiste ohne Etikett“. Übungen: Zuordnung the/ohne, Lücke (the oder nichts als `[ ]`-Auswahl mit echten Fehlern: „the school“ für go to school, „the music“), Schreiben, Ordnen, Belegen mit Zeile, Meinung; Diktat/Nachsprechen 3+3.
+3. `nomen-kongruenz` (`competencies: [nomen-kongruenz]`): Lesestück 2 „Die Polizei besucht die Schule“ (Artikel Millbrook News, Verkehrssicherheit, 3 Abschnitte); Regel: news, information, advice, furniture, homework sind Gläser (Verb in der Einzahl, kein a, kein -s: a piece of advice), police ist eine Kistengruppe (Verb in der Mehrzahl: the police are). Poster „Klassenzimmer-Poster · Glas oder Kistengruppe“. Übungen wie oben.
+
+**Figuren (eigene SVG, `CC-BY-4.0`, wie Kapitel 1 bis 3):** `kiste-ohne-etikett.svg` (leeres Schild bei Allgemeinem), `glas-news.svg` (Glas news, Verb is), `kistengruppe-police.svg` (viele Kisten, Verb are). Jede erklärt ihre Lernaktion: Kinder sehen, dass die Kiste kein Etikett braucht, wenn nicht ein bestimmtes Ding gemeint ist; ein Glas bleibt in der Einzahl; die Kistengruppe nimmt das Verb in der Mehrzahl.
+
+**Quellen und Prüfung:** eigene Texte, keine Sätze aus fremden Texten; Fakten (the bei Bekanntem, Mass nouns, britische Verbform bei police) mit den geöffneten Wikipedia-Seiten der Notes; was ungeprüft ist, steht im Inhaltsführer. Hörliste im Inhaltsführer (66 plus 12 Sätze, Schnitte).
+
+
 
 ## Code
 
@@ -128,7 +141,10 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Kapitel `ohne-etikett` anlegen (app.yaml, chapter.yaml) und Wiederholungsseite `das-brauchst-du` (recap englisch/simple-present, nur Text und Tabelle, kein Sub-Agent).
+- [ ] Seite `artikel-gebrauch` (Musterseite für das Lesestück: Chat, Randglossar, Aufgaben Verstehen/Belegen/Meinung, Schreibauftrag, Diktat und Nachsprechen); Figuren, Audio, Inhaltsführer (kein Sub-Agent).
+- [ ] Seite `nomen-kongruenz` (Lesestück: Artikel der Schülerzeitung, Aufgaben, Audio, Selbsteinschätzung Kapitel 4; kein Sub-Agent, weil sie das Muster der vorigen Seite braucht).
+<!-- tasks: slices (3 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
