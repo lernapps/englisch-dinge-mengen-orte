@@ -90,50 +90,54 @@ Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://le
 
 Je Seite drei Diktatsätze (`<seite>-hoeren`) und drei Sätze zum Nachsprechen (`<seite>-nachsprechen`), 66 Sätze für 11 Seiten (die Wiederholungsseite hat keine), alle in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz). Der Dateiname ist der Satz in Kleinbuchstaben, jedes Zeichen außer Buchstaben und Ziffern wird zu `-` (`amir-s-bike-is-in-the-storeroom.mp3`). Erzeugen: `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json "<Satz>"`.
 
-Die Stimme hängt an Sätzen, die auf ein einsilbiges Wort enden, manchmal einen Fehllaut an. Die Sätze enden deshalb möglichst auf ein zweisilbiges Wort oder einen Namen; wo das nicht natürlich geht, steht der Satz in der **Hörliste** (42 Sätze), damit die Ersteller:in gezielt das Satzende hört. Ein angehängter Name nur zum Zweck des Klangs ist nicht erwünscht (Rückmeldung der Ersteller:in). Hörliste:
+Die Stimme hängt an Sätzen manchmal einen Fehllaut an. Erzeugt wird mit `regen_audio.py` (Fassung aus der Orchestrierung: schneidet das Ausklingen und mit `valley_cut` einen Fehllaut nach der letzten Senke, höchstens 100 ms; Trockenlauf `DRY=1`, ohne Schnitt `--no-dip-cut`). Ein angehängter Name nur zum Zweck des Klangs ist nicht erwünscht (Rückmeldung der Ersteller:in). **Hörliste** für die gezielte Kontrolle der Ersteller:in:
 
-- Amir has a few books.
-- Amir has three pieces of cake.
-- Amir hasn't got any juice.
-- Ellie has a ball and an egg.
-- Ellie has no bread.
-- Ellie has two eggs.
-- Has Sophie got any pens?
-- Have you got any rice?
-- Have you got anything in the bag?
-- Is anybody here?
-- Mr Hill has something for you.
-- Mr Hill's birthday is on 3 June.
-- Mrs Parker has a cup of tea.
-- Mrs Parker has some eggs.
-- Mrs Parker hasn't got much rice.
-- Mrs Parker's birthday is in March.
-- Nobody is in the room.
-- Peter has a little bread.
-- Peter has two books.
-- Peter hasn't got many pens.
-- Peter's cap is in the box.
-- Sophie has a lot of bags.
-- Sophie has a pair of shoes.
-- Sophie has two bottles of milk.
-- That is Mr Hill's bike.
-- The ball is in the bag.
-- The books are on the shelf.
-- The cap is behind the door.
-- The children have three balls.
-- The children's shoes are in the bag.
-- The door of the room is red.
-- The egg is in the box.
-- The pen is in the bag.
-- The women have two bags.
-- The women have two pairs of jeans.
-- There are three pens in the box.
-- There is a bike next to the door.
-- There is a window next to the door.
-- These shoes are in the box.
-- This is Sophie's coat.
-- Those bikes are blue.
-- Those coats are red.
+**Fehllaut-Schnitt (17 Dateien, Satz und entfernte ms):**
+
+- Sophie has two boxes. (55 ms)
+- The children have three balls. (85 ms)
+- Peter has two books. (45 ms)
+- Ellie has two eggs. (35 ms)
+- The door of the room is red. (75 ms)
+- The girls' coats are in the boxes. (85 ms)
+- These shoes are in the box. (95 ms)
+- That cap is Peter's. (45 ms)
+- Those coats are red. (85 ms)
+- Peter hasn't got many pens. (95 ms)
+- Sophie has a lot of bags. (95 ms)
+- Sophie has two bottles of milk. (35 ms)
+- Sophie has a pair of shoes. (85 ms)
+- The women have two pairs of jeans. (95 ms)
+- Has Sophie got any pens? (85 ms)
+- The ball is in the bag. (75 ms)
+- Our party is in August. (35 ms)
+
+**Zweisilbiges Ende (Risiko, dass eine Silbe angeschnitten wird), 24 Sätze:**
+
+- Peter has an apple.
+- Sophie has a book and an orange.
+- Amir has an umbrella.
+- Sophie has two boxes.
+- Amir has three apples.
+- Ellie's bag is in the storeroom.
+- The girls' coats are in the boxes.
+- Where is the window of the storeroom?
+- That cap is Peter's.
+- Ellie has a little water.
+- Ellie has a bag of sugar.
+- Peter has some apples.
+- Everybody is in the storeroom.
+- The list is somewhere in the storeroom.
+- The ball is under the window.
+- Peter is next to Sophie.
+- Amir is next to the window.
+- Are there any apples on the table?
+- There aren't any books under the table.
+- Is there a phone on the table?
+- The party is on Friday.
+- The lesson is at nine o'clock.
+- Sophie's lesson is at eight o'clock.
+- Our party is in August.
 
 ## Rules learned from mistakes
 
@@ -156,6 +160,6 @@ Aus dieser App (Lerner-Check der Musterseite, zweiter Check, Auflagen der Orches
 - Bei Apostroph-Aufgaben (`genitiv`) nicht `apostrophe: ok` setzen, sonst zählt der Fehler als richtig.
 - Ein Satz, der in der Aufgabe steht, steht nicht noch einmal als Hörtext derselben Seite.
 - `scope`-Texte in YAML in Anführungszeichen setzen, wenn sie einen Doppelpunkt enthalten.
-- Hörsätze enden möglichst auf ein zweisilbiges Wort oder einen Namen, aber kein Name nur für den Klang anhängen; einsilbige Enden stehen in der Hörliste im Abschnitt „Audio“.
+- Kein Name nur für den Klang an einen Hörsatz hängen; Fehllaute schneidet `regen_audio.py` (`valley_cut`), die Dateien stehen in der Hörliste im Abschnitt „Audio“.
 - Menschen sind keine „Dinge“: nicht „Besitzer“ und „Ding“ für Personen und ihre Beziehungen (Rückmeldung der Ersteller:in zu #471).
 - `punctuation: ok` in allen Schreib- und Diktataufgaben (die Vorlage meldet bei `hint` auch bei richtigen Antworten „Achte auf die Satzzeichen“).
