@@ -9,10 +9,10 @@ blocks:
     title: Der Chat der Schülerzeitung
     blocks:
       - type: text
-        text: "Millbrook News, die Schülerzeitung der Millbrook School, soll am Freitag zum ersten Mal erscheinen. Das Team schreibt im Gruppenchat: Mr Hill (Englischlehrer) und Sophie, Ellie, Amir und Peter. Sophie ist 13, Ellie und Amir sind auch 13, Peter ist 11."
+        text: "Millbrook News, die Schülerzeitung der Millbrook School, soll nächsten Freitag zum ersten Mal erscheinen. Das Team schreibt im Gruppenchat: Mr Hill (Englischlehrer) und Sophie, Ellie, Amir und Peter. Sophie ist 13, Ellie und Amir sind auch 13, Peter ist 11."
       - type: single-choice
         id: gebrauch-start
-        text: "Mr Hill schreibt: „The first issue is on Friday.“ Welches Wort ist hier das Etikett vor „issue“?"
+        text: "Mr Hill schreibt: „The first issue is next Friday.“ Welches Wort ist hier das kleine Etikett ganz vorn?"
         options:
           - text: the
             correct: true
@@ -33,15 +33,19 @@ blocks:
         caption: Chat · Millbrook News
         header: [Zeile, Wer, Nachricht]
         rows:
-          - ["1", Mr Hill, "Good morning, team! The first issue of Millbrook News is on Friday. What is our big story?"]
+          - [
+              "1",
+              Mr Hill,
+              "Good morning, team! The first issue of Millbrook News is next Friday. What is our big story?",
+            ]
           - ["2", Ellie, "Music! Music is fun, and I love the school band."]
           - ["3", Amir, "Hmm. The band is very loud. Some people don't like it."]
           - ["4", Sophie, "Life is short, Amir. Let's write about the concert. It is on Saturday."]
-          - ["5", Peter, "I can't come. I go to school by bus, but on Saturday I am at home."]
+          - ["5", Peter, "I can't come. I go to school by bus, but on Saturday I play football."]
           - ["6", Ellie, "Peter is always in bed until ten on Saturday!"]
           - ["7", Peter, "That's not true! I have breakfast at eight. Then I play football with friends."]
           - ["8", Sophie, "Friends are important, Peter, but we need photos of the band. Can you take them, Amir?"]
-          - ["9", Amir, "OK. I take my camera to the concert."]
+          - ["9", Amir, "OK. I can take my camera to the concert."]
           - ["10", Mr Hill, "Good. People love pictures! Send the photos to me by email on Sunday."]
           - ["11", Ellie, "And I write the report. English is easy for me."]
           - ["12", Mr Hill, "Fine. Please finish the text before school on Monday."]
@@ -61,33 +65,33 @@ blocks:
         id: gebrauch-lesen
         text: "Wann ist das Konzert der Schulband?"
         options:
-          - text: am Freitag
+          - text: nächsten Freitag
             correct: false
-            info: "Am Freitag erscheint die erste Ausgabe der Zeitung, nicht das Konzert."
+            info: "Nächsten Freitag erscheint die erste Ausgabe der Zeitung, nicht das Konzert."
           - text: am Samstag
             correct: true
             info: "Sophie sagt, dass das Konzert am Samstag ist."
           - text: am Sonntag
             correct: false
             info: "Am Sonntag schickt Amir seine Fotos an Mr Hill."
-        explanation: Das Konzert ist am Samstag. Die Zeitung erscheint am Freitag.
+        explanation: Das Konzert ist am Samstag. Die Zeitung erscheint nächsten Freitag.
         links:
           - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
             url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
       - type: single-choice
         id: gebrauch-beleg
-        text: "In welcher Zeile steht, dass Peter am Samstag lange im Bett liegt?"
+        text: "In welcher Zeile behauptet Ellie, dass Peter am Samstag lange im Bett liegt?"
         options:
           - text: Zeile 5
             correct: false
-            info: "In Zeile 5 sagt Peter, dass er am Samstag zu Hause ist, aber nicht, dass er im Bett liegt."
+            info: "In Zeile 5 sagt Peter, dass er am Samstag Fußball spielt, aber nicht, dass er im Bett liegt."
           - text: Zeile 6
             correct: true
-            info: "In Zeile 6 sagt Ellie, dass Peter am Samstag bis zehn im Bett ist."
+            info: "In Zeile 6 behauptet Ellie, dass Peter am Samstag bis zehn im Bett ist."
           - text: Zeile 7
             correct: false
             info: "In Zeile 7 sagt Peter, dass er um acht frühstückt."
-        explanation: "Zeile 6 sagt es: Peter ist bis zehn im Bett."
+        explanation: "Zeile 6 sagt es: Ellie behauptet, dass Peter bis zehn im Bett ist."
         links:
           - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
             url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
@@ -117,7 +121,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Bei **school, bed, home** und **work** meinst du den Ort als Aufgabe: **go to school** heißt „zur Schule gehen, um zu lernen“. **go to the school** heißt, dass du zum Gebäude gehst, zum Beispiel für ein Gespräch. Nach **by** steht auch kein Etikett: **by bus, by train**. Sobald klar ist, **welches** Ding gemeint ist, brauchst du wieder **the**.
+              Bei **school, bed** und **work** meinst du nicht das Gebäude, sondern das, was man dort tut (lernen, schlafen, arbeiten), bei **home** einfach „zu Hause“: **go to school** heißt „zur Schule gehen, um zu lernen“. **go to the school** heißt, dass du zum Gebäude gehst, zum Beispiel für ein Gespräch. Nach **by** steht auch kein Etikett: **by bus, by train**. Sobald klar ist, **welches** Ding gemeint ist, brauchst du wieder **the**.
   - type: section
     id: uebung
     title: Übung
@@ -174,7 +178,7 @@ blocks:
             right: I go to school.
           - left: Ich gehe zum Schulgebäude, um mit dem Direktor zu sprechen.
             right: I go to the school.
-          - left: Pizza ist lecker (allgemein).
+          - left: Pizza ist gut (allgemein).
             right: Pizza is good.
           - left: Die Musik der Schulband ist laut.
             right: The music of the school band is loud.
@@ -189,7 +193,7 @@ blocks:
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Amir · love · pizza
+          - source: Amir liebt Pizza.
             target: Amir loves pizza.
             mistakes:
               - answer: Amir loves the pizza.
@@ -204,10 +208,10 @@ blocks:
             mistakes:
               - answer: We have the lunch at the school.
                 message: "Bei der Mahlzeit und bei school als Ort fehlt das Etikett."
-          - cue: friends · help · you
-            target: Friends help you.
+          - source: Freunde helfen einander.
+            target: Friends help each other.
             mistakes:
-              - answer: The friends help you.
+              - answer: The friends help each other.
                 message: "Hier sind Freunde allgemein gemeint. Dann steht kein the."
         hint: Allgemeines und feste Ausdrücke bekommen kein Etikett.
       - type: ordering
@@ -215,13 +219,13 @@ blocks:
         text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
         items: [Amir, goes, to, school, on, Friday]
         explanation: Zuerst kommt die Person mit dem Verb, dann to school ohne the und zuletzt on mit dem Tag.
-        hint: school und Friday stehen ohne Etikett.
+        hint: Der Satz beginnt mit Amir. school und Friday stehen ohne Etikett.
         links:
           - title: Lernlandkarte Englisch · Gebrauch des bestimmten Artikels
             url: https://lernapps.net/apps/map/englisch/c/artikel-gebrauch/
       - type: true-false
         id: gebrauch-schule
-        text: "Auf Deutsch heißt „I go to the school.“ dasselbe wie „I go to school.“ Stimmt das?"
+        text: "„I go to the school.“ und „I go to school.“ bedeuten dasselbe. Stimmt das?"
         answer: false
         hint: Schau in den Kasten „Merke“. Was ändert das the?
         explanation: Mit the geht es um ein Gebäude, zum Beispiel für ein Gespräch. Ohne the geht es um den Schulbesuch.
@@ -255,10 +259,10 @@ blocks:
             text: People love good music.
           - audio: peter-goes-to-bed-at-ten.mp3
             text: Peter goes to bed at ten.
-        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Sätze ohne the.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte darauf, dass in diesen Sätzen kein the vorkommt.
       - type: open-task
         id: gebrauch-meinung
-        task: "Ellie schreibt: „Music is fun.“ Wie siehst du das? Schreibe für Millbrook News zwei bis drei Sätze über etwas, das du wichtig findest (zum Beispiel: Sport is important. I do sport at school. The school team is good.)."
+        task: "Ellie schreibt: „Music is fun.“ Schreibe für Millbrook News zwei bis drei Sätze über etwas, das dir wichtig ist (zum Beispiel: Sport is important. I do sport at school. The school team is good.)"
         points:
           - text: Ein Satz sagt etwas Allgemeines ohne Etikett.
             source: /ohne-etikett/artikel-gebrauch/#neu
@@ -275,4 +279,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Der Chat ist fertig, die erste Ausgabe wächst. Am Montag will Mr Hill zeigen, was die Polizei der Schule rät. Auf der nächsten Seite lernst du, warum news ein anderes Verb braucht als police."
+        text: "Der Chat ist fertig, die erste Ausgabe wächst. In der Woche davor will Mr Hill zeigen, was die Polizei der Schule rät. Auf der nächsten Seite lernst du, warum news ein anderes Verb braucht als police."
