@@ -1,0 +1,235 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wo steht die Kiste? in, on, under, next to, behind"
+description: "Die Klasse stellt die Kisten im Lagerraum auf. Du lernst, mit in, on, under, next to und behind zu sagen, wo etwas steht."
+competencies: [praepositionen-ort]
+scope: Die Seite führt die Präpositionen des Ortes in, on, under, next to und behind ein. in heißt drin, on heißt auf einer Fläche, under heißt darunter, next to heißt daneben und behind heißt dahinter. Die Präposition steht vor dem Ort (on the table). Typische Fehler sind in und on vertauscht (in the table), under mit behind verwechselt und die Präposition weggelassen.
+blocks:
+  - type: section
+    id: einstieg
+    title: Wo soll die Kiste stehen?
+    blocks:
+      - type: figure
+        image: images/szene-ort.svg
+        alt: Sophie, Amir und Peter stehen im Lagerraum. Rechts steht ein Tisch, auf dem eine Kiste steht.
+        caption: "Von links: Sophie (Zöpfe), Amir (Brille) und Peter (gelbe Jacke). Mr Hill zeigt, wo die Kisten hinsollen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mr Hill sagt: „Jede Kiste braucht den richtigen Platz im Lagerraum.“ Dazu brauchst du kleine Wörter, die sagen, **wo** etwas ist. Sie heißen **Präpositionen**."
+      - type: text
+        text: "**Das kannst du danach:** Du sagst mit in, on, under, next to und behind, wo etwas steht."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [table, Tisch]
+          - [chair, Stuhl]
+          - [shelf, Regal]
+          - [door, Tür]
+          - [floor, Boden]
+          - [wall, Wand]
+          - [room, Zimmer]
+          - [window, Fenster]
+          - [ball, Ball]
+          - [green, grün]
+          - [yellow, gelb]
+          - [blue, blau]
+          - [red, rot]
+          - [is, ist]
+          - [are, sind]
+      - type: single-choice
+        id: ort-start
+        text: "Peter sagt: „The box is on the floor.“ Wo steht die Kiste?"
+        options:
+          - text: auf dem Boden
+            correct: true
+            info: "on heißt „auf“. Die Kiste steht oben auf dem Boden."
+          - text: im Regal
+            correct: false
+            info: "„Im Regal“ hieße in the shelf. Peter sagt on."
+          - text: hinter der Tür
+            correct: false
+            info: "„Hinter“ heißt behind. Peter sagt on."
+        explanation: on sagt, dass etwas auf einer Fläche steht.
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen des Ortes
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-ort/
+  - type: section
+    id: neu
+    title: Wo die Kiste steht
+    blocks:
+      - type: text
+        text: "Mit einer Präposition sagst du, **wo** die Kiste steht. Sie steht vor dem Ort: **on the table**. Fünf Wörter reichen für den Anfang: **in** (drin), **on** (auf), **under** (unter), **next to** (neben) und **behind** (hinter)."
+      - type: figure
+        image: images/regal-orte.svg
+        alt: Ein Tisch im Lagerraum. Eine Kiste steht auf dem Tisch, eine darunter, eine daneben. Hinter einem Stuhl steht eine Kiste. Links liegt ein Ball in einer Kiste. Jede Kiste ist mit ihrer Präposition beschriftet.
+        caption: Fünf Plätze für eine Kiste. Unter jeder steht die Präposition.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Orte
+        header: [Präposition, Bedeutung]
+        rowHeaders: true
+        rows:
+          - [in, drin]
+          - [on, auf]
+          - [under, unter]
+          - [next to, neben]
+          - [behind, hinter]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Im Deutschen übersetzt du on mal mit „auf“, mal mit „an“: **on the floor** (auf dem Boden), **on the wall** (an der Wand). **in** heißt **drin** (in the room). Die Präposition steht **vor dem Ort**, nie dahinter.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: ort-bild
+        languages: { source: de, target: en }
+        mode: choice
+        task: Schau auf das Bild und wähle die richtige Präposition.
+        form: { case: hint, punctuation: ok }
+        material:
+          - type: figure
+            image: images/regal-aufgabe.svg
+            alt: Ein Tisch und ein Stuhl im Lagerraum mit vier farbigen Kisten an vier verschiedenen Plätzen.
+            caption: "Welche Kiste steht wo? Es gibt eine blaue, eine gelbe, eine rote und eine grüne Kiste."
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - cue: Wo ist die rote Kiste?
+            target: "The red box is [on] the table."
+            distractors: [[in, under]]
+            mistakes:
+              - answer: The red box is in the table.
+                message: "Die Kiste ist nicht im Tisch drin. Sie steht oben auf der Fläche."
+          - cue: Wo ist die blaue Kiste?
+            target: "The blue box is [under] the table."
+            distractors: [[behind, on]]
+            mistakes:
+              - answer: The blue box is behind the table.
+                message: "behind heißt hinter, aber die blaue Kiste steht nicht hinter dem Tisch. Schau, wo sie genau steht."
+          - cue: Wo ist die grüne Kiste?
+            target: "The green box is [next to] the table."
+            distractors: [[on, behind]]
+            mistakes:
+              - answer: The green box is on the table.
+                message: "Die grüne Kiste steht nicht auf dem Tisch. Schau, wo sie genau steht."
+          - cue: Wo ist die gelbe Kiste?
+            target: "The yellow box is [behind] the chair."
+            distractors: [[under, in]]
+            mistakes:
+              - answer: The yellow box is under the chair.
+                message: "Die gelbe Kiste steht nicht unter dem Stuhl. Schau, wo sie genau steht."
+        hint: Schau auf die Kiste und auf den Tisch oder den Stuhl. Ist sie drin, oben drauf, darunter, daneben oder dahinter?
+      - type: matching
+        id: ort-zuordnen
+        text: Welcher englische Ausdruck passt? Ordne zu.
+        pairs:
+          - left: auf dem Regal
+            right: on the shelf
+          - left: neben der Tür
+            right: next to the door
+          - left: hinter dem Fenster
+            right: behind the window
+          - left: in der Tasche
+            right: in the bag
+        explanation: on ist auf einer Fläche, next to ist daneben, behind ist dahinter und in ist drin.
+        hint: Stell dir den Ort vor und frag dich, ob das Ding drin, auf, neben oder hinter dem Ort ist.
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen des Ortes
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-ort/
+      - type: language-task
+        id: ort-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: the ball · in · the box
+            target: The ball is in the box.
+            mistakes:
+              - answer: The ball is on the box.
+                message: "Der Ball ist drin, nicht oben drauf. Dafür gibt es eine andere Präposition als on."
+          - cue: the bag · on · the table
+            target: The bag is on the table.
+            mistakes:
+              - answer: The bag is in the table.
+                message: "Ein Tisch hat kein Innen. Die Tasche liegt oben auf der Fläche."
+          - cue: the shoes · under · the chair
+            target: The shoes are under the chair.
+            mistakes:
+              - answer: The shoes is under the chair.
+                message: "shoes ist eine Mehrzahl, dazu passt are."
+          - cue: the cap · next to · the bag
+            target: The cap is next to the bag.
+            mistakes:
+              - answer: The cap is next the bag.
+                message: "Es fehlt ein Wort: next to hat zwei Teile."
+        hint: Die Präposition steht vor dem Ort. Bei einer Mehrzahl heißt es are.
+      - type: ordering
+        id: ort-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        items: [The, bag, is, behind, the, chair]
+        explanation: Zuerst steht das Ding, dann is, dann die Präposition und zuletzt der Ort.
+        hint: Das Ding steht zuerst. Die Präposition steht direkt vor dem Ort.
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen des Ortes
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-ort/
+      - type: true-false
+        id: ort-on
+        text: "Mr Hill sagt: „The cap is under the table.“ Die Mütze liegt oben auf dem Tisch. Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Wo steht on, wo steht under?
+        explanation: under heißt darunter. Für oben auf dem Tisch heißt es on the table.
+        links:
+          - title: Lernlandkarte Englisch · Präpositionen des Ortes
+            url: https://lernapps.net/apps/map/englisch/c/praepositionen-ort/
+      - type: language-task
+        id: ort-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-ball-is-in-the-bag.mp3
+            target: The ball is in the bag.
+          - audio: the-ball-is-under-the-window.mp3
+            target: The ball is under the window.
+          - audio: peter-is-next-to-sophie.mp3
+            target: Peter is next to Sophie.
+        hint: Hör genau auf die Präposition. Wo ist das Ding?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und einräumen
+    blocks:
+      - type: speaking-task
+        id: ort-nachsprechen
+        language: en
+        items:
+          - audio: the-cap-is-behind-the-door.mp3
+            text: The cap is behind the door.
+          - audio: amir-is-next-to-the-window.mp3
+            text: Amir is next to the window.
+          - audio: the-books-are-on-the-shelf.mp3
+            text: The books are on the shelf.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und betone das Ding und den Ort.
+      - type: open-task
+        id: ort-regal
+        task: "Mr Hill fragt: Wo stehen die Kisten in deinem Lagerraum? Schreibe zwei Sätze mit verschiedenen Präpositionen (zum Beispiel: The box is on the shelf. The bag is under the table)."
+        points:
+          - text: Jeder Satz hat eine Präposition (in, on, under, next to oder behind).
+            source: /wo-und-wann/praepositionen-ort/#neu
+          - text: Die Präposition passt zum Ort und steht vor ihm.
+            source: /wo-und-wann/praepositionen-ort/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          The box is on the shelf. The ball is under the chair.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Die Kisten haben ihren Platz. Mr Hill schaut sich im Lagerraum um und sagt, wie viele es gibt. Auf der nächsten Seite lernst du „there is“ und „there are“.

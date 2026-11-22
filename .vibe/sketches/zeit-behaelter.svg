@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" role="img" aria-label="Skizze: in große Kiste, on Fläche, at Punkt">
+<rect width="480" height="220" fill="#f4efe2"/>
+<rect x="20" y="60" width="140" height="110" fill="none" stroke="#2c6fd8" stroke-width="4"/><text x="90" y="120" font-size="16" text-anchor="middle">in July</text>
+<rect x="190" y="110" width="110" height="20" fill="#138d75"/><text x="245" y="100" font-size="16" text-anchor="middle">on Saturday</text>
+<circle cx="400" cy="120" r="10" fill="#c0392b"/><text x="400" y="100" font-size="16" text-anchor="middle">at 10 o'clock</text>
+</svg>

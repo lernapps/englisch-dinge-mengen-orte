@@ -1,0 +1,228 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Etiketten ohne Nomen: somebody, anything, nowhere"
+description: "Jemand hat Mrs Parkers Liste mitgenommen. Du lernst Wörter wie somebody, anything, nobody und everywhere, die kein Nomen brauchen."
+competencies: [somebody-anything]
+scope: Die Seite führt die Zusammensetzungen mit some, any, no und every ein (somebody, something, somewhere; anybody, anything, anywhere; nobody, nothing, nowhere; everybody, everything, everywhere). Es gelten dieselben Regeln wie bei some, any und no (some in Aussagen, any in Fragen und Verneinungen). nobody, nothing und nowhere verneinen selbst, dazu steht kein not. Das Verb nach somebody, nobody und everybody steht in der Einzahl (Everybody has a bag). Typische Fehler sind Nobody hasn't got, Anything in der Aussage und Everybody have.
+blocks:
+  - type: section
+    id: einstieg
+    title: Wo ist die Liste?
+    blocks:
+      - type: figure
+        image: images/szene-somebody.svg
+        alt: Amir und Sophie stehen im Lagerraum und suchen. Auf dem Regal stehen links und rechts je eine Kiste.
+        caption: "Von links: Amir (Brille) und Sophie (Zöpfe). Sie suchen die Liste von Mrs Parker."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mrs Parkers Liste ist weg. Amir sagt: „Somebody has the list.“ Hinter somebody steht kein Nomen. Das Wort sagt schon, dass es um eine Person geht."
+      - type: text
+        text: "**Das kannst du danach:** Du benutzt Wörter wie somebody, anything, nobody und everywhere richtig."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [somebody, jemand]
+          - [something, etwas]
+          - [nothing, nichts]
+          - [everybody, "alle, jeder"]
+          - [everything, alles]
+          - [everywhere, überall]
+          - [list, Liste]
+      - type: single-choice
+        id: somebody-start
+        text: "Amir sagt: „Somebody has the list.“ Wer hat die Liste?"
+        options:
+          - text: irgendjemand, aber Amir weiß nicht, wer
+            correct: true
+            info: "somebody heißt „jemand“. Amir weiß nicht, wer es ist. Darum sagt er nur somebody."
+          - text: niemand
+            correct: false
+            info: "„Niemand“ heißt auf Englisch nobody. Hier hat aber jemand die Liste."
+          - text: alle
+            correct: false
+            info: "„Alle“ ist everybody. Amir meint eine einzelne Person, die er nicht kennt."
+        explanation: somebody ist ein Etikett ohne Nomen. Es steht für eine Person, die man nicht nennt.
+        links:
+          - title: Lernlandkarte Englisch · Zusammensetzungen mit some und any
+            url: https://lernapps.net/apps/map/englisch/c/somebody-anything/
+  - type: section
+    id: neu
+    title: Anfang plus Ende ergibt ein Etikett ohne Nomen
+    blocks:
+      - type: text
+        text: "Du setzt einen **Anfang** (some, any, no, every) mit einem **Ende** (body, thing, where) zusammen. **body** meint eine Person, **thing** ein Ding und **where** einen Ort. Für den Anfang gelten dieselben Regeln wie vorher: some in Aussagen, any in Fragen und Verneinungen."
+      - type: figure
+        image: images/etiketten-ohne-nomen.svg
+        alt: Links stehen die Anfänge some, any, no und every, rechts die Enden body für Person, thing für Ding und where für Ort. Darunter steht some plus body ergibt somebody.
+        caption: Ein Anfang und ein Ende ergeben ein Wort.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Etiketten ohne Nomen
+        header: [Anfang, Wörter]
+        rowHeaders: true
+        rows:
+          - [some, "somebody · something · somewhere"]
+          - [every, "everybody · everything · everywhere"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **any** und **no** funktionieren genauso. **nobody, nothing** und **nowhere** verneinen schon selbst, darum steht dabei kein not: **Nobody has a key**, nicht „Nobody hasn't got a key“. Nach **somebody, nobody** und **everybody** steht das Verb in der Einzahl (has, is): **Everybody has a cap.**
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: somebody-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Hat jemand die Liste?
+            target: "Has [anybody] got the list?"
+            distractors: [[somebody]]
+            mistakes:
+              - answer: Has somebody got the list?
+                message: "Das ist eine Frage. In Fragen wechselt das Etikett, genau wie bei some und any."
+          - cue: Peter hat etwas in der Tasche.
+            target: "Peter has [something] in the bag."
+            distractors: [[anything]]
+            mistakes:
+              - answer: Peter has anything in the bag.
+                message: "Das ist eine Aussage. In Aussagen steht der Anfang some."
+          - cue: Ellie hat nichts.
+            target: "Ellie hasn't got [anything]."
+            distractors: [[something]]
+            mistakes:
+              - answer: Ellie hasn't got something.
+                message: "Das ist eine Verneinung. In Verneinungen steht der Anfang any."
+          - cue: Niemand ist im Lagerraum.
+            target: "[Nobody] is in the storeroom."
+            distractors: [[Anybody]]
+            mistakes:
+              - answer: Anybody is in the storeroom.
+                message: "Das Wort muss selbst verneinen. Dafür brauchst du einen anderen Anfang als any."
+        hint: Aussage, Frage oder Verneinung? Danach wählst du den Anfang. body, thing oder where sagt dir, ob es um eine Person, ein Ding oder einen Ort geht.
+      - type: matching
+        id: somebody-zuordnen
+        text: Welches Wort passt? Ordne zu.
+        pairs:
+          - left: jemand (in einer Aussage)
+            right: somebody
+          - left: irgendetwas (in einer Frage)
+            right: anything
+          - left: niemand
+            right: nobody
+          - left: überall
+            right: everywhere
+        distractors: [nowhere]
+        explanation: some steht in Aussagen, any in Fragen, no verneint, every heißt „jeder“ oder „alle“.
+        hint: Frag dich, ob es um eine Person, ein Ding oder einen Ort geht und welcher Anfang zum Satz passt.
+        links:
+          - title: Lernlandkarte Englisch · Zusammensetzungen mit some und any
+            url: https://lernapps.net/apps/map/englisch/c/somebody-anything/
+      - type: language-task
+        id: somebody-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze das Wort.
+        form: { case: hint }
+        table:
+          caption: Anfang plus Ende
+          header: [Teile, Wort]
+          rows:
+            - [any + thing, "[anything]"]
+            - [no + body, "[nobody]"]
+            - [no + where, "[nowhere]"]
+            - [any + body, "[anybody]"]
+        hint: Setze die beiden Teile zu einem Wort zusammen.
+      - type: language-task
+        id: somebody-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Niemand hat die Liste.
+            target: Nobody has the list.
+            accepted: [No one has the list., Nobody has got the list.]
+            mistakes:
+              - answer: Nobody have the list.
+                message: "nobody ist eine Einzahl. Es heißt has, nicht have."
+              - answer: Nobody hasn't got the list.
+                message: "nobody verneint schon. Dann steht kein not im Satz."
+          - source: Peter hat nichts.
+            target: Peter has nothing.
+            accepted: [Peter hasn't got anything.]
+            mistakes:
+              - answer: Peter hasn't got nothing.
+                message: "nothing verneint schon. Dann steht kein not im Satz."
+          - source: Hast du irgendetwas?
+            target: Have you got anything?
+            accepted: [Do you have anything?]
+            mistakes:
+              - answer: Have you got something?
+                message: "Das ist eine Frage. In Fragen wechselt der Anfang."
+          - source: Alle haben einen Stift.
+            target: Everybody has a pen.
+            accepted: [Everyone has a pen.]
+            mistakes:
+              - answer: Everybody have a pen.
+                message: "everybody ist eine Einzahl. Es heißt has, nicht have."
+        hint: Aussage, Frage oder Verneinung? Danach Anfang und Ende. Das Verb steht in der Einzahl.
+      - type: true-false
+        id: somebody-doppelt
+        text: "Peter sagt: „Nobody hasn't got the list.“ Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Was machen nobody, nothing und nowhere schon selbst?
+        explanation: nobody verneint schon. Es heißt Nobody has the list, ohne not.
+        links:
+          - title: Lernlandkarte Englisch · Zusammensetzungen mit some und any
+            url: https://lernapps.net/apps/map/englisch/c/somebody-anything/
+      - type: language-task
+        id: somebody-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: is-anybody-here.mp3
+            target: Is anybody here?
+          - audio: nobody-is-in-the-room.mp3
+            target: Nobody is in the room.
+          - audio: mr-hill-has-something-for-you.mp3
+            target: Mr Hill has something for you.
+        hint: Hör genau auf den Anfang des Wortes. Ist es some, any, no oder every?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und suchen
+    blocks:
+      - type: speaking-task
+        id: somebody-nachsprechen
+        language: en
+        items:
+          - audio: everybody-is-in-the-storeroom.mp3
+            text: Everybody is in the storeroom.
+          - audio: have-you-got-anything-in-the-bag.mp3
+            text: Have you got anything in the bag?
+          - audio: the-list-is-somewhere-in-the-storeroom.mp3
+            text: The list is somewhere in the storeroom.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung am Anfang des Wortes.
+      - type: open-task
+        id: somebody-suche
+        task: "Die Klasse sucht die Liste. Schreibe zwei Sätze mit Wörtern wie somebody, nobody, everywhere oder nothing (zum Beispiel: Nobody has the list. Nothing is in the box.)."
+        points:
+          - text: Ein Satz hat ein Wort mit some, any, no oder every und body, thing oder where.
+            source: /wie-viel-wie-viele/somebody-anything/#neu
+          - text: Bei nobody, nothing und nowhere steht kein not.
+            source: /wie-viel-wie-viele/somebody-anything/#neu
+        solution: |
+          Somebody has the list. Nothing is in the box.
+  - type: section
+    id: weiter
+    title: Rückblick auf Kapitel 2
+    blocks:
+      - type: text
+        text: "Die Gläser und Kisten sind beschriftet: many für Kisten, much für Gläser, a cup of macht aus dem Glas etwas Zählbares, some und any wechseln mit dem Satz und somebody braucht kein Nomen. Mrs Parkers Liste ist wieder da. Jetzt muss alles an seinen Platz im Regal. Im nächsten Kapitel wiederholst du kurz be, Wochentage, Monate, Datum und Uhrzeiten. Dann stellst du die Kisten in den Lagerraum und füllst den Schulkalender."

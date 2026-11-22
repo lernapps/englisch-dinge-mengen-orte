@@ -1,0 +1,222 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Was ist noch da? some, any und no"
+description: "Peter schaut nach, was noch im Regal liegt. Du lernst, dass auf Kisten und Gläsern in Fragen und Verneinungen ein anderes Etikett klebt als in Aussagen."
+competencies: [some-any]
+scope: Die Seite führt some, any und no ein. In Aussagen steht some (I have some eggs). In Fragen steht meistens any (Have you got any eggs?). In Verneinungen steht not any (I haven't got any eggs) oder no (I have no eggs). Die Wörter stehen vor Mehrzahlnomen und vor nicht zählbaren Nomen. Typische Fehler sind some in der Verneinung (I haven't got some), any in der Aussage und no zusammen mit not.
+blocks:
+  - type: section
+    id: einstieg
+    title: Peter schaut ins Regal
+    blocks:
+      - type: figure
+        image: images/szene-some-any.svg
+        alt: Peter und Ellie stehen im Lagerraum und schauen auf das Regal. Dort stehen links eine Kiste, in der Mitte ein Glas und rechts noch eine Kiste.
+        caption: "Von links: Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz). Sie schauen nach, was noch da ist."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mrs Parker fragt Peter nach den Zutaten. Peter sieht im Regal nach und sagt: „I have some eggs.“ Das heißt: „Ich habe ein paar Eier.“ some steht vor etwas, das da ist."
+      - type: text
+        text: "**Das kannst du danach:** Du sagst mit some, any und no, was da ist und was nicht, in Aussagen, Fragen und Verneinungen."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [some, "ein paar, etwas"]
+          - [any, "irgendein, irgendwelche"]
+          - [no, kein]
+          - [pen, Stift]
+          - [bread, Brot]
+          - [cheese, Käse]
+          - [juice, Saft]
+          - [rice, Reis]
+          - [apple, Apfel]
+          - [egg, Ei]
+      - type: single-choice
+        id: some-start
+        text: "Peter sagt: „I have some eggs.“ Was heißt some?"
+        options:
+          - text: ein paar, etwas
+            correct: true
+            info: "some heißt „ein paar“ oder „etwas“. Peter hat ein paar Eier, aber er sagt nicht genau, wie viele."
+          - text: kein
+            correct: false
+            info: "„Kein“ heißt auf Englisch no. Peter hat ja Eier."
+          - text: alle
+            correct: false
+            info: "„Alle“ ist ein anderes Wort. Peter sagt nur, dass er ein paar Eier hat."
+        explanation: some steht in Aussagen vor etwas, das da ist.
+        links:
+          - title: Lernlandkarte Englisch · Some, any und no
+            url: https://lernapps.net/apps/map/englisch/c/some-any/
+  - type: section
+    id: neu
+    title: Das Etikett wechselt
+    blocks:
+      - type: text
+        text: "Das Etikett auf der Kiste ändert sich mit dem Satz. In einer **Aussage** klebt **some**. In einer **Frage** und in einer **Verneinung** klebt **any**. In der Verneinung kann auch **no** stehen. Das gilt für Kisten (zählbar) und für Gläser (nicht zählbar)."
+      - type: figure
+        image: images/some-any-etiketten.svg
+        alt: Vier Kisten mit Etiketten. Auf der ersten steht some für Aussagen, auf der zweiten any für Fragen, auf der dritten not any und auf der vierten no für Verneinungen.
+        caption: Vier Etiketten für vier Sätze.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · some, any und no
+        header: [Satz, Etikett, Beispiel]
+        rowHeaders: true
+        rows:
+          - [Aussage, some, Mrs Parker has some milk.]
+          - [Frage, any, Has Mrs Parker got any milk?]
+          - [Verneinung, not any, Mrs Parker hasn't got any milk.]
+          - [Verneinung, no, Mrs Parker has no milk.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **no** ist schon verneint, darum steht dabei kein not: **I have no milk**, nicht „I haven't got no milk“. **no** und **not any** bedeuten dasselbe. In **Fragen** sagst du meistens **any**.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: some-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Etikett.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Sophie hat ein paar Stifte.
+            target: "Sophie has [some] pens."
+            distractors: [[any]]
+            mistakes:
+              - answer: Sophie has any pens.
+                message: "Das ist eine Aussage. Dafür klebt ein anderes Etikett als any auf der Kiste."
+          - cue: Hast du Saft?
+            target: "Have you got [any] juice?"
+            distractors: [[some]]
+            mistakes:
+              - answer: Have you got some juice?
+                message: "Das ist eine Frage. In Fragen wechselt das Etikett."
+          - cue: Amir hat keinen Reis.
+            target: "Amir hasn't got [any] rice."
+            distractors: [[some]]
+            mistakes:
+              - answer: Amir hasn't got some rice.
+                message: "Das ist eine Verneinung. In Verneinungen wechselt das Etikett."
+          - cue: Peter hat keinen Käse.
+            target: "Peter has [no] cheese."
+            distractors: [[any]]
+            mistakes:
+              - answer: Peter has any cheese.
+                message: "Hier steht kein not. Das Etikett muss selbst verneinen."
+        hint: Welche Art von Satz ist es? Aussage, Frage oder Verneinung?
+      - type: matching
+        id: some-zuordnen
+        text: Welches Etikett passt zum Satz? Ordne zu.
+        pairs:
+          - left: Ich habe ein paar Äpfel.
+            right: some
+          - left: Hast du Brot?
+            right: any
+          - left: Ich habe keine Äpfel. (mit not)
+            right: not any
+          - left: Ich habe keine Äpfel. (ohne not)
+            right: no
+        explanation: In Aussagen steht some, in Fragen any. In Verneinungen steht not any oder no.
+        hint: Aussage, Frage oder Verneinung? Bei der Verneinung entscheidet, ob not im Satz steht.
+        links:
+          - title: Lernlandkarte Englisch · Some, any und no
+            url: https://lernapps.net/apps/map/englisch/c/some-any/
+      - type: language-task
+        id: some-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Ellie hat ein paar Stifte.
+            target: Ellie has some pens.
+            accepted: [Ellie has got some pens.]
+            mistakes:
+              - answer: Ellie has any pens.
+                message: "Das ist eine Aussage. Dafür passt any nicht."
+          - source: Hat Peter Brot?
+            target: Has Peter got any bread?
+            accepted: [Does Peter have any bread?]
+            mistakes:
+              - answer: Has Peter got some bread?
+                message: "Das ist eine Frage. In Fragen wechselt das Etikett."
+          - source: Amir hat keinen Käse.
+            target: Amir (hasn't|has not) got any cheese.
+            accepted: [Amir has no cheese.]
+            mistakes:
+              - answer: Amir hasn't got some cheese.
+                message: "Das ist eine Verneinung. In Verneinungen wechselt das Etikett."
+              - answer: Amir hasn't got no cheese.
+                message: "no verneint schon. Dann steht kein not im Satz."
+        hint: Aussage, Frage oder Verneinung? Danach wählst du das Etikett.
+      - type: ordering
+        id: some-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass eine Frage entsteht.
+        items: [Has, Sophie, got, any, juice?]
+        explanation: Die Frage beginnt mit Has, dann kommt die Person, dann got, dann das Etikett any und zuletzt das Ding.
+        hint: Eine Frage beginnt mit Has. Das Etikett steht direkt vor dem Ding.
+        links:
+          - title: Lernlandkarte Englisch · Some, any und no
+            url: https://lernapps.net/apps/map/englisch/c/some-any/
+      - type: true-false
+        id: some-verneinung
+        text: "Mrs Parker sagt: „I haven't got some eggs.“ Stimmt das?"
+        answer: false
+        hint: Schau in den Kasten „Merke“. Welches Etikett klebt in einer Verneinung?
+        explanation: In einer Verneinung steht any, nicht some. Es heißt I haven't got any eggs.
+        links:
+          - title: Lernlandkarte Englisch · Some, any und no
+            url: https://lernapps.net/apps/map/englisch/c/some-any/
+      - type: language-task
+        id: some-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: have-you-got-any-rice.mp3
+            target: Have you got any rice?
+          - audio: peter-has-some-apples.mp3
+            target: Peter has some apples.
+          - audio: amir-hasn-t-got-any-juice.mp3
+            target: Amir hasn't got any juice.
+        hint: Hör genau auf das Etikett vor dem Ding. Ist es some, any oder no?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und prüfen
+    blocks:
+      - type: speaking-task
+        id: some-nachsprechen
+        language: en
+        items:
+          - audio: ellie-has-no-bread.mp3
+            text: Ellie has no bread.
+          - audio: has-sophie-got-any-pens.mp3
+            text: Has Sophie got any pens?
+          - audio: mrs-parker-has-some-eggs.mp3
+            text: Mrs Parker has some eggs.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Bei der Frage geht die Stimme am Ende nach oben.
+      - type: open-task
+        id: some-inventur
+        task: "Du prüfst für Mrs Parker das Regal. Schreibe drei Sätze: eine Aussage mit some, eine Frage mit any und eine Verneinung (zum Beispiel: I have some cheese. Have you got any bread? I haven't got any rice)."
+        points:
+          - text: Die Aussage hat some vor dem Ding.
+            source: /wie-viel-wie-viele/some-any/#neu
+          - text: Die Frage hat any vor dem Ding.
+            source: /wie-viel-wie-viele/some-any/#neu
+          - text: Die Verneinung hat not any oder no.
+            source: /wie-viel-wie-viele/some-any/#neu
+        solution: |
+          I have some apples. Have you got any juice? I have no eggs.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Peter hat im Regal einiges gefunden, aber nicht alles. Jemand hat Mrs Parkers Liste mitgenommen, aber wer? Auf der nächsten Seite lernst du somebody, anything und Co.

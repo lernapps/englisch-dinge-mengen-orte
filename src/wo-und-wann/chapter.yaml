@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wo und wann?
+summary: Mr Hill stellt den Lagerraum fürs Schulfest zusammen. Du lernst, mit in, on, under, next to und behind zu sagen, wo etwas steht, mit there is und there are, was es gibt, und mit at, on und in, wann etwas ist.
+pages: [das-brauchst-du, praepositionen-ort, there-is-are, praepositionen-zeit]
+selfAssessment:
+  pages:
+    - exercises:
+        - /wo-und-wann/praepositionen-ort/#ort-bild
+        - /wo-und-wann/praepositionen-ort/#ort-schreiben
+    - exercises:
+        - /wo-und-wann/there-is-are/#there-bild
+        - /wo-und-wann/there-is-are/#there-schreiben
+    - exercises:
+        - /wo-und-wann/praepositionen-zeit/#zeit-wahl
+        - /wo-und-wann/praepositionen-zeit/#zeit-schreiben

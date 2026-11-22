@@ -1,0 +1,219 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wem gehört die Kiste? ’s und of"
+description: "Die Klasse klebt Namensschilder auf die Kisten. Du lernst, mit ’s, mit s’ und mit of zu sagen, wem etwas gehört."
+competencies: [genitiv]
+scope: Die Seite führt den s-Genitiv und of ein. Bei einer Person steht ’s hinter dem Namen (Mr Hill’s coat). Bei mehreren Personen mit -s steht nur der Apostroph hinter dem s (the boys’ room). Bei einer unregelmäßigen Mehrzahl steht ’s (the men’s shoes). Bei Gegenständen steht meistens of (the window of the room). Typische Fehler sind Peters cap ohne Apostroph, the girl’s room für mehrere Mädchen und the childrens’ shoes.
+blocks:
+  - type: section
+    id: einstieg
+    title: Namensschilder für die Kisten
+    blocks:
+      - type: figure
+        image: images/szene-genitiv.svg
+        alt: Sophie, Ellie, Amir und Peter stehen im Lagerraum. Links steht eine Kiste mit dem Namensschild Ellie's, rechts eine mit dem Namensschild Peter's.
+        caption: "Von links: Ellie (roter Pferdeschwanz), Sophie (Zöpfe), Amir (Brille) und Peter (gelbe Jacke). Auf den Kisten kleben Namensschilder."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Im Lagerraum stehen jetzt viele Kisten. Mr Hill sagt: „Jede Kiste bekommt ein Namensschild. Dann wissen alle, wem sie gehört.“"
+      - type: text
+        text: "**Das kannst du danach:** Du sagst mit ’s, mit s’ und mit of, wem etwas gehört."
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [bike, Fahrrad]
+          - [cap, Mütze]
+          - [coat, Mantel]
+          - [shoe, Schuh]
+          - [door, Tür]
+          - [window, Fenster]
+          - [room, Zimmer]
+          - [boy, Junge]
+          - [girl, Mädchen]
+          - [name, Name]
+          - [where, wo]
+          - [storeroom, Lagerraum]
+      - type: single-choice
+        id: genitiv-start
+        text: "Auf einer Kiste klebt ein Schild mit „Ellie’s box“. Wem gehört die Kiste?"
+        options:
+          - text: Ellie
+            correct: true
+            info: "Hinter dem Namen steht ’s. Es sagt, dass die Kiste zu Ellie gehört."
+          - text: allen Kindern
+            correct: false
+            info: "Ein Schild mit nur einem Namen meint nur diese eine Person."
+          - text: Mr Hill
+            correct: false
+            info: "Mr Hill steht nicht auf dem Schild. Auf dem Schild steht nur Ellie."
+        explanation: Name plus ’s sagt, wem etwas gehört. Ellie’s box ist Ellies Kiste.
+        links:
+          - title: Lernlandkarte Englisch · S-Genitiv und of
+            url: https://lernapps.net/apps/map/englisch/c/genitiv/
+  - type: section
+    id: neu
+    title: ’s, s’ und of auf dem Namensschild
+    blocks:
+      - type: text
+        text: "Auf dem Namensschild steht, **wem** die Kiste gehört. Bei einer Person hängst du **’s** an den Namen. Bei mehreren Personen mit -s steht nur ein **’** hinter dem s. Bei einer Überraschungskiste (men, children) steht wieder **’s**. Bei Gegenständen sagst du meistens **of**."
+      - type: figure
+        image: images/namensschilder.svg
+        alt: Vier Kisten mit Namensschildern. Auf der ersten steht Mr Hill's, auf der zweiten the boys', auf der dritten the men's, auf der vierten of. Darunter stehen vier Beispiele.
+        caption: Vier Namensschilder. Zuerst steht, wem es gehört, dann der Gegenstand.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Wem gehört die Kiste?
+        header: [Wem gehört es?, Beispiel]
+        rowHeaders: true
+        rows:
+          - [eine Person, Mr Hill’s coat]
+          - [mehrere mit -s, the boys’ room]
+          - [Überraschungskiste, the men’s shoes]
+          - [ein Gegenstand, the window of the room]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Im Deutschen sagst du oft „die Mütze von Peter“. Im Englischen kommt zuerst, **wem es gehört**: **Mrs Parker’s cap**. Den Apostroph vergisst du nicht: **Mrs Parkers cap** ist falsch. Bei Gegenständen ist **of** üblich: **the window of the room**.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: genitiv-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Namensschild.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Es ist Peters Mütze.
+            target: "It is [Peter's] cap."
+            distractors: [[Peters]]
+            mistakes:
+              - answer: It is Peters cap.
+                message: "Es fehlt der Apostroph. Er zeigt, dass die Mütze Peter gehört."
+          - cue: Es ist Ellies Mantel.
+            target: "It is [Ellie's] coat."
+            distractors: [[Ellies']]
+            mistakes:
+              - answer: It is Ellies' coat.
+                message: "Der Apostroph steht bei einer Person vor dem s, nicht dahinter."
+          - cue: Es ist das Zimmer der Mädchen.
+            target: "It is the [girls'] room."
+            distractors: [[girl's]]
+            mistakes:
+              - answer: It is the girl's room.
+                message: "girl's meint nur ein Mädchen. Hier sind es mehrere."
+          - cue: Es sind die Schuhe der Kinder.
+            target: "They are the [children's] shoes."
+            distractors: [[childrens']]
+            mistakes:
+              - answer: They are the childrens' shoes.
+                message: "children ist schon die Mehrzahl und hat kein -s. Dann steht wieder ’s."
+        hint: Frage dich, ob es zu einer Person, zu mehreren mit -s oder zu einer Überraschungskiste gehört.
+      - type: matching
+        id: genitiv-besitzer
+        text: Wem gehört die Kiste? Ordne zu.
+        pairs:
+          - left: Amir
+            right: Amir's bike
+          - left: die zwei Jungen
+            right: the boys' room
+          - left: die Kinder
+            right: the children's room
+          - left: der Lagerraum
+            right: the door of the storeroom
+        distractors: [the boy's room]
+        explanation: Bei einer Person steht ’s, bei mehreren mit -s nur ’, bei children wieder ’s und bei einem Gegenstand meistens of.
+        hint: Frage dich, zu wem es gehört und ob es eine Person oder mehrere sind.
+        links:
+          - title: Lernlandkarte Englisch · S-Genitiv und of
+            url: https://lernapps.net/apps/map/englisch/c/genitiv/
+      - type: language-task
+        id: genitiv-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe das Namensschild.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Amir · bike
+            target: Amir's bike
+            mistakes:
+              - answer: Amirs bike
+                message: "Es fehlt der Apostroph. Er zeigt, dass das Fahrrad Amir gehört."
+              - answer: bike Amir's
+                message: "Im Englischen steht zuerst, wem es gehört."
+          - cue: the girls · coats
+            target: the girls' coats
+            mistakes:
+              - answer: the girl's coats
+                message: "Hier sind es mehrere Mädchen. Der Apostroph kommt hinter das s."
+          - cue: the children · shoes
+            target: the children's shoes
+            mistakes:
+              - answer: the childrens shoes
+                message: "children ist eine Überraschungskiste. Hier brauchst du ’s."
+          - cue: the storeroom · door
+            target: the door of the storeroom
+            accepted: [the storeroom's door]
+            mistakes:
+              - answer: the door the room
+                message: "Zwischen den beiden Gegenständen fehlt of."
+        hint: Zuerst steht, wem es gehört. Dann kommt der Gegenstand. Gehört er zu einem Raum oder einer Tür, steht of dazwischen.
+      - type: true-false
+        id: genitiv-maedchen
+        text: "Auf einer Kiste steht „the girls’ room“. Damit ist das Zimmer von einem einzigen Mädchen gemeint. Stimmt das?"
+        answer: false
+        hint: Schau auf die Stelle des Apostrophs. Steht er vor oder hinter dem s?
+        explanation: Der Apostroph steht hinter dem s von girls. Darum sind es mehrere Mädchen. Für ein einziges Mädchen würde girl’s room stehen.
+        links:
+          - title: Lernlandkarte Englisch · S-Genitiv und of
+            url: https://lernapps.net/apps/map/englisch/c/genitiv/
+      - type: language-task
+        id: genitiv-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den ganzen Satz auf.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: ellie-s-bag-is-in-the-storeroom.mp3
+            target: Ellie's bag is in the storeroom.
+          - audio: the-door-of-the-room-is-red.mp3
+            target: The door of the room is red.
+          - audio: the-children-s-shoes-are-in-the-bag.mp3
+            target: The children's shoes are in the bag.
+        hint: Hör genau hin, wem etwas gehört. Der Apostroph hört sich nicht an, du musst ihn schreiben.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und beschriften
+    blocks:
+      - type: speaking-task
+        id: genitiv-nachsprechen
+        language: en
+        items:
+          - audio: peter-s-cap-is-in-the-box.mp3
+            text: Peter's cap is in the box.
+          - audio: the-girls-coats-are-in-the-boxes.mp3
+            text: The girls' coats are in the boxes.
+          - audio: where-is-the-window-of-the-storeroom.mp3
+            text: Where is the window of the storeroom?
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Der Apostroph wird nicht gesprochen.
+      - type: open-task
+        id: genitiv-schild
+        task: "Schreibe zwei Namensschilder für Kisten im Lagerraum, eines mit ’s und eines mit of (zum Beispiel: Mr Hill's coat und the door of the room)."
+        points:
+          - text: Ein Schild hat den Namen plus ’s und dann den Gegenstand.
+            source: /ein-ding-viele-dinge/genitiv/#neu
+          - text: Ein Schild hat einen Gegenstand, dann of und einen weiteren Gegenstand.
+            source: /ein-ding-viele-dinge/genitiv/#neu
+          - text: Der Apostroph steht an der richtigen Stelle.
+            kind: form
+        solution: |
+          Sophie's bag. The window of the storeroom.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Jede Kiste hat jetzt ein Namensschild. Mr Hill steht in der Tür und fragt von Weitem, welche Kiste gemeint ist. Auf der nächsten Seite zeigst du mit this und that auf Nahes und Fernes.

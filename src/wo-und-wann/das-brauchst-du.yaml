@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Die Formen von be, die Wochentage, Monate und Uhrzeiten noch einmal kurz, bevor die Klasse den Lagerraum einräumt und den Schulkalender füllt.
+recap: [englisch/to-be, englisch/datum, englisch/uhrzeit]
+scope: Die Seite wiederholt nur die Formen von be (am, is, are), die Wochentage und Monate und die Uhrzeit (o'clock, half past, a quarter past, a quarter to). Neue Inhalte und eine Übung gibt es nicht.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Im Lagerraum der Millbrook School geht es jetzt um Orte und Zeiten. Dafür brauchst du drei Dinge, die du schon kennst. Prüfe in Gedanken, ob du sie kannst."
+      - type: text
+        text: "**Ich kann die Formen von „to be“ (am, is, are) in Aussagen, Verneinungen und Fragen verwenden.** Du brauchst das gleich bei „there is“ und „there are“. Wiederhole es auf der [Seite zum Verb to be](https://lernapps.net/apps/map/englisch/c/to-be/) der Lernlandkarte."
+      - type: table
+        caption: Klassenzimmer-Poster · Die Formen von be
+        header: [Person, Form]
+        rows:
+          - [I, am]
+          - [he / she / it, is]
+          - [you / we / they, are]
+      - type: text
+        text: "**Ich kann Wochentage, Monate, Datum und Jahreszahlen sagen und schreiben.** Du brauchst das für den Schulkalender. Wiederhole es auf der [Seite zu Wochentagen, Monaten und Datum](https://lernapps.net/apps/map/englisch/c/datum/) der Lernlandkarte."
+      - type: table
+        caption: Schulkalender · Wochentage
+        header: [Englisch, Deutsch]
+        rows:
+          - [Monday, Montag]
+          - [Tuesday, Dienstag]
+          - [Wednesday, Mittwoch]
+          - [Thursday, Donnerstag]
+          - [Friday, Freitag]
+          - [Saturday, Samstag]
+          - [Sunday, Sonntag]
+      - type: table
+        caption: Schulkalender · Monate
+        header: [Englisch, Deutsch]
+        rows:
+          - [January, Januar]
+          - [February, Februar]
+          - [March, März]
+          - [April, April]
+          - [May, Mai]
+          - [June, Juni]
+          - [July, Juli]
+          - [August, August]
+          - [September, September]
+          - [October, Oktober]
+          - [November, November]
+          - [December, Dezember]
+      - type: text
+        text: "**Ich kann die Uhrzeit sagen und nach ihr fragen (half past seven, a quarter to eight).** Du brauchst das für Zeitangaben mit at. Wiederhole es auf der [Seite zur Uhrzeit](https://lernapps.net/apps/map/englisch/c/uhrzeit/) der Lernlandkarte."
+      - type: table
+        caption: Klassenzimmer-Poster · Uhrzeit
+        header: [Uhrzeit, Englisch]
+        rows:
+          - ["7:00", seven o'clock]
+          - ["7:15", a quarter past seven]
+          - ["7:30", half past seven]
+          - ["7:45", a quarter to eight]
+      - type: text
+        text: Nicht sicher? Lies die Seiten der Lernlandkarte noch einmal. Dann geht es mit den Orten im Lagerraum weiter.

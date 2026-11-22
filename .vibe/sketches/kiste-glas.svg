@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" role="img" aria-label="Skizze: eine Kiste mit Etikett a, mehrere Kisten mit Etikett -s, ein Glas mit Etikett much">
+<rect width="480" height="220" fill="#f4efe2"/>
+<rect x="20" y="90" width="90" height="70" fill="#d9b779" stroke="#6b4e16" stroke-width="3"/><rect x="40" y="105" width="50" height="24" fill="#fff" stroke="#333"/><text x="65" y="122" font-size="16" text-anchor="middle">a box</text>
+<rect x="150" y="90" width="90" height="70" fill="#d9b779" stroke="#6b4e16" stroke-width="3"/><rect x="170" y="105" width="50" height="24" fill="#fff" stroke="#333"/><text x="195" y="122" font-size="16" text-anchor="middle">boxes</text>
+<path d="M330 80h70v20l10 15v60h-90v-60l10-15z" fill="#e8f3f8" stroke="#2c6fd8" stroke-width="3"/><rect x="335" y="125" width="60" height="24" fill="#fff" stroke="#333"/><text x="365" y="142" font-size="16" text-anchor="middle">much</text>
+<text x="65" y="190" font-size="16" text-anchor="middle">Kiste: zählbar</text><text x="365" y="190" font-size="16" text-anchor="middle">Glas: nicht zählbar</text>
+</svg>

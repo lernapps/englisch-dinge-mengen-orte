@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" role="img" aria-label="Skizze: Regal mit Kisten, in on under next to behind">
+<rect width="480" height="220" fill="#f4efe2"/>
+<rect x="60" y="40" width="360" height="8" fill="#6b4e16"/><rect x="60" y="110" width="360" height="8" fill="#6b4e16"/><rect x="60" y="180" width="360" height="8" fill="#6b4e16"/>
+<rect x="90" y="70" width="60" height="40" fill="#d9b779" stroke="#333"/><text x="120" y="95" font-size="16" text-anchor="middle">on</text>
+<rect x="200" y="140" width="60" height="40" fill="#d9b779" stroke="#333"/><text x="230" y="165" font-size="16" text-anchor="middle">in</text>
+<rect x="320" y="140" width="60" height="40" fill="#d9b779" stroke="#333"/><text x="350" y="165" font-size="16" text-anchor="middle">next to</text>
+</svg>
