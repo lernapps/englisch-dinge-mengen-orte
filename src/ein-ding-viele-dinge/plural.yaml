@@ -194,8 +194,8 @@ blocks:
         items:
           - audio: sophie-has-two-boxes.mp3
             target: Sophie has two boxes.
-          - audio: the-children-have-three-balls-ellie.mp3
-            target: The children have three balls, Ellie.
+          - audio: the-children-have-three-balls.mp3
+            target: The children have three balls.
           - audio: amir-has-three-apples.mp3
             target: Amir has three apples.
         hint: Hör genau auf das Ende des Wortes nach der Zahl.
@@ -207,12 +207,12 @@ blocks:
         id: plural-nachsprechen
         language: en
         items:
-          - audio: peter-has-two-books-sophie.mp3
-            text: Peter has two books, Sophie.
-          - audio: ellie-has-two-eggs-peter.mp3
-            text: Ellie has two eggs, Peter.
-          - audio: the-women-have-two-bags-amir.mp3
-            text: The women have two bags, Amir.
+          - audio: peter-has-two-books.mp3
+            text: Peter has two books.
+          - audio: ellie-has-two-eggs.mp3
+            text: Ellie has two eggs.
+          - audio: the-women-have-two-bags.mp3
+            text: The women have two bags.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Ende des Wortes nach der Zahl.
       - type: open-task
         id: plural-kiste

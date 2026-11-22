@@ -179,10 +179,10 @@ blocks:
         items:
           - audio: ellie-s-bag-is-in-the-storeroom.mp3
             target: Ellie's bag is in the storeroom.
-          - audio: the-door-of-the-room-is-red-ellie.mp3
-            target: The door of the room is red, Ellie.
-          - audio: the-children-s-shoes-are-in-the-bag-sophie.mp3
-            target: The children's shoes are in the bag, Sophie.
+          - audio: the-door-of-the-room-is-red.mp3
+            target: The door of the room is red.
+          - audio: the-children-s-shoes-are-in-the-bag.mp3
+            target: The children's shoes are in the bag.
         hint: Hör genau hin, wem etwas gehört. Der Apostroph hört sich nicht an, du musst ihn schreiben.
   - type: section
     id: anwenden
@@ -192,8 +192,8 @@ blocks:
         id: genitiv-nachsprechen
         language: en
         items:
-          - audio: peter-s-cap-is-in-the-box-amir.mp3
-            text: Peter's cap is in the box, Amir.
+          - audio: peter-s-cap-is-in-the-box.mp3
+            text: Peter's cap is in the box.
           - audio: the-girls-coats-are-in-the-boxes.mp3
             text: The girls' coats are in the boxes.
           - audio: where-is-the-window-of-the-storeroom.mp3

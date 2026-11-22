@@ -183,12 +183,12 @@ blocks:
         task: Hör zu und schreibe den ganzen Satz auf.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: peter-hasn-t-got-many-pens-ellie.mp3
-            target: Peter hasn't got many pens, Ellie.
+          - audio: peter-hasn-t-got-many-pens.mp3
+            target: Peter hasn't got many pens.
           - audio: ellie-has-a-little-water.mp3
             target: Ellie has a little water.
-          - audio: sophie-has-a-lot-of-bags-peter.mp3
-            target: Sophie has a lot of bags, Peter.
+          - audio: sophie-has-a-lot-of-bags.mp3
+            target: Sophie has a lot of bags.
         hint: Hör genau auf das Etikett vor dem Ding. Ist es many, much, a few, a little oder a lot of?
   - type: section
     id: anwenden
@@ -198,12 +198,12 @@ blocks:
         id: much-nachsprechen
         language: en
         items:
-          - audio: amir-has-a-few-books-peter.mp3
-            text: Amir has a few books, Peter.
-          - audio: mrs-parker-hasn-t-got-much-rice-amir.mp3
-            text: Mrs Parker hasn't got much rice, Amir.
-          - audio: peter-has-a-little-bread-ellie.mp3
-            text: Peter has a little bread, Ellie.
+          - audio: amir-has-a-few-books.mp3
+            text: Amir has a few books.
+          - audio: mrs-parker-hasn-t-got-much-rice.mp3
+            text: Mrs Parker hasn't got much rice.
+          - audio: peter-has-a-little-bread.mp3
+            text: Peter has a little bread.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf das Etikett vor dem Ding.
       - type: open-task
         id: much-schild

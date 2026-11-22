@@ -175,10 +175,10 @@ blocks:
         task: Hör zu und schreibe den ganzen Satz auf.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: there-is-a-bike-next-to-the-door-peter.mp3
-            target: There is a bike next to the door, Peter.
-          - audio: there-are-three-pens-in-the-box-amir.mp3
-            target: There are three pens in the box, Amir.
+          - audio: there-is-a-bike-next-to-the-door.mp3
+            target: There is a bike next to the door.
+          - audio: there-are-three-pens-in-the-box.mp3
+            target: There are three pens in the box.
           - audio: are-there-any-apples-on-the-table.mp3
             target: Are there any apples on the table?
         hint: Hör genau auf die ersten beiden Wörter. Gibt es ein Ding oder mehrere?
@@ -190,8 +190,8 @@ blocks:
         id: there-nachsprechen
         language: en
         items:
-          - audio: there-is-a-window-next-to-the-door-ellie.mp3
-            text: There is a window next to the door, Ellie.
+          - audio: there-is-a-window-next-to-the-door.mp3
+            text: There is a window next to the door.
           - audio: there-aren-t-any-books-under-the-table.mp3
             text: There aren't any books under the table.
           - audio: is-there-a-phone-on-the-table.mp3

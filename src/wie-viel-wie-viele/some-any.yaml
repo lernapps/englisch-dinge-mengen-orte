@@ -180,12 +180,12 @@ blocks:
         task: Hör zu und schreibe den ganzen Satz auf.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: have-you-got-any-rice-peter.mp3
-            target: Have you got any rice, Peter?
+          - audio: have-you-got-any-rice.mp3
+            target: Have you got any rice?
           - audio: peter-has-some-apples.mp3
             target: Peter has some apples.
-          - audio: amir-hasn-t-got-any-juice-ellie.mp3
-            target: Amir hasn't got any juice, Ellie.
+          - audio: amir-hasn-t-got-any-juice.mp3
+            target: Amir hasn't got any juice.
         hint: Hör genau auf das Etikett vor dem Ding. Ist es some, any oder no?
   - type: section
     id: anwenden
@@ -195,12 +195,12 @@ blocks:
         id: some-nachsprechen
         language: en
         items:
-          - audio: ellie-has-no-bread-sophie.mp3
-            text: Ellie has no bread, Sophie.
-          - audio: has-sophie-got-any-pens-peter.mp3
-            text: Has Sophie got any pens, Peter?
-          - audio: mrs-parker-has-some-eggs-peter.mp3
-            text: Mrs Parker has some eggs, Peter.
+          - audio: ellie-has-no-bread.mp3
+            text: Ellie has no bread.
+          - audio: has-sophie-got-any-pens.mp3
+            text: Has Sophie got any pens?
+          - audio: mrs-parker-has-some-eggs.mp3
+            text: Mrs Parker has some eggs.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Bei der Frage geht die Stimme am Ende nach oben.
       - type: open-task
         id: some-inventur

@@ -235,8 +235,8 @@ blocks:
         items:
           - audio: peter-has-an-apple.mp3
             target: Peter has an apple.
-          - audio: the-egg-is-in-the-box-sophie.mp3
-            target: The egg is in the box, Sophie.
+          - audio: the-egg-is-in-the-box.mp3
+            target: The egg is in the box.
           - audio: sophie-has-a-book-and-an-orange.mp3
             target: Sophie has a book and an orange.
         hint: Hör genau auf das Wort vor dem Ding. Ist es a, an oder the?
@@ -250,10 +250,10 @@ blocks:
         items:
           - audio: amir-has-an-umbrella.mp3
             text: Amir has an umbrella.
-          - audio: the-pen-is-in-the-bag-peter.mp3
-            text: The pen is in the bag, Peter.
-          - audio: ellie-has-a-ball-and-an-egg-amir.mp3
-            text: Ellie has a ball and an egg, Amir.
+          - audio: the-pen-is-in-the-bag.mp3
+            text: The pen is in the bag.
+          - audio: ellie-has-a-ball-and-an-egg.mp3
+            text: Ellie has a ball and an egg.
         hint: Hör den Satz zuerst. Sprich dann langsam nach. Vor einem Vokal-Laut sprichst du the wie „di“.
       - type: open-task
         id: artikel-kiste

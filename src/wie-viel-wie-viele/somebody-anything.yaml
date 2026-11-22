@@ -188,12 +188,12 @@ blocks:
         task: Hör zu und schreibe den ganzen Satz auf.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: is-anybody-here-amir.mp3
-            target: Is anybody here, Amir?
-          - audio: nobody-is-in-the-room-ellie.mp3
-            target: Nobody is in the room, Ellie.
-          - audio: mr-hill-has-something-for-you-sophie.mp3
-            target: Mr Hill has something for you, Sophie.
+          - audio: is-anybody-here.mp3
+            target: Is anybody here?
+          - audio: nobody-is-in-the-room.mp3
+            target: Nobody is in the room.
+          - audio: mr-hill-has-something-for-you.mp3
+            target: Mr Hill has something for you.
         hint: Hör genau auf den Anfang des Wortes. Ist es some, any, no oder every?
   - type: section
     id: anwenden
@@ -205,8 +205,8 @@ blocks:
         items:
           - audio: everybody-is-in-the-storeroom.mp3
             text: Everybody is in the storeroom.
-          - audio: have-you-got-anything-in-the-bag-peter.mp3
-            text: Have you got anything in the bag, Peter?
+          - audio: have-you-got-anything-in-the-bag.mp3
+            text: Have you got anything in the bag?
           - audio: the-list-is-somewhere-in-the-storeroom.mp3
             text: The list is somewhere in the storeroom.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung am Anfang des Wortes.
