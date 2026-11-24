@@ -18,26 +18,26 @@ blocks:
         text: "Mrs Parker, Ellies Mutter, backt Kuchen für das Schulfest. Dafür kommen Zutaten in den Lagerraum: Eier und Äpfel liegen in **Kisten**. Zucker, Reis und Saft kommen in **Gläser**. Mr Hill fragt: „Wie viel ist da?“"
       - type: text
         text: "**Das kannst du danach:** Du sagst mit many, much, a lot of, a few und a little, wie viel von etwas da ist."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [water, Wasser]
-          - [milk, Milch]
-          - [sugar, Zucker]
-          - [rice, Reis]
-          - [juice, Saft]
-          - [cheese, Käse]
-          - [bread, Brot]
-          - [egg, Ei]
-          - [apple, Apfel]
-          - [got, "have got = haben"]
-          - [hasn't got, hat nicht]
-          - [a lot of, "viel, viele"]
-          - [many, viele]
-          - [much, viel]
-          - [a few, ein paar]
-          - [a little, ein bisschen]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "water", source: "Wasser" }
+          - { target: "milk", source: "Milch" }
+          - { target: "sugar", source: "Zucker" }
+          - { target: "rice", source: "Reis" }
+          - { target: "juice", source: "Saft" }
+          - { target: "cheese", source: "Käse" }
+          - { target: "bread", source: "Brot" }
+          - { target: "egg", source: "Ei" }
+          - { target: "apple", source: "Apfel" }
+          - { target: "got", source: "have got = haben" }
+          - { target: "hasn't got", source: "hat nicht" }
+          - { target: "a lot of", source: "viel, viele" }
+          - { target: "many", source: "viele" }
+          - { target: "much", source: "viel" }
+          - { target: "a few", source: "ein paar" }
+          - { target: "a little", source: "ein bisschen" }
       - type: single-choice
         id: much-start
         text: "Im Lagerraum liegen Eier in einer Kiste. Zucker ist in einem Glas. Warum liegt der Zucker nicht in einer Kiste?"

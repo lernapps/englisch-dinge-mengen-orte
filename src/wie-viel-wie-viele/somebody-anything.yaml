@@ -18,17 +18,17 @@ blocks:
         text: "Mrs Parkers Liste ist weg. Amir sagt: „Somebody has the list.“ Hinter somebody steht kein Nomen. Das Wort sagt schon, dass es um eine Person geht."
       - type: text
         text: "**Das kannst du danach:** Du benutzt Wörter wie somebody, anything, nobody und everywhere richtig."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [somebody, jemand]
-          - [something, etwas]
-          - [nothing, nichts]
-          - [everybody, "alle, jeder"]
-          - [everything, alles]
-          - [everywhere, überall]
-          - [list, Liste]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "somebody", source: "jemand" }
+          - { target: "something", source: "etwas" }
+          - { target: "nothing", source: "nichts" }
+          - { target: "everybody", source: "alle, jeder" }
+          - { target: "everything", source: "alles" }
+          - { target: "everywhere", source: "überall" }
+          - { target: "list", source: "Liste" }
       - type: single-choice
         id: somebody-start
         text: "Amir sagt: „Somebody has the list.“ Wer hat die Liste?"

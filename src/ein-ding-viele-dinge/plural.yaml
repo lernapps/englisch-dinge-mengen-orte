@@ -18,25 +18,25 @@ blocks:
         text: "Im Lagerraum stehen schon viele Kisten. Mr Hill sagt: „Wir brauchen für jedes Ding eine Kiste, aber manchmal sind es viele Dinge.“ Auf dem Regal liegt ein Ball. Peter holt noch zwei dazu."
       - type: text
         text: "**Das kannst du danach:** Du bildest den Plural von Nomen, auch von Überraschungskisten wie children, men und feet."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [pen, Stift]
-          - [dish, Schüssel]
-          - [watch, Armbanduhr]
-          - [party, Feier]
-          - [city, Stadt]
-          - [day, Tag]
-          - [man, Mann]
-          - [woman, Frau]
-          - [foot, Fuß]
-          - [tooth, Zahn]
-          - [baby, Baby]
-          - [family, Familie]
-          - [child, Kind]
-          - [two, zwei]
-          - [three, drei]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "pen", source: "Stift" }
+          - { target: "dish", source: "Schüssel" }
+          - { target: "watch", source: "Armbanduhr" }
+          - { target: "party", source: "Feier" }
+          - { target: "city", source: "Stadt" }
+          - { target: "day", source: "Tag" }
+          - { target: "man", source: "Mann" }
+          - { target: "woman", source: "Frau" }
+          - { target: "foot", source: "Fuß" }
+          - { target: "tooth", source: "Zahn" }
+          - { target: "baby", source: "Baby" }
+          - { target: "family", source: "Familie" }
+          - { target: "child", source: "Kind" }
+          - { target: "two", source: "zwei" }
+          - { target: "three", source: "drei" }
       - type: single-choice
         id: plural-start
         text: "Eine Kiste hat das Etikett „a ball“. Jetzt liegen drei Bälle im Regal. Welches Etikett passt auf die Kiste mit den drei Bällen?"

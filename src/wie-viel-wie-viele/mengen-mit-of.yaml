@@ -18,22 +18,22 @@ blocks:
         text: "Mrs Parker schickt eine Liste für den Kuchen. Auf ihr steht nicht nur „Zucker“ und „Milch“, sondern auch wie viel. Mrs Parker schreibt „two cups of coffee, please“. Peter fragt: „Aber Kaffee ist doch nicht zählbar?“"
       - type: text
         text: "**Das kannst du danach:** Du gibst mit a cup of, a bottle of und a pair of genaue Mengen an."
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [cup, Tasse]
-          - [glass, Trinkglas]
-          - [bottle, Flasche]
-          - [piece, Stück]
-          - [pair, Paar]
-          - [tea, Tee]
-          - [coffee, Kaffee]
-          - [cake, Kuchen]
-          - [shoes, Schuhe]
-          - [jeans, Jeans]
-          - [three, drei]
-          - [please, bitte]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Neue Wörter"
+        languages: { source: de, target: en }
+        entries:
+          - { target: "cup", source: "Tasse" }
+          - { target: "glass", source: "Trinkglas" }
+          - { target: "bottle", source: "Flasche" }
+          - { target: "piece", source: "Stück" }
+          - { target: "pair", source: "Paar" }
+          - { target: "tea", source: "Tee" }
+          - { target: "coffee", source: "Kaffee" }
+          - { target: "cake", source: "Kuchen" }
+          - { target: "shoes", source: "Schuhe" }
+          - { target: "jeans", source: "Jeans" }
+          - { target: "three", source: "drei" }
+          - { target: "please", source: "bitte" }
       - type: single-choice
         id: mengen-start
         text: "Mrs Parker sagt: „Two cups of coffee, please.“ Was zählt sie?"
