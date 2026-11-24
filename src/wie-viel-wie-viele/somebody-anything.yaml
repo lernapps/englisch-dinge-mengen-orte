@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-somebody.svg
         alt: Amir und Sophie stehen im Lagerraum und suchen. Auf dem Regal stehen links und rechts je eine Kiste.
-        caption: "Von links: Amir (Brille) und Sophie (Zöpfe). Sie suchen die Liste von Mrs Parker."
+        caption: "Von links: Amir (Brille) und Sophie (Zöpfe)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

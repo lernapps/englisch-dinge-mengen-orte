@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-mengen-mit-of.svg
         alt: Sophie und Peter stehen im Lagerraum. Links auf dem Regal stehen zwei Gläser, rechts eine Kiste.
-        caption: "Von links: Sophie (Zöpfe) und Peter (gelbe Jacke). Mrs Parker hat eine Liste mit genauen Mengen geschickt."
+        caption: "Von links: Sophie (Zöpfe) und Peter (gelbe Jacke)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

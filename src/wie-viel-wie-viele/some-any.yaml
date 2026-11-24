@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-some-any.svg
         alt: Peter und Ellie stehen im Lagerraum und schauen auf das Regal. Dort stehen links eine Kiste, in der Mitte ein Glas und rechts noch eine Kiste.
-        caption: "Von links: Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz). Sie schauen nach, was noch da ist."
+        caption: "Von links: Peter (gelbe Jacke) und Ellie (roter Pferdeschwanz)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
