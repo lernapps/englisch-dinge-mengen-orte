@@ -47,7 +47,7 @@ Mr Hill trägt das Schulfest in den Schulkalender ein. Du lernst, wann in, on un
 
 Bild: Sophie, Amir und Ellie stehen im Lagerraum neben der Tür. An der Tür hängt der Schulkalender. Bildunterschrift: Von links: Sophie (Zöpfe), Amir (Brille) und Ellie (roter Pferdeschwanz). Rechts hängt der Schulkalender.
 
-Neben der Lagerraumtür hängt der Schulkalender. Mr Hill trägt das Schulfest ein und sagt: „The fair is at ten o'clock.“ Das Schulfest heißt auf Englisch school fair und hat eine feste Uhrzeit. Die Kinder tragen dazu die Geburtstage ein.
+Neben der Lagerraumtür hängt der Schulkalender. Mr Hill trägt das Schulfest ein und sagt: „The fair is at ten o'clock.“ Das Schulfest heißt auf Englisch school fair und hat eine feste Uhrzeit.
 
 **Das kannst du danach:** Du sagst mit in, on und at, wann etwas ist.
 

@@ -45,7 +45,7 @@ Die Polizei besucht die Millbrook School. Du lernst, warum bei news, information
 
 ### Die Polizei besucht Millbrook School
 
-Millbrook News braucht einen Artikel für die erste Ausgabe. Ellie schreibt über den Besuch der Polizei an der Schule. Mr Hill korrigiert, Sophie macht die Überschriften. Lies Ellies Artikel. Aus Kapitel 2 kennst du die Gläser (Nicht-Zählbares). Heute kommt die **Kistengruppe** dazu: eine Gruppe von Kisten, die zusammengehört.
+Millbrook News braucht einen Artikel über den Besuch der Polizei. Lies ihn. Aus Kapitel 2 kennst du die Gläser (Nicht-Zählbares). Heute kommt die **Kistengruppe** dazu: eine Gruppe von Kisten, die zusammengehört.
 
 - Aufgabe `kongruenz-start` (unten)
 

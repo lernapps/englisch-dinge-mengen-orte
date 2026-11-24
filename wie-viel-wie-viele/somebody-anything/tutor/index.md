@@ -45,7 +45,7 @@ Jemand hat Mrs Parkers Liste mitgenommen. Du lernst Wörter wie somebody, anythi
 
 ### Wo ist die Liste?
 
-Bild: Amir und Sophie stehen im Lagerraum und suchen. Auf dem Regal stehen links und rechts je eine Kiste. Bildunterschrift: Von links: Amir (Brille) und Sophie (Zöpfe). Sie suchen die Liste von Mrs Parker.
+Bild: Amir und Sophie stehen im Lagerraum und suchen. Auf dem Regal stehen links und rechts je eine Kiste. Bildunterschrift: Von links: Amir (Brille) und Sophie (Zöpfe).
 
 Mrs Parkers Liste ist weg. Amir sagt: „Somebody has the list.“ Hinter somebody steht kein Nomen. Das Wort sagt schon, dass es um eine Person geht.
 

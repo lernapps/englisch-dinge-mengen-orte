@@ -45,7 +45,7 @@ Mrs Parker braucht für ihren Kuchen genaue Mengen. Du lernst, mit a cup of, a b
 
 ### Genaue Mengen für den Kuchen
 
-Bild: Sophie und Peter stehen im Lagerraum. Links auf dem Regal stehen zwei Gläser, rechts eine Kiste. Bildunterschrift: Von links: Sophie (Zöpfe) und Peter (gelbe Jacke). Mrs Parker hat eine Liste mit genauen Mengen geschickt.
+Bild: Sophie und Peter stehen im Lagerraum. Links auf dem Regal stehen zwei Gläser, rechts eine Kiste. Bildunterschrift: Von links: Sophie (Zöpfe) und Peter (gelbe Jacke).
 
 Mrs Parker schickt eine Liste für den Kuchen. Auf ihr steht nicht nur „Zucker“ und „Milch“, sondern auch wie viel. Mrs Parker schreibt „two cups of coffee, please“. Peter fragt: „Aber Kaffee ist doch nicht zählbar?“
 

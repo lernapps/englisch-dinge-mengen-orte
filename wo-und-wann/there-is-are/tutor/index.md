@@ -45,7 +45,7 @@ Mr Hill macht Inventur. Du lernst, mit there is und there are zu sagen, was es a
 
 ### Mr Hill macht Inventur
 
-Bild: Peter und Sophie stehen im Lagerraum. Auf dem Regalbrett über ihnen stehen vier Kisten. Bildunterschrift: Von links: Peter (gelbe Jacke) und Sophie (Zöpfe). Mr Hill zählt, was im Regal steht.
+Bild: Peter und Sophie stehen im Lagerraum. Auf dem Regalbrett über ihnen stehen vier Kisten. Bildunterschrift: Von links: Peter (gelbe Jacke) und Sophie (Zöpfe).
 
 Vor dem Schulfest macht Mr Hill Inventur. Das heißt, er schreibt auf, was es im Lagerraum gibt. Er sagt: „There is a box on the shelf.“
 

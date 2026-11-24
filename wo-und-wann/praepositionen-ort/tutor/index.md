@@ -45,7 +45,7 @@ Die Klasse stellt die Kisten im Lagerraum auf. Du lernst, mit in, on, under, nex
 
 ### Wo soll die Kiste stehen?
 
-Bild: Sophie, Amir und Peter stehen im Lagerraum. Rechts steht ein Tisch, auf dem eine Kiste steht. Bildunterschrift: Von links: Sophie (Zöpfe), Amir (Brille) und Peter (gelbe Jacke). Mr Hill zeigt, wo die Kisten hinsollen.
+Bild: Sophie, Amir und Peter stehen im Lagerraum. Rechts steht ein Tisch, auf dem eine Kiste steht. Bildunterschrift: Von links: Sophie (Zöpfe), Amir (Brille) und Peter (gelbe Jacke).
 
 Mr Hill sagt: „Jede Kiste braucht den richtigen Platz im Lagerraum.“ Dazu brauchst du kleine Wörter, die sagen, **wo** etwas ist. Sie heißen **Präpositionen**.
 

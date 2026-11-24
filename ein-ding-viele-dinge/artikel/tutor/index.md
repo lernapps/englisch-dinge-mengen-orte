@@ -45,9 +45,9 @@ Mr Hill öffnet den Lagerraum. Du lernst, wann ein Ding das Etikett a, an oder t
 
 ### Der Lagerraum wird geöffnet
 
-Bild: Sophie, Ellie, Amir und Peter stehen im Lagerraum der Millbrook School. Hinter ihnen liegen auf Regalbrettern leere Kisten, vorn rechts steht eine weitere Kiste. Bildunterschrift: Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Sie sortieren den Lagerraum für das Schulfest.
+Bild: Sophie, Ellie, Amir und Peter stehen im Lagerraum der Millbrook School. Hinter ihnen liegen auf Regalbrettern leere Kisten, vorn rechts steht eine weitere Kiste. Bildunterschrift: Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke).
 
-Die Millbrook School feiert ein Schulfest. Mr Hill, der Englischlehrer, öffnet den **Lagerraum** (storeroom). Sophie (11) aus Deutschland wohnt bei Ellie Parker (11). Peter (9) ist Ellies Bruder und Amir (11) ein Freund. Die vier sortieren Dinge in Kisten. Auf jede Kiste kommt ein **Etikett**. Das Etikett steht vor dem Ding.
+Vor dem Schulfest ordnet die Klasse den **Lagerraum** (storeroom). Sie sortiert Dinge in Kisten. Auf jede Kiste kommt ein **Etikett**. Das Etikett steht vor dem Ding.
 
 **Das kannst du danach:** Du weißt, wann a, an oder the vor einem Ding steht, und du sprichst the richtig aus.
 

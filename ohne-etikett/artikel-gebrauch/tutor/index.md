@@ -45,7 +45,7 @@ Im Chat der Schülerzeitung stehen Sätze ohne the. Du lernst, wann eine Kiste k
 
 ### Der Chat der Schülerzeitung
 
-Millbrook News, die Schülerzeitung der Millbrook School, soll nächsten Freitag zum ersten Mal erscheinen. Das Team schreibt im Gruppenchat: Mr Hill (Englischlehrer) und Sophie, Ellie, Amir und Peter. Sophie ist 13, Ellie und Amir sind auch 13, Peter ist 11. Aus Kapitel 1 kennst du die Kisten: Jedes Nomen steht in einer Kiste mit einem Etikett (a, an, the). Heute geht es um Kisten, auf denen kein Etikett klebt.
+Die Schülerzeitung „Millbrook News“ erscheint nächsten Freitag zum ersten Mal. Das Team schreibt im Gruppenchat. Aus Kapitel 1 kennst du die Kisten: Jedes Nomen steht in einer Kiste mit einem Etikett (a, an, the). Heute geht es um Kisten, auf denen kein Etikett klebt.
 
 - Aufgabe `gebrauch-start` (unten)
 

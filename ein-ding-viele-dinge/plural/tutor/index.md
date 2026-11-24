@@ -45,7 +45,7 @@ Im Lagerraum stehen bald viele Kisten. Du lernst, wie aus einem Ding viele Dinge
 
 ### Aus einer Kiste werden viele
 
-Bild: Sophie, Ellie, Amir und Peter stehen im Lagerraum. Auf den Regalbrettern hinter ihnen stehen sieben Kisten, vorn rechts liegen zwei weitere. Bildunterschrift: Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke). Der Lagerraum füllt sich.
+Bild: Sophie, Ellie, Amir und Peter stehen im Lagerraum. Auf den Regalbrettern hinter ihnen stehen sieben Kisten, vorn rechts liegen zwei weitere. Bildunterschrift: Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke).
 
 Im Lagerraum stehen schon viele Kisten. Mr Hill sagt: „Wir brauchen für jedes Ding eine Kiste, aber manchmal sind es viele Dinge.“ Auf dem Regal liegt ein Ball. Peter holt noch zwei dazu.
 

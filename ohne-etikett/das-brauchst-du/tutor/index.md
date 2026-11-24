@@ -45,7 +45,7 @@ Das simple present noch einmal kurz, bevor die Klasse die Schülerzeitung „Mil
 
 ### Das solltest du schon können
 
-Zwei Jahre später: Sophie ist jetzt 13 und lebt noch immer bei den Parkers. Ellie (13), Amir (13) und Peter (11) schreiben mit ihr für die Schülerzeitung „Millbrook News“. Mr Hill, ihr Englischlehrer, korrigiert die Artikel. In den nächsten Texten geht es um Etiketten und um Verben. Die Verben kennst du schon, prüfe sie in Gedanken.
+Für die Schülerzeitung „Millbrook News“ brauchst du das simple present. Prüfe in Gedanken, ob du es kannst.
 
 **Ich kann im simple present über Gewohnheiten und Tatsachen sprechen und das -s bei he, she, it anhängen.** Du brauchst es auf den nächsten Seiten, weil dort das Verb zum Nomen passen muss. Wiederhole es auf der [Seite zum simple present](https://lernapps.net/apps/map/englisch/c/simple-present/) der Lernlandkarte.
 
