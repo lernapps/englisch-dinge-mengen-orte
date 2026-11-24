@@ -51,15 +51,14 @@ Mrs Parkers Liste ist weg. Amir sagt: „Somebody has the list.“ Hinter somebo
 
 **Das kannst du danach:** Du benutzt Wörter wie somebody, anything, nobody und everywhere richtig.
 
-Klassenzimmer-Poster · Neue Wörter:
-- Wort | Bedeutung
-- somebody | jemand
-- something | etwas
-- nothing | nichts
-- everybody | alle, jeder
-- everything | alles
-- everywhere | überall
-- list | Liste
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Neue Wörter
+- somebody – jemand
+- something – etwas
+- nothing – nichts
+- everybody – alle, jeder
+- everything – alles
+- everywhere – überall
+- list – Liste
 
 - Aufgabe `somebody-start` (unten)
 

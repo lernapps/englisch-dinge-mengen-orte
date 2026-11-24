@@ -51,17 +51,16 @@ Neben der Lagerraumtür hängt der Schulkalender. Mr Hill trägt das Schulfest e
 
 **Das kannst du danach:** Du sagst mit in, on und at, wann etwas ist.
 
-Klassenzimmer-Poster · Neue Wörter:
-- Wort | Bedeutung
-- fair | Fest
-- birthday | Geburtstag
-- lesson | Unterrichtsstunde
-- lunch | Mittagessen
-- start | beginnen
-- school | Schule
-- English | Englisch
-- party | Feier
-- March | März
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Neue Wörter
+- fair – Fest
+- birthday – Geburtstag
+- lesson – Unterrichtsstunde
+- lunch – Mittagessen
+- start – beginnen
+- school – Schule
+- English – Englisch
+- party – Feier
+- March – März
 
 - Aufgabe `zeit-start` (unten)
 

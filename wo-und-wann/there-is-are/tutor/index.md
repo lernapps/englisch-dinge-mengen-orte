@@ -51,18 +51,17 @@ Vor dem Schulfest macht Mr Hill Inventur. Das heißt, er schreibt auf, was es im
 
 **Das kannst du danach:** Du sagst mit there is und there are, was es an einem Ort gibt.
 
-Klassenzimmer-Poster · Neue Wörter:
-- Wort | Bedeutung
-- there is | es gibt (ein Ding)
-- there are | es gibt (mehrere Dinge)
-- list | Liste
-- book | Buch
-- bag | Tasche
-- pen | Stift
-- apple | Apfel
-- key | Schlüssel
-- window | Fenster
-- one | eins, ein
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Neue Wörter
+- there is – es gibt (ein Ding)
+- there are – es gibt (mehrere Dinge)
+- list – Liste
+- book – Buch
+- bag – Tasche
+- pen – Stift
+- apple – Apfel
+- key – Schlüssel
+- window – Fenster
+- one – eins, ein
 
 - Aufgabe `there-start` (unten)
 

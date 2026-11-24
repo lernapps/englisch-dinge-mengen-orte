@@ -51,23 +51,22 @@ Im Lagerraum stehen schon viele Kisten. Mr Hill sagt: „Wir brauchen für jedes
 
 **Das kannst du danach:** Du bildest den Plural von Nomen, auch von Überraschungskisten wie children, men und feet.
 
-Klassenzimmer-Poster · Neue Wörter:
-- Wort | Bedeutung
-- pen | Stift
-- dish | Schüssel
-- watch | Armbanduhr
-- party | Feier
-- city | Stadt
-- day | Tag
-- man | Mann
-- woman | Frau
-- foot | Fuß
-- tooth | Zahn
-- baby | Baby
-- family | Familie
-- child | Kind
-- two | zwei
-- three | drei
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Neue Wörter
+- pen – Stift
+- dish – Schüssel
+- watch – Armbanduhr
+- party – Feier
+- city – Stadt
+- day – Tag
+- man – Mann
+- woman – Frau
+- foot – Fuß
+- tooth – Zahn
+- baby – Baby
+- family – Familie
+- child – Kind
+- two – zwei
+- three – drei
 
 - Aufgabe `plural-start` (unten)
 

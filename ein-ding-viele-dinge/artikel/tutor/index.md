@@ -51,29 +51,28 @@ Die Millbrook School feiert ein Schulfest. Mr Hill, der Englischlehrer, öffnet 
 
 **Das kannst du danach:** Du weißt, wann a, an oder the vor einem Ding steht, und du sprichst the richtig aus.
 
-Klassenzimmer-Poster · Neue Wörter (lies sie, du brauchst sie gleich):
-- Wort | Bedeutung
-- box | Kiste
-- ball | Ball
-- book | Buch
-- pen | Stift
-- bag | Tasche
-- egg | Ei
-- apple | Apfel
-- orange | Orange
-- umbrella | Regenschirm
-- university | Universität
-- uniform | Uniform
-- key | Schlüssel
-- onion | Zwiebel
-- hour | Stunde
-- red | rot
-- euro | Euro
-- have | haben
-- has | hat (bei he, she, it und Namen)
-- small | klein
-- is | ist
-- in | in
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Neue Wörter (lies sie, du brauchst sie gleich)
+- box – Kiste
+- ball – Ball
+- book – Buch
+- pen – Stift
+- bag – Tasche
+- egg – Ei
+- apple – Apfel
+- orange – Orange
+- umbrella – Regenschirm
+- university – Universität
+- uniform – Uniform
+- key – Schlüssel
+- onion – Zwiebel
+- hour – Stunde
+- red – rot
+- euro – Euro
+- have – haben
+- has – hat (bei he, she, it und Namen)
+- small – klein
+- is – ist
+- in – in
 
 - Aufgabe `artikel-start` (unten)
 

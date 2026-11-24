@@ -51,20 +51,19 @@ Mrs Parker schickt eine Liste für den Kuchen. Auf ihr steht nicht nur „Zucker
 
 **Das kannst du danach:** Du gibst mit a cup of, a bottle of und a pair of genaue Mengen an.
 
-Klassenzimmer-Poster · Neue Wörter:
-- Wort | Bedeutung
-- cup | Tasse
-- glass | Trinkglas
-- bottle | Flasche
-- piece | Stück
-- pair | Paar
-- tea | Tee
-- coffee | Kaffee
-- cake | Kuchen
-- shoes | Schuhe
-- jeans | Jeans
-- three | drei
-- please | bitte
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Neue Wörter
+- cup – Tasse
+- glass – Trinkglas
+- bottle – Flasche
+- piece – Stück
+- pair – Paar
+- tea – Tee
+- coffee – Kaffee
+- cake – Kuchen
+- shoes – Schuhe
+- jeans – Jeans
+- three – drei
+- please – bitte
 
 - Aufgabe `mengen-start` (unten)
 

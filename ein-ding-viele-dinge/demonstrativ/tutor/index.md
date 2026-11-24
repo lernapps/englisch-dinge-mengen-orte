@@ -51,19 +51,18 @@ Mr Hill steht an der Tür. Er möchte, dass die Kinder eine Kiste tragen. Er sag
 
 **Das kannst du danach:** Du zeigst auf Englisch auf Dinge hier und dort drüben, bei einem Ding und bei vielen.
 
-Klassenzimmer-Poster · Neue Wörter:
-- Wort | Bedeutung
-- here | hier
-- there | dort
-- look at | ansehen
-- red | rot
-- brown | braun
-- blue | blau
-- key | Schlüssel
-- coat | Mantel
-- cap | Mütze
-- shoe | Schuh
-- bike | Fahrrad
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Neue Wörter
+- here – hier
+- there – dort
+- look at – ansehen
+- red – rot
+- brown – braun
+- blue – blau
+- key – Schlüssel
+- coat – Mantel
+- cap – Mütze
+- shoe – Schuh
+- bike – Fahrrad
 
 - Aufgabe `demonstrativ-start` (unten)
 

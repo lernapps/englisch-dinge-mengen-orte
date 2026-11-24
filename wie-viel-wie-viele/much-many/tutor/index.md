@@ -51,24 +51,23 @@ Mrs Parker, Ellies Mutter, backt Kuchen für das Schulfest. Dafür kommen Zutate
 
 **Das kannst du danach:** Du sagst mit many, much, a lot of, a few und a little, wie viel von etwas da ist.
 
-Klassenzimmer-Poster · Neue Wörter:
-- Wort | Bedeutung
-- water | Wasser
-- milk | Milch
-- sugar | Zucker
-- rice | Reis
-- juice | Saft
-- cheese | Käse
-- bread | Brot
-- egg | Ei
-- apple | Apfel
-- got | have got = haben
-- hasn't got | hat nicht
-- a lot of | viel, viele
-- many | viele
-- much | viel
-- a few | ein paar
-- a little | ein bisschen
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Neue Wörter
+- water – Wasser
+- milk – Milch
+- sugar – Zucker
+- rice – Reis
+- juice – Saft
+- cheese – Käse
+- bread – Brot
+- egg – Ei
+- apple – Apfel
+- got – have got = haben
+- hasn't got – hat nicht
+- a lot of – viel, viele
+- many – viele
+- much – viel
+- a few – ein paar
+- a little – ein bisschen
 
 - Aufgabe `much-start` (unten)
 

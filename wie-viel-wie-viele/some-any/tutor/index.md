@@ -51,18 +51,17 @@ Mrs Parker fragt Peter nach den Zutaten. Peter sieht im Regal nach und sagt: „
 
 **Das kannst du danach:** Du sagst mit some, any und no, was da ist und was nicht, in Aussagen, Fragen und Verneinungen.
 
-Klassenzimmer-Poster · Neue Wörter:
-- Wort | Bedeutung
-- some | ein paar, etwas
-- any | irgendein, irgendwelche
-- no | kein
-- pen | Stift
-- bread | Brot
-- cheese | Käse
-- juice | Saft
-- rice | Reis
-- apple | Apfel
-- egg | Ei
+Vokabeln (Englisch – Deutsch): Klassenzimmer-Poster · Neue Wörter
+- some – ein paar, etwas
+- any – irgendein, irgendwelche
+- no – kein
+- pen – Stift
+- bread – Brot
+- cheese – Käse
+- juice – Saft
+- rice – Reis
+- apple – Apfel
+- egg – Ei
 
 - Aufgabe `some-start` (unten)
 
