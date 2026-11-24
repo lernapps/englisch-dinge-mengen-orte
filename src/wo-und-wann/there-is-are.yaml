@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-there.svg
         alt: Peter und Sophie stehen im Lagerraum. Auf dem Regalbrett über ihnen stehen vier Kisten.
-        caption: "Von links: Peter (gelbe Jacke) und Sophie (Zöpfe). Mr Hill zählt, was im Regal steht."
+        caption: "Von links: Peter (gelbe Jacke) und Sophie (Zöpfe)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

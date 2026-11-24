@@ -9,7 +9,7 @@ blocks:
     title: Die Polizei besucht Millbrook School
     blocks:
       - type: text
-        text: "Millbrook News braucht einen Artikel für die erste Ausgabe. Ellie schreibt über den Besuch der Polizei an der Schule. Mr Hill korrigiert, Sophie macht die Überschriften. Lies Ellies Artikel. Aus Kapitel 2 kennst du die Gläser (Nicht-Zählbares). Heute kommt die **Kistengruppe** dazu: eine Gruppe von Kisten, die zusammengehört."
+        text: "Millbrook News braucht einen Artikel über den Besuch der Polizei. Lies ihn. Aus Kapitel 2 kennst du die Gläser (Nicht-Zählbares). Heute kommt die **Kistengruppe** dazu: eine Gruppe von Kisten, die zusammengehört."
       - type: single-choice
         id: kongruenz-start
         text: "Sophie schreibt: „Peter ___ to school by bus.“ Welche Form passt?"

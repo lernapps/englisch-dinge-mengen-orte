@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-ort.svg
         alt: Sophie, Amir und Peter stehen im Lagerraum. Rechts steht ein Tisch, auf dem eine Kiste steht.
-        caption: "Von links: Sophie (Zöpfe), Amir (Brille) und Peter (gelbe Jacke). Mr Hill zeigt, wo die Kisten hinsollen."
+        caption: "Von links: Sophie (Zöpfe), Amir (Brille) und Peter (gelbe Jacke)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
